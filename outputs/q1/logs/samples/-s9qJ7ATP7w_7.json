@@ -1,0 +1,401 @@
+{
+  "sample_id": "-s9qJ7ATP7w_7",
+  "video_id": "-s9qJ7ATP7w",
+  "clip_id": "7",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/7.mp4",
+  "video_exists": true,
+  "official_text": "I used to work for Warren Avis, the guy who started Avis Rent a Car, and he said to me one day, \"Robert, \"what's the purpose of business",
+  "label": 1.0,
+  "annotation": "Positive",
+  "duration": 12.767,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.8571428571428571,
+  "word_audio_valid_fraction": 0.8571428571428571,
+  "word_vision_valid_fraction": 0.4642857142857143,
+  "sha256_video": "5301f4403cf7cd299cc525d2f443392ac70fd70c3c9cd4a09406f2ba4df6734d",
+  "word_count": 28,
+  "text_token_count": 40,
+  "audio_frames": 679,
+  "vision_frames": 14,
+  "decoded_frames": 207,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.514,
+      4.542
+    ],
+    [
+      4.77,
+      6.8385625
+    ]
+  ],
+  "asr_text": "I used to work for Warren Avis, the guy who started Avis Renekar, and he said to me one day, Robert, what's the purpose of business?",
+  "asr_words": [
+    {
+      "word": "I",
+      "start": 0.574,
+      "end": 0.614,
+      "score": 0.999
+    },
+    {
+      "word": "used",
+      "start": 0.675,
+      "end": 0.775,
+      "score": 0.875
+    },
+    {
+      "word": "to",
+      "start": 0.795,
+      "end": 0.855,
+      "score": 0.75
+    },
+    {
+      "word": "work",
+      "start": 0.875,
+      "end": 1.016,
+      "score": 0.999
+    },
+    {
+      "word": "for",
+      "start": 1.036,
+      "end": 1.136,
+      "score": 0.725
+    },
+    {
+      "word": "Warren",
+      "start": 1.177,
+      "end": 1.418,
+      "score": 0.72
+    },
+    {
+      "word": "Avis,",
+      "start": 1.438,
+      "end": 1.699,
+      "score": 0.944
+    },
+    {
+      "word": "the",
+      "start": 1.92,
+      "end": 2.0,
+      "score": 0.976
+    },
+    {
+      "word": "guy",
+      "start": 2.02,
+      "end": 2.14,
+      "score": 0.489
+    },
+    {
+      "word": "who",
+      "start": 2.161,
+      "end": 2.261,
+      "score": 0.175
+    },
+    {
+      "word": "started",
+      "start": 2.281,
+      "end": 2.522,
+      "score": 0.617
+    },
+    {
+      "word": "Avis",
+      "start": 2.542,
+      "end": 2.783,
+      "score": 0.754
+    },
+    {
+      "word": "Renekar,",
+      "start": 2.823,
+      "end": 3.205,
+      "score": 0.768
+    },
+    {
+      "word": "and",
+      "start": 3.245,
+      "end": 3.305,
+      "score": 0.969
+    },
+    {
+      "word": "he",
+      "start": 3.325,
+      "end": 3.385,
+      "score": 0.746
+    },
+    {
+      "word": "said",
+      "start": 3.446,
+      "end": 3.626,
+      "score": 0.538
+    },
+    {
+      "word": "to",
+      "start": 3.646,
+      "end": 3.687,
+      "score": 0.002
+    },
+    {
+      "word": "me",
+      "start": 3.707,
+      "end": 3.807,
+      "score": 0.812
+    },
+    {
+      "word": "one",
+      "start": 3.887,
+      "end": 4.008,
+      "score": 0.607
+    },
+    {
+      "word": "day,",
+      "start": 4.028,
+      "end": 4.269,
+      "score": 0.844
+    },
+    {
+      "word": "Robert,",
+      "start": 4.851,
+      "end": 5.152,
+      "score": 0.97
+    },
+    {
+      "word": "what's",
+      "start": 5.192,
+      "end": 5.373,
+      "score": 0.783
+    },
+    {
+      "word": "the",
+      "start": 5.393,
+      "end": 5.474,
+      "score": 0.95
+    },
+    {
+      "word": "purpose",
+      "start": 5.514,
+      "end": 5.835,
+      "score": 0.935
+    },
+    {
+      "word": "of",
+      "start": 5.875,
+      "end": 5.935,
+      "score": 0.745
+    },
+    {
+      "word": "business?",
+      "start": 5.976,
+      "end": 6.317,
+      "score": 0.961
+    }
+  ],
+  "official_words": [
+    "I",
+    "used",
+    "to",
+    "work",
+    "for",
+    "Warren",
+    "Avis,",
+    "the",
+    "guy",
+    "who",
+    "started",
+    "Avis",
+    "Rent",
+    "a",
+    "Car,",
+    "and",
+    "he",
+    "said",
+    "to",
+    "me",
+    "one",
+    "day,",
+    "\"Robert,",
+    "\"what's",
+    "the",
+    "purpose",
+    "of",
+    "business"
+  ],
+  "match": {
+    "coverage": 0.8571428571428571,
+    "trusted": true,
+    "matched_words": 24,
+    "official_words": 28,
+    "observed_words": 26,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        17,
+        15
+      ],
+      [
+        19,
+        17
+      ],
+      [
+        20,
+        18
+      ],
+      [
+        21,
+        19
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        23,
+        21
+      ],
+      [
+        24,
+        22
+      ],
+      [
+        25,
+        23
+      ],
+      [
+        26,
+        24
+      ],
+      [
+        27,
+        25
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-s9qJ7ATP7w_7.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99169921875,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

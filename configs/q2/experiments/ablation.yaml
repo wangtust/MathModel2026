@@ -1,0 +1,5 @@
+experiment:
+  name: ablation
+base_model: mrrf
+seed: 2026
+variants: [plain_no_aug, plain_fusion, recon_only, no_consistency, full]

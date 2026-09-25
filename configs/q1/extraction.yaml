@@ -1,0 +1,6 @@
+text:
+  asr_model: base.en
+audio:
+  vad_threshold: 0.5
+vision:
+  fps: 2.0

@@ -1,0 +1,323 @@
+{
+  "sample_id": "-qDkUB0GgYY_6",
+  "video_id": "-qDkUB0GgYY",
+  "clip_id": "6",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-qDkUB0GgYY/6.mp4",
+  "video_exists": true,
+  "official_text": "We always love to hear what you say, and like and share this video as well.",
+  "label": 1.3333333730697632,
+  "annotation": "Positive",
+  "duration": 9.683,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "ab19bf4a761d3919b7113b1104ccaadbbf0c4e7b45694904d094280a2c329c8b",
+  "word_count": 16,
+  "text_token_count": 20,
+  "audio_frames": 457,
+  "vision_frames": 10,
+  "decoded_frames": 140,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.0,
+      4.6146875
+    ]
+  ],
+  "asr_text": "with us. We always love to hear what you have to say and like and share this video as well. And",
+  "asr_words": [
+    {
+      "word": "with",
+      "start": 0.1,
+      "end": 0.241,
+      "score": 0.961
+    },
+    {
+      "word": "us.",
+      "start": 0.341,
+      "end": 0.462,
+      "score": 0.835
+    },
+    {
+      "word": "We",
+      "start": 0.482,
+      "end": 0.602,
+      "score": 0.936
+    },
+    {
+      "word": "always",
+      "start": 0.642,
+      "end": 0.903,
+      "score": 0.739
+    },
+    {
+      "word": "love",
+      "start": 0.983,
+      "end": 1.164,
+      "score": 0.956
+    },
+    {
+      "word": "to",
+      "start": 1.204,
+      "end": 1.244,
+      "score": 0.988
+    },
+    {
+      "word": "hear",
+      "start": 1.304,
+      "end": 1.405,
+      "score": 0.894
+    },
+    {
+      "word": "what",
+      "start": 1.445,
+      "end": 1.545,
+      "score": 0.998
+    },
+    {
+      "word": "you",
+      "start": 1.565,
+      "end": 1.645,
+      "score": 0.822
+    },
+    {
+      "word": "have",
+      "start": 1.665,
+      "end": 1.766,
+      "score": 0.406
+    },
+    {
+      "word": "to",
+      "start": 1.786,
+      "end": 1.826,
+      "score": 0.186
+    },
+    {
+      "word": "say",
+      "start": 1.906,
+      "end": 2.187,
+      "score": 0.831
+    },
+    {
+      "word": "and",
+      "start": 2.588,
+      "end": 2.689,
+      "score": 0.745
+    },
+    {
+      "word": "like",
+      "start": 2.749,
+      "end": 2.909,
+      "score": 0.823
+    },
+    {
+      "word": "and",
+      "start": 2.95,
+      "end": 3.01,
+      "score": 0.37
+    },
+    {
+      "word": "share",
+      "start": 3.03,
+      "end": 3.311,
+      "score": 0.331
+    },
+    {
+      "word": "this",
+      "start": 3.331,
+      "end": 3.431,
+      "score": 0.45
+    },
+    {
+      "word": "video",
+      "start": 3.451,
+      "end": 3.572,
+      "score": 0.125
+    },
+    {
+      "word": "as",
+      "start": 3.612,
+      "end": 3.712,
+      "score": 0.704
+    },
+    {
+      "word": "well.",
+      "start": 3.792,
+      "end": 4.053,
+      "score": 0.858
+    },
+    {
+      "word": "And",
+      "start": 4.434,
+      "end": 4.495,
+      "score": 0.912
+    }
+  ],
+  "official_words": [
+    "We",
+    "always",
+    "love",
+    "to",
+    "hear",
+    "what",
+    "you",
+    "say,",
+    "and",
+    "like",
+    "and",
+    "share",
+    "this",
+    "video",
+    "as",
+    "well."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 16,
+    "official_words": 16,
+    "observed_words": 21,
+    "matched_pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        14,
+        18
+      ],
+      [
+        15,
+        19
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-qDkUB0GgYY_6.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.98876953125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

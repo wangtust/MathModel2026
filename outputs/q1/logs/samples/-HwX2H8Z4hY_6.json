@@ -1,0 +1,198 @@
+{
+  "sample_id": "-HwX2H8Z4hY_6",
+  "video_id": "-HwX2H8Z4hY",
+  "clip_id": "6",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-HwX2H8Z4hY/6.mp4",
+  "video_exists": true,
+  "official_text": "And in part, Al Shanker did too",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 6.767,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 0.7142857142857143,
+  "sha256_video": "696576dcbd0dc42cb678fa40d8a0f0f419a3072bfa7662d653756ab29bba4c46",
+  "word_count": 7,
+  "text_token_count": 11,
+  "audio_frames": 321,
+  "vision_frames": 7,
+  "decoded_frames": 99,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.514,
+      1.31
+    ],
+    [
+      1.41,
+      2.942
+    ]
+  ],
+  "asr_text": "And in part, Al Shanker did too.",
+  "asr_words": [
+    {
+      "word": "And",
+      "start": 0.574,
+      "end": 0.654,
+      "score": 0.939
+    },
+    {
+      "word": "in",
+      "start": 0.695,
+      "end": 0.755,
+      "score": 0.749
+    },
+    {
+      "word": "part,",
+      "start": 0.835,
+      "end": 1.176,
+      "score": 0.928
+    },
+    {
+      "word": "Al",
+      "start": 1.557,
+      "end": 1.678,
+      "score": 0.901
+    },
+    {
+      "word": "Shanker",
+      "start": 1.718,
+      "end": 2.159,
+      "score": 0.702
+    },
+    {
+      "word": "did",
+      "start": 2.28,
+      "end": 2.42,
+      "score": 0.908
+    },
+    {
+      "word": "too.",
+      "start": 2.521,
+      "end": 2.761,
+      "score": 0.938
+    }
+  ],
+  "official_words": [
+    "And",
+    "in",
+    "part,",
+    "Al",
+    "Shanker",
+    "did",
+    "too"
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 7,
+    "official_words": 7,
+    "observed_words": 7,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-HwX2H8Z4hY_6.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99462890625,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

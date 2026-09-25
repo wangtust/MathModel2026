@@ -1,0 +1,221 @@
+{
+  "sample_id": "-iRBcNs9oI8_3",
+  "video_id": "-iRBcNs9oI8",
+  "clip_id": "3",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-iRBcNs9oI8/3.mp4",
+  "video_exists": true,
+  "official_text": "Well, it is the secret of power pose",
+  "label": 0.6666666865348816,
+  "annotation": "Positive",
+  "duration": 5.84,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": false,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": false,
+  "text_audio_status": "mismatch_candidate",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.125,
+  "word_audio_valid_fraction": 0.0,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "39c547acd1a8da2ebc6c6ab008191a5676420398a974cd9611cad087f0ccec50",
+  "word_count": 8,
+  "text_token_count": 11,
+  "audio_frames": 549,
+  "vision_frames": 12,
+  "decoded_frames": 167,
+  "source_fps": 29.97002997002997,
+  "speech_segments": [
+    [
+      0.354,
+      1.598
+    ],
+    [
+      1.858,
+      2.846
+    ],
+    [
+      3.298,
+      5.53825
+    ]
+  ],
+  "asr_text": "is going to help you on your tests, such as TOEFL, IELTS, or University",
+  "asr_words": [
+    {
+      "word": "is",
+      "start": 0.434,
+      "end": 0.535,
+      "score": 0.635
+    },
+    {
+      "word": "going",
+      "start": 0.555,
+      "end": 0.756,
+      "score": 0.822
+    },
+    {
+      "word": "to",
+      "start": 0.776,
+      "end": 0.836,
+      "score": 0.75
+    },
+    {
+      "word": "help",
+      "start": 0.897,
+      "end": 1.118,
+      "score": 0.755
+    },
+    {
+      "word": "you",
+      "start": 1.158,
+      "end": 1.298,
+      "score": 0.673
+    },
+    {
+      "word": "on",
+      "start": 1.318,
+      "end": 1.359,
+      "score": 0.0
+    },
+    {
+      "word": "your",
+      "start": 2.102,
+      "end": 2.243,
+      "score": 0.795
+    },
+    {
+      "word": "tests,",
+      "start": 2.283,
+      "end": 2.625,
+      "score": 0.968
+    },
+    {
+      "word": "such",
+      "start": 3.328,
+      "end": 3.529,
+      "score": 0.986
+    },
+    {
+      "word": "as",
+      "start": 3.589,
+      "end": 3.669,
+      "score": 0.78
+    },
+    {
+      "word": "TOEFL,",
+      "start": 3.73,
+      "end": 4.272,
+      "score": 0.863
+    },
+    {
+      "word": "IELTS,",
+      "start": 4.433,
+      "end": 4.774,
+      "score": 0.663
+    },
+    {
+      "word": "or",
+      "start": 4.895,
+      "end": 4.975,
+      "score": 0.904
+    },
+    {
+      "word": "University",
+      "start": 5.056,
+      "end": 5.538,
+      "score": 0.766
+    }
+  ],
+  "official_words": [
+    "Well,",
+    "it",
+    "is",
+    "the",
+    "secret",
+    "of",
+    "power",
+    "pose"
+  ],
+  "match": {
+    "coverage": 0.125,
+    "trusted": false,
+    "matched_words": 1,
+    "official_words": 8,
+    "observed_words": 14,
+    "matched_pairs": [
+      [
+        2,
+        0
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-iRBcNs9oI8_3.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9951171875,
+  "text_language": "en",
+  "alignment_granularity": "none"
+}

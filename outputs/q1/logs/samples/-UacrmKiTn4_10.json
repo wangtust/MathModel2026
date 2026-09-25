@@ -1,0 +1,335 @@
+{
+  "sample_id": "-UacrmKiTn4_10",
+  "video_id": "-UacrmKiTn4",
+  "clip_id": "10",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UacrmKiTn4/10.mp4",
+  "video_exists": true,
+  "official_text": "Because, if they are not in any way held accountable for reading the material they won't do it.",
+  "label": -0.6666666865348816,
+  "annotation": "Negative",
+  "duration": 12.634,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": true,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 0.9444444444444444,
+  "sha256_video": "00312e0602dbeac970de5d7dd0e8a970e514fe45d7fe6625b4f454b299e36360",
+  "word_count": 18,
+  "text_token_count": 24,
+  "audio_frames": 720,
+  "vision_frames": 15,
+  "decoded_frames": 218,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.002,
+      1.918
+    ],
+    [
+      2.146,
+      5.534
+    ],
+    [
+      5.858,
+      6.814
+    ]
+  ],
+  "asr_text": "reading it because if they are not in any way held accountable for reading the material, they won't do it.",
+  "asr_words": [
+    {
+      "word": "reading",
+      "start": 0.022,
+      "end": 0.363,
+      "score": 0.828
+    },
+    {
+      "word": "it",
+      "start": 0.403,
+      "end": 0.463,
+      "score": 0.748
+    },
+    {
+      "word": "because",
+      "start": 0.523,
+      "end": 0.823,
+      "score": 0.861
+    },
+    {
+      "word": "if",
+      "start": 0.884,
+      "end": 0.944,
+      "score": 0.751
+    },
+    {
+      "word": "they",
+      "start": 1.004,
+      "end": 1.184,
+      "score": 0.916
+    },
+    {
+      "word": "are",
+      "start": 1.224,
+      "end": 1.324,
+      "score": 0.76
+    },
+    {
+      "word": "not",
+      "start": 1.364,
+      "end": 1.665,
+      "score": 0.849
+    },
+    {
+      "word": "in",
+      "start": 2.206,
+      "end": 2.286,
+      "score": 0.975
+    },
+    {
+      "word": "any",
+      "start": 2.446,
+      "end": 2.587,
+      "score": 0.916
+    },
+    {
+      "word": "way",
+      "start": 2.647,
+      "end": 2.827,
+      "score": 0.753
+    },
+    {
+      "word": "held",
+      "start": 2.867,
+      "end": 3.107,
+      "score": 0.754
+    },
+    {
+      "word": "accountable",
+      "start": 3.168,
+      "end": 3.849,
+      "score": 0.817
+    },
+    {
+      "word": "for",
+      "start": 3.969,
+      "end": 4.189,
+      "score": 0.946
+    },
+    {
+      "word": "reading",
+      "start": 4.29,
+      "end": 4.59,
+      "score": 0.85
+    },
+    {
+      "word": "the",
+      "start": 4.61,
+      "end": 4.69,
+      "score": 0.83
+    },
+    {
+      "word": "material,",
+      "start": 4.73,
+      "end": 5.351,
+      "score": 0.808
+    },
+    {
+      "word": "they",
+      "start": 5.973,
+      "end": 6.133,
+      "score": 0.916
+    },
+    {
+      "word": "won't",
+      "start": 6.153,
+      "end": 6.353,
+      "score": 0.829
+    },
+    {
+      "word": "do",
+      "start": 6.413,
+      "end": 6.574,
+      "score": 0.883
+    },
+    {
+      "word": "it.",
+      "start": 6.614,
+      "end": 6.674,
+      "score": 0.994
+    }
+  ],
+  "official_words": [
+    "Because,",
+    "if",
+    "they",
+    "are",
+    "not",
+    "in",
+    "any",
+    "way",
+    "held",
+    "accountable",
+    "for",
+    "reading",
+    "the",
+    "material",
+    "they",
+    "won't",
+    "do",
+    "it."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 18,
+    "official_words": 18,
+    "observed_words": 20,
+    "matched_pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        17,
+        19
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-UacrmKiTn4_10.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99658203125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

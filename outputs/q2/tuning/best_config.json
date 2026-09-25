@@ -1,0 +1,8 @@
+{
+  "lr": 2.3586399722419837e-05,
+  "hidden_dim": 48,
+  "batch_size": 16,
+  "reconstruction_weight": 0.30121255168963623,
+  "consistency_weight": 0.39161473423788057,
+  "selection_score": 0.414312008965725
+}

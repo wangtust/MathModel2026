@@ -1,0 +1,3 @@
+experiment:
+  name: baselines
+seeds: [2026, 2027, 2028]

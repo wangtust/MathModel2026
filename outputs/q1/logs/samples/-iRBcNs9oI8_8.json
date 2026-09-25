@@ -1,0 +1,280 @@
+{
+  "sample_id": "-iRBcNs9oI8_8",
+  "video_id": "-iRBcNs9oI8",
+  "clip_id": "8",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-iRBcNs9oI8/8.mp4",
+  "video_exists": true,
+  "official_text": "I've drawn this man here, and if you can tell, he has a lot of big muscles, he looks very strong",
+  "label": 1.0,
+  "annotation": "Positive",
+  "duration": 8.642,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": false,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": false,
+  "text_audio_status": "mismatch_candidate",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.047619047619047616,
+  "word_audio_valid_fraction": 0.0,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "72a49e3da2862addcde033bd2fbae957d086533664ca4dcbccd3a851bcd50412",
+  "word_count": 21,
+  "text_token_count": 28,
+  "audio_frames": 798,
+  "vision_frames": 17,
+  "decoded_frames": 241,
+  "source_fps": 29.97002997002997,
+  "speech_segments": [
+    [
+      0.002,
+      3.038
+    ],
+    [
+      3.938,
+      6.174
+    ],
+    [
+      6.466,
+      6.942
+    ],
+    [
+      7.106,
+      8.0260625
+    ]
+  ],
+  "asr_text": "decide to ask out that special someone. So what is the secret I'm telling you about? Well, it is the secret",
+  "asr_words": [
+    {
+      "word": "decide",
+      "start": 0.323,
+      "end": 0.764,
+      "score": 0.879
+    },
+    {
+      "word": "to",
+      "start": 0.784,
+      "end": 1.065,
+      "score": 0.864
+    },
+    {
+      "word": "ask",
+      "start": 1.226,
+      "end": 1.406,
+      "score": 0.91
+    },
+    {
+      "word": "out",
+      "start": 1.527,
+      "end": 1.687,
+      "score": 0.834
+    },
+    {
+      "word": "that",
+      "start": 1.908,
+      "end": 2.068,
+      "score": 0.855
+    },
+    {
+      "word": "special",
+      "start": 2.128,
+      "end": 2.469,
+      "score": 0.948
+    },
+    {
+      "word": "someone.",
+      "start": 2.489,
+      "end": 2.891,
+      "score": 0.869
+    },
+    {
+      "word": "So",
+      "start": 3.974,
+      "end": 4.074,
+      "score": 0.997
+    },
+    {
+      "word": "what",
+      "start": 4.114,
+      "end": 4.215,
+      "score": 1.0
+    },
+    {
+      "word": "is",
+      "start": 4.255,
+      "end": 4.335,
+      "score": 0.718
+    },
+    {
+      "word": "the",
+      "start": 4.375,
+      "end": 4.475,
+      "score": 0.892
+    },
+    {
+      "word": "secret",
+      "start": 4.536,
+      "end": 4.857,
+      "score": 0.903
+    },
+    {
+      "word": "I'm",
+      "start": 4.897,
+      "end": 5.037,
+      "score": 0.714
+    },
+    {
+      "word": "telling",
+      "start": 5.077,
+      "end": 5.378,
+      "score": 0.898
+    },
+    {
+      "word": "you",
+      "start": 5.398,
+      "end": 5.539,
+      "score": 0.882
+    },
+    {
+      "word": "about?",
+      "start": 5.639,
+      "end": 5.96,
+      "score": 0.886
+    },
+    {
+      "word": "Well,",
+      "start": 6.521,
+      "end": 6.782,
+      "score": 0.764
+    },
+    {
+      "word": "it",
+      "start": 7.224,
+      "end": 7.284,
+      "score": 0.974
+    },
+    {
+      "word": "is",
+      "start": 7.364,
+      "end": 7.464,
+      "score": 0.636
+    },
+    {
+      "word": "the",
+      "start": 7.545,
+      "end": 7.665,
+      "score": 0.75
+    },
+    {
+      "word": "secret",
+      "start": 7.725,
+      "end": 8.026,
+      "score": 0.775
+    }
+  ],
+  "official_words": [
+    "I've",
+    "drawn",
+    "this",
+    "man",
+    "here,",
+    "and",
+    "if",
+    "you",
+    "can",
+    "tell,",
+    "he",
+    "has",
+    "a",
+    "lot",
+    "of",
+    "big",
+    "muscles,",
+    "he",
+    "looks",
+    "very",
+    "strong"
+  ],
+  "match": {
+    "coverage": 0.047619047619047616,
+    "trusted": false,
+    "matched_words": 1,
+    "official_words": 21,
+    "observed_words": 21,
+    "matched_pairs": [
+      [
+        7,
+        14
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-iRBcNs9oI8_8.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99951171875,
+  "text_language": "en",
+  "alignment_granularity": "none"
+}

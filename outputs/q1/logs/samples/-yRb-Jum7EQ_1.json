@@ -1,0 +1,736 @@
+{
+  "sample_id": "-yRb-Jum7EQ_1",
+  "video_id": "-yRb-Jum7EQ",
+  "clip_id": "1",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-yRb-Jum7EQ/1.mp4",
+  "video_exists": true,
+  "official_text": "it comes with the assistance and agitation of states and regimes, Yesterday Iran announced that it will finance the families of the terrorists and murderers this shows that Iran, even after the nuclear agreement, is continuing to aid terrorism, including Palestinian terrorism, Hezbollah terrorism and its assistance to Hamas.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 34.567,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": true,
+  "official_text_present": true,
+  "text_audio_match": false,
+  "text_audio_status": "crosslingual_translation_candidate",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": null,
+  "asr_timing_coverage": null,
+  "matched_word_fraction": 0.04081632653061224,
+  "word_audio_valid_fraction": 0.0,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "2f16da1baa8660e5bfc608f5237cdd59725d16e57a19bc02c4556cd2c7129a46",
+  "word_count": 49,
+  "text_token_count": 57,
+  "audio_frames": 2906,
+  "vision_frames": 59,
+  "decoded_frames": 875,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.482,
+      1.31
+    ],
+    [
+      2.018,
+      3.742
+    ],
+    [
+      4.482,
+      5.79
+    ],
+    [
+      6.402,
+      7.262
+    ],
+    [
+      7.714,
+      8.958
+    ],
+    [
+      9.314,
+      10.494
+    ],
+    [
+      10.914,
+      13.054
+    ],
+    [
+      13.602,
+      16.926
+    ],
+    [
+      17.538,
+      19.966
+    ],
+    [
+      20.162,
+      20.862
+    ],
+    [
+      21.442,
+      26.206
+    ],
+    [
+      26.85,
+      28.926
+    ]
+  ],
+  "asr_text": "הוא בא מסיוע ועד ססה של מדינות ומשטרים, אתמול איראן היהודיה שהיא הולכת לממן את המשפחות של הטרוריסטים המרצחים, וזה מראה שאיראן אחר הסכם הגרעין ממשיכה בסיוע לתרור גם שם, גם הטרור הפלסטיני, גם הטרור של חיז בלה, כמובן גם בסיוע לחמאס.",
+  "asr_words": [],
+  "official_words": [
+    "it",
+    "comes",
+    "with",
+    "the",
+    "assistance",
+    "and",
+    "agitation",
+    "of",
+    "states",
+    "and",
+    "regimes,",
+    "Yesterday",
+    "Iran",
+    "announced",
+    "that",
+    "it",
+    "will",
+    "finance",
+    "the",
+    "families",
+    "of",
+    "the",
+    "terrorists",
+    "and",
+    "murderers",
+    "this",
+    "shows",
+    "that",
+    "Iran,",
+    "even",
+    "after",
+    "the",
+    "nuclear",
+    "agreement,",
+    "is",
+    "continuing",
+    "to",
+    "aid",
+    "terrorism,",
+    "including",
+    "Palestinian",
+    "terrorism,",
+    "Hezbollah",
+    "terrorism",
+    "and",
+    "its",
+    "assistance",
+    "to",
+    "Hamas."
+  ],
+  "match": {
+    "coverage": 0.04081632653061224,
+    "trusted": false,
+    "matched_words": 2,
+    "official_words": 49,
+    "observed_words": 72,
+    "matched_pairs": [
+      [
+        7,
+        4
+      ],
+      [
+        20,
+        10
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-yRb-Jum7EQ_1.npz",
+  "failures": {},
+  "english_only_asr_text": "I am very proud of you. I am very proud of you. I am very proud of you. I am very proud of you. I am very proud of you. I am very proud of you. I am very proud of you. I am very proud of you. I am very proud of you. I am very proud of you. I am very proud of you. I am very proud of you.",
+  "english_only_asr_words": [
+    {
+      "word": "I",
+      "start": 0.542,
+      "end": 0.582,
+      "score": 0.481
+    },
+    {
+      "word": "am",
+      "start": 0.682,
+      "end": 0.802,
+      "score": 0.786
+    },
+    {
+      "word": "very",
+      "start": 0.862,
+      "end": 1.143,
+      "score": 0.654
+    },
+    {
+      "word": "proud",
+      "start": 1.163,
+      "end": 2.344,
+      "score": 0.741
+    },
+    {
+      "word": "of",
+      "start": 2.364,
+      "end": 2.464,
+      "score": 0.364
+    },
+    {
+      "word": "you.",
+      "start": 2.584,
+      "end": 2.964,
+      "score": 0.644
+    },
+    {
+      "word": "I",
+      "start": 3.384,
+      "end": 3.465,
+      "score": 0.889
+    },
+    {
+      "word": "am",
+      "start": 3.565,
+      "end": 3.665,
+      "score": 0.647
+    },
+    {
+      "word": "very",
+      "start": 4.525,
+      "end": 4.866,
+      "score": 0.608
+    },
+    {
+      "word": "proud",
+      "start": 5.086,
+      "end": 5.266,
+      "score": 0.322
+    },
+    {
+      "word": "of",
+      "start": 5.386,
+      "end": 5.686,
+      "score": 0.746
+    },
+    {
+      "word": "you.",
+      "start": 6.487,
+      "end": 6.767,
+      "score": 0.588
+    },
+    {
+      "word": "I",
+      "start": 6.807,
+      "end": 6.927,
+      "score": 0.824
+    },
+    {
+      "word": "am",
+      "start": 6.967,
+      "end": 7.108,
+      "score": 0.404
+    },
+    {
+      "word": "very",
+      "start": 7.748,
+      "end": 7.988,
+      "score": 0.573
+    },
+    {
+      "word": "proud",
+      "start": 8.008,
+      "end": 8.189,
+      "score": 0.406
+    },
+    {
+      "word": "of",
+      "start": 8.229,
+      "end": 8.289,
+      "score": 0.421
+    },
+    {
+      "word": "you.",
+      "start": 8.309,
+      "end": 8.529,
+      "score": 0.387
+    },
+    {
+      "word": "I",
+      "start": 8.589,
+      "end": 8.649,
+      "score": 0.379
+    },
+    {
+      "word": "am",
+      "start": 8.729,
+      "end": 8.829,
+      "score": 0.539
+    },
+    {
+      "word": "very",
+      "start": 9.309,
+      "end": 9.47,
+      "score": 0.456
+    },
+    {
+      "word": "proud",
+      "start": 9.49,
+      "end": 9.69,
+      "score": 0.449
+    },
+    {
+      "word": "of",
+      "start": 9.73,
+      "end": 9.77,
+      "score": 0.0
+    },
+    {
+      "word": "you.",
+      "start": 9.81,
+      "end": 10.01,
+      "score": 0.49
+    },
+    {
+      "word": "I",
+      "start": 10.03,
+      "end": 10.05,
+      "score": 0.0
+    },
+    {
+      "word": "am",
+      "start": 10.07,
+      "end": 10.35,
+      "score": 0.386
+    },
+    {
+      "word": "very",
+      "start": 10.991,
+      "end": 11.151,
+      "score": 0.313
+    },
+    {
+      "word": "proud",
+      "start": 11.251,
+      "end": 11.451,
+      "score": 0.533
+    },
+    {
+      "word": "of",
+      "start": 11.491,
+      "end": 11.531,
+      "score": 0.002
+    },
+    {
+      "word": "you.",
+      "start": 11.551,
+      "end": 11.752,
+      "score": 0.523
+    },
+    {
+      "word": "I",
+      "start": 11.832,
+      "end": 11.892,
+      "score": 0.965
+    },
+    {
+      "word": "am",
+      "start": 11.912,
+      "end": 11.952,
+      "score": 0.0
+    },
+    {
+      "word": "very",
+      "start": 11.972,
+      "end": 12.132,
+      "score": 0.279
+    },
+    {
+      "word": "proud",
+      "start": 12.172,
+      "end": 12.312,
+      "score": 0.206
+    },
+    {
+      "word": "of",
+      "start": 12.372,
+      "end": 12.452,
+      "score": 0.266
+    },
+    {
+      "word": "you.",
+      "start": 12.532,
+      "end": 12.912,
+      "score": 0.76
+    },
+    {
+      "word": "I",
+      "start": 14.013,
+      "end": 14.174,
+      "score": 0.761
+    },
+    {
+      "word": "am",
+      "start": 14.294,
+      "end": 14.354,
+      "score": 0.481
+    },
+    {
+      "word": "very",
+      "start": 14.374,
+      "end": 14.574,
+      "score": 0.111
+    },
+    {
+      "word": "proud",
+      "start": 14.614,
+      "end": 15.034,
+      "score": 0.737
+    },
+    {
+      "word": "of",
+      "start": 15.154,
+      "end": 15.234,
+      "score": 0.332
+    },
+    {
+      "word": "you.",
+      "start": 15.294,
+      "end": 15.475,
+      "score": 0.521
+    },
+    {
+      "word": "I",
+      "start": 15.495,
+      "end": 15.535,
+      "score": 0.487
+    },
+    {
+      "word": "am",
+      "start": 15.635,
+      "end": 15.735,
+      "score": 0.561
+    },
+    {
+      "word": "very",
+      "start": 15.775,
+      "end": 16.095,
+      "score": 0.622
+    },
+    {
+      "word": "proud",
+      "start": 16.115,
+      "end": 16.215,
+      "score": 0.049
+    },
+    {
+      "word": "of",
+      "start": 16.275,
+      "end": 16.315,
+      "score": 0.004
+    },
+    {
+      "word": "you.",
+      "start": 16.355,
+      "end": 16.776,
+      "score": 0.672
+    },
+    {
+      "word": "I",
+      "start": 17.636,
+      "end": 17.717,
+      "score": 0.699
+    },
+    {
+      "word": "am",
+      "start": 17.777,
+      "end": 17.877,
+      "score": 0.858
+    },
+    {
+      "word": "very",
+      "start": 17.957,
+      "end": 18.297,
+      "score": 0.658
+    },
+    {
+      "word": "proud",
+      "start": 18.317,
+      "end": 18.617,
+      "score": 0.412
+    },
+    {
+      "word": "of",
+      "start": 18.797,
+      "end": 18.978,
+      "score": 0.759
+    },
+    {
+      "word": "you.",
+      "start": 18.998,
+      "end": 19.178,
+      "score": 0.52
+    },
+    {
+      "word": "I",
+      "start": 19.198,
+      "end": 19.258,
+      "score": 0.654
+    },
+    {
+      "word": "am",
+      "start": 19.278,
+      "end": 19.458,
+      "score": 0.862
+    },
+    {
+      "word": "very",
+      "start": 19.498,
+      "end": 19.818,
+      "score": 0.625
+    },
+    {
+      "word": "proud",
+      "start": 20.199,
+      "end": 20.359,
+      "score": 0.223
+    },
+    {
+      "word": "of",
+      "start": 20.379,
+      "end": 20.419,
+      "score": 0.0
+    },
+    {
+      "word": "you.",
+      "start": 20.439,
+      "end": 20.539,
+      "score": 0.154
+    },
+    {
+      "word": "I",
+      "start": 20.579,
+      "end": 20.599,
+      "score": 0.0
+    },
+    {
+      "word": "am",
+      "start": 20.659,
+      "end": 20.739,
+      "score": 0.738
+    },
+    {
+      "word": "very",
+      "start": 21.52,
+      "end": 21.84,
+      "score": 0.652
+    },
+    {
+      "word": "proud",
+      "start": 21.86,
+      "end": 22.26,
+      "score": 0.541
+    },
+    {
+      "word": "of",
+      "start": 22.34,
+      "end": 22.441,
+      "score": 0.607
+    },
+    {
+      "word": "you.",
+      "start": 22.701,
+      "end": 22.921,
+      "score": 0.553
+    },
+    {
+      "word": "I",
+      "start": 22.981,
+      "end": 23.001,
+      "score": 0.016
+    },
+    {
+      "word": "am",
+      "start": 23.081,
+      "end": 23.281,
+      "score": 0.824
+    },
+    {
+      "word": "very",
+      "start": 23.361,
+      "end": 23.702,
+      "score": 0.697
+    },
+    {
+      "word": "proud",
+      "start": 23.762,
+      "end": 24.082,
+      "score": 0.627
+    },
+    {
+      "word": "of",
+      "start": 24.102,
+      "end": 24.142,
+      "score": 0.23
+    },
+    {
+      "word": "you.",
+      "start": 24.182,
+      "end": 24.342,
+      "score": 0.532
+    }
+  ],
+  "english_only_asr_unreliable": true,
+  "english_only_asr_repetition_ratio": 0.9130434782608695,
+  "english_only_asr_timing_coverage": 1.0,
+  "speech_language": "he",
+  "speech_language_confidence": 0.9619140625,
+  "text_language": "en",
+  "alignment_granularity": "clip_and_source_segments",
+  "source_asr_segments": [
+    {
+      "start": 0.11,
+      "end": 16.91,
+      "text": "הוא בא מסיוע ועד ססה של מדינות ומשטרים, אתמול איראן היהודיה שהיא הולכת לממן את המשפחות של הטרוריסטים המרצחים,",
+      "avg_logprob": -0.2063210245334741,
+      "no_speech_prob": 0.363525390625
+    },
+    {
+      "start": 16.91,
+      "end": 28.91,
+      "text": "וזה מראה שאיראן אחר הסכם הגרעין ממשיכה בסיוע לתרור גם שם, גם הטרור הפלסטיני, גם הטרור של חיז בלה, כמובן גם בסיוע לחמאס.",
+      "avg_logprob": -0.2063210245334741,
+      "no_speech_prob": 0.363525390625
+    }
+  ],
+  "machine_translation_segments": [
+    {
+      "start": 0.11,
+      "end": 8.91,
+      "text": "He came from Syria, and he is the leader of countries and countries.",
+      "avg_logprob": -0.9507415456286932,
+      "no_speech_prob": 0.363525390625,
+      "shared_content_stems": [],
+      "shared_content_count": 0,
+      "candidate_support": true
+    },
+    {
+      "start": 8.91,
+      "end": 16.91,
+      "text": "The Jewish Iran movement, which is going to protect the families of the terrorists in the Middle East,",
+      "avg_logprob": -0.9507415456286932,
+      "no_speech_prob": 0.363525390625,
+      "shared_content_stems": [
+        "famili",
+        "iran",
+        "terrorist"
+      ],
+      "shared_content_count": 3,
+      "candidate_support": true
+    },
+    {
+      "start": 16.91,
+      "end": 22.67,
+      "text": "and it shows that Iran, after the war, will continue to attack terrorism,",
+      "avg_logprob": -0.9507415456286932,
+      "no_speech_prob": 0.363525390625,
+      "shared_content_stems": [
+        "after",
+        "continu",
+        "iran",
+        "show",
+        "terror"
+      ],
+      "shared_content_count": 5,
+      "candidate_support": true
+    },
+    {
+      "start": 22.67,
+      "end": 28.67,
+      "text": "Also there, also the Palestinian terror, also the terror of Shalchis Bala, of course also in the middle of the 5th century.",
+      "avg_logprob": -0.7840073283980874,
+      "no_speech_prob": 0.025390625,
+      "shared_content_stems": [
+        "palestinian",
+        "terror"
+      ],
+      "shared_content_count": 2,
+      "candidate_support": true
+    }
+  ],
+  "machine_translation_en": "He came from Syria, and he is the leader of countries and countries. The Jewish Iran movement, which is going to protect the families of the terrorists in the Middle East, and it shows that Iran, after the war, will continue to attack terrorism, Also there, also the Palestinian terror, also the terror of Shalchis Bala, of course also in the middle of the 5th century.",
+  "crosslingual_semantic_status": "lexical_anchor_candidate",
+  "crosslingual_selected_segments": 4,
+  "crosslingual_support_start": 0.10999999940395355,
+  "crosslingual_support_end": 28.670000076293945,
+  "crosslingual_audio_valid": true,
+  "crosslingual_vision_valid": false,
+  "crosslingual_model": "small",
+  "crosslingual_method_version": 1,
+  "source_sha256_at_crosslingual_run": "2f16da1baa8660e5bfc608f5237cdd59725d16e57a19bc02c4556cd2c7129a46"
+}

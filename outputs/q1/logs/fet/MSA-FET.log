@@ -1,0 +1,121 @@
+2026-09-25 19:25:08 - FET-Single [INFO] - 
+2026-09-25 19:25:08 - FET-Single [INFO] - ========================== MMSA-FET Started ==========================
+2026-09-25 19:25:08 - FET-Single [INFO] - Temporary directory: /root/MathModel_restructured/outputs/q1/tmp/fet
+2026-09-25 19:25:08 - FET-Single [INFO] - Log file: '/root/MathModel_restructured/outputs/q1/logs/fet/MMSA-FET.log'
+2026-09-25 19:25:08 - FET-Single [INFO] - Config: {'audio': {'tool': 'opensmile', 'sample_rate': 16000, 'args': {'feature_set': 'eGeMAPSv02', 'feature_level': 'LowLevelDescriptors', 'start': None, 'end': None}}, 'text': {'model': 'bert', 'device': 'cpu', 'pretrained': 'bert-base-uncased', 'args': {}}}
+2026-09-25 19:25:09 - FET-Single [INFO] - Initializing openSMILE audio feature extractor...
+2026-09-25 19:25:09 - FET-Single [INFO] - Initializing BERT text feature extractor...
+2026-09-25 19:25:13 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-3g5yACwYnA/13.mp4'.
+2026-09-25 19:25:38 - FET-Single [INFO] - 
+2026-09-25 19:25:38 - FET-Single [INFO] - ========================== MMSA-FET Started ==========================
+2026-09-25 19:25:38 - FET-Single [INFO] - Temporary directory: /root/MathModel_restructured/outputs/q1/tmp/fet
+2026-09-25 19:25:38 - FET-Single [INFO] - Log file: '/root/MathModel_restructured/outputs/q1/logs/fet/MMSA-FET.log'
+2026-09-25 19:25:38 - FET-Single [INFO] - Config: {'audio': {'tool': 'opensmile', 'sample_rate': 16000, 'args': {'feature_set': 'eGeMAPSv02', 'feature_level': 'LowLevelDescriptors', 'start': None, 'end': None}}, 'text': {'model': 'bert', 'device': 'cpu', 'pretrained': 'bert-base-uncased', 'args': {}}}
+2026-09-25 19:25:39 - FET-Single [INFO] - Initializing openSMILE audio feature extractor...
+2026-09-25 19:25:39 - FET-Single [INFO] - Initializing BERT text feature extractor...
+2026-09-25 23:51:20 - FET-Single [INFO] - 
+2026-09-25 23:51:20 - FET-Single [INFO] - ========================== MMSA-FET Started ==========================
+2026-09-25 23:51:20 - FET-Single [INFO] - Temporary directory: /root/MathModel_restructured/outputs/q1/tmp/fet
+2026-09-25 23:51:20 - FET-Single [INFO] - Log file: '/root/MathModel_restructured/outputs/q1/logs/fet/MMSA-FET.log'
+2026-09-25 23:51:20 - FET-Single [INFO] - Config: {'audio': {'tool': 'opensmile', 'sample_rate': 16000, 'args': {'feature_set': 'eGeMAPSv02', 'feature_level': 'LowLevelDescriptors', 'start': None, 'end': None}}, 'text': {'model': 'bert', 'device': 'cpu', 'pretrained': 'bert-base-uncased', 'args': {}}}
+2026-09-25 23:51:21 - FET-Single [INFO] - Initializing openSMILE audio feature extractor...
+2026-09-25 23:51:21 - FET-Single [INFO] - Initializing BERT text feature extractor...
+2026-09-25 23:51:27 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-3g5yACwYnA/3.mp4'.
+2026-09-25 23:51:30 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-3g5yACwYnA/2.mp4'.
+2026-09-25 23:51:36 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-3g5yACwYnA/9.mp4'.
+2026-09-25 23:51:40 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-3nNcZdcdvU/5.mp4'.
+2026-09-25 23:51:43 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-HwX2H8Z4hY/2.mp4'.
+2026-09-25 23:51:47 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-HwX2H8Z4hY/5.mp4'.
+2026-09-25 23:51:56 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-HwX2H8Z4hY/6.mp4'.
+2026-09-25 23:51:58 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-HwX2H8Z4hY/9.mp4'.
+2026-09-25 23:52:02 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-NFrJFQijFE/1.mp4'.
+2026-09-25 23:52:08 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-NFrJFQijFE/2.mp4'.
+2026-09-25 23:52:13 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-THoVjtIkeU/12.mp4'.
+2026-09-25 23:52:22 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-THoVjtIkeU/2.mp4'.
+2026-09-25 23:52:26 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-THoVjtIkeU/6.mp4'.
+2026-09-25 23:52:30 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UuX1xuaiiE/1.mp4'.
+2026-09-25 23:52:33 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UuX1xuaiiE/0.mp4'.
+2026-09-25 23:52:35 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UuX1xuaiiE/3.mp4'.
+2026-09-25 23:52:39 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UuX1xuaiiE/6.mp4'.
+2026-09-25 23:52:50 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-a55Q6RWvTA/3.mp4'.
+2026-09-25 23:52:58 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-aNfi7CP8vM/7.mp4'.
+2026-09-25 23:53:03 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-aqamKhZ1Ec/0.mp4'.
+2026-09-25 23:53:10 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-dxfTGcXJoc/1.mp4'.
+2026-09-25 23:53:17 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-dxfTGcXJoc/0.mp4'.
+2026-09-25 23:53:23 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-dxfTGcXJoc/2.mp4'.
+2026-09-25 23:53:30 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-dxfTGcXJoc/6.mp4'.
+2026-09-25 23:53:33 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/26.mp4'.
+2026-09-25 23:53:35 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/17.mp4'.
+2026-09-25 23:53:38 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/18.mp4'.
+2026-09-25 23:53:41 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/16.mp4'.
+2026-09-25 23:53:44 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/13.mp4'.
+2026-09-25 23:53:47 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/1.mp4'.
+2026-09-25 23:53:51 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/6.mp4'.
+2026-09-25 23:53:54 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/9.mp4'.
+2026-09-25 23:53:57 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/20.mp4'.
+2026-09-25 23:54:01 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-iRBcNs9oI8/3.mp4'.
+2026-09-25 23:54:06 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-iRBcNs9oI8/7.mp4'.
+2026-09-25 23:54:08 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-iRBcNs9oI8/6.mp4'.
+2026-09-25 23:54:11 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-iRBcNs9oI8/9.mp4'.
+2026-09-25 23:54:14 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-iRBcNs9oI8/8.mp4'.
+2026-09-25 23:54:17 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-lzEya4AM_4/5.mp4'.
+2026-09-25 23:54:20 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-lzEya4AM_4/6.mp4'.
+2026-09-25 23:54:23 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-mJ2ud6oKI8/1.mp4'.
+2026-09-25 23:54:26 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-mJ2ud6oKI8/2.mp4'.
+2026-09-25 23:54:28 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-mJ2ud6oKI8/6.mp4'.
+2026-09-25 23:54:30 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-mJ2ud6oKI8/9.mp4'.
+2026-09-25 23:54:33 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-mJ2ud6oKI8/8.mp4'.
+2026-09-25 23:54:36 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-mqbVkbCndg/0.mp4'.
+2026-09-25 23:54:39 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-t217m2on-s/2.mp4'.
+2026-09-25 23:54:43 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-t217m2on-s/7.mp4'.
+2026-09-25 23:54:48 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-tANM6ETl_M/3.mp4'.
+2026-09-25 23:54:54 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-tPCytz4rww/11.mp4'.
+2026-09-25 23:55:01 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-tPCytz4rww/10.mp4'.
+2026-09-25 23:55:07 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-tPCytz4rww/12.mp4'.
+2026-09-25 23:55:12 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-tPCytz4rww/16.mp4'.
+2026-09-25 23:55:16 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-tPCytz4rww/18.mp4'.
+2026-09-25 23:55:23 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-vxjVxOeScU/4.mp4'.
+2026-09-25 23:55:26 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wMB_hJL-3o/7.mp4'.
+2026-09-25 23:55:33 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/1.mp4'.
+2026-09-25 23:55:36 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/0.mp4'.
+2026-09-25 23:55:38 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/3.mp4'.
+2026-09-25 23:55:40 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/2.mp4'.
+2026-09-25 23:55:44 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/5.mp4'.
+2026-09-25 23:55:50 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/7.mp4'.
+2026-09-25 23:55:54 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/9.mp4'.
+2026-09-25 23:55:58 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-571d8cVauQ/0.mp4'.
+2026-09-25 23:56:05 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-571d8cVauQ/5.mp4'.
+2026-09-25 23:56:13 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-I_e4mIh0yE/1.mp4'.
+2026-09-25 23:56:22 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-I_e4mIh0yE/3.mp4'.
+2026-09-25 23:56:30 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UacrmKiTn4/10.mp4'.
+2026-09-25 23:56:34 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UacrmKiTn4/4.mp4'.
+2026-09-25 23:56:37 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-hnBHBN8p5A/7.mp4'.
+2026-09-25 23:56:39 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-hnBHBN8p5A/6.mp4'.
+2026-09-25 23:56:42 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-qDkUB0GgYY/6.mp4'.
+2026-09-25 23:56:45 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-uywlfIYOS8/4.mp4'.
+2026-09-25 23:56:48 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-6rXp3zJ3kc/8.mp4'.
+2026-09-25 23:56:52 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-9y-fZ3swSY/0.mp4'.
+2026-09-25 23:56:55 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-9y-fZ3swSY/4.mp4'.
+2026-09-25 23:56:57 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-9y-fZ3swSY/8.mp4'.
+2026-09-25 23:57:01 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-AUZQgSxyPQ/2.mp4'.
+2026-09-25 23:57:05 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-HeZS2-Prhc/2.mp4'.
+2026-09-25 23:57:08 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-MeTTeMJBNc/0.mp4'.
+2026-09-25 23:57:11 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-MeTTeMJBNc/13.mp4'.
+2026-09-25 23:57:14 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-MeTTeMJBNc/7.mp4'.
+2026-09-25 23:57:18 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-RfYyzHpjk4/11.mp4'.
+2026-09-25 23:57:21 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-RfYyzHpjk4/8.mp4'.
+2026-09-25 23:57:24 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-RfYyzHpjk4/2.mp4'.
+2026-09-25 23:57:30 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UUCSKoHeMA/0.mp4'.
+2026-09-25 23:57:35 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-ri04Z7vwnc/0.mp4'.
+2026-09-25 23:57:37 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-ri04Z7vwnc/2.mp4'.
+2026-09-25 23:57:40 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-ri04Z7vwnc/5.mp4'.
+2026-09-25 23:57:44 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/1.mp4'.
+2026-09-25 23:57:47 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/0.mp4'.
+2026-09-25 23:57:53 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/5.mp4'.
+2026-09-25 23:58:02 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/4.mp4'.
+2026-09-25 23:58:06 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/7.mp4'.
+2026-09-25 23:58:09 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/6.mp4'.
+2026-09-25 23:58:13 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/8.mp4'.
+2026-09-25 23:58:19 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-yRb-Jum7EQ/1.mp4'.
+2026-09-25 23:58:29 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-yRb-Jum7EQ/5.mp4'.
+2026-09-25 23:58:36 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-yRb-Jum7EQ/6.mp4'.

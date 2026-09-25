@@ -1,0 +1,521 @@
+{
+  "sample_id": "-dxfTGcXJoc_1",
+  "video_id": "-dxfTGcXJoc",
+  "clip_id": "1",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-dxfTGcXJoc/1.mp4",
+  "video_exists": true,
+  "official_text": "For the 10th straight year, some of Kentucky’s best and most innovative biotech companies and technologies were on display at the annual BIO International Convention, which I and other state officials attended this week in Chicago.",
+  "label": 1.6666666269302368,
+  "annotation": "Positive",
+  "duration": 19.7,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "b5ffdc98a4a98b8f0aae55dee5fed66a43bcb129f47a250a004c1cc74e572595",
+  "word_count": 36,
+  "text_token_count": 44,
+  "audio_frames": 1597,
+  "vision_frames": 33,
+  "decoded_frames": 482,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.514,
+      1.886
+    ],
+    [
+      2.146,
+      11.422
+    ],
+    [
+      11.842,
+      15.614
+    ]
+  ],
+  "asr_text": "For the 10th straight year, some of Kentucky's best and most innovative biotech companies and technologies were on display at the annual BIO International Convention, which I and other state officials attended this week in Chicago.",
+  "asr_words": [
+    {
+      "word": "For",
+      "start": 0.514,
+      "end": 0.634,
+      "score": 0.762
+    },
+    {
+      "word": "the",
+      "start": 0.654,
+      "end": 0.754,
+      "score": 0.681
+    },
+    {
+      "word": "10th",
+      "start": 0.794,
+      "end": 1.075,
+      "score": 0.761
+    },
+    {
+      "word": "straight",
+      "start": 1.135,
+      "end": 1.455,
+      "score": 0.763
+    },
+    {
+      "word": "year,",
+      "start": 1.495,
+      "end": 1.756,
+      "score": 0.888
+    },
+    {
+      "word": "some",
+      "start": 2.256,
+      "end": 2.577,
+      "score": 0.778
+    },
+    {
+      "word": "of",
+      "start": 2.657,
+      "end": 2.717,
+      "score": 0.752
+    },
+    {
+      "word": "Kentucky's",
+      "start": 2.757,
+      "end": 3.278,
+      "score": 0.882
+    },
+    {
+      "word": "best",
+      "start": 3.418,
+      "end": 3.738,
+      "score": 0.891
+    },
+    {
+      "word": "and",
+      "start": 3.919,
+      "end": 3.999,
+      "score": 0.851
+    },
+    {
+      "word": "most",
+      "start": 4.079,
+      "end": 4.279,
+      "score": 0.72
+    },
+    {
+      "word": "innovative",
+      "start": 4.439,
+      "end": 4.92,
+      "score": 0.664
+    },
+    {
+      "word": "biotech",
+      "start": 4.98,
+      "end": 5.541,
+      "score": 0.874
+    },
+    {
+      "word": "companies",
+      "start": 5.601,
+      "end": 6.021,
+      "score": 0.871
+    },
+    {
+      "word": "and",
+      "start": 6.081,
+      "end": 6.161,
+      "score": 0.903
+    },
+    {
+      "word": "technologies",
+      "start": 6.222,
+      "end": 6.963,
+      "score": 0.849
+    },
+    {
+      "word": "were",
+      "start": 7.343,
+      "end": 7.503,
+      "score": 0.776
+    },
+    {
+      "word": "on",
+      "start": 7.683,
+      "end": 7.784,
+      "score": 0.744
+    },
+    {
+      "word": "display",
+      "start": 7.844,
+      "end": 8.505,
+      "score": 0.821
+    },
+    {
+      "word": "at",
+      "start": 8.685,
+      "end": 8.745,
+      "score": 0.978
+    },
+    {
+      "word": "the",
+      "start": 8.805,
+      "end": 8.925,
+      "score": 0.868
+    },
+    {
+      "word": "annual",
+      "start": 9.105,
+      "end": 9.446,
+      "score": 0.839
+    },
+    {
+      "word": "BIO",
+      "start": 9.666,
+      "end": 10.107,
+      "score": 0.66
+    },
+    {
+      "word": "International",
+      "start": 10.247,
+      "end": 10.808,
+      "score": 0.858
+    },
+    {
+      "word": "Convention,",
+      "start": 10.848,
+      "end": 11.328,
+      "score": 0.91
+    },
+    {
+      "word": "which",
+      "start": 11.889,
+      "end": 12.069,
+      "score": 0.868
+    },
+    {
+      "word": "I",
+      "start": 12.39,
+      "end": 12.49,
+      "score": 0.8
+    },
+    {
+      "word": "and",
+      "start": 12.61,
+      "end": 12.71,
+      "score": 0.749
+    },
+    {
+      "word": "other",
+      "start": 12.83,
+      "end": 12.991,
+      "score": 0.984
+    },
+    {
+      "word": "state",
+      "start": 13.031,
+      "end": 13.231,
+      "score": 0.871
+    },
+    {
+      "word": "officials",
+      "start": 13.271,
+      "end": 13.711,
+      "score": 0.852
+    },
+    {
+      "word": "attended",
+      "start": 13.792,
+      "end": 14.152,
+      "score": 0.918
+    },
+    {
+      "word": "this",
+      "start": 14.212,
+      "end": 14.372,
+      "score": 0.849
+    },
+    {
+      "word": "week",
+      "start": 14.432,
+      "end": 14.673,
+      "score": 0.935
+    },
+    {
+      "word": "in",
+      "start": 14.873,
+      "end": 14.953,
+      "score": 0.836
+    },
+    {
+      "word": "Chicago.",
+      "start": 14.973,
+      "end": 15.514,
+      "score": 0.858
+    }
+  ],
+  "official_words": [
+    "For",
+    "the",
+    "10th",
+    "straight",
+    "year,",
+    "some",
+    "of",
+    "Kentucky’s",
+    "best",
+    "and",
+    "most",
+    "innovative",
+    "biotech",
+    "companies",
+    "and",
+    "technologies",
+    "were",
+    "on",
+    "display",
+    "at",
+    "the",
+    "annual",
+    "BIO",
+    "International",
+    "Convention,",
+    "which",
+    "I",
+    "and",
+    "other",
+    "state",
+    "officials",
+    "attended",
+    "this",
+    "week",
+    "in",
+    "Chicago."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 36,
+    "official_words": 36,
+    "observed_words": 36,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        22,
+        22
+      ],
+      [
+        23,
+        23
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        25,
+        25
+      ],
+      [
+        26,
+        26
+      ],
+      [
+        27,
+        27
+      ],
+      [
+        28,
+        28
+      ],
+      [
+        29,
+        29
+      ],
+      [
+        30,
+        30
+      ],
+      [
+        31,
+        31
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        33,
+        33
+      ],
+      [
+        34,
+        34
+      ],
+      [
+        35,
+        35
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-dxfTGcXJoc_1.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99951171875,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

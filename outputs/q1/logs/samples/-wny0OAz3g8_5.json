@@ -1,0 +1,329 @@
+{
+  "sample_id": "-wny0OAz3g8_5",
+  "video_id": "-wny0OAz3g8",
+  "clip_id": "5",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/5.mp4",
+  "video_exists": true,
+  "official_text": "This is what’s now known as racial formation theory, a theory formalized by modern sociologists Michael Omi and Howard Winant",
+  "label": 1.0,
+  "annotation": "Positive",
+  "duration": 9.967,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9,
+  "word_audio_valid_fraction": 0.9,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "6c6a8a4cba654b25190ab1793bfae81c3d2159ecd6cbc02d3fcbd598543acce0",
+  "word_count": 20,
+  "text_token_count": 29,
+  "audio_frames": 670,
+  "vision_frames": 14,
+  "decoded_frames": 204,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.002,
+      6.7414375
+    ]
+  ],
+  "asr_text": "This is what's now known as racial formation theory, a theory formalized by modern sociologist Michael Omi and Howard Wannand.",
+  "asr_words": [
+    {
+      "word": "This",
+      "start": 0.584,
+      "end": 0.744,
+      "score": 0.92
+    },
+    {
+      "word": "is",
+      "start": 0.784,
+      "end": 0.844,
+      "score": 0.98
+    },
+    {
+      "word": "what's",
+      "start": 0.884,
+      "end": 1.045,
+      "score": 0.963
+    },
+    {
+      "word": "now",
+      "start": 1.105,
+      "end": 1.266,
+      "score": 0.914
+    },
+    {
+      "word": "known",
+      "start": 1.326,
+      "end": 1.526,
+      "score": 0.767
+    },
+    {
+      "word": "as",
+      "start": 1.566,
+      "end": 1.647,
+      "score": 0.626
+    },
+    {
+      "word": "racial",
+      "start": 1.727,
+      "end": 2.008,
+      "score": 0.838
+    },
+    {
+      "word": "formation",
+      "start": 2.048,
+      "end": 2.509,
+      "score": 0.836
+    },
+    {
+      "word": "theory,",
+      "start": 2.549,
+      "end": 2.81,
+      "score": 0.81
+    },
+    {
+      "word": "a",
+      "start": 3.111,
+      "end": 3.151,
+      "score": 0.999
+    },
+    {
+      "word": "theory",
+      "start": 3.191,
+      "end": 3.392,
+      "score": 0.868
+    },
+    {
+      "word": "formalized",
+      "start": 3.432,
+      "end": 3.913,
+      "score": 0.856
+    },
+    {
+      "word": "by",
+      "start": 3.953,
+      "end": 4.053,
+      "score": 0.68
+    },
+    {
+      "word": "modern",
+      "start": 4.094,
+      "end": 4.354,
+      "score": 0.805
+    },
+    {
+      "word": "sociologist",
+      "start": 4.394,
+      "end": 4.936,
+      "score": 0.897
+    },
+    {
+      "word": "Michael",
+      "start": 4.976,
+      "end": 5.197,
+      "score": 0.854
+    },
+    {
+      "word": "Omi",
+      "start": 5.297,
+      "end": 5.518,
+      "score": 0.823
+    },
+    {
+      "word": "and",
+      "start": 5.578,
+      "end": 5.638,
+      "score": 0.999
+    },
+    {
+      "word": "Howard",
+      "start": 5.678,
+      "end": 5.899,
+      "score": 0.896
+    },
+    {
+      "word": "Wannand.",
+      "start": 5.919,
+      "end": 6.24,
+      "score": 0.643
+    }
+  ],
+  "official_words": [
+    "This",
+    "is",
+    "what’s",
+    "now",
+    "known",
+    "as",
+    "racial",
+    "formation",
+    "theory,",
+    "a",
+    "theory",
+    "formalized",
+    "by",
+    "modern",
+    "sociologists",
+    "Michael",
+    "Omi",
+    "and",
+    "Howard",
+    "Winant"
+  ],
+  "match": {
+    "coverage": 0.9,
+    "trusted": true,
+    "matched_words": 18,
+    "official_words": 20,
+    "observed_words": 20,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-wny0OAz3g8_5.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99755859375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

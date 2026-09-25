@@ -1,0 +1,280 @@
+{
+  "sample_id": "-tPCytz4rww_11",
+  "video_id": "-tPCytz4rww",
+  "clip_id": "11",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-tPCytz4rww/11.mp4",
+  "video_exists": true,
+  "official_text": "Make sure that your using comps that are not larger, no larger than twelve hundred square feet.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 8.0,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.6470588235294118,
+  "word_audio_valid_fraction": 0.6470588235294118,
+  "word_vision_valid_fraction": 0.6470588235294118,
+  "sha256_video": "6dc09d02467baaef67594ff32cffb01f8ed1565cda4c5abd161b8261a51e2e5d",
+  "word_count": 17,
+  "text_token_count": 22,
+  "audio_frames": 533,
+  "vision_frames": 11,
+  "decoded_frames": 164,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.002,
+      5.3785625
+    ]
+  ],
+  "asr_text": "make sure that you're using comps that are no larger than 1200 square feet no less than",
+  "asr_words": [
+    {
+      "word": "make",
+      "start": 0.504,
+      "end": 0.664,
+      "score": 0.762
+    },
+    {
+      "word": "sure",
+      "start": 0.704,
+      "end": 0.865,
+      "score": 0.934
+    },
+    {
+      "word": "that",
+      "start": 0.905,
+      "end": 1.005,
+      "score": 0.886
+    },
+    {
+      "word": "you're",
+      "start": 1.045,
+      "end": 1.206,
+      "score": 0.593
+    },
+    {
+      "word": "using",
+      "start": 1.306,
+      "end": 1.527,
+      "score": 0.952
+    },
+    {
+      "word": "comps",
+      "start": 1.567,
+      "end": 1.888,
+      "score": 0.691
+    },
+    {
+      "word": "that",
+      "start": 1.928,
+      "end": 2.069,
+      "score": 0.907
+    },
+    {
+      "word": "are",
+      "start": 2.109,
+      "end": 2.189,
+      "score": 0.867
+    },
+    {
+      "word": "no",
+      "start": 2.209,
+      "end": 2.369,
+      "score": 0.634
+    },
+    {
+      "word": "larger",
+      "start": 2.41,
+      "end": 2.771,
+      "score": 0.844
+    },
+    {
+      "word": "than",
+      "start": 2.791,
+      "end": 2.871,
+      "score": 0.0
+    },
+    {
+      "word": "1200",
+      "start": 3.232,
+      "end": 3.353,
+      "score": 0.966
+    },
+    {
+      "word": "square",
+      "start": 3.373,
+      "end": 3.513,
+      "score": 0.414
+    },
+    {
+      "word": "feet",
+      "start": 3.553,
+      "end": 3.674,
+      "score": 0.666
+    },
+    {
+      "word": "no",
+      "start": 3.694,
+      "end": 3.734,
+      "score": 0.0
+    },
+    {
+      "word": "less",
+      "start": 3.754,
+      "end": 3.894,
+      "score": 0.138
+    },
+    {
+      "word": "than",
+      "start": 3.934,
+      "end": 4.075,
+      "score": 0.296
+    }
+  ],
+  "official_words": [
+    "Make",
+    "sure",
+    "that",
+    "your",
+    "using",
+    "comps",
+    "that",
+    "are",
+    "not",
+    "larger,",
+    "no",
+    "larger",
+    "than",
+    "twelve",
+    "hundred",
+    "square",
+    "feet."
+  ],
+  "match": {
+    "coverage": 0.6470588235294118,
+    "trusted": true,
+    "matched_words": 11,
+    "official_words": 17,
+    "observed_words": 17,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        15,
+        12
+      ],
+      [
+        16,
+        13
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-tPCytz4rww_11.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9951171875,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

@@ -1,0 +1,363 @@
+{
+  "sample_id": "-9y-fZ3swSY_0",
+  "video_id": "-9y-fZ3swSY",
+  "clip_id": "0",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-9y-fZ3swSY/0.mp4",
+  "video_exists": true,
+  "official_text": "is, you can say, hey I really like baby skin, they are so soft, they don’t have any hair on their face",
+  "label": 1.0,
+  "annotation": "Positive",
+  "duration": 6.9,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.7727272727272727,
+  "word_audio_valid_fraction": 0.7727272727272727,
+  "word_vision_valid_fraction": 0.7727272727272727,
+  "sha256_video": "29a1fd181293cdbe24e50edcad51e3cc0f27a5824d840bcc39d453b272fb6e3c",
+  "word_count": 22,
+  "text_token_count": 30,
+  "audio_frames": 671,
+  "vision_frames": 14,
+  "decoded_frames": 205,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.034,
+      6.757
+    ]
+  ],
+  "asr_text": "You can say, hey, you know what? I really like baby's kid. They're so soft. They don't have any hair on their face. It's so nice.",
+  "asr_words": [
+    {
+      "word": "You",
+      "start": 0.154,
+      "end": 0.235,
+      "score": 0.238
+    },
+    {
+      "word": "can",
+      "start": 0.255,
+      "end": 0.415,
+      "score": 0.354
+    },
+    {
+      "word": "say,",
+      "start": 0.455,
+      "end": 0.696,
+      "score": 0.913
+    },
+    {
+      "word": "hey,",
+      "start": 0.777,
+      "end": 1.058,
+      "score": 0.743
+    },
+    {
+      "word": "you",
+      "start": 1.078,
+      "end": 1.138,
+      "score": 0.0
+    },
+    {
+      "word": "know",
+      "start": 1.419,
+      "end": 1.619,
+      "score": 0.531
+    },
+    {
+      "word": "what?",
+      "start": 1.639,
+      "end": 1.8,
+      "score": 0.445
+    },
+    {
+      "word": "I",
+      "start": 1.941,
+      "end": 2.001,
+      "score": 0.993
+    },
+    {
+      "word": "really",
+      "start": 2.041,
+      "end": 2.322,
+      "score": 0.763
+    },
+    {
+      "word": "like",
+      "start": 2.402,
+      "end": 2.723,
+      "score": 0.742
+    },
+    {
+      "word": "baby's",
+      "start": 2.984,
+      "end": 3.365,
+      "score": 0.761
+    },
+    {
+      "word": "kid.",
+      "start": 3.466,
+      "end": 3.666,
+      "score": 0.77
+    },
+    {
+      "word": "They're",
+      "start": 3.686,
+      "end": 3.867,
+      "score": 0.477
+    },
+    {
+      "word": "so",
+      "start": 3.907,
+      "end": 4.108,
+      "score": 0.916
+    },
+    {
+      "word": "soft.",
+      "start": 4.289,
+      "end": 4.63,
+      "score": 0.974
+    },
+    {
+      "word": "They",
+      "start": 4.65,
+      "end": 4.75,
+      "score": 0.899
+    },
+    {
+      "word": "don't",
+      "start": 4.79,
+      "end": 4.971,
+      "score": 0.641
+    },
+    {
+      "word": "have",
+      "start": 5.031,
+      "end": 5.272,
+      "score": 0.864
+    },
+    {
+      "word": "any",
+      "start": 5.352,
+      "end": 5.493,
+      "score": 0.752
+    },
+    {
+      "word": "hair",
+      "start": 5.533,
+      "end": 5.733,
+      "score": 0.86
+    },
+    {
+      "word": "on",
+      "start": 5.794,
+      "end": 5.854,
+      "score": 0.741
+    },
+    {
+      "word": "their",
+      "start": 5.874,
+      "end": 6.014,
+      "score": 0.572
+    },
+    {
+      "word": "face.",
+      "start": 6.055,
+      "end": 6.295,
+      "score": 0.904
+    },
+    {
+      "word": "It's",
+      "start": 6.336,
+      "end": 6.476,
+      "score": 0.706
+    },
+    {
+      "word": "so",
+      "start": 6.536,
+      "end": 6.637,
+      "score": 0.998
+    },
+    {
+      "word": "nice.",
+      "start": 6.657,
+      "end": 6.757,
+      "score": 0.007
+    }
+  ],
+  "official_words": [
+    "is,",
+    "you",
+    "can",
+    "say,",
+    "hey",
+    "I",
+    "really",
+    "like",
+    "baby",
+    "skin,",
+    "they",
+    "are",
+    "so",
+    "soft,",
+    "they",
+    "don’t",
+    "have",
+    "any",
+    "hair",
+    "on",
+    "their",
+    "face"
+  ],
+  "match": {
+    "coverage": 0.7727272727272727,
+    "trusted": true,
+    "matched_words": 17,
+    "official_words": 22,
+    "observed_words": 26,
+    "matched_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        19,
+        20
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        21,
+        22
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-9y-fZ3swSY_0.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.97802734375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

@@ -1,0 +1,328 @@
+{
+  "sample_id": "-lzEya4AM_4_5",
+  "video_id": "-lzEya4AM_4",
+  "clip_id": "5",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-lzEya4AM_4/5.mp4",
+  "video_exists": true,
+  "official_text": "If it falls into oh any of those three categories, inducing nausea and vomiting would be your next step.",
+  "label": -0.6666666865348816,
+  "annotation": "Negative",
+  "duration": 7.8,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9473684210526315,
+  "word_audio_valid_fraction": 0.9473684210526315,
+  "word_vision_valid_fraction": 0.9473684210526315,
+  "sha256_video": "3b74de8d0e66fd754594f05985e5af3480adcc03555f79225d3b727cb4bed043",
+  "word_count": 19,
+  "text_token_count": 23,
+  "audio_frames": 752,
+  "vision_frames": 16,
+  "decoded_frames": 229,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.482,
+      3.07
+    ],
+    [
+      3.586,
+      4.414
+    ],
+    [
+      4.962,
+      6.11
+    ],
+    [
+      6.242,
+      7.166
+    ]
+  ],
+  "asr_text": "If it falls into any of those three categories, inducing nausea and vomiting would be your next step.",
+  "asr_words": [
+    {
+      "word": "If",
+      "start": 0.542,
+      "end": 0.602,
+      "score": 0.968
+    },
+    {
+      "word": "it",
+      "start": 0.663,
+      "end": 0.723,
+      "score": 0.78
+    },
+    {
+      "word": "falls",
+      "start": 0.763,
+      "end": 1.024,
+      "score": 0.791
+    },
+    {
+      "word": "into",
+      "start": 1.084,
+      "end": 1.285,
+      "score": 0.925
+    },
+    {
+      "word": "any",
+      "start": 1.646,
+      "end": 1.787,
+      "score": 0.799
+    },
+    {
+      "word": "of",
+      "start": 1.807,
+      "end": 1.867,
+      "score": 0.748
+    },
+    {
+      "word": "those",
+      "start": 1.907,
+      "end": 2.088,
+      "score": 0.893
+    },
+    {
+      "word": "three",
+      "start": 2.128,
+      "end": 2.309,
+      "score": 0.905
+    },
+    {
+      "word": "categories,",
+      "start": 2.329,
+      "end": 2.891,
+      "score": 0.869
+    },
+    {
+      "word": "inducing",
+      "start": 3.653,
+      "end": 4.256,
+      "score": 0.859
+    },
+    {
+      "word": "nausea",
+      "start": 5.079,
+      "end": 5.44,
+      "score": 0.887
+    },
+    {
+      "word": "and",
+      "start": 5.48,
+      "end": 5.58,
+      "score": 0.847
+    },
+    {
+      "word": "vomiting",
+      "start": 5.62,
+      "end": 6.022,
+      "score": 0.952
+    },
+    {
+      "word": "would",
+      "start": 6.263,
+      "end": 6.403,
+      "score": 0.984
+    },
+    {
+      "word": "be",
+      "start": 6.423,
+      "end": 6.484,
+      "score": 0.771
+    },
+    {
+      "word": "your",
+      "start": 6.524,
+      "end": 6.644,
+      "score": 0.902
+    },
+    {
+      "word": "next",
+      "start": 6.664,
+      "end": 6.825,
+      "score": 0.826
+    },
+    {
+      "word": "step.",
+      "start": 6.845,
+      "end": 7.106,
+      "score": 0.802
+    }
+  ],
+  "official_words": [
+    "If",
+    "it",
+    "falls",
+    "into",
+    "oh",
+    "any",
+    "of",
+    "those",
+    "three",
+    "categories,",
+    "inducing",
+    "nausea",
+    "and",
+    "vomiting",
+    "would",
+    "be",
+    "your",
+    "next",
+    "step."
+  ],
+  "match": {
+    "coverage": 0.9473684210526315,
+    "trusted": true,
+    "matched_words": 18,
+    "official_words": 19,
+    "observed_words": 18,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        11
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        15
+      ],
+      [
+        17,
+        16
+      ],
+      [
+        18,
+        17
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-lzEya4AM_4_5.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99951171875,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

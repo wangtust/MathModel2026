@@ -1,0 +1,283 @@
+{
+  "sample_id": "-3g5yACwYnA_2",
+  "video_id": "-3g5yACwYnA",
+  "clip_id": "2",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-3g5yACwYnA/2.mp4",
+  "video_exists": true,
+  "official_text": "Key Polymer brings a technical aspect to our operation that we don't have internally.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 14.234,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.7857142857142857,
+  "word_audio_valid_fraction": 0.7857142857142857,
+  "word_vision_valid_fraction": 0.7857142857142857,
+  "sha256_video": "0619c01f137d017c15c058176f18a575919189c7e81ebd2bfb993afdb86f3de7",
+  "word_count": 14,
+  "text_token_count": 19,
+  "audio_frames": 919,
+  "vision_frames": 19,
+  "decoded_frames": 278,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.002,
+      0.67
+    ],
+    [
+      1.186,
+      2.814
+    ],
+    [
+      2.946,
+      7.838
+    ],
+    [
+      8.13,
+      9.2313125
+    ]
+  ],
+  "asr_text": "operations. Keep all our brains a technical aspect to our operation that we don't have internally.",
+  "asr_words": [
+    {
+      "word": "operations.",
+      "start": 0.002,
+      "end": 2.645,
+      "score": 0.673
+    },
+    {
+      "word": "Keep",
+      "start": 2.925,
+      "end": 3.085,
+      "score": 0.975
+    },
+    {
+      "word": "all",
+      "start": 3.145,
+      "end": 3.245,
+      "score": 0.499
+    },
+    {
+      "word": "our",
+      "start": 3.265,
+      "end": 3.385,
+      "score": 0.41
+    },
+    {
+      "word": "brains",
+      "start": 3.405,
+      "end": 3.606,
+      "score": 0.74
+    },
+    {
+      "word": "a",
+      "start": 3.666,
+      "end": 3.726,
+      "score": 0.888
+    },
+    {
+      "word": "technical",
+      "start": 3.766,
+      "end": 4.206,
+      "score": 0.885
+    },
+    {
+      "word": "aspect",
+      "start": 4.386,
+      "end": 4.687,
+      "score": 0.832
+    },
+    {
+      "word": "to",
+      "start": 4.727,
+      "end": 4.947,
+      "score": 0.893
+    },
+    {
+      "word": "our",
+      "start": 5.868,
+      "end": 5.968,
+      "score": 0.791
+    },
+    {
+      "word": "operation",
+      "start": 6.028,
+      "end": 6.488,
+      "score": 0.929
+    },
+    {
+      "word": "that",
+      "start": 6.508,
+      "end": 6.648,
+      "score": 0.918
+    },
+    {
+      "word": "we",
+      "start": 6.689,
+      "end": 6.789,
+      "score": 0.994
+    },
+    {
+      "word": "don't",
+      "start": 6.829,
+      "end": 7.029,
+      "score": 0.883
+    },
+    {
+      "word": "have",
+      "start": 7.049,
+      "end": 7.229,
+      "score": 0.86
+    },
+    {
+      "word": "internally.",
+      "start": 7.269,
+      "end": 7.71,
+      "score": 0.898
+    }
+  ],
+  "official_words": [
+    "Key",
+    "Polymer",
+    "brings",
+    "a",
+    "technical",
+    "aspect",
+    "to",
+    "our",
+    "operation",
+    "that",
+    "we",
+    "don't",
+    "have",
+    "internally."
+  ],
+  "match": {
+    "coverage": 0.7857142857142857,
+    "trusted": true,
+    "matched_words": 11,
+    "official_words": 14,
+    "observed_words": 16,
+    "matched_pairs": [
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        13,
+        15
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-3g5yACwYnA_2.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.994140625,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

@@ -1,0 +1,47 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>问题一：三个样本的逐词时序对齐核验</title><style>
+body{font-family:system-ui,"Microsoft YaHei",sans-serif;margin:auto;max-width:1050px;padding:24px;color:#263640;background:#f6f8f7;line-height:1.55}
+h1{font-size:1.5rem}h2{font-size:1.15rem;margin-bottom:0}a{color:#17695d}.case{background:white;border:1px solid #dce5e1;border-radius:8px;padding:18px;margin:22px 0}
+audio{width:100%}.words{display:flex;flex-wrap:wrap;gap:7px}.word{background:#e4f2ec;border:1px solid #8ab7a4;border-radius:14px;padding:6px 10px;cursor:pointer;color:#124f43;font-size:1rem}
+.word:hover,.word.active{background:#186b5d;color:white}.word small{opacity:.65}.hint{font-size:.85rem;color:#647077}
+figure{margin:15px 0}figure img{width:100%;height:auto;border:1px solid #d4dcd8}figcaption{font-size:.8rem;color:#586770}
+</style></head><body><h1>三个典型样本：逐词时间对齐核验</h1>
+<p>负向、中性、正向各选一条。按钮控制下方原声音频；所有词区间均取自动转写与官方文本核对后的真实发音时间。情感标签是整段标注。</p><section class="case" id="case--UacrmKiTn4_4">
+<h2>负向 · -UacrmKiTn4_4 · -1.33</h2>
+<p>官方文本：Just given to their own devices they are not going to read the textbook.</p>
+<audio controls preload="metadata" src="../case_assets/-UacrmKiTn4_4/audio_16k.wav"></audio>
+<p class="hint">点击单词只播放该词对应的原声音频区间；悬停可看起止时间与自动对齐分数。</p>
+<div class="words"><button class="word" data-start="0.534" data-end="0.715" title="0.534–0.715 s · ASR score 0.91"><small>01</small> Just</button><button class="word" data-start="0.755" data-end="0.976" title="0.755–0.976 s · ASR score 0.99"><small>02</small> given</button><button class="word" data-start="1.037" data-end="1.097" title="1.037–1.097 s · ASR score 0.97"><small>03</small> to</button><button class="word" data-start="1.157" data-end="1.318" title="1.157–1.318 s · ASR score 0.78"><small>04</small> their</button><button class="word" data-start="1.379" data-end="1.499" title="1.379–1.499 s · ASR score 0.73"><small>05</small> own</button><button class="word" data-start="1.539" data-end="2.143" title="1.539–2.143 s · ASR score 0.88"><small>06</small> devices</button><button class="word" data-start="2.183" data-end="2.324" title="2.183–2.324 s · ASR score 0.99"><small>07</small> they</button><button class="word" data-start="2.364" data-end="2.464" title="2.364–2.464 s · ASR score 0.79"><small>08</small> are</button><button class="word" data-start="2.525" data-end="2.726" title="2.525–2.726 s · ASR score 0.71"><small>09</small> not</button><button class="word" data-start="2.766" data-end="3.027" title="2.766–3.027 s · ASR score 0.89"><small>10</small> going</button><button class="word" data-start="3.088" data-end="3.168" title="3.088–3.168 s · ASR score 0.95"><small>11</small> to</button><button class="word" data-start="3.249" data-end="3.409" title="3.249–3.409 s · ASR score 0.87"><small>12</small> read</button><button class="word" data-start="3.450" data-end="3.530" title="3.450–3.530 s · ASR score 0.83"><small>13</small> the</button><button class="word" data-start="3.570" data-end="4.133" title="3.570–4.133 s · ASR score 0.91"><small>14</small> textbook.</button></div>
+<figure><img src="../figures/alignment/fig01a_-UacrmKiTn4_4.png" alt="负向样本逐词时序对齐图"><figcaption>图1a：原始视频帧、语音波形、官方词区间、文本/语音/视觉特征及整段标签。</figcaption></figure>
+<p><a href="../case_assets/-UacrmKiTn4_4/word_mapping.csv">下载逐词源素材与特征行号映射 CSV</a></p>
+</section><section class="case" id="case--s9qJ7ATP7w_6">
+<h2>中性 · -s9qJ7ATP7w_6 · +0.00</h2>
+<p>官方文本：But I just kept going</p>
+<audio controls preload="metadata" src="../case_assets/-s9qJ7ATP7w_6/audio_16k.wav"></audio>
+<p class="hint">点击单词只播放该词对应的原声音频区间；悬停可看起止时间与自动对齐分数。</p>
+<div class="words"><button class="word" data-start="0.557" data-end="0.758" title="0.557–0.758 s · ASR score 0.99"><small>01</small> But</button><button class="word" data-start="1.241" data-end="1.302" title="1.241–1.302 s · ASR score 0.93"><small>02</small> I</button><button class="word" data-start="1.342" data-end="1.463" title="1.342–1.463 s · ASR score 0.99"><small>03</small> just</button><button class="word" data-start="1.483" data-end="1.623" title="1.483–1.623 s · ASR score 0.99"><small>04</small> kept</button><button class="word" data-start="1.664" data-end="1.865" title="1.664–1.865 s · ASR score 0.99"><small>05</small> going</button></div>
+<figure><img src="../figures/alignment/fig01b_-s9qJ7ATP7w_6.png" alt="中性样本逐词时序对齐图"><figcaption>图1b：原始视频帧、语音波形、官方词区间、文本/语音/视觉特征及整段标签。</figcaption></figure>
+<p><a href="../case_assets/-s9qJ7ATP7w_6/word_mapping.csv">下载逐词源素材与特征行号映射 CSV</a></p>
+</section><section class="case" id="case--THoVjtIkeU_2">
+<h2>正向 · -THoVjtIkeU_2 · +1.33</h2>
+<p>官方文本：I think social justice is extremely important for young people.</p>
+<audio controls preload="metadata" src="../case_assets/-THoVjtIkeU_2/audio_16k.wav"></audio>
+<p class="hint">点击单词只播放该词对应的原声音频区间；悬停可看起止时间与自动对齐分数。</p>
+<div class="words"><button class="word" data-start="0.042" data-end="0.102" title="0.042–0.102 s · ASR score 0.95"><small>01</small> I</button><button class="word" data-start="0.163" data-end="0.464" title="0.163–0.464 s · ASR score 0.79"><small>02</small> think</button><button class="word" data-start="1.208" data-end="1.469" title="1.208–1.469 s · ASR score 0.85"><small>03</small> social</button><button class="word" data-start="1.509" data-end="1.811" title="1.509–1.811 s · ASR score 0.88"><small>04</small> justice</button><button class="word" data-start="1.871" data-end="1.932" title="1.871–1.932 s · ASR score 0.97"><small>05</small> is</button><button class="word" data-start="1.992" data-end="2.374" title="1.992–2.374 s · ASR score 0.92"><small>06</small> extremely</button><button class="word" data-start="2.434" data-end="2.816" title="2.434–2.816 s · ASR score 0.83"><small>07</small> important</button><button class="word" data-start="2.876" data-end="3.037" title="2.876–3.037 s · ASR score 0.86"><small>08</small> for</button><button class="word" data-start="3.097" data-end="3.298" title="3.097–3.298 s · ASR score 0.77"><small>09</small> young</button><button class="word" data-start="3.338" data-end="3.640" title="3.338–3.640 s · ASR score 0.88"><small>10</small> people.</button></div>
+<figure><img src="../figures/alignment/fig01c_-THoVjtIkeU_2.png" alt="正向样本逐词时序对齐图"><figcaption>图1c：原始视频帧、语音波形、官方词区间、文本/语音/视觉特征及整段标签。</figcaption></figure>
+<p><a href="../case_assets/-THoVjtIkeU_2/word_mapping.csv">下载逐词源素材与特征行号映射 CSV</a></p>
+</section><script>
+document.querySelectorAll('.case').forEach(section=>{
+const player=section.querySelector('audio');let stopAt=Infinity;let active=null;let frame=0;
+function finish(){player.pause();stopAt=Infinity;cancelAnimationFrame(frame);if(active)active.classList.remove('active')}
+function monitor(){if(player.currentTime>=stopAt-.008){finish();return}frame=requestAnimationFrame(monitor)}
+section.querySelectorAll('button.word').forEach(button=>button.addEventListener('click',async()=>{
+cancelAnimationFrame(frame);
+if(active)active.classList.remove('active');active=button;button.classList.add('active');
+stopAt=Number(button.dataset.end);player.currentTime=Number(button.dataset.start);
+try{await player.play();frame=requestAnimationFrame(monitor)}catch(error){button.classList.remove('active')}
+}));
+player.addEventListener('timeupdate',()=>{if(player.currentTime>=stopAt)finish()});
+player.addEventListener('ended',finish);
+});
+</script></body></html>

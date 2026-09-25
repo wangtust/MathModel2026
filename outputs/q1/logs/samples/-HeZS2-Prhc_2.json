@@ -1,0 +1,321 @@
+{
+  "sample_id": "-HeZS2-Prhc_2",
+  "video_id": "-HeZS2-Prhc",
+  "clip_id": "2",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-HeZS2-Prhc/2.mp4",
+  "video_exists": true,
+  "official_text": "The August jobs report is out and it was seen overall as solid but not great.",
+  "label": 0.6666666865348816,
+  "annotation": "Positive",
+  "duration": 15.834,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9375,
+  "word_audio_valid_fraction": 0.9375,
+  "word_vision_valid_fraction": 0.9375,
+  "sha256_video": "edb0fa22fdfbd990c8174764af78670bd2ecad799240d35d96a1124a3cd9dc0c",
+  "word_count": 16,
+  "text_token_count": 19,
+  "audio_frames": 811,
+  "vision_frames": 17,
+  "decoded_frames": 246,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.0,
+      4.99
+    ],
+    [
+      5.09,
+      6.014
+    ],
+    [
+      6.114,
+      8.150875
+    ]
+  ],
+  "asr_text": "it today. The August jobs report is out and it was seen overall as solid but not great. The report",
+  "asr_words": [
+    {
+      "word": "it",
+      "start": 0.04,
+      "end": 0.12,
+      "score": 0.88
+    },
+    {
+      "word": "today.",
+      "start": 0.14,
+      "end": 0.521,
+      "score": 0.758
+    },
+    {
+      "word": "The",
+      "start": 1.742,
+      "end": 1.842,
+      "score": 0.753
+    },
+    {
+      "word": "August",
+      "start": 1.943,
+      "end": 2.263,
+      "score": 0.777
+    },
+    {
+      "word": "jobs",
+      "start": 2.323,
+      "end": 2.624,
+      "score": 0.906
+    },
+    {
+      "word": "report",
+      "start": 2.684,
+      "end": 3.024,
+      "score": 0.876
+    },
+    {
+      "word": "is",
+      "start": 3.064,
+      "end": 3.164,
+      "score": 0.412
+    },
+    {
+      "word": "out",
+      "start": 3.324,
+      "end": 3.465,
+      "score": 0.863
+    },
+    {
+      "word": "and",
+      "start": 3.865,
+      "end": 4.005,
+      "score": 0.722
+    },
+    {
+      "word": "it",
+      "start": 4.025,
+      "end": 4.065,
+      "score": 0.0
+    },
+    {
+      "word": "was",
+      "start": 4.306,
+      "end": 4.446,
+      "score": 0.877
+    },
+    {
+      "word": "seen",
+      "start": 4.506,
+      "end": 4.827,
+      "score": 0.495
+    },
+    {
+      "word": "overall",
+      "start": 5.267,
+      "end": 5.728,
+      "score": 0.876
+    },
+    {
+      "word": "as",
+      "start": 5.748,
+      "end": 6.288,
+      "score": 0.422
+    },
+    {
+      "word": "solid",
+      "start": 6.389,
+      "end": 6.769,
+      "score": 0.923
+    },
+    {
+      "word": "but",
+      "start": 6.809,
+      "end": 6.949,
+      "score": 0.743
+    },
+    {
+      "word": "not",
+      "start": 7.029,
+      "end": 7.25,
+      "score": 0.904
+    },
+    {
+      "word": "great.",
+      "start": 7.35,
+      "end": 7.67,
+      "score": 0.622
+    },
+    {
+      "word": "The",
+      "start": 7.73,
+      "end": 7.831,
+      "score": 0.925
+    },
+    {
+      "word": "report",
+      "start": 7.871,
+      "end": 8.131,
+      "score": 0.981
+    }
+  ],
+  "official_words": [
+    "The",
+    "August",
+    "jobs",
+    "report",
+    "is",
+    "out",
+    "and",
+    "it",
+    "was",
+    "seen",
+    "overall",
+    "as",
+    "solid",
+    "but",
+    "not",
+    "great."
+  ],
+  "match": {
+    "coverage": 0.9375,
+    "trusted": true,
+    "matched_words": 15,
+    "official_words": 16,
+    "observed_words": 20,
+    "matched_pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        17
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-HeZS2-Prhc_2.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.84619140625,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

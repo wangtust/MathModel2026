@@ -1,0 +1,634 @@
+{
+  "sample_id": "-t217m2on-s_7",
+  "video_id": "-t217m2on-s",
+  "clip_id": "7",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-t217m2on-s/7.mp4",
+  "video_exists": true,
+  "official_text": "If you find that your ears consistently do this and you can't pop them often, you'll definitely need to see a physician regarding those things, it could be something more of a nasal infection or a sinus infection that he would need to deal with.",
+  "label": -0.6666666865348816,
+  "annotation": "Negative",
+  "duration": 18.7,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "41c76b8a733ecb780d56348f55d00f0ba0c07f44f46e93044e62d876710180b7",
+  "word_count": 45,
+  "text_token_count": 55,
+  "audio_frames": 1698,
+  "vision_frames": 35,
+  "decoded_frames": 512,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.578,
+      2.334
+    ],
+    [
+      2.722,
+      6.654
+    ],
+    [
+      6.946,
+      9.086
+    ],
+    [
+      9.442,
+      14.814
+    ],
+    [
+      15.138,
+      16.574
+    ]
+  ],
+  "asr_text": "If you find that your ears persist consistently do this and you can't pop them often, you'll definitely need to see a physician regarding those things. It could be something more of a nasal infection or a sinus infection that he would need to deal with.",
+  "asr_words": [
+    {
+      "word": "If",
+      "start": 0.578,
+      "end": 0.618,
+      "score": 1.0
+    },
+    {
+      "word": "you",
+      "start": 0.658,
+      "end": 0.798,
+      "score": 0.91
+    },
+    {
+      "word": "find",
+      "start": 0.838,
+      "end": 1.099,
+      "score": 0.672
+    },
+    {
+      "word": "that",
+      "start": 1.139,
+      "end": 1.319,
+      "score": 0.807
+    },
+    {
+      "word": "your",
+      "start": 1.399,
+      "end": 1.579,
+      "score": 0.952
+    },
+    {
+      "word": "ears",
+      "start": 1.699,
+      "end": 1.999,
+      "score": 0.698
+    },
+    {
+      "word": "persist",
+      "start": 2.72,
+      "end": 3.0,
+      "score": 0.425
+    },
+    {
+      "word": "consistently",
+      "start": 3.281,
+      "end": 4.102,
+      "score": 0.876
+    },
+    {
+      "word": "do",
+      "start": 4.282,
+      "end": 4.442,
+      "score": 0.896
+    },
+    {
+      "word": "this",
+      "start": 4.502,
+      "end": 4.702,
+      "score": 0.794
+    },
+    {
+      "word": "and",
+      "start": 4.782,
+      "end": 4.862,
+      "score": 0.836
+    },
+    {
+      "word": "you",
+      "start": 4.902,
+      "end": 5.002,
+      "score": 0.901
+    },
+    {
+      "word": "can't",
+      "start": 5.042,
+      "end": 5.383,
+      "score": 0.674
+    },
+    {
+      "word": "pop",
+      "start": 5.563,
+      "end": 5.863,
+      "score": 0.95
+    },
+    {
+      "word": "them",
+      "start": 5.903,
+      "end": 6.063,
+      "score": 0.832
+    },
+    {
+      "word": "often,",
+      "start": 6.184,
+      "end": 6.484,
+      "score": 0.965
+    },
+    {
+      "word": "you'll",
+      "start": 6.924,
+      "end": 7.085,
+      "score": 0.971
+    },
+    {
+      "word": "definitely",
+      "start": 7.105,
+      "end": 7.525,
+      "score": 0.772
+    },
+    {
+      "word": "need",
+      "start": 7.785,
+      "end": 7.945,
+      "score": 0.694
+    },
+    {
+      "word": "to",
+      "start": 7.965,
+      "end": 8.025,
+      "score": 0.821
+    },
+    {
+      "word": "see",
+      "start": 8.065,
+      "end": 8.226,
+      "score": 0.781
+    },
+    {
+      "word": "a",
+      "start": 8.246,
+      "end": 8.286,
+      "score": 0.498
+    },
+    {
+      "word": "physician",
+      "start": 8.326,
+      "end": 8.886,
+      "score": 0.831
+    },
+    {
+      "word": "regarding",
+      "start": 9.487,
+      "end": 9.947,
+      "score": 0.799
+    },
+    {
+      "word": "those",
+      "start": 9.987,
+      "end": 10.168,
+      "score": 0.906
+    },
+    {
+      "word": "things.",
+      "start": 10.208,
+      "end": 10.528,
+      "score": 0.772
+    },
+    {
+      "word": "It",
+      "start": 10.908,
+      "end": 10.968,
+      "score": 0.998
+    },
+    {
+      "word": "could",
+      "start": 11.028,
+      "end": 11.209,
+      "score": 0.951
+    },
+    {
+      "word": "be",
+      "start": 11.249,
+      "end": 11.369,
+      "score": 0.824
+    },
+    {
+      "word": "something",
+      "start": 11.409,
+      "end": 11.749,
+      "score": 0.785
+    },
+    {
+      "word": "more",
+      "start": 11.789,
+      "end": 11.969,
+      "score": 0.92
+    },
+    {
+      "word": "of",
+      "start": 12.009,
+      "end": 12.069,
+      "score": 0.745
+    },
+    {
+      "word": "a",
+      "start": 12.13,
+      "end": 12.15,
+      "score": 0.985
+    },
+    {
+      "word": "nasal",
+      "start": 12.21,
+      "end": 12.55,
+      "score": 0.899
+    },
+    {
+      "word": "infection",
+      "start": 12.59,
+      "end": 13.191,
+      "score": 0.887
+    },
+    {
+      "word": "or",
+      "start": 13.351,
+      "end": 13.451,
+      "score": 0.53
+    },
+    {
+      "word": "a",
+      "start": 13.491,
+      "end": 13.511,
+      "score": 0.98
+    },
+    {
+      "word": "sinus",
+      "start": 13.591,
+      "end": 13.971,
+      "score": 0.817
+    },
+    {
+      "word": "infection",
+      "start": 14.031,
+      "end": 14.612,
+      "score": 0.899
+    },
+    {
+      "word": "that",
+      "start": 15.153,
+      "end": 15.333,
+      "score": 0.801
+    },
+    {
+      "word": "he",
+      "start": 15.393,
+      "end": 15.533,
+      "score": 0.865
+    },
+    {
+      "word": "would",
+      "start": 15.593,
+      "end": 15.793,
+      "score": 0.725
+    },
+    {
+      "word": "need",
+      "start": 15.833,
+      "end": 15.993,
+      "score": 0.844
+    },
+    {
+      "word": "to",
+      "start": 16.013,
+      "end": 16.053,
+      "score": 0.906
+    },
+    {
+      "word": "deal",
+      "start": 16.114,
+      "end": 16.314,
+      "score": 0.846
+    },
+    {
+      "word": "with.",
+      "start": 16.354,
+      "end": 16.534,
+      "score": 0.857
+    }
+  ],
+  "official_words": [
+    "If",
+    "you",
+    "find",
+    "that",
+    "your",
+    "ears",
+    "consistently",
+    "do",
+    "this",
+    "and",
+    "you",
+    "can't",
+    "pop",
+    "them",
+    "often,",
+    "you'll",
+    "definitely",
+    "need",
+    "to",
+    "see",
+    "a",
+    "physician",
+    "regarding",
+    "those",
+    "things,",
+    "it",
+    "could",
+    "be",
+    "something",
+    "more",
+    "of",
+    "a",
+    "nasal",
+    "infection",
+    "or",
+    "a",
+    "sinus",
+    "infection",
+    "that",
+    "he",
+    "would",
+    "need",
+    "to",
+    "deal",
+    "with."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 45,
+    "official_words": 45,
+    "observed_words": 46,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        19,
+        20
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        21,
+        22
+      ],
+      [
+        22,
+        23
+      ],
+      [
+        23,
+        24
+      ],
+      [
+        24,
+        25
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        26,
+        27
+      ],
+      [
+        27,
+        28
+      ],
+      [
+        28,
+        29
+      ],
+      [
+        29,
+        30
+      ],
+      [
+        30,
+        31
+      ],
+      [
+        31,
+        32
+      ],
+      [
+        32,
+        33
+      ],
+      [
+        33,
+        34
+      ],
+      [
+        34,
+        35
+      ],
+      [
+        35,
+        36
+      ],
+      [
+        36,
+        37
+      ],
+      [
+        37,
+        38
+      ],
+      [
+        38,
+        39
+      ],
+      [
+        39,
+        40
+      ],
+      [
+        40,
+        41
+      ],
+      [
+        41,
+        42
+      ],
+      [
+        42,
+        43
+      ],
+      [
+        43,
+        44
+      ],
+      [
+        44,
+        45
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-t217m2on-s_7.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99755859375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

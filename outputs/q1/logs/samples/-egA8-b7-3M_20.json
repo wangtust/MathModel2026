@@ -1,0 +1,341 @@
+{
+  "sample_id": "-egA8-b7-3M_20",
+  "video_id": "-egA8-b7-3M",
+  "clip_id": "20",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/20.mp4",
+  "video_exists": true,
+  "official_text": "Now you've got a face that you can connect with a voice, and that makes you closer to that client.",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "duration": 14.767,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "719ef133920e74b3ea33925d2bca0270b062199116867568f88ac83cadcd74e8",
+  "word_count": 20,
+  "text_token_count": 26,
+  "audio_frames": 643,
+  "vision_frames": 14,
+  "decoded_frames": 196,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.482,
+      3.518
+    ],
+    [
+      3.874,
+      6.11
+    ]
+  ],
+  "asr_text": "Now you've got a face that you can connect with a voice, and that makes you closer to that client.",
+  "asr_words": [
+    {
+      "word": "Now",
+      "start": 0.582,
+      "end": 0.722,
+      "score": 1.0
+    },
+    {
+      "word": "you've",
+      "start": 0.762,
+      "end": 0.943,
+      "score": 0.897
+    },
+    {
+      "word": "got",
+      "start": 0.963,
+      "end": 1.163,
+      "score": 0.745
+    },
+    {
+      "word": "a",
+      "start": 1.203,
+      "end": 1.223,
+      "score": 0.996
+    },
+    {
+      "word": "face",
+      "start": 1.303,
+      "end": 1.604,
+      "score": 0.836
+    },
+    {
+      "word": "that",
+      "start": 1.644,
+      "end": 1.764,
+      "score": 0.899
+    },
+    {
+      "word": "you",
+      "start": 1.804,
+      "end": 1.924,
+      "score": 0.853
+    },
+    {
+      "word": "can",
+      "start": 1.964,
+      "end": 2.104,
+      "score": 0.739
+    },
+    {
+      "word": "connect",
+      "start": 2.144,
+      "end": 2.505,
+      "score": 0.873
+    },
+    {
+      "word": "with",
+      "start": 2.565,
+      "end": 2.725,
+      "score": 0.754
+    },
+    {
+      "word": "a",
+      "start": 2.785,
+      "end": 2.825,
+      "score": 0.497
+    },
+    {
+      "word": "voice,",
+      "start": 2.885,
+      "end": 3.266,
+      "score": 0.945
+    },
+    {
+      "word": "and",
+      "start": 3.947,
+      "end": 4.047,
+      "score": 0.959
+    },
+    {
+      "word": "that",
+      "start": 4.087,
+      "end": 4.267,
+      "score": 0.866
+    },
+    {
+      "word": "makes",
+      "start": 4.307,
+      "end": 4.508,
+      "score": 0.803
+    },
+    {
+      "word": "you",
+      "start": 4.548,
+      "end": 4.668,
+      "score": 0.889
+    },
+    {
+      "word": "closer",
+      "start": 4.708,
+      "end": 5.129,
+      "score": 0.764
+    },
+    {
+      "word": "to",
+      "start": 5.209,
+      "end": 5.309,
+      "score": 0.946
+    },
+    {
+      "word": "that",
+      "start": 5.369,
+      "end": 5.549,
+      "score": 0.774
+    },
+    {
+      "word": "client.",
+      "start": 5.589,
+      "end": 5.97,
+      "score": 0.957
+    }
+  ],
+  "official_words": [
+    "Now",
+    "you've",
+    "got",
+    "a",
+    "face",
+    "that",
+    "you",
+    "can",
+    "connect",
+    "with",
+    "a",
+    "voice,",
+    "and",
+    "that",
+    "makes",
+    "you",
+    "closer",
+    "to",
+    "that",
+    "client."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 20,
+    "official_words": 20,
+    "observed_words": 20,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-egA8-b7-3M_20.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.98974609375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

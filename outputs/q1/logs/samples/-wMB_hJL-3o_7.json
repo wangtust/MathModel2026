@@ -1,0 +1,363 @@
+{
+  "sample_id": "-wMB_hJL-3o_7",
+  "video_id": "-wMB_hJL-3o",
+  "clip_id": "7",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wMB_hJL-3o/7.mp4",
+  "video_exists": true,
+  "official_text": "So if you have a loved one who is depressed those are some of the things that you should think about doing.",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "duration": 7.315,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "04a73d73fd150b07edab8e652fd14c9cb4a0f6e017ea97b17e8146e377b9fae7",
+  "word_count": 22,
+  "text_token_count": 25,
+  "audio_frames": 593,
+  "vision_frames": 13,
+  "decoded_frames": 181,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.514,
+      3.102
+    ],
+    [
+      3.266,
+      5.662
+    ]
+  ],
+  "asr_text": "So if you have a loved one who is depressed, those are some of the things that you should think about doing.",
+  "asr_words": [
+    {
+      "word": "So",
+      "start": 0.614,
+      "end": 0.935,
+      "score": 0.834
+    },
+    {
+      "word": "if",
+      "start": 1.095,
+      "end": 1.155,
+      "score": 1.0
+    },
+    {
+      "word": "you",
+      "start": 1.195,
+      "end": 1.315,
+      "score": 0.95
+    },
+    {
+      "word": "have",
+      "start": 1.355,
+      "end": 1.496,
+      "score": 0.872
+    },
+    {
+      "word": "a",
+      "start": 1.516,
+      "end": 1.536,
+      "score": 0.989
+    },
+    {
+      "word": "loved",
+      "start": 1.596,
+      "end": 1.816,
+      "score": 0.783
+    },
+    {
+      "word": "one",
+      "start": 1.896,
+      "end": 1.976,
+      "score": 0.963
+    },
+    {
+      "word": "who",
+      "start": 2.036,
+      "end": 2.137,
+      "score": 0.998
+    },
+    {
+      "word": "is",
+      "start": 2.217,
+      "end": 2.277,
+      "score": 0.83
+    },
+    {
+      "word": "depressed,",
+      "start": 2.317,
+      "end": 2.918,
+      "score": 0.844
+    },
+    {
+      "word": "those",
+      "start": 3.258,
+      "end": 3.459,
+      "score": 0.779
+    },
+    {
+      "word": "are",
+      "start": 3.479,
+      "end": 3.579,
+      "score": 0.816
+    },
+    {
+      "word": "some",
+      "start": 3.599,
+      "end": 3.739,
+      "score": 0.631
+    },
+    {
+      "word": "of",
+      "start": 3.779,
+      "end": 3.839,
+      "score": 0.75
+    },
+    {
+      "word": "the",
+      "start": 3.859,
+      "end": 3.959,
+      "score": 0.809
+    },
+    {
+      "word": "things",
+      "start": 3.999,
+      "end": 4.22,
+      "score": 0.899
+    },
+    {
+      "word": "that",
+      "start": 4.24,
+      "end": 4.34,
+      "score": 0.927
+    },
+    {
+      "word": "you",
+      "start": 4.38,
+      "end": 4.5,
+      "score": 0.79
+    },
+    {
+      "word": "should",
+      "start": 4.52,
+      "end": 4.701,
+      "score": 0.871
+    },
+    {
+      "word": "think",
+      "start": 4.721,
+      "end": 4.881,
+      "score": 0.997
+    },
+    {
+      "word": "about",
+      "start": 4.941,
+      "end": 5.141,
+      "score": 0.999
+    },
+    {
+      "word": "doing.",
+      "start": 5.201,
+      "end": 5.462,
+      "score": 0.952
+    }
+  ],
+  "official_words": [
+    "So",
+    "if",
+    "you",
+    "have",
+    "a",
+    "loved",
+    "one",
+    "who",
+    "is",
+    "depressed",
+    "those",
+    "are",
+    "some",
+    "of",
+    "the",
+    "things",
+    "that",
+    "you",
+    "should",
+    "think",
+    "about",
+    "doing."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 22,
+    "official_words": 22,
+    "observed_words": 22,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        21
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-wMB_hJL-3o_7.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99755859375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

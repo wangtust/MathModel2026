@@ -1,0 +1,290 @@
+{
+  "sample_id": "-RfYyzHpjk4_8",
+  "video_id": "-RfYyzHpjk4",
+  "clip_id": "8",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-RfYyzHpjk4/8.mp4",
+  "video_exists": true,
+  "official_text": "It's pretty, pretty easy to do but you got to set up those numbers ahead of time.",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "duration": 11.657,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.8823529411764706,
+  "word_audio_valid_fraction": 0.8823529411764706,
+  "word_vision_valid_fraction": 0.8823529411764706,
+  "sha256_video": "ed8c672c532b8c7d1c830c82d6e2c14fcb3bbd3dc1a86670a03a6c8e83c02f3c",
+  "word_count": 17,
+  "text_token_count": 23,
+  "audio_frames": 449,
+  "vision_frames": 10,
+  "decoded_frames": 137,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.738,
+      4.318
+    ]
+  ],
+  "asr_text": "pretty, pretty easy to do, but you've got to set up those numbers ahead of time.",
+  "asr_words": [
+    {
+      "word": "pretty,",
+      "start": 0.738,
+      "end": 0.999,
+      "score": 0.75
+    },
+    {
+      "word": "pretty",
+      "start": 1.04,
+      "end": 1.281,
+      "score": 0.925
+    },
+    {
+      "word": "easy",
+      "start": 1.361,
+      "end": 1.563,
+      "score": 0.917
+    },
+    {
+      "word": "to",
+      "start": 1.603,
+      "end": 1.663,
+      "score": 0.984
+    },
+    {
+      "word": "do,",
+      "start": 1.703,
+      "end": 1.864,
+      "score": 0.911
+    },
+    {
+      "word": "but",
+      "start": 1.925,
+      "end": 2.005,
+      "score": 0.999
+    },
+    {
+      "word": "you've",
+      "start": 2.025,
+      "end": 2.186,
+      "score": 0.919
+    },
+    {
+      "word": "got",
+      "start": 2.206,
+      "end": 2.327,
+      "score": 0.739
+    },
+    {
+      "word": "to",
+      "start": 2.347,
+      "end": 2.427,
+      "score": 0.648
+    },
+    {
+      "word": "set",
+      "start": 2.448,
+      "end": 2.649,
+      "score": 0.886
+    },
+    {
+      "word": "up",
+      "start": 2.709,
+      "end": 2.789,
+      "score": 0.863
+    },
+    {
+      "word": "those",
+      "start": 2.83,
+      "end": 3.011,
+      "score": 0.796
+    },
+    {
+      "word": "numbers",
+      "start": 3.051,
+      "end": 3.332,
+      "score": 0.893
+    },
+    {
+      "word": "ahead",
+      "start": 3.373,
+      "end": 3.574,
+      "score": 0.885
+    },
+    {
+      "word": "of",
+      "start": 3.614,
+      "end": 3.674,
+      "score": 0.752
+    },
+    {
+      "word": "time.",
+      "start": 3.735,
+      "end": 3.996,
+      "score": 0.953
+    }
+  ],
+  "official_words": [
+    "It's",
+    "pretty,",
+    "pretty",
+    "easy",
+    "to",
+    "do",
+    "but",
+    "you",
+    "got",
+    "to",
+    "set",
+    "up",
+    "those",
+    "numbers",
+    "ahead",
+    "of",
+    "time."
+  ],
+  "match": {
+    "coverage": 0.8823529411764706,
+    "trusted": true,
+    "matched_words": 15,
+    "official_words": 17,
+    "observed_words": 16,
+    "matched_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        11
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        15
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-RfYyzHpjk4_8.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99755859375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

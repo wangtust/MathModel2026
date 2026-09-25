@@ -1,0 +1,6 @@
+model:
+  name: mult
+  hidden_dim: 24
+training:
+  epochs: 8
+  regression_weight: 0.5

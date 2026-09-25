@@ -1,0 +1,359 @@
+{
+  "sample_id": "-UuX1xuaiiE_6",
+  "video_id": "-UuX1xuaiiE",
+  "clip_id": "6",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UuX1xuaiiE/6.mp4",
+  "video_exists": true,
+  "official_text": "I ended up going to work for the US government as an intelligence analyst, specializing in war crimes and human rights issues",
+  "label": -0.3333333432674408,
+  "annotation": "Negative",
+  "duration": 15.234,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": true,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9545454545454546,
+  "word_audio_valid_fraction": 0.9545454545454546,
+  "word_vision_valid_fraction": 0.5454545454545454,
+  "sha256_video": "f0131ac00e44410fbd32c547a0d421c2791172434fc0203bb969abe14a530532",
+  "word_count": 22,
+  "text_token_count": 25,
+  "audio_frames": 790,
+  "vision_frames": 16,
+  "decoded_frames": 240,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.514,
+      4.254
+    ],
+    [
+      4.578,
+      7.582
+    ]
+  ],
+  "asr_text": "I ended up going to work for the US government as an intelligence analyst specializing in war crimes and human rights issues.",
+  "asr_words": [
+    {
+      "word": "I",
+      "start": 0.574,
+      "end": 0.614,
+      "score": 0.955
+    },
+    {
+      "word": "ended",
+      "start": 0.654,
+      "end": 0.814,
+      "score": 0.583
+    },
+    {
+      "word": "up",
+      "start": 0.834,
+      "end": 0.914,
+      "score": 0.806
+    },
+    {
+      "word": "going",
+      "start": 0.934,
+      "end": 1.135,
+      "score": 0.84
+    },
+    {
+      "word": "to",
+      "start": 1.155,
+      "end": 1.235,
+      "score": 0.59
+    },
+    {
+      "word": "work",
+      "start": 1.275,
+      "end": 1.455,
+      "score": 0.875
+    },
+    {
+      "word": "for",
+      "start": 1.575,
+      "end": 1.815,
+      "score": 0.798
+    },
+    {
+      "word": "the",
+      "start": 1.856,
+      "end": 1.916,
+      "score": 0.988
+    },
+    {
+      "word": "US",
+      "start": 1.996,
+      "end": 2.216,
+      "score": 0.92
+    },
+    {
+      "word": "government",
+      "start": 2.256,
+      "end": 2.716,
+      "score": 0.706
+    },
+    {
+      "word": "as",
+      "start": 2.857,
+      "end": 2.957,
+      "score": 0.642
+    },
+    {
+      "word": "an",
+      "start": 2.997,
+      "end": 3.037,
+      "score": 0.976
+    },
+    {
+      "word": "intelligence",
+      "start": 3.077,
+      "end": 3.517,
+      "score": 0.88
+    },
+    {
+      "word": "analyst",
+      "start": 3.557,
+      "end": 4.018,
+      "score": 0.72
+    },
+    {
+      "word": "specializing",
+      "start": 5.019,
+      "end": 5.74,
+      "score": 0.886
+    },
+    {
+      "word": "in",
+      "start": 5.78,
+      "end": 5.88,
+      "score": 0.666
+    },
+    {
+      "word": "war",
+      "start": 5.92,
+      "end": 6.1,
+      "score": 0.604
+    },
+    {
+      "word": "crimes",
+      "start": 6.12,
+      "end": 6.381,
+      "score": 0.924
+    },
+    {
+      "word": "and",
+      "start": 6.421,
+      "end": 6.481,
+      "score": 0.003
+    },
+    {
+      "word": "human",
+      "start": 6.501,
+      "end": 6.701,
+      "score": 0.853
+    },
+    {
+      "word": "rights",
+      "start": 6.741,
+      "end": 6.901,
+      "score": 0.728
+    },
+    {
+      "word": "issues.",
+      "start": 6.961,
+      "end": 7.322,
+      "score": 0.562
+    }
+  ],
+  "official_words": [
+    "I",
+    "ended",
+    "up",
+    "going",
+    "to",
+    "work",
+    "for",
+    "the",
+    "US",
+    "government",
+    "as",
+    "an",
+    "intelligence",
+    "analyst,",
+    "specializing",
+    "in",
+    "war",
+    "crimes",
+    "and",
+    "human",
+    "rights",
+    "issues"
+  ],
+  "match": {
+    "coverage": 0.9545454545454546,
+    "trusted": true,
+    "matched_words": 21,
+    "official_words": 22,
+    "observed_words": 22,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        21
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-UuX1xuaiiE_6.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99658203125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

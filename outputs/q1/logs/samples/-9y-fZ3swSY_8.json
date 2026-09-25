@@ -1,0 +1,253 @@
+{
+  "sample_id": "-9y-fZ3swSY_8",
+  "video_id": "-9y-fZ3swSY",
+  "clip_id": "8",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-9y-fZ3swSY/8.mp4",
+  "video_exists": true,
+  "official_text": "That’s a more decent and more polite way to call a lady",
+  "label": 1.6666666269302368,
+  "annotation": "Positive",
+  "duration": 10.775,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9166666666666666,
+  "word_audio_valid_fraction": 0.9166666666666666,
+  "word_vision_valid_fraction": 0.25,
+  "sha256_video": "6140d031e614b62a5d8df73346fef2417c28cee3501310aa95aa40d358b4b256",
+  "word_count": 12,
+  "text_token_count": 16,
+  "audio_frames": 487,
+  "vision_frames": 10,
+  "decoded_frames": 149,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.29,
+      0.766
+    ],
+    [
+      0.898,
+      3.87
+    ],
+    [
+      3.97,
+      4.917
+    ]
+  ],
+  "asr_text": "That's a more decent and more polite way to call a lady.",
+  "asr_words": [
+    {
+      "word": "That's",
+      "start": 0.29,
+      "end": 0.47,
+      "score": 0.762
+    },
+    {
+      "word": "a",
+      "start": 0.57,
+      "end": 0.61,
+      "score": 0.713
+    },
+    {
+      "word": "more",
+      "start": 0.971,
+      "end": 1.191,
+      "score": 0.84
+    },
+    {
+      "word": "decent",
+      "start": 1.372,
+      "end": 1.812,
+      "score": 0.944
+    },
+    {
+      "word": "and",
+      "start": 2.093,
+      "end": 2.173,
+      "score": 0.904
+    },
+    {
+      "word": "more",
+      "start": 2.213,
+      "end": 2.333,
+      "score": 0.897
+    },
+    {
+      "word": "polite",
+      "start": 2.393,
+      "end": 2.854,
+      "score": 0.822
+    },
+    {
+      "word": "way",
+      "start": 2.934,
+      "end": 3.074,
+      "score": 0.979
+    },
+    {
+      "word": "to",
+      "start": 3.194,
+      "end": 3.295,
+      "score": 0.995
+    },
+    {
+      "word": "call",
+      "start": 3.355,
+      "end": 3.635,
+      "score": 0.835
+    },
+    {
+      "word": "a",
+      "start": 3.655,
+      "end": 3.675,
+      "score": 0.0
+    },
+    {
+      "word": "lady.",
+      "start": 4.096,
+      "end": 4.356,
+      "score": 0.924
+    }
+  ],
+  "official_words": [
+    "That’s",
+    "a",
+    "more",
+    "decent",
+    "and",
+    "more",
+    "polite",
+    "way",
+    "to",
+    "call",
+    "a",
+    "lady"
+  ],
+  "match": {
+    "coverage": 0.9166666666666666,
+    "trusted": true,
+    "matched_words": 11,
+    "official_words": 12,
+    "observed_words": 12,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        11,
+        11
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-9y-fZ3swSY_8.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99658203125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

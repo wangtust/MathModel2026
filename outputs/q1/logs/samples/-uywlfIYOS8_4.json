@@ -1,0 +1,321 @@
+{
+  "sample_id": "-uywlfIYOS8_4",
+  "video_id": "-uywlfIYOS8",
+  "clip_id": "4",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-uywlfIYOS8/4.mp4",
+  "video_exists": true,
+  "official_text": "And then from a brand point of view, we need to make sure we're driving the relevant insight.",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "duration": 14.334,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "fde46f5222cf5cfec7af9c93214c972ce2d686b0bf9c90a291021601968986f9",
+  "word_count": 18,
+  "text_token_count": 24,
+  "audio_frames": 584,
+  "vision_frames": 12,
+  "decoded_frames": 179,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.0,
+      5.881125
+    ]
+  ],
+  "asr_text": "And then from a brand point of view, we need to make sure that we're driving the relevant insight.",
+  "asr_words": [
+    {
+      "word": "And",
+      "start": 0.141,
+      "end": 1.164,
+      "score": 0.368
+    },
+    {
+      "word": "then",
+      "start": 1.184,
+      "end": 1.305,
+      "score": 0.984
+    },
+    {
+      "word": "from",
+      "start": 1.365,
+      "end": 1.505,
+      "score": 0.854
+    },
+    {
+      "word": "a",
+      "start": 1.546,
+      "end": 1.586,
+      "score": 0.496
+    },
+    {
+      "word": "brand",
+      "start": 1.686,
+      "end": 2.047,
+      "score": 0.913
+    },
+    {
+      "word": "point",
+      "start": 2.128,
+      "end": 2.348,
+      "score": 0.769
+    },
+    {
+      "word": "of",
+      "start": 2.389,
+      "end": 2.429,
+      "score": 0.984
+    },
+    {
+      "word": "view,",
+      "start": 2.469,
+      "end": 2.609,
+      "score": 0.994
+    },
+    {
+      "word": "we",
+      "start": 2.649,
+      "end": 2.77,
+      "score": 0.994
+    },
+    {
+      "word": "need",
+      "start": 2.83,
+      "end": 3.051,
+      "score": 0.82
+    },
+    {
+      "word": "to",
+      "start": 3.091,
+      "end": 3.171,
+      "score": 0.703
+    },
+    {
+      "word": "make",
+      "start": 3.211,
+      "end": 3.352,
+      "score": 0.932
+    },
+    {
+      "word": "sure",
+      "start": 3.412,
+      "end": 3.533,
+      "score": 0.865
+    },
+    {
+      "word": "that",
+      "start": 3.573,
+      "end": 3.673,
+      "score": 0.87
+    },
+    {
+      "word": "we're",
+      "start": 3.693,
+      "end": 3.874,
+      "score": 0.784
+    },
+    {
+      "word": "driving",
+      "start": 3.914,
+      "end": 4.215,
+      "score": 0.917
+    },
+    {
+      "word": "the",
+      "start": 4.255,
+      "end": 4.335,
+      "score": 0.833
+    },
+    {
+      "word": "relevant",
+      "start": 4.376,
+      "end": 4.717,
+      "score": 0.556
+    },
+    {
+      "word": "insight.",
+      "start": 4.877,
+      "end": 5.339,
+      "score": 0.968
+    }
+  ],
+  "official_words": [
+    "And",
+    "then",
+    "from",
+    "a",
+    "brand",
+    "point",
+    "of",
+    "view,",
+    "we",
+    "need",
+    "to",
+    "make",
+    "sure",
+    "we're",
+    "driving",
+    "the",
+    "relevant",
+    "insight."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 18,
+    "official_words": 18,
+    "observed_words": 19,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        17,
+        18
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-uywlfIYOS8_4.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9833984375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

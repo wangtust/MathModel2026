@@ -1,0 +1,10 @@
+model:
+  name: mrrf
+  variant: full
+  hidden_dim: 24
+training:
+  epochs: 30
+  regression_weight: 0.5
+  reconstruction_weight: 0.2
+  consistency_weight: 0.1
+  clean_probability: 0.15

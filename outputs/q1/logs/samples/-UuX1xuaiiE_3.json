@@ -1,0 +1,216 @@
+{
+  "sample_id": "-UuX1xuaiiE_3",
+  "video_id": "-UuX1xuaiiE",
+  "clip_id": "3",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UuX1xuaiiE/3.mp4",
+  "video_exists": true,
+  "official_text": "My goal is to become a human rights lawyer",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "duration": 10.634,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": true,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.8888888888888888,
+  "word_audio_valid_fraction": 0.8888888888888888,
+  "word_vision_valid_fraction": 0.6666666666666666,
+  "sha256_video": "eddb408f25bdc13e6de2fb74caeed709cb7a8f00640e7897135330437f66a2aa",
+  "word_count": 9,
+  "text_token_count": 11,
+  "audio_frames": 399,
+  "vision_frames": 9,
+  "decoded_frames": 123,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.002,
+      2.366
+    ],
+    [
+      2.562,
+      4.038375
+    ]
+  ],
+  "asr_text": "My goal is to become a human rights lawyer.",
+  "asr_words": [
+    {
+      "word": "My",
+      "start": 0.564,
+      "end": 0.665,
+      "score": 0.997
+    },
+    {
+      "word": "goal",
+      "start": 0.705,
+      "end": 1.026,
+      "score": 0.74
+    },
+    {
+      "word": "is",
+      "start": 1.227,
+      "end": 1.327,
+      "score": 0.818
+    },
+    {
+      "word": "to",
+      "start": 1.347,
+      "end": 1.387,
+      "score": 0.007
+    },
+    {
+      "word": "become",
+      "start": 1.729,
+      "end": 2.09,
+      "score": 0.897
+    },
+    {
+      "word": "a",
+      "start": 2.632,
+      "end": 2.673,
+      "score": 0.641
+    },
+    {
+      "word": "human",
+      "start": 2.713,
+      "end": 2.934,
+      "score": 0.854
+    },
+    {
+      "word": "rights",
+      "start": 2.974,
+      "end": 3.175,
+      "score": 0.825
+    },
+    {
+      "word": "lawyer.",
+      "start": 3.255,
+      "end": 3.536,
+      "score": 0.937
+    }
+  ],
+  "official_words": [
+    "My",
+    "goal",
+    "is",
+    "to",
+    "become",
+    "a",
+    "human",
+    "rights",
+    "lawyer"
+  ],
+  "match": {
+    "coverage": 0.8888888888888888,
+    "trusted": true,
+    "matched_words": 8,
+    "official_words": 9,
+    "observed_words": 9,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-UuX1xuaiiE_3.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.97607421875,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

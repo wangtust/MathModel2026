@@ -1,0 +1,576 @@
+{
+  "sample_id": "-dxfTGcXJoc_0",
+  "video_id": "-dxfTGcXJoc",
+  "clip_id": "0",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-dxfTGcXJoc/0.mp4",
+  "video_exists": true,
+  "official_text": "This is Governor Steve Beshear ... About Kentucky Our state is home to more than 1,500 bioscience and lifescience companies and more than 100,000 people who work for these firms, in areas from nutrigenomics and pharmaceuticals to nanotechnology and medical devices.",
+  "label": 1.0,
+  "annotation": "Positive",
+  "duration": 20.534,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.95,
+  "word_audio_valid_fraction": 0.926829268292683,
+  "word_vision_valid_fraction": 0.7317073170731707,
+  "sha256_video": "04bd0be907fb46c613f926fe1b06bc2c3b30881c293156510baa34a4105ade55",
+  "word_count": 41,
+  "text_token_count": 62,
+  "audio_frames": 2037,
+  "vision_frames": 41,
+  "decoded_frames": 615,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.546,
+      2.206
+    ],
+    [
+      2.53,
+      3.518
+    ],
+    [
+      4.354,
+      9.726
+    ],
+    [
+      9.986,
+      13.406
+    ],
+    [
+      13.826,
+      17.438
+    ],
+    [
+      17.634,
+      19.966
+    ]
+  ],
+  "asr_text": "This is Governor Steve Beshear, about Kentucky. Our state is home to more than 1,500 bioscience and life science companies and more than 100,000 people who work for these firms in areas from Neutrogenomics and pharmaceuticals to nanotechnology and medical devices.",
+  "asr_words": [
+    {
+      "word": "This",
+      "start": 0.566,
+      "end": 0.706,
+      "score": 0.906
+    },
+    {
+      "word": "is",
+      "start": 0.786,
+      "end": 0.846,
+      "score": 0.83
+    },
+    {
+      "word": "Governor",
+      "start": 0.906,
+      "end": 1.227,
+      "score": 0.801
+    },
+    {
+      "word": "Steve",
+      "start": 1.267,
+      "end": 1.587,
+      "score": 0.712
+    },
+    {
+      "word": "Beshear,",
+      "start": 1.607,
+      "end": 2.068,
+      "score": 0.715
+    },
+    {
+      "word": "about",
+      "start": 2.628,
+      "end": 2.868,
+      "score": 0.993
+    },
+    {
+      "word": "Kentucky.",
+      "start": 2.928,
+      "end": 3.429,
+      "score": 0.993
+    },
+    {
+      "word": "Our",
+      "start": 4.45,
+      "end": 4.57,
+      "score": 0.876
+    },
+    {
+      "word": "state",
+      "start": 4.63,
+      "end": 4.91,
+      "score": 0.95
+    },
+    {
+      "word": "is",
+      "start": 4.971,
+      "end": 5.051,
+      "score": 0.852
+    },
+    {
+      "word": "home",
+      "start": 5.151,
+      "end": 5.471,
+      "score": 0.817
+    },
+    {
+      "word": "to",
+      "start": 5.531,
+      "end": 5.651,
+      "score": 0.535
+    },
+    {
+      "word": "more",
+      "start": 5.711,
+      "end": 5.892,
+      "score": 0.876
+    },
+    {
+      "word": "than",
+      "start": 5.932,
+      "end": 6.092,
+      "score": 0.86
+    },
+    {
+      "word": "1,500",
+      "start": 6.112,
+      "end": 7.193,
+      "score": 0.754
+    },
+    {
+      "word": "bioscience",
+      "start": 7.273,
+      "end": 8.094,
+      "score": 0.766
+    },
+    {
+      "word": "and",
+      "start": 8.274,
+      "end": 8.374,
+      "score": 0.782
+    },
+    {
+      "word": "life",
+      "start": 8.454,
+      "end": 8.694,
+      "score": 0.994
+    },
+    {
+      "word": "science",
+      "start": 8.734,
+      "end": 9.055,
+      "score": 0.778
+    },
+    {
+      "word": "companies",
+      "start": 9.115,
+      "end": 9.535,
+      "score": 0.876
+    },
+    {
+      "word": "and",
+      "start": 10.076,
+      "end": 10.176,
+      "score": 0.809
+    },
+    {
+      "word": "more",
+      "start": 10.236,
+      "end": 10.376,
+      "score": 0.887
+    },
+    {
+      "word": "than",
+      "start": 10.416,
+      "end": 10.556,
+      "score": 0.868
+    },
+    {
+      "word": "100,000",
+      "start": 10.596,
+      "end": 11.537,
+      "score": 0.612
+    },
+    {
+      "word": "people",
+      "start": 11.577,
+      "end": 11.898,
+      "score": 0.706
+    },
+    {
+      "word": "who",
+      "start": 12.078,
+      "end": 12.218,
+      "score": 0.867
+    },
+    {
+      "word": "work",
+      "start": 12.278,
+      "end": 12.458,
+      "score": 0.915
+    },
+    {
+      "word": "for",
+      "start": 12.478,
+      "end": 12.578,
+      "score": 0.915
+    },
+    {
+      "word": "these",
+      "start": 12.618,
+      "end": 12.779,
+      "score": 0.894
+    },
+    {
+      "word": "firms",
+      "start": 12.839,
+      "end": 13.219,
+      "score": 0.798
+    },
+    {
+      "word": "in",
+      "start": 13.94,
+      "end": 14.04,
+      "score": 0.715
+    },
+    {
+      "word": "areas",
+      "start": 14.2,
+      "end": 14.56,
+      "score": 0.827
+    },
+    {
+      "word": "from",
+      "start": 14.641,
+      "end": 14.901,
+      "score": 0.524
+    },
+    {
+      "word": "Neutrogenomics",
+      "start": 15.201,
+      "end": 16.122,
+      "score": 0.882
+    },
+    {
+      "word": "and",
+      "start": 16.282,
+      "end": 16.382,
+      "score": 0.806
+    },
+    {
+      "word": "pharmaceuticals",
+      "start": 16.442,
+      "end": 17.263,
+      "score": 0.709
+    },
+    {
+      "word": "to",
+      "start": 17.664,
+      "end": 17.764,
+      "score": 0.62
+    },
+    {
+      "word": "nanotechnology",
+      "start": 17.804,
+      "end": 18.805,
+      "score": 0.922
+    },
+    {
+      "word": "and",
+      "start": 18.845,
+      "end": 18.925,
+      "score": 0.808
+    },
+    {
+      "word": "medical",
+      "start": 18.965,
+      "end": 19.265,
+      "score": 0.924
+    },
+    {
+      "word": "devices.",
+      "start": 19.305,
+      "end": 19.786,
+      "score": 0.955
+    }
+  ],
+  "official_words": [
+    "This",
+    "is",
+    "Governor",
+    "Steve",
+    "Beshear",
+    "...",
+    "About",
+    "Kentucky",
+    "Our",
+    "state",
+    "is",
+    "home",
+    "to",
+    "more",
+    "than",
+    "1,500",
+    "bioscience",
+    "and",
+    "lifescience",
+    "companies",
+    "and",
+    "more",
+    "than",
+    "100,000",
+    "people",
+    "who",
+    "work",
+    "for",
+    "these",
+    "firms,",
+    "in",
+    "areas",
+    "from",
+    "nutrigenomics",
+    "and",
+    "pharmaceuticals",
+    "to",
+    "nanotechnology",
+    "and",
+    "medical",
+    "devices."
+  ],
+  "match": {
+    "coverage": 0.95,
+    "trusted": true,
+    "matched_words": 38,
+    "official_words": 40,
+    "observed_words": 41,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        11
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        15
+      ],
+      [
+        17,
+        16
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        22,
+        22
+      ],
+      [
+        23,
+        23
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        25,
+        25
+      ],
+      [
+        26,
+        26
+      ],
+      [
+        27,
+        27
+      ],
+      [
+        28,
+        28
+      ],
+      [
+        29,
+        29
+      ],
+      [
+        30,
+        30
+      ],
+      [
+        31,
+        31
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        34,
+        34
+      ],
+      [
+        35,
+        35
+      ],
+      [
+        36,
+        36
+      ],
+      [
+        37,
+        37
+      ],
+      [
+        38,
+        38
+      ],
+      [
+        39,
+        39
+      ],
+      [
+        40,
+        40
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-dxfTGcXJoc_0.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99951171875,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

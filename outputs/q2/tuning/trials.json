@@ -1,0 +1,332 @@
+[
+  {
+    "number": 0,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 2.3586399722419837e-05,
+      "hidden_dim": 48,
+      "batch_size": 16,
+      "reconstruction_weight": 0.30121255168963623,
+      "consistency_weight": 0.39161473423788057
+    }
+  },
+  {
+    "number": 1,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 3.265116283304544e-05,
+      "hidden_dim": 96,
+      "batch_size": 32,
+      "reconstruction_weight": 0.36252188597717944,
+      "consistency_weight": 0.4616840410218094
+    }
+  },
+  {
+    "number": 2,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 1.1271369940194197e-05,
+      "hidden_dim": 96,
+      "batch_size": 16,
+      "reconstruction_weight": 0.2617030159757843,
+      "consistency_weight": 0.3412887415864622
+    }
+  },
+  {
+    "number": 3,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 0.000311921714832437,
+      "hidden_dim": 24,
+      "batch_size": 32,
+      "reconstruction_weight": 0.14323100009663986,
+      "consistency_weight": 0.22544178023707095
+    }
+  },
+  {
+    "number": 4,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 0.00039528555175284875,
+      "hidden_dim": 24,
+      "batch_size": 64,
+      "reconstruction_weight": 0.4345485572360555,
+      "consistency_weight": 0.042174393021099266
+    }
+  },
+  {
+    "number": 5,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 1.9442681472961145e-05,
+      "hidden_dim": 24,
+      "batch_size": 32,
+      "reconstruction_weight": 0.21746223813330096,
+      "consistency_weight": 0.33093627686854243
+    }
+  },
+  {
+    "number": 6,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 0.00013946753574075807,
+      "hidden_dim": 128,
+      "batch_size": 64,
+      "reconstruction_weight": 0.12569334147675845,
+      "consistency_weight": 0.17063511073756882
+    }
+  },
+  {
+    "number": 7,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 8.078246343702419e-05,
+      "hidden_dim": 48,
+      "batch_size": 16,
+      "reconstruction_weight": 0.41873948412876294,
+      "consistency_weight": 0.37570959741966736
+    }
+  },
+  {
+    "number": 8,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 2.9814308667049097e-05,
+      "hidden_dim": 96,
+      "batch_size": 64,
+      "reconstruction_weight": 0.43369321484649254,
+      "consistency_weight": 0.04674566511461714
+    }
+  },
+  {
+    "number": 9,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 0.00010355855660097431,
+      "hidden_dim": 24,
+      "batch_size": 16,
+      "reconstruction_weight": 0.4507692370950597,
+      "consistency_weight": 0.10129921282683818
+    }
+  },
+  {
+    "number": 10,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 4.302325800985752e-05,
+      "hidden_dim": 48,
+      "batch_size": 16,
+      "reconstruction_weight": 0.05428326832539046,
+      "consistency_weight": 0.45852303094541713
+    }
+  },
+  {
+    "number": 11,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 3.9535092230914244e-05,
+      "hidden_dim": 96,
+      "batch_size": 32,
+      "reconstruction_weight": 0.3494383430232716,
+      "consistency_weight": 0.49050107591877934
+    }
+  },
+  {
+    "number": 12,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 1.6779923026794483e-05,
+      "hidden_dim": 48,
+      "batch_size": 32,
+      "reconstruction_weight": 0.33728513936618776,
+      "consistency_weight": 0.4152108740251453
+    }
+  },
+  {
+    "number": 13,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 2.7136482295517884e-05,
+      "hidden_dim": 128,
+      "batch_size": 16,
+      "reconstruction_weight": 0.34942494844057764,
+      "consistency_weight": 0.28857020316748666
+    }
+  },
+  {
+    "number": 14,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 5.6577954795450674e-05,
+      "hidden_dim": 48,
+      "batch_size": 32,
+      "reconstruction_weight": 0.2878946806820907,
+      "consistency_weight": 0.42220985515445186
+    }
+  },
+  {
+    "number": 15,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 1.0187865677569468e-05,
+      "hidden_dim": 96,
+      "batch_size": 16,
+      "reconstruction_weight": 0.22270026699164175,
+      "consistency_weight": 0.49938305626271046
+    }
+  },
+  {
+    "number": 16,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 0.00017309121545378372,
+      "hidden_dim": 96,
+      "batch_size": 32,
+      "reconstruction_weight": 0.3019293978910676,
+      "consistency_weight": 0.26925715742430584
+    }
+  },
+  {
+    "number": 17,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 1.7536839353742014e-05,
+      "hidden_dim": 48,
+      "batch_size": 32,
+      "reconstruction_weight": 0.39694090961002304,
+      "consistency_weight": 0.3980756844436655
+    }
+  },
+  {
+    "number": 18,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 5.508721337381491e-05,
+      "hidden_dim": 128,
+      "batch_size": 16,
+      "reconstruction_weight": 0.38054732700069377,
+      "consistency_weight": 0.2056491863711717
+    }
+  },
+  {
+    "number": 19,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 2.793225602332724e-05,
+      "hidden_dim": 48,
+      "batch_size": 64,
+      "reconstruction_weight": 0.49930945779728086,
+      "consistency_weight": 0.3354241481438234
+    }
+  },
+  {
+    "number": 20,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 3.574066845334178e-05,
+      "hidden_dim": 96,
+      "batch_size": 32,
+      "reconstruction_weight": 0.23276966142851524,
+      "consistency_weight": 0.4489481023027691
+    }
+  },
+  {
+    "number": 21,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 1.074125757549719e-05,
+      "hidden_dim": 96,
+      "batch_size": 16,
+      "reconstruction_weight": 0.25263448239626585,
+      "consistency_weight": 0.35228565157423836
+    }
+  },
+  {
+    "number": 22,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 1.3708749834185647e-05,
+      "hidden_dim": 96,
+      "batch_size": 16,
+      "reconstruction_weight": 0.1694447069928065,
+      "consistency_weight": 0.29601776841996974
+    }
+  },
+  {
+    "number": 23,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 2.173557718468803e-05,
+      "hidden_dim": 96,
+      "batch_size": 16,
+      "reconstruction_weight": 0.31479349307270127,
+      "consistency_weight": 0.37831386752860774
+    }
+  },
+  {
+    "number": 24,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 1.4762168924953676e-05,
+      "hidden_dim": 96,
+      "batch_size": 16,
+      "reconstruction_weight": 0.2648190456576597,
+      "consistency_weight": 0.4539483269877272
+    }
+  },
+  {
+    "number": 25,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 2.404161317474285e-05,
+      "hidden_dim": 96,
+      "batch_size": 16,
+      "reconstruction_weight": 0.18487008616660422,
+      "consistency_weight": 0.3151790310583085
+    }
+  },
+  {
+    "number": 26,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 1.2932674704599137e-05,
+      "hidden_dim": 48,
+      "batch_size": 16,
+      "reconstruction_weight": 0.32384033259853007,
+      "consistency_weight": 0.36623073544884177
+    }
+  },
+  {
+    "number": 27,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 5.5014948469070995e-05,
+      "hidden_dim": 128,
+      "batch_size": 16,
+      "reconstruction_weight": 0.37416210005898803,
+      "consistency_weight": 0.42609872835598317
+    }
+  },
+  {
+    "number": 28,
+    "value": 0.414312008965725,
+    "params": {
+      "lr": 3.5407767347238365e-05,
+      "hidden_dim": 96,
+      "batch_size": 64,
+      "reconstruction_weight": 0.2789478491060779,
+      "consistency_weight": 0.47174955884236985
+    }
+  },
+  {
+    "number": 29,
+    "value": 0.41222212255250534,
+    "params": {
+      "lr": 0.00020447869306743777,
+      "hidden_dim": 24,
+      "batch_size": 32,
+      "reconstruction_weight": 0.13411531040327498,
+      "consistency_weight": 0.24808599062931358
+    }
+  }
+]

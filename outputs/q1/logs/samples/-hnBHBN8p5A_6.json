@@ -1,0 +1,208 @@
+{
+  "sample_id": "-hnBHBN8p5A_6",
+  "video_id": "-hnBHBN8p5A",
+  "clip_id": "6",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-hnBHBN8p5A/6.mp4",
+  "video_exists": true,
+  "official_text": "Discussion, how to discuss ideas and opinions more effectively than a native speaker",
+  "label": 1.0,
+  "annotation": "Positive",
+  "duration": 11.429,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": false,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": false,
+  "text_audio_status": "mismatch_candidate",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.07692307692307693,
+  "word_audio_valid_fraction": 0.0,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "997f6808ac3973ddd71800e91c8e10755c10b5037186d84348a79e00d672fdc7",
+  "word_count": 13,
+  "text_token_count": 16,
+  "audio_frames": 629,
+  "vision_frames": 13,
+  "decoded_frames": 153,
+  "source_fps": 23.976035631539084,
+  "speech_segments": [
+    [
+      0.418,
+      2.43
+    ],
+    [
+      3.906,
+      5.214
+    ],
+    [
+      5.666,
+      6.3328125
+    ]
+  ],
+  "asr_text": "to follow just one vision. I've never wondered how a single",
+  "asr_words": [
+    {
+      "word": "to",
+      "start": 0.538,
+      "end": 0.639,
+      "score": 0.871
+    },
+    {
+      "word": "follow",
+      "start": 0.699,
+      "end": 0.999,
+      "score": 0.914
+    },
+    {
+      "word": "just",
+      "start": 1.04,
+      "end": 1.28,
+      "score": 0.795
+    },
+    {
+      "word": "one",
+      "start": 1.601,
+      "end": 1.741,
+      "score": 0.696
+    },
+    {
+      "word": "vision.",
+      "start": 1.922,
+      "end": 2.223,
+      "score": 0.953
+    },
+    {
+      "word": "I've",
+      "start": 3.827,
+      "end": 4.007,
+      "score": 0.294
+    },
+    {
+      "word": "never",
+      "start": 4.027,
+      "end": 4.228,
+      "score": 0.748
+    },
+    {
+      "word": "wondered",
+      "start": 4.288,
+      "end": 4.609,
+      "score": 0.859
+    },
+    {
+      "word": "how",
+      "start": 4.669,
+      "end": 4.97,
+      "score": 0.808
+    },
+    {
+      "word": "a",
+      "start": 4.99,
+      "end": 5.01,
+      "score": 0.0
+    },
+    {
+      "word": "single",
+      "start": 5.892,
+      "end": 6.193,
+      "score": 0.93
+    }
+  ],
+  "official_words": [
+    "Discussion,",
+    "how",
+    "to",
+    "discuss",
+    "ideas",
+    "and",
+    "opinions",
+    "more",
+    "effectively",
+    "than",
+    "a",
+    "native",
+    "speaker"
+  ],
+  "match": {
+    "coverage": 0.07692307692307693,
+    "trusted": false,
+    "matched_words": 1,
+    "official_words": 13,
+    "observed_words": 11,
+    "matched_pairs": [
+      [
+        1,
+        8
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-hnBHBN8p5A_6.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.97802734375,
+  "text_language": "en",
+  "alignment_granularity": "none"
+}

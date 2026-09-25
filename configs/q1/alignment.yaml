@@ -1,0 +1,3 @@
+max_words: 80
+match_threshold: 0.55
+second_step: 1.0

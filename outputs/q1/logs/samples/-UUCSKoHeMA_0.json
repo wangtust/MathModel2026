@@ -1,0 +1,317 @@
+{
+  "sample_id": "-UUCSKoHeMA_0",
+  "video_id": "-UUCSKoHeMA",
+  "clip_id": "0",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UUCSKoHeMA/0.mp4",
+  "video_exists": true,
+  "official_text": "I mentioned a word in the last clip called 'monotone', and I want to talk about that briefly.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 7.867,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9444444444444444,
+  "word_audio_valid_fraction": 0.9444444444444444,
+  "word_vision_valid_fraction": 0.9444444444444444,
+  "sha256_video": "3f9792888ec8e969f61cfb6cb4de7bdf7ef8944afe0a9d2a9d13586e1f13b898",
+  "word_count": 18,
+  "text_token_count": 25,
+  "audio_frames": 769,
+  "vision_frames": 16,
+  "decoded_frames": 234,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      1.186,
+      7.73225
+    ]
+  ],
+  "asr_text": "Okay, I mentioned a word in the last clip called monotone, and I want to talk about that briefly.",
+  "asr_words": [
+    {
+      "word": "Okay,",
+      "start": 1.266,
+      "end": 1.506,
+      "score": 0.517
+    },
+    {
+      "word": "I",
+      "start": 1.546,
+      "end": 1.606,
+      "score": 0.457
+    },
+    {
+      "word": "mentioned",
+      "start": 1.646,
+      "end": 2.027,
+      "score": 0.918
+    },
+    {
+      "word": "a",
+      "start": 2.067,
+      "end": 2.087,
+      "score": 0.715
+    },
+    {
+      "word": "word",
+      "start": 2.127,
+      "end": 2.507,
+      "score": 0.768
+    },
+    {
+      "word": "in",
+      "start": 2.687,
+      "end": 2.767,
+      "score": 0.806
+    },
+    {
+      "word": "the",
+      "start": 2.807,
+      "end": 2.868,
+      "score": 0.981
+    },
+    {
+      "word": "last",
+      "start": 2.928,
+      "end": 3.248,
+      "score": 0.866
+    },
+    {
+      "word": "clip",
+      "start": 3.348,
+      "end": 3.668,
+      "score": 0.951
+    },
+    {
+      "word": "called",
+      "start": 3.748,
+      "end": 4.049,
+      "score": 0.888
+    },
+    {
+      "word": "monotone,",
+      "start": 4.189,
+      "end": 5.03,
+      "score": 0.893
+    },
+    {
+      "word": "and",
+      "start": 5.47,
+      "end": 5.55,
+      "score": 0.895
+    },
+    {
+      "word": "I",
+      "start": 5.57,
+      "end": 5.61,
+      "score": 0.491
+    },
+    {
+      "word": "want",
+      "start": 5.65,
+      "end": 5.79,
+      "score": 0.738
+    },
+    {
+      "word": "to",
+      "start": 5.81,
+      "end": 5.87,
+      "score": 0.891
+    },
+    {
+      "word": "talk",
+      "start": 5.93,
+      "end": 6.171,
+      "score": 0.874
+    },
+    {
+      "word": "about",
+      "start": 6.211,
+      "end": 6.451,
+      "score": 0.835
+    },
+    {
+      "word": "that",
+      "start": 6.491,
+      "end": 6.671,
+      "score": 0.763
+    },
+    {
+      "word": "briefly.",
+      "start": 6.731,
+      "end": 7.212,
+      "score": 0.835
+    }
+  ],
+  "official_words": [
+    "I",
+    "mentioned",
+    "a",
+    "word",
+    "in",
+    "the",
+    "last",
+    "clip",
+    "called",
+    "'monotone',",
+    "and",
+    "I",
+    "want",
+    "to",
+    "talk",
+    "about",
+    "that",
+    "briefly."
+  ],
+  "match": {
+    "coverage": 0.9444444444444444,
+    "trusted": true,
+    "matched_words": 17,
+    "official_words": 18,
+    "observed_words": 19,
+    "matched_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        17,
+        18
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-UUCSKoHeMA_0.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99365234375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

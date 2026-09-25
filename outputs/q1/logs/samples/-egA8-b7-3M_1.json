@@ -1,0 +1,351 @@
+{
+  "sample_id": "-egA8-b7-3M_1",
+  "video_id": "-egA8-b7-3M",
+  "clip_id": "1",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/1.mp4",
+  "video_exists": true,
+  "official_text": "I started a successful Legal Nurse Consulting Business in 1989. I mentor nurses who want to become Legal Nurse Consultants.",
+  "label": 0.6666666865348816,
+  "annotation": "Positive",
+  "duration": 11.534,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "589a7989b1b4888568c31614a2d6beefba88fb87289c85b94df2d8051500403b",
+  "word_count": 20,
+  "text_token_count": 24,
+  "audio_frames": 1011,
+  "vision_frames": 21,
+  "decoded_frames": 306,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.0,
+      4.254
+    ],
+    [
+      4.45,
+      5.95
+    ],
+    [
+      6.306,
+      9.726
+    ]
+  ],
+  "asr_text": "I have started a successful legal nurse consulting business in 1989. I mentor nurses who want to become legal nurse consultants.",
+  "asr_words": [
+    {
+      "word": "I",
+      "start": 0.08,
+      "end": 0.3,
+      "score": 0.601
+    },
+    {
+      "word": "have",
+      "start": 0.76,
+      "end": 0.941,
+      "score": 0.804
+    },
+    {
+      "word": "started",
+      "start": 1.281,
+      "end": 1.701,
+      "score": 0.883
+    },
+    {
+      "word": "a",
+      "start": 1.761,
+      "end": 1.781,
+      "score": 0.991
+    },
+    {
+      "word": "successful",
+      "start": 1.841,
+      "end": 2.442,
+      "score": 0.87
+    },
+    {
+      "word": "legal",
+      "start": 2.502,
+      "end": 2.742,
+      "score": 0.957
+    },
+    {
+      "word": "nurse",
+      "start": 2.782,
+      "end": 3.002,
+      "score": 0.745
+    },
+    {
+      "word": "consulting",
+      "start": 3.022,
+      "end": 3.542,
+      "score": 0.92
+    },
+    {
+      "word": "business",
+      "start": 3.582,
+      "end": 4.623,
+      "score": 0.914
+    },
+    {
+      "word": "in",
+      "start": 4.783,
+      "end": 5.143,
+      "score": 0.692
+    },
+    {
+      "word": "1989.",
+      "start": 5.203,
+      "end": 5.423,
+      "score": 0.712
+    },
+    {
+      "word": "I",
+      "start": 5.623,
+      "end": 5.744,
+      "score": 0.262
+    },
+    {
+      "word": "mentor",
+      "start": 6.544,
+      "end": 6.904,
+      "score": 0.748
+    },
+    {
+      "word": "nurses",
+      "start": 6.944,
+      "end": 7.325,
+      "score": 0.913
+    },
+    {
+      "word": "who",
+      "start": 7.365,
+      "end": 7.505,
+      "score": 0.916
+    },
+    {
+      "word": "want",
+      "start": 7.565,
+      "end": 7.805,
+      "score": 0.844
+    },
+    {
+      "word": "to",
+      "start": 7.845,
+      "end": 7.925,
+      "score": 0.729
+    },
+    {
+      "word": "become",
+      "start": 7.965,
+      "end": 8.265,
+      "score": 0.898
+    },
+    {
+      "word": "legal",
+      "start": 8.325,
+      "end": 8.565,
+      "score": 0.925
+    },
+    {
+      "word": "nurse",
+      "start": 8.585,
+      "end": 8.825,
+      "score": 0.741
+    },
+    {
+      "word": "consultants.",
+      "start": 8.865,
+      "end": 9.506,
+      "score": 0.875
+    }
+  ],
+  "official_words": [
+    "I",
+    "started",
+    "a",
+    "successful",
+    "Legal",
+    "Nurse",
+    "Consulting",
+    "Business",
+    "in",
+    "1989.",
+    "I",
+    "mentor",
+    "nurses",
+    "who",
+    "want",
+    "to",
+    "become",
+    "Legal",
+    "Nurse",
+    "Consultants."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 20,
+    "official_words": 20,
+    "observed_words": 21,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        19,
+        20
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-egA8-b7-3M_1.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.990234375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

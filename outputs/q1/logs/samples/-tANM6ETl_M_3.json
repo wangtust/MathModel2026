@@ -1,0 +1,349 @@
+{
+  "sample_id": "-tANM6ETl_M_3",
+  "video_id": "-tANM6ETl_M",
+  "clip_id": "3",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-tANM6ETl_M/3.mp4",
+  "video_exists": true,
+  "official_text": "The first place is either you have a prospect, or a customer who's never done it before, or they've never tried it.",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "duration": 9.1,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9545454545454546,
+  "word_audio_valid_fraction": 0.9545454545454546,
+  "word_vision_valid_fraction": 0.9545454545454546,
+  "sha256_video": "6d3af064c060dad3816a9e1dfa00101faebd8b7da7d8ceea85b0bc0fca70abd6",
+  "word_count": 22,
+  "text_token_count": 31,
+  "audio_frames": 656,
+  "vision_frames": 14,
+  "decoded_frames": 200,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.514,
+      6.174
+    ]
+  ],
+  "asr_text": "The first place is either you have a prospect or a customer who's never done it before. They've never tried it.",
+  "asr_words": [
+    {
+      "word": "The",
+      "start": 0.534,
+      "end": 0.654,
+      "score": 0.737
+    },
+    {
+      "word": "first",
+      "start": 0.695,
+      "end": 0.935,
+      "score": 0.729
+    },
+    {
+      "word": "place",
+      "start": 0.996,
+      "end": 1.317,
+      "score": 0.904
+    },
+    {
+      "word": "is",
+      "start": 1.397,
+      "end": 1.477,
+      "score": 0.781
+    },
+    {
+      "word": "either",
+      "start": 1.558,
+      "end": 1.778,
+      "score": 0.825
+    },
+    {
+      "word": "you",
+      "start": 1.859,
+      "end": 1.999,
+      "score": 0.958
+    },
+    {
+      "word": "have",
+      "start": 2.059,
+      "end": 2.22,
+      "score": 0.756
+    },
+    {
+      "word": "a",
+      "start": 2.28,
+      "end": 2.32,
+      "score": 0.5
+    },
+    {
+      "word": "prospect",
+      "start": 2.381,
+      "end": 2.902,
+      "score": 0.837
+    },
+    {
+      "word": "or",
+      "start": 2.963,
+      "end": 3.043,
+      "score": 0.811
+    },
+    {
+      "word": "a",
+      "start": 3.083,
+      "end": 3.103,
+      "score": 0.99
+    },
+    {
+      "word": "customer",
+      "start": 3.163,
+      "end": 3.525,
+      "score": 0.844
+    },
+    {
+      "word": "who's",
+      "start": 3.565,
+      "end": 3.725,
+      "score": 0.647
+    },
+    {
+      "word": "never",
+      "start": 3.906,
+      "end": 4.187,
+      "score": 0.797
+    },
+    {
+      "word": "done",
+      "start": 4.287,
+      "end": 4.488,
+      "score": 0.87
+    },
+    {
+      "word": "it",
+      "start": 4.528,
+      "end": 4.588,
+      "score": 0.75
+    },
+    {
+      "word": "before.",
+      "start": 4.669,
+      "end": 5.09,
+      "score": 0.877
+    },
+    {
+      "word": "They've",
+      "start": 5.13,
+      "end": 5.331,
+      "score": 0.888
+    },
+    {
+      "word": "never",
+      "start": 5.431,
+      "end": 5.672,
+      "score": 0.799
+    },
+    {
+      "word": "tried",
+      "start": 5.732,
+      "end": 6.013,
+      "score": 0.803
+    },
+    {
+      "word": "it.",
+      "start": 6.054,
+      "end": 6.114,
+      "score": 0.784
+    }
+  ],
+  "official_words": [
+    "The",
+    "first",
+    "place",
+    "is",
+    "either",
+    "you",
+    "have",
+    "a",
+    "prospect,",
+    "or",
+    "a",
+    "customer",
+    "who's",
+    "never",
+    "done",
+    "it",
+    "before,",
+    "or",
+    "they've",
+    "never",
+    "tried",
+    "it."
+  ],
+  "match": {
+    "coverage": 0.9545454545454546,
+    "trusted": true,
+    "matched_words": 21,
+    "official_words": 22,
+    "observed_words": 21,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        18,
+        17
+      ],
+      [
+        19,
+        18
+      ],
+      [
+        20,
+        19
+      ],
+      [
+        21,
+        20
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-tANM6ETl_M_3.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99658203125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

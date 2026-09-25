@@ -1,0 +1,100 @@
+{
+  "data_root": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条",
+  "n_manifest": 100,
+  "n_outputs": 100,
+  "n_audit_errors": 0,
+  "repositories": {
+    "MMSA-FET": {
+      "commit": "",
+      "local_patch": false
+    },
+    "TalkNet-ASD": {
+      "commit": "",
+      "local_patch": false
+    },
+    "silero-vad": {
+      "commit": "",
+      "local_patch": false
+    },
+    "whisperX": {
+      "commit": "",
+      "local_patch": false
+    },
+    "CMU-MultimodalSDK": {
+      "commit": "",
+      "local_patch": false
+    }
+  },
+  "software_versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.1",
+    "torch": "2.8.0",
+    "mediapipe": "1.0.1",
+    "opensmile": "2.5.1",
+    "transformers": "4.55.2",
+    "whisperx": "3.3.1",
+    "silero-vad": "6.2.3",
+    "opencv-python": "4.12.0.88",
+    "matplotlib": "3.10.5"
+  },
+  "asset_sha256": {
+    "blaze_face_full_range.tflite": "3698b18f063835bc609069ef052228fbe86d9c9a6dc8dcb7c7c2d69aed2b181b",
+    "punkt_tab.zip": "e57f64187974277726a3417ca6f181ec5403676c717672eef6a748a7b20e0106",
+    "face_landmarker.task": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff"
+  },
+  "cached_model_hashes": {
+    "bert-base-uncased": {
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "weight_sha256": "68d45e234eb4a928074dfd868cead0219ab85354cc53d20e772753c6bb9169d3"
+    },
+    "faster-whisper-base.en": {
+      "revision": "3d3d5dee26484f91867d81cb899cfcf72b96be6c",
+      "weight_sha256": "2a166925539a16005f14ff328359f9b9adb9dc4fb631bb3b227526862e93e2ef"
+    },
+    "faster-whisper-base-multilingual": {
+      "revision": "ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+      "weight_sha256": "d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9"
+    },
+    "faster-whisper-small-multilingual": {
+      "revision": "536b0662742c02347bc0e980a01041f333bce120",
+      "weight_sha256": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671"
+    },
+    "whisperx_en_align": {
+      "weight_sha256": "488fd4f16de84438ffc945334278c1b9fb9b7159a806c1080b16111a958c945d"
+    }
+  },
+  "models": {
+    "asr": "base.en",
+    "language_screen": "multilingual Whisper base",
+    "foreign_speech": "multilingual Whisper small",
+    "text": "bert-base-uncased",
+    "audio": "eGeMAPSv02 LowLevelDescriptors",
+    "vision": "MediaPipe Face Landmarker blendshapes"
+  },
+  "parameters": {
+    "vision_fps": 2.0,
+    "vad_threshold": 0.5,
+    "match_threshold": 0.55,
+    "max_words": 80,
+    "foreign_language_probability_threshold": 0.8
+  },
+  "case_ids": {
+    "typical": "-THoVjtIkeU_2",
+    "no_face": "-HwX2H8Z4hY_9",
+    "no_speech": "-mJ2ud6oKI8_2",
+    "mismatch": "-NFrJFQijFE_2",
+    "multiple_faces": "-UuX1xuaiiE_1",
+    "intermittent_face": "-HwX2H8Z4hY_2"
+  },
+  "journal_case_panels": 10,
+  "alignment_case_ids": [
+    "-UacrmKiTn4_4",
+    "-s9qJ7ATP7w_6",
+    "-THoVjtIkeU_2"
+  ],
+  "crosslingual_case_ids": [
+    "-yRb-Jum7EQ_1",
+    "-yRb-Jum7EQ_5",
+    "-yRb-Jum7EQ_6"
+  ]
+}

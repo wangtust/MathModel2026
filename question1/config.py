@@ -1,0 +1,12 @@
+from common.paths import ATTACHMENT1_DIR, Q1_OUTPUT_DIR, DATA_ROOT, PROCESSED_DIR, FEATURES_DIR
+PROJECT = __import__('pathlib').Path(__file__).resolve().parents[1]
+DATA = ATTACHMENT1_DIR / 'MOSEI数据集部分原始视频-100条'
+OUT = Q1_OUTPUT_DIR
+FPS = 2.0
+SECOND_STEP = 1.0
+MAX_WORDS = 80
+ASR_MODEL = 'base.en'
+ASR_DEVICE = 'cuda'
+ASR_COMPUTE = 'float16'
+MATCH_THRESHOLD = 0.55
+VAD_THRESHOLD = 0.5

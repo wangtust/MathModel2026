@@ -1,0 +1,315 @@
+{
+  "sample_id": "-I_e4mIh0yE_1",
+  "video_id": "-I_e4mIh0yE",
+  "clip_id": "1",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-I_e4mIh0yE/1.mp4",
+  "video_exists": true,
+  "official_text": "In the United States we don't punish failure to the degree to which failure is punished in Europe.",
+  "label": -0.6666666865348816,
+  "annotation": "Negative",
+  "duration": 10.767,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "8453a966d4bd1f0179eb86a35cd34c0864a3a3bc2fa86f37783060cc0d14f5df",
+  "word_count": 18,
+  "text_token_count": 23,
+  "audio_frames": 740,
+  "vision_frames": 15,
+  "decoded_frames": 225,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.002,
+      7.166
+    ]
+  ],
+  "asr_text": "In the United States, we don't punish failure to the degree to which failure is punished in Europe.",
+  "asr_words": [
+    {
+      "word": "In",
+      "start": 0.825,
+      "end": 0.885,
+      "score": 0.762
+    },
+    {
+      "word": "the",
+      "start": 0.905,
+      "end": 0.985,
+      "score": 0.833
+    },
+    {
+      "word": "United",
+      "start": 1.025,
+      "end": 1.306,
+      "score": 0.798
+    },
+    {
+      "word": "States,",
+      "start": 1.347,
+      "end": 1.607,
+      "score": 0.86
+    },
+    {
+      "word": "we",
+      "start": 1.648,
+      "end": 1.788,
+      "score": 0.984
+    },
+    {
+      "word": "don't",
+      "start": 1.868,
+      "end": 2.089,
+      "score": 0.82
+    },
+    {
+      "word": "punish",
+      "start": 2.209,
+      "end": 2.571,
+      "score": 0.701
+    },
+    {
+      "word": "failure",
+      "start": 2.651,
+      "end": 3.112,
+      "score": 0.796
+    },
+    {
+      "word": "to",
+      "start": 3.534,
+      "end": 3.654,
+      "score": 0.994
+    },
+    {
+      "word": "the",
+      "start": 3.694,
+      "end": 3.775,
+      "score": 0.836
+    },
+    {
+      "word": "degree",
+      "start": 3.795,
+      "end": 4.216,
+      "score": 0.92
+    },
+    {
+      "word": "to",
+      "start": 4.256,
+      "end": 4.357,
+      "score": 0.95
+    },
+    {
+      "word": "which",
+      "start": 4.437,
+      "end": 4.698,
+      "score": 0.797
+    },
+    {
+      "word": "failure",
+      "start": 4.918,
+      "end": 5.32,
+      "score": 0.799
+    },
+    {
+      "word": "is",
+      "start": 5.36,
+      "end": 5.44,
+      "score": 0.549
+    },
+    {
+      "word": "punished",
+      "start": 5.52,
+      "end": 5.902,
+      "score": 0.842
+    },
+    {
+      "word": "in",
+      "start": 6.323,
+      "end": 6.444,
+      "score": 0.73
+    },
+    {
+      "word": "Europe.",
+      "start": 6.664,
+      "end": 6.925,
+      "score": 0.909
+    }
+  ],
+  "official_words": [
+    "In",
+    "the",
+    "United",
+    "States",
+    "we",
+    "don't",
+    "punish",
+    "failure",
+    "to",
+    "the",
+    "degree",
+    "to",
+    "which",
+    "failure",
+    "is",
+    "punished",
+    "in",
+    "Europe."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 18,
+    "official_words": 18,
+    "observed_words": 18,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-I_e4mIh0yE_1.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.98876953125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

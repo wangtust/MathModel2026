@@ -1,0 +1,476 @@
+{
+  "sample_id": "-3g5yACwYnA_3",
+  "video_id": "-3g5yACwYnA",
+  "clip_id": "3",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-3g5yACwYnA/3.mp4",
+  "video_exists": true,
+  "official_text": "We're a huge user of adhesives for our operation, called flocking, and we don't have the technical inside compounding or the technical expertise to do these types of things.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 19.273,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9655172413793104,
+  "word_audio_valid_fraction": 0.9655172413793104,
+  "word_vision_valid_fraction": 0.9655172413793104,
+  "sha256_video": "eff8cfefba2425155f2b72656829b34b23be8bfe1dcbece384154f56818aa26d",
+  "word_count": 29,
+  "text_token_count": 42,
+  "audio_frames": 1428,
+  "vision_frames": 29,
+  "decoded_frames": 431,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.098,
+      1.95
+    ],
+    [
+      2.146,
+      3.806
+    ],
+    [
+      4.226,
+      5.406
+    ],
+    [
+      5.634,
+      12.606
+    ],
+    [
+      12.866,
+      13.566
+    ],
+    [
+      13.666,
+      14.327875
+    ]
+  ],
+  "asr_text": "we're a huge user of adhesives for our operation called flocking and we don't have the technical inside-in from compounding or the technical expertise to do these types of things, so key brings",
+  "asr_words": [
+    {
+      "word": "we're",
+      "start": 0.598,
+      "end": 1.019,
+      "score": 0.756
+    },
+    {
+      "word": "a",
+      "start": 1.239,
+      "end": 1.299,
+      "score": 0.846
+    },
+    {
+      "word": "huge",
+      "start": 1.359,
+      "end": 1.739,
+      "score": 0.86
+    },
+    {
+      "word": "user",
+      "start": 2.64,
+      "end": 2.92,
+      "score": 0.76
+    },
+    {
+      "word": "of",
+      "start": 2.98,
+      "end": 3.04,
+      "score": 0.968
+    },
+    {
+      "word": "adhesives",
+      "start": 3.08,
+      "end": 3.54,
+      "score": 0.438
+    },
+    {
+      "word": "for",
+      "start": 4.201,
+      "end": 4.441,
+      "score": 0.848
+    },
+    {
+      "word": "our",
+      "start": 4.581,
+      "end": 4.681,
+      "score": 0.945
+    },
+    {
+      "word": "operation",
+      "start": 4.741,
+      "end": 5.242,
+      "score": 0.871
+    },
+    {
+      "word": "called",
+      "start": 5.662,
+      "end": 5.842,
+      "score": 0.719
+    },
+    {
+      "word": "flocking",
+      "start": 5.862,
+      "end": 6.282,
+      "score": 0.76
+    },
+    {
+      "word": "and",
+      "start": 6.603,
+      "end": 6.743,
+      "score": 0.7
+    },
+    {
+      "word": "we",
+      "start": 7.023,
+      "end": 7.103,
+      "score": 0.986
+    },
+    {
+      "word": "don't",
+      "start": 7.143,
+      "end": 7.263,
+      "score": 0.888
+    },
+    {
+      "word": "have",
+      "start": 7.283,
+      "end": 7.383,
+      "score": 0.862
+    },
+    {
+      "word": "the",
+      "start": 7.403,
+      "end": 7.483,
+      "score": 0.806
+    },
+    {
+      "word": "technical",
+      "start": 7.523,
+      "end": 7.944,
+      "score": 0.892
+    },
+    {
+      "word": "inside-in",
+      "start": 8.384,
+      "end": 8.764,
+      "score": 0.859
+    },
+    {
+      "word": "from",
+      "start": 8.784,
+      "end": 8.984,
+      "score": 0.765
+    },
+    {
+      "word": "compounding",
+      "start": 9.425,
+      "end": 10.005,
+      "score": 0.904
+    },
+    {
+      "word": "or",
+      "start": 10.205,
+      "end": 10.305,
+      "score": 0.635
+    },
+    {
+      "word": "the",
+      "start": 10.345,
+      "end": 10.425,
+      "score": 0.83
+    },
+    {
+      "word": "technical",
+      "start": 10.465,
+      "end": 10.806,
+      "score": 0.775
+    },
+    {
+      "word": "expertise",
+      "start": 10.846,
+      "end": 11.306,
+      "score": 0.677
+    },
+    {
+      "word": "to",
+      "start": 11.326,
+      "end": 11.406,
+      "score": 0.79
+    },
+    {
+      "word": "do",
+      "start": 11.426,
+      "end": 11.546,
+      "score": 0.94
+    },
+    {
+      "word": "these",
+      "start": 11.586,
+      "end": 11.726,
+      "score": 0.916
+    },
+    {
+      "word": "types",
+      "start": 11.766,
+      "end": 11.966,
+      "score": 0.908
+    },
+    {
+      "word": "of",
+      "start": 12.006,
+      "end": 12.066,
+      "score": 0.977
+    },
+    {
+      "word": "things,",
+      "start": 12.106,
+      "end": 12.347,
+      "score": 0.916
+    },
+    {
+      "word": "so",
+      "start": 12.927,
+      "end": 13.447,
+      "score": 0.914
+    },
+    {
+      "word": "key",
+      "start": 13.888,
+      "end": 14.028,
+      "score": 0.899
+    },
+    {
+      "word": "brings",
+      "start": 14.068,
+      "end": 14.308,
+      "score": 0.771
+    }
+  ],
+  "official_words": [
+    "We're",
+    "a",
+    "huge",
+    "user",
+    "of",
+    "adhesives",
+    "for",
+    "our",
+    "operation,",
+    "called",
+    "flocking,",
+    "and",
+    "we",
+    "don't",
+    "have",
+    "the",
+    "technical",
+    "inside",
+    "compounding",
+    "or",
+    "the",
+    "technical",
+    "expertise",
+    "to",
+    "do",
+    "these",
+    "types",
+    "of",
+    "things."
+  ],
+  "match": {
+    "coverage": 0.9655172413793104,
+    "trusted": true,
+    "matched_words": 28,
+    "official_words": 29,
+    "observed_words": 33,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        19,
+        20
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        21,
+        22
+      ],
+      [
+        22,
+        23
+      ],
+      [
+        23,
+        24
+      ],
+      [
+        24,
+        25
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        26,
+        27
+      ],
+      [
+        27,
+        28
+      ],
+      [
+        28,
+        29
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-3g5yACwYnA_3.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.994140625,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

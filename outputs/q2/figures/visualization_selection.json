@@ -1,0 +1,12 @@
+{
+  "selected_variant": "no_recon",
+  "validation_selection_scores": {
+    "baseline": 0.3798817584058651,
+    "full": 0.4047105014674828,
+    "no_recon": 0.40961030972346607
+  },
+  "selection_basis": "three_seed_validation_mean",
+  "selection_rule": "Across three training seeds, average each seed's clean and audio+vision 30% validation macro_f1 - mae/3",
+  "prediction_checkpoint_seed": 2026,
+  "prediction_file": "/root/MathModel_restructured/outputs/q2/runs/mrrf/no_recon/seed_2026/attachment3_predictions_mrrf.csv"
+}

@@ -1,0 +1,271 @@
+{
+  "sample_id": "-UacrmKiTn4_4",
+  "video_id": "-UacrmKiTn4",
+  "clip_id": "4",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UacrmKiTn4/4.mp4",
+  "video_exists": true,
+  "official_text": "Just given to their own devices they are not going to read the textbook.",
+  "label": -1.3333333730697632,
+  "annotation": "Negative",
+  "duration": 6.223,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "a7f2ab0d6ee2e2a2d5cd4239f03e6cac67c618ddb744891323df3ff87e29af84",
+  "word_count": 14,
+  "text_token_count": 17,
+  "audio_frames": 464,
+  "vision_frames": 10,
+  "decoded_frames": 142,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.514,
+      4.254
+    ]
+  ],
+  "asr_text": "Just given to their own devices, they are not going to read the textbook.",
+  "asr_words": [
+    {
+      "word": "Just",
+      "start": 0.534,
+      "end": 0.715,
+      "score": 0.905
+    },
+    {
+      "word": "given",
+      "start": 0.755,
+      "end": 0.976,
+      "score": 0.992
+    },
+    {
+      "word": "to",
+      "start": 1.037,
+      "end": 1.097,
+      "score": 0.971
+    },
+    {
+      "word": "their",
+      "start": 1.157,
+      "end": 1.318,
+      "score": 0.782
+    },
+    {
+      "word": "own",
+      "start": 1.379,
+      "end": 1.499,
+      "score": 0.729
+    },
+    {
+      "word": "devices,",
+      "start": 1.539,
+      "end": 2.143,
+      "score": 0.877
+    },
+    {
+      "word": "they",
+      "start": 2.183,
+      "end": 2.324,
+      "score": 0.995
+    },
+    {
+      "word": "are",
+      "start": 2.364,
+      "end": 2.464,
+      "score": 0.788
+    },
+    {
+      "word": "not",
+      "start": 2.525,
+      "end": 2.726,
+      "score": 0.711
+    },
+    {
+      "word": "going",
+      "start": 2.766,
+      "end": 3.027,
+      "score": 0.889
+    },
+    {
+      "word": "to",
+      "start": 3.088,
+      "end": 3.168,
+      "score": 0.955
+    },
+    {
+      "word": "read",
+      "start": 3.249,
+      "end": 3.409,
+      "score": 0.874
+    },
+    {
+      "word": "the",
+      "start": 3.45,
+      "end": 3.53,
+      "score": 0.829
+    },
+    {
+      "word": "textbook.",
+      "start": 3.57,
+      "end": 4.133,
+      "score": 0.91
+    }
+  ],
+  "official_words": [
+    "Just",
+    "given",
+    "to",
+    "their",
+    "own",
+    "devices",
+    "they",
+    "are",
+    "not",
+    "going",
+    "to",
+    "read",
+    "the",
+    "textbook."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 14,
+    "official_words": 14,
+    "observed_words": 14,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-UacrmKiTn4_4.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9951171875,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

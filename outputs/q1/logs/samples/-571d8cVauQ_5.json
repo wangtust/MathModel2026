@@ -1,0 +1,610 @@
+{
+  "sample_id": "-571d8cVauQ_5",
+  "video_id": "-571d8cVauQ",
+  "clip_id": "5",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-571d8cVauQ/5.mp4",
+  "video_exists": true,
+  "official_text": "So very important to go out to the locations, walk around, talk with the owners if you can, tell them what you're doing, build a little excitement, put a little glitz on there and let everybody knows this is a very valuable spot.",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "duration": 18.5,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9767441860465116,
+  "word_audio_valid_fraction": 0.9767441860465116,
+  "word_vision_valid_fraction": 0.9767441860465116,
+  "sha256_video": "e304c03fac1f477823fe0926c4fb421b9c4e4091f85718b729afe856c24a7d3e",
+  "word_count": 43,
+  "text_token_count": 54,
+  "audio_frames": 1507,
+  "vision_frames": 31,
+  "decoded_frames": 455,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.514,
+      2.238
+    ],
+    [
+      2.434,
+      6.334
+    ],
+    [
+      6.434,
+      7.55
+    ],
+    [
+      7.65,
+      8.99
+    ],
+    [
+      9.41,
+      10.814
+    ],
+    [
+      11.17,
+      12.478
+    ],
+    [
+      12.706,
+      15.11525
+    ]
+  ],
+  "asr_text": "So very important to go out to the locations, walk around, talk with the owners if you can, tell them what you're doing, build a little excitement, put a little glitz on there, and let everybody know this is a very valuable spot.",
+  "asr_words": [
+    {
+      "word": "So",
+      "start": 0.554,
+      "end": 0.714,
+      "score": 0.972
+    },
+    {
+      "word": "very",
+      "start": 0.774,
+      "end": 0.995,
+      "score": 0.707
+    },
+    {
+      "word": "important",
+      "start": 1.035,
+      "end": 1.395,
+      "score": 0.856
+    },
+    {
+      "word": "to",
+      "start": 1.415,
+      "end": 1.455,
+      "score": 0.679
+    },
+    {
+      "word": "go",
+      "start": 1.616,
+      "end": 1.776,
+      "score": 0.835
+    },
+    {
+      "word": "out",
+      "start": 1.916,
+      "end": 2.036,
+      "score": 0.782
+    },
+    {
+      "word": "to",
+      "start": 2.457,
+      "end": 2.637,
+      "score": 0.876
+    },
+    {
+      "word": "the",
+      "start": 2.657,
+      "end": 2.737,
+      "score": 0.812
+    },
+    {
+      "word": "locations,",
+      "start": 2.797,
+      "end": 3.398,
+      "score": 0.909
+    },
+    {
+      "word": "walk",
+      "start": 3.799,
+      "end": 4.079,
+      "score": 0.858
+    },
+    {
+      "word": "around,",
+      "start": 4.139,
+      "end": 4.5,
+      "score": 0.818
+    },
+    {
+      "word": "talk",
+      "start": 4.74,
+      "end": 4.98,
+      "score": 0.916
+    },
+    {
+      "word": "with",
+      "start": 5.0,
+      "end": 5.121,
+      "score": 0.876
+    },
+    {
+      "word": "the",
+      "start": 5.141,
+      "end": 5.241,
+      "score": 0.822
+    },
+    {
+      "word": "owners",
+      "start": 5.341,
+      "end": 5.581,
+      "score": 0.814
+    },
+    {
+      "word": "if",
+      "start": 5.661,
+      "end": 5.721,
+      "score": 0.768
+    },
+    {
+      "word": "you",
+      "start": 5.742,
+      "end": 5.862,
+      "score": 0.852
+    },
+    {
+      "word": "can,",
+      "start": 5.882,
+      "end": 6.162,
+      "score": 0.878
+    },
+    {
+      "word": "tell",
+      "start": 6.483,
+      "end": 6.663,
+      "score": 0.881
+    },
+    {
+      "word": "them",
+      "start": 6.703,
+      "end": 6.823,
+      "score": 0.95
+    },
+    {
+      "word": "what",
+      "start": 6.863,
+      "end": 6.983,
+      "score": 0.886
+    },
+    {
+      "word": "you're",
+      "start": 7.003,
+      "end": 7.164,
+      "score": 0.923
+    },
+    {
+      "word": "doing,",
+      "start": 7.184,
+      "end": 7.424,
+      "score": 0.899
+    },
+    {
+      "word": "build",
+      "start": 7.704,
+      "end": 7.945,
+      "score": 0.799
+    },
+    {
+      "word": "a",
+      "start": 7.985,
+      "end": 8.005,
+      "score": 0.984
+    },
+    {
+      "word": "little",
+      "start": 8.065,
+      "end": 8.285,
+      "score": 0.835
+    },
+    {
+      "word": "excitement,",
+      "start": 8.345,
+      "end": 8.866,
+      "score": 0.894
+    },
+    {
+      "word": "put",
+      "start": 9.427,
+      "end": 9.567,
+      "score": 0.46
+    },
+    {
+      "word": "a",
+      "start": 9.587,
+      "end": 9.607,
+      "score": 0.49
+    },
+    {
+      "word": "little",
+      "start": 9.647,
+      "end": 9.827,
+      "score": 0.921
+    },
+    {
+      "word": "glitz",
+      "start": 9.867,
+      "end": 10.168,
+      "score": 0.64
+    },
+    {
+      "word": "on",
+      "start": 10.288,
+      "end": 10.388,
+      "score": 0.734
+    },
+    {
+      "word": "there,",
+      "start": 10.428,
+      "end": 10.649,
+      "score": 0.838
+    },
+    {
+      "word": "and",
+      "start": 11.249,
+      "end": 11.37,
+      "score": 0.853
+    },
+    {
+      "word": "let",
+      "start": 11.55,
+      "end": 11.71,
+      "score": 0.785
+    },
+    {
+      "word": "everybody",
+      "start": 11.73,
+      "end": 12.091,
+      "score": 0.774
+    },
+    {
+      "word": "know",
+      "start": 12.131,
+      "end": 12.291,
+      "score": 0.878
+    },
+    {
+      "word": "this",
+      "start": 12.752,
+      "end": 12.932,
+      "score": 0.993
+    },
+    {
+      "word": "is",
+      "start": 13.012,
+      "end": 13.112,
+      "score": 0.744
+    },
+    {
+      "word": "a",
+      "start": 13.172,
+      "end": 13.232,
+      "score": 0.421
+    },
+    {
+      "word": "very",
+      "start": 13.332,
+      "end": 13.593,
+      "score": 0.788
+    },
+    {
+      "word": "valuable",
+      "start": 13.713,
+      "end": 14.194,
+      "score": 0.762
+    },
+    {
+      "word": "spot.",
+      "start": 14.254,
+      "end": 14.534,
+      "score": 0.979
+    }
+  ],
+  "official_words": [
+    "So",
+    "very",
+    "important",
+    "to",
+    "go",
+    "out",
+    "to",
+    "the",
+    "locations,",
+    "walk",
+    "around,",
+    "talk",
+    "with",
+    "the",
+    "owners",
+    "if",
+    "you",
+    "can,",
+    "tell",
+    "them",
+    "what",
+    "you're",
+    "doing,",
+    "build",
+    "a",
+    "little",
+    "excitement,",
+    "put",
+    "a",
+    "little",
+    "glitz",
+    "on",
+    "there",
+    "and",
+    "let",
+    "everybody",
+    "knows",
+    "this",
+    "is",
+    "a",
+    "very",
+    "valuable",
+    "spot."
+  ],
+  "match": {
+    "coverage": 0.9767441860465116,
+    "trusted": true,
+    "matched_words": 42,
+    "official_words": 43,
+    "observed_words": 43,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        22,
+        22
+      ],
+      [
+        23,
+        23
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        25,
+        25
+      ],
+      [
+        26,
+        26
+      ],
+      [
+        27,
+        27
+      ],
+      [
+        28,
+        28
+      ],
+      [
+        29,
+        29
+      ],
+      [
+        30,
+        30
+      ],
+      [
+        31,
+        31
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        33,
+        33
+      ],
+      [
+        34,
+        34
+      ],
+      [
+        35,
+        35
+      ],
+      [
+        37,
+        37
+      ],
+      [
+        38,
+        38
+      ],
+      [
+        39,
+        39
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        41,
+        41
+      ],
+      [
+        42,
+        42
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-571d8cVauQ_5.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99658203125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

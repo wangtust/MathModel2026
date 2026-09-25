@@ -1,0 +1,343 @@
+{
+  "sample_id": "-wny0OAz3g8_3",
+  "video_id": "-wny0OAz3g8",
+  "clip_id": "3",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/3.mp4",
+  "video_exists": true,
+  "official_text": "Which then allowed the white workers and unions to justify their decision to not allow black workers into their union",
+  "label": -1.3333333730697632,
+  "annotation": "Negative",
+  "duration": 11.169,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "ea917c506bc9fa39460f2b722f7c416f646312bb17cd74baa618905b54837bce",
+  "word_count": 20,
+  "text_token_count": 22,
+  "audio_frames": 605,
+  "vision_frames": 13,
+  "decoded_frames": 184,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.002,
+      6.099875
+    ]
+  ],
+  "asr_text": "behavior, which then allowed the white workers and unions to justify their decision to not allow black workers into their union.",
+  "asr_words": [
+    {
+      "word": "behavior,",
+      "start": 0.102,
+      "end": 0.503,
+      "score": 0.864
+    },
+    {
+      "word": "which",
+      "start": 0.544,
+      "end": 0.684,
+      "score": 0.816
+    },
+    {
+      "word": "then",
+      "start": 0.724,
+      "end": 0.885,
+      "score": 0.912
+    },
+    {
+      "word": "allowed",
+      "start": 0.945,
+      "end": 1.165,
+      "score": 0.929
+    },
+    {
+      "word": "the",
+      "start": 1.185,
+      "end": 1.266,
+      "score": 0.832
+    },
+    {
+      "word": "white",
+      "start": 1.286,
+      "end": 1.446,
+      "score": 0.896
+    },
+    {
+      "word": "workers",
+      "start": 1.486,
+      "end": 1.767,
+      "score": 0.881
+    },
+    {
+      "word": "and",
+      "start": 1.807,
+      "end": 1.888,
+      "score": 0.689
+    },
+    {
+      "word": "unions",
+      "start": 1.948,
+      "end": 2.209,
+      "score": 0.703
+    },
+    {
+      "word": "to",
+      "start": 2.249,
+      "end": 2.349,
+      "score": 0.792
+    },
+    {
+      "word": "justify",
+      "start": 2.409,
+      "end": 2.85,
+      "score": 0.799
+    },
+    {
+      "word": "their",
+      "start": 2.891,
+      "end": 3.011,
+      "score": 0.921
+    },
+    {
+      "word": "decision",
+      "start": 3.031,
+      "end": 3.352,
+      "score": 0.832
+    },
+    {
+      "word": "to",
+      "start": 3.372,
+      "end": 3.472,
+      "score": 0.837
+    },
+    {
+      "word": "not",
+      "start": 3.532,
+      "end": 3.713,
+      "score": 0.745
+    },
+    {
+      "word": "allow",
+      "start": 3.773,
+      "end": 3.994,
+      "score": 0.837
+    },
+    {
+      "word": "black",
+      "start": 4.054,
+      "end": 4.275,
+      "score": 0.909
+    },
+    {
+      "word": "workers",
+      "start": 4.315,
+      "end": 4.656,
+      "score": 0.908
+    },
+    {
+      "word": "into",
+      "start": 4.836,
+      "end": 5.037,
+      "score": 0.768
+    },
+    {
+      "word": "their",
+      "start": 5.077,
+      "end": 5.217,
+      "score": 0.846
+    },
+    {
+      "word": "union.",
+      "start": 5.338,
+      "end": 5.558,
+      "score": 0.858
+    }
+  ],
+  "official_words": [
+    "Which",
+    "then",
+    "allowed",
+    "the",
+    "white",
+    "workers",
+    "and",
+    "unions",
+    "to",
+    "justify",
+    "their",
+    "decision",
+    "to",
+    "not",
+    "allow",
+    "black",
+    "workers",
+    "into",
+    "their",
+    "union"
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 20,
+    "official_words": 20,
+    "observed_words": 21,
+    "matched_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        19,
+        20
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-wny0OAz3g8_3.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9853515625,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

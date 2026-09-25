@@ -1,0 +1,293 @@
+{
+  "sample_id": "-aqamKhZ1Ec_0",
+  "video_id": "-aqamKhZ1Ec",
+  "clip_id": "0",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-aqamKhZ1Ec/0.mp4",
+  "video_exists": true,
+  "official_text": "In 2008, there were very serious tribal warfare in Kenya following a disputed election.",
+  "label": -2.0,
+  "annotation": "Negative",
+  "duration": 11.0,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.8571428571428571,
+  "word_audio_valid_fraction": 0.8571428571428571,
+  "word_vision_valid_fraction": 0.8571428571428571,
+  "sha256_video": "6f6e674bbba4353399e9e7825217f37e6d8ca1adf9675f33cf37106f31c55548",
+  "word_count": 14,
+  "text_token_count": 18,
+  "audio_frames": 1085,
+  "vision_frames": 22,
+  "decoded_frames": 329,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.386,
+      1.822
+    ],
+    [
+      2.53,
+      5.694
+    ],
+    [
+      5.986,
+      6.75
+    ],
+    [
+      6.882,
+      10.8901875
+    ]
+  ],
+  "asr_text": "In 2008 there were very serious tribal warfare in Kenya and even as the following disputed elections.",
+  "asr_words": [
+    {
+      "word": "In",
+      "start": 0.406,
+      "end": 0.526,
+      "score": 0.666
+    },
+    {
+      "word": "2008",
+      "start": 0.607,
+      "end": 2.812,
+      "score": 0.828
+    },
+    {
+      "word": "there",
+      "start": 2.872,
+      "end": 3.012,
+      "score": 0.889
+    },
+    {
+      "word": "were",
+      "start": 3.052,
+      "end": 3.172,
+      "score": 0.826
+    },
+    {
+      "word": "very",
+      "start": 3.253,
+      "end": 3.553,
+      "score": 0.815
+    },
+    {
+      "word": "serious",
+      "start": 3.633,
+      "end": 4.094,
+      "score": 0.877
+    },
+    {
+      "word": "tribal",
+      "start": 4.175,
+      "end": 4.636,
+      "score": 0.542
+    },
+    {
+      "word": "warfare",
+      "start": 4.736,
+      "end": 5.297,
+      "score": 0.836
+    },
+    {
+      "word": "in",
+      "start": 5.458,
+      "end": 5.558,
+      "score": 0.927
+    },
+    {
+      "word": "Kenya",
+      "start": 5.979,
+      "end": 6.36,
+      "score": 0.728
+    },
+    {
+      "word": "and",
+      "start": 7.041,
+      "end": 7.562,
+      "score": 0.823
+    },
+    {
+      "word": "even",
+      "start": 7.743,
+      "end": 7.903,
+      "score": 0.965
+    },
+    {
+      "word": "as",
+      "start": 8.003,
+      "end": 8.104,
+      "score": 0.76
+    },
+    {
+      "word": "the",
+      "start": 8.144,
+      "end": 8.244,
+      "score": 0.879
+    },
+    {
+      "word": "following",
+      "start": 8.986,
+      "end": 9.467,
+      "score": 0.886
+    },
+    {
+      "word": "disputed",
+      "start": 9.507,
+      "end": 9.968,
+      "score": 0.955
+    },
+    {
+      "word": "elections.",
+      "start": 10.028,
+      "end": 10.489,
+      "score": 0.835
+    }
+  ],
+  "official_words": [
+    "In",
+    "2008,",
+    "there",
+    "were",
+    "very",
+    "serious",
+    "tribal",
+    "warfare",
+    "in",
+    "Kenya",
+    "following",
+    "a",
+    "disputed",
+    "election."
+  ],
+  "match": {
+    "coverage": 0.8571428571428571,
+    "trusted": true,
+    "matched_words": 12,
+    "official_words": 14,
+    "observed_words": 17,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        12,
+        15
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-aqamKhZ1Ec_0.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9501953125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

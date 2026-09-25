@@ -1,0 +1,369 @@
+{
+  "sample_id": "-yRb-Jum7EQ_6",
+  "video_id": "-yRb-Jum7EQ",
+  "clip_id": "6",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-yRb-Jum7EQ/6.mp4",
+  "video_exists": true,
+  "official_text": "Therefore, the world needs to stand with Israel against this incitement, which is the number one cause of terrorism.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 15.488,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": false,
+  "text_audio_status": "crosslingual_translation_candidate",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": null,
+  "asr_timing_coverage": null,
+  "matched_word_fraction": 0.15789473684210525,
+  "word_audio_valid_fraction": 0.0,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "b51eb9ad06de804934cb6a315de591ba9ff7f8aa71bffff7f8001ab29945d989",
+  "word_count": 19,
+  "text_token_count": 26,
+  "audio_frames": 1120,
+  "vision_frames": 23,
+  "decoded_frames": 336,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.386,
+      2.974
+    ],
+    [
+      3.586,
+      4.99
+    ],
+    [
+      5.378,
+      7.902
+    ],
+    [
+      9.698,
+      11.2425625
+    ]
+  ],
+  "asr_text": "ולכן העולם צריך להתייצר עם ישראל, נגד ההשתה הזאת, שהיא גורם מספר אחד לטבור.",
+  "asr_words": [],
+  "official_words": [
+    "Therefore,",
+    "the",
+    "world",
+    "needs",
+    "to",
+    "stand",
+    "with",
+    "Israel",
+    "against",
+    "this",
+    "incitement,",
+    "which",
+    "is",
+    "the",
+    "number",
+    "one",
+    "cause",
+    "of",
+    "terrorism."
+  ],
+  "match": {
+    "coverage": 0.15789473684210525,
+    "trusted": false,
+    "matched_words": 3,
+    "official_words": 19,
+    "observed_words": 26,
+    "matched_pairs": [
+      [
+        1,
+        14
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        12,
+        17
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-yRb-Jum7EQ_6.npz",
+  "failures": {},
+  "english_only_asr_text": "Well, again, I would like to say that, in Israel, the negative side of the world, it is the same. I would like to say that.",
+  "english_only_asr_words": [
+    {
+      "word": "Well,",
+      "start": 0.426,
+      "end": 0.546,
+      "score": 0.44
+    },
+    {
+      "word": "again,",
+      "start": 0.566,
+      "end": 0.827,
+      "score": 0.622
+    },
+    {
+      "word": "I",
+      "start": 0.847,
+      "end": 0.867,
+      "score": 0.015
+    },
+    {
+      "word": "would",
+      "start": 0.887,
+      "end": 1.027,
+      "score": 0.334
+    },
+    {
+      "word": "like",
+      "start": 1.047,
+      "end": 1.167,
+      "score": 0.213
+    },
+    {
+      "word": "to",
+      "start": 1.187,
+      "end": 1.287,
+      "score": 0.414
+    },
+    {
+      "word": "say",
+      "start": 1.327,
+      "end": 1.548,
+      "score": 0.513
+    },
+    {
+      "word": "that,",
+      "start": 1.568,
+      "end": 2.029,
+      "score": 0.552
+    },
+    {
+      "word": "in",
+      "start": 2.309,
+      "end": 2.389,
+      "score": 0.487
+    },
+    {
+      "word": "Israel,",
+      "start": 2.449,
+      "end": 2.89,
+      "score": 0.735
+    },
+    {
+      "word": "the",
+      "start": 3.571,
+      "end": 3.691,
+      "score": 0.396
+    },
+    {
+      "word": "negative",
+      "start": 3.751,
+      "end": 4.212,
+      "score": 0.667
+    },
+    {
+      "word": "side",
+      "start": 4.252,
+      "end": 4.673,
+      "score": 0.811
+    },
+    {
+      "word": "of",
+      "start": 4.793,
+      "end": 4.913,
+      "score": 0.629
+    },
+    {
+      "word": "the",
+      "start": 5.434,
+      "end": 5.754,
+      "score": 0.6
+    },
+    {
+      "word": "world,",
+      "start": 5.794,
+      "end": 6.015,
+      "score": 0.416
+    },
+    {
+      "word": "it",
+      "start": 6.095,
+      "end": 6.255,
+      "score": 0.736
+    },
+    {
+      "word": "is",
+      "start": 6.556,
+      "end": 6.596,
+      "score": 0.542
+    },
+    {
+      "word": "the",
+      "start": 6.616,
+      "end": 6.676,
+      "score": 0.008
+    },
+    {
+      "word": "same.",
+      "start": 6.716,
+      "end": 6.956,
+      "score": 0.515
+    },
+    {
+      "word": "I",
+      "start": 6.976,
+      "end": 6.996,
+      "score": 0.0
+    },
+    {
+      "word": "would",
+      "start": 7.016,
+      "end": 7.277,
+      "score": 0.441
+    },
+    {
+      "word": "like",
+      "start": 7.397,
+      "end": 7.537,
+      "score": 0.247
+    },
+    {
+      "word": "to",
+      "start": 7.557,
+      "end": 7.657,
+      "score": 0.757
+    },
+    {
+      "word": "say",
+      "start": 7.677,
+      "end": 7.838,
+      "score": 0.443
+    },
+    {
+      "word": "that.",
+      "start": 9.64,
+      "end": 9.801,
+      "score": 0.289
+    }
+  ],
+  "english_only_asr_unreliable": false,
+  "english_only_asr_repetition_ratio": 0.13043478260869565,
+  "english_only_asr_timing_coverage": 1.0,
+  "speech_language": "he",
+  "speech_language_confidence": 0.96142578125,
+  "text_language": "en",
+  "alignment_granularity": "clip_and_source_segments",
+  "source_asr_segments": [
+    {
+      "start": 0.02,
+      "end": 8.26,
+      "text": "ולכן העולם צריך להתייצר עם ישראל, נגד ההשתה הזאת, שהיא גורם מספר אחד לטבור.",
+      "avg_logprob": -0.21391369012140093,
+      "no_speech_prob": 0.01010894775390625
+    }
+  ],
+  "machine_translation_segments": [
+    {
+      "start": 0.02,
+      "end": 8.02,
+      "text": "Therefore, the world needs to continue with Israel, against this challenge, which is to break through one barrier to the future.",
+      "avg_logprob": -0.7972756196291019,
+      "no_speech_prob": 0.01010894775390625,
+      "shared_content_stems": [
+        "against",
+        "israel",
+        "need",
+        "one",
+        "therefor",
+        "world"
+      ],
+      "shared_content_count": 6,
+      "candidate_support": true
+    },
+    {
+      "start": 8.02,
+      "end": 11.22,
+      "text": "I thank you. Thank you very much.",
+      "avg_logprob": -0.7972756196291019,
+      "no_speech_prob": 0.01010894775390625,
+      "shared_content_stems": [],
+      "shared_content_count": 0,
+      "candidate_support": false
+    }
+  ],
+  "machine_translation_en": "Therefore, the world needs to continue with Israel, against this challenge, which is to break through one barrier to the future. I thank you. Thank you very much.",
+  "crosslingual_semantic_status": "lexical_anchor_candidate",
+  "crosslingual_selected_segments": 1,
+  "crosslingual_support_start": 0.019999999552965164,
+  "crosslingual_support_end": 8.020000457763672,
+  "crosslingual_audio_valid": true,
+  "crosslingual_vision_valid": true,
+  "crosslingual_model": "small",
+  "crosslingual_method_version": 1,
+  "source_sha256_at_crosslingual_run": "b51eb9ad06de804934cb6a315de591ba9ff7f8aa71bffff7f8001ab29945d989"
+}

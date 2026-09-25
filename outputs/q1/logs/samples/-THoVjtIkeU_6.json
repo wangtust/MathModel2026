@@ -1,0 +1,429 @@
+{
+  "sample_id": "-THoVjtIkeU_6",
+  "video_id": "-THoVjtIkeU",
+  "clip_id": "6",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-THoVjtIkeU/6.mp4",
+  "video_exists": true,
+  "official_text": "You know that I think listening to young people, taking in what they have to say because what we have seen all around the world is the power of youth.",
+  "label": 2.6666667461395264,
+  "annotation": "Positive",
+  "duration": 11.067,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9,
+  "word_audio_valid_fraction": 0.9,
+  "word_vision_valid_fraction": 0.9,
+  "sha256_video": "efaa55ee6394032c867046690a92c29edfd825005f0a090cca5ccb763b227f64",
+  "word_count": 30,
+  "text_token_count": 34,
+  "audio_frames": 794,
+  "vision_frames": 17,
+  "decoded_frames": 241,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.482,
+      7.982875
+    ]
+  ],
+  "asr_text": "you know i think that listening to young people taking in what they have to say because what we've seen all around the world is the power of youth",
+  "asr_words": [
+    {
+      "word": "you",
+      "start": 0.502,
+      "end": 0.562,
+      "score": 0.996
+    },
+    {
+      "word": "know",
+      "start": 0.602,
+      "end": 0.723,
+      "score": 0.895
+    },
+    {
+      "word": "i",
+      "start": 0.783,
+      "end": 0.843,
+      "score": 0.977
+    },
+    {
+      "word": "think",
+      "start": 0.903,
+      "end": 1.124,
+      "score": 0.993
+    },
+    {
+      "word": "that",
+      "start": 1.224,
+      "end": 1.385,
+      "score": 0.907
+    },
+    {
+      "word": "listening",
+      "start": 1.485,
+      "end": 1.906,
+      "score": 0.832
+    },
+    {
+      "word": "to",
+      "start": 1.946,
+      "end": 2.026,
+      "score": 0.75
+    },
+    {
+      "word": "young",
+      "start": 2.066,
+      "end": 2.247,
+      "score": 0.726
+    },
+    {
+      "word": "people",
+      "start": 2.307,
+      "end": 2.608,
+      "score": 0.765
+    },
+    {
+      "word": "taking",
+      "start": 2.708,
+      "end": 3.049,
+      "score": 0.891
+    },
+    {
+      "word": "in",
+      "start": 3.089,
+      "end": 3.17,
+      "score": 0.69
+    },
+    {
+      "word": "what",
+      "start": 3.23,
+      "end": 3.37,
+      "score": 0.711
+    },
+    {
+      "word": "they",
+      "start": 3.41,
+      "end": 3.551,
+      "score": 0.818
+    },
+    {
+      "word": "have",
+      "start": 3.611,
+      "end": 3.751,
+      "score": 0.892
+    },
+    {
+      "word": "to",
+      "start": 3.791,
+      "end": 3.892,
+      "score": 0.698
+    },
+    {
+      "word": "say",
+      "start": 3.952,
+      "end": 4.172,
+      "score": 0.67
+    },
+    {
+      "word": "because",
+      "start": 4.232,
+      "end": 4.473,
+      "score": 0.955
+    },
+    {
+      "word": "what",
+      "start": 4.874,
+      "end": 4.995,
+      "score": 0.882
+    },
+    {
+      "word": "we've",
+      "start": 5.015,
+      "end": 5.215,
+      "score": 0.878
+    },
+    {
+      "word": "seen",
+      "start": 5.255,
+      "end": 5.476,
+      "score": 0.708
+    },
+    {
+      "word": "all",
+      "start": 5.576,
+      "end": 5.717,
+      "score": 0.87
+    },
+    {
+      "word": "around",
+      "start": 5.757,
+      "end": 5.957,
+      "score": 0.864
+    },
+    {
+      "word": "the",
+      "start": 5.977,
+      "end": 6.078,
+      "score": 0.67
+    },
+    {
+      "word": "world",
+      "start": 6.118,
+      "end": 6.399,
+      "score": 0.724
+    },
+    {
+      "word": "is",
+      "start": 6.519,
+      "end": 6.579,
+      "score": 0.879
+    },
+    {
+      "word": "the",
+      "start": 6.619,
+      "end": 6.699,
+      "score": 0.9
+    },
+    {
+      "word": "power",
+      "start": 6.76,
+      "end": 7.101,
+      "score": 0.785
+    },
+    {
+      "word": "of",
+      "start": 7.141,
+      "end": 7.201,
+      "score": 0.75
+    },
+    {
+      "word": "youth",
+      "start": 7.261,
+      "end": 7.482,
+      "score": 0.844
+    }
+  ],
+  "official_words": [
+    "You",
+    "know",
+    "that",
+    "I",
+    "think",
+    "listening",
+    "to",
+    "young",
+    "people,",
+    "taking",
+    "in",
+    "what",
+    "they",
+    "have",
+    "to",
+    "say",
+    "because",
+    "what",
+    "we",
+    "have",
+    "seen",
+    "all",
+    "around",
+    "the",
+    "world",
+    "is",
+    "the",
+    "power",
+    "of",
+    "youth."
+  ],
+  "match": {
+    "coverage": 0.9,
+    "trusted": true,
+    "matched_words": 27,
+    "official_words": 30,
+    "observed_words": 29,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        20,
+        19
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        22,
+        21
+      ],
+      [
+        23,
+        22
+      ],
+      [
+        24,
+        23
+      ],
+      [
+        25,
+        24
+      ],
+      [
+        26,
+        25
+      ],
+      [
+        27,
+        26
+      ],
+      [
+        28,
+        27
+      ],
+      [
+        29,
+        28
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-THoVjtIkeU_6.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.986328125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

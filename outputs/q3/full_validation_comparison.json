@@ -1,0 +1,19 @@
+{
+  "comparison": "post_selection_exploratory",
+  "models": [
+    "mrrf_no_recon",
+    "mrrf_full"
+  ],
+  "full_checkpoint": "/root/MathModel_restructured/outputs/q2/runs/mrrf/full/seed_2026/checkpoint.pt",
+  "full_checkpoint_sha256": "e7745f85cafab367482dde2e95c96450d904950917dded77c72bc850717ffb25",
+  "full_checkpoint_epoch": 18,
+  "validation_samples": 728,
+  "paired_modality_rows": 2148,
+  "ig_steps": 48,
+  "ig_baseline_factor": 0.1,
+  "window_fraction": 0.2,
+  "random_reps": 8,
+  "bootstrap_reps": 2000,
+  "comparison_scope": "Each model explains its own predicted class; same-class subset is reported separately.",
+  "selection_policy": "Primary no_recon choice remains based on prior clean-validation score; this diagnostic does not use the held-out test or attachment 4 for selection."
+}
