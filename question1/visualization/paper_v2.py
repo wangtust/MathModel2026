@@ -390,24 +390,29 @@ def representative_alignment_figure(case_id: str) -> None:
     ax.spines[["top", "right", "left"]].set_visible(False)
 
     ax = fig.add_subplot(gs[2])
-    rgb = _feature_rgb(activities)
-    ax.imshow(
-        rgb, aspect="auto", interpolation="nearest",
-        extent=(float(ws.min()), float(we.max()), 2.5, -.5)
-    )
-    ax.set_yticks([0, 1, 2], ["Text", "Audio", "Vision"])
-    centers = (ws + we) / 2
-    ax.set_xticks(centers, [str(i+1) for i in range(n)])
-    ax.set_xlabel("word index on source-time axis")
-    panel_title(ax, "c", "三模态逐词特征与有效性", pad=3)
+    rows = [
+        (2.0, TEXT, activities[0], np.ones(n, dtype=bool)),
+        (1.0, AUDIO, activities[1], audio_mask),
+        (0.0, VISION, activities[2], vision_mask),
+    ]
+    for y, color, values, mask in rows:
+        for start, end, value, ok in zip(ws, we, values, mask):
+            ax.add_patch(Rectangle(
+                (float(start), y-.38), float(end-start), .76,
+                facecolor=_mix(color, float(value)), edgecolor="white", linewidth=.35
+            ))
+            if not ok:
+                ax.add_patch(Rectangle(
+                    (float(start), y-.38), float(end-start), .76, fill=False,
+                    edgecolor=DANGER, hatch="////", linewidth=.30
+                ))
+    ax.set_xlim(0, duration)
+    ax.set_ylim(-.55, 2.55)
+    ax.set_yticks([2, 1, 0], ["Text", "Audio", "Vision"])
+    ax.set_xlabel("time / s")
+    panel_title(ax, "c", "三模态逐词特征活动", pad=3)
+    ax.grid(axis="x", color=GRID, lw=.42)
     ax.tick_params(length=0, labelsize=5.5)
-    for j, (start, end) in enumerate(zip(ws, we)):
-        if not audio_mask[j]:
-            ax.add_patch(Rectangle((start, .5), end-start, 1, fill=False,
-                                   edgecolor=DANGER, hatch="////", linewidth=.35))
-        if not vision_mask[j]:
-            ax.add_patch(Rectangle((start, 1.5), end-start, 1, fill=False,
-                                   edgecolor=DANGER, hatch="\\\\", linewidth=.35))
     for spine in ax.spines.values():
         spine.set_visible(False)
 
@@ -500,12 +505,11 @@ def quality_control_figure(cases: dict[str, str]) -> None:
                                          edgecolor=DANGER, hatch="////", linewidth=.22))
 
     legend = [
-        Patch(facecolor=_mix(ACCENT, .82), edgecolor="none", label="有效"),
-        Patch(facecolor=_mix(ACCENT, .01), edgecolor="none", label="缺失/拒绝"),
-        Patch(facecolor="white", edgecolor=DANGER, hatch="////", label="歧义"),
+        Patch(facecolor="#697780", edgecolor="none", label="深色=有效"),
+        Patch(facecolor="white", edgecolor=DANGER, hatch="////", label="斜线=歧义"),
     ]
-    fig.legend(handles=legend, loc="upper center", ncol=3, frameon=False,
-               bbox_to_anchor=(.72, .995), fontsize=5.5)
+    fig.legend(handles=legend, loc="upper center", ncol=2, frameon=False,
+               bbox_to_anchor=(.76, .995), fontsize=5.5)
     save_figure(fig, OUT, "fig04_q1_quality_control")
 
 
