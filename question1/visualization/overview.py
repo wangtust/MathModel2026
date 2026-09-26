@@ -210,14 +210,14 @@ def _coverage_panel(ax, table: pd.DataFrame):
     ax.set_xticks(np.linspace(0, 1, 6)); ax.set_yticks(np.linspace(0, 1, 6))
     panel_title(ax, "c", "逐词 Audio–Vision 覆盖")
     ax.grid(color=GRID, linewidth=.5); ax.set_axisbelow(True)
-    ax.legend(loc="lower right", fontsize=6.1, frameon=False)
+    status_legend = ax.legend(loc="lower right", fontsize=6.0, frameon=False)
+    ax.add_artist(status_legend)
 
     # Bubble-size key: enough to decode area without taking over the panel.
     handles = [ax.scatter([], [], s=14+10*n, facecolor="none", edgecolor="#68747C",
                           linewidth=.7, label=f"n={n}") for n in (1, 5, 15, 30)]
-    leg = ax.legend(handles=handles, title="重合样本", loc="upper left",
-                    fontsize=5.8, title_fontsize=6.1, frameon=False, borderaxespad=.2)
-    ax.add_artist(leg)
+    ax.legend(handles=handles, title="重合样本", loc="upper left",
+              fontsize=5.8, title_fontsize=6.1, frameon=False, borderaxespad=.2)
 
 
 def create_quality_overview(table: pd.DataFrame, out: Path) -> Path:
