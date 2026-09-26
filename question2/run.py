@@ -14,7 +14,7 @@ def _dispatch(module_main, argv):
 
 def main():
     if len(sys.argv)<2:
-        raise SystemExit('Usage: python question2/run.py <train|predict|experiment|error-analysis|analyze|visualize|submit> ...')
+        raise SystemExit('Usage: python question2/run.py <train|predict|experiment|error-analysis|analyze|visualize|paper-figures|submit> ...')
     cmd=sys.argv[1]; args=sys.argv[2:]
     if cmd in {'train','predict'}:
         model='mrrf'
@@ -49,6 +49,14 @@ def main():
         from question2.analysis.error_analysis import main as m; _dispatch(m,args); return
     if cmd=='visualize':
         from question2.visualization.report import main as m; _dispatch(m,args); return
+    if cmd in {'paper-figures','paper_figures'}:
+        if args:
+            raise SystemExit('paper-figures does not accept additional arguments')
+        from question2.visualization.architecture import paper_framework
+        from question2.visualization.main_text import main as paper_main
+        paper_framework()
+        paper_main()
+        return
     if cmd=='submit':
         from question2.analysis.model_selection import main as m; _dispatch(m,args); return
     raise SystemExit(f'Unknown command: {cmd}')
