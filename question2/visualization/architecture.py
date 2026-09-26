@@ -1,7 +1,7 @@
-"""Draw the implemented MRRF structure and a traceable contiguous-mask example."""
-
+"""Draw Q2 model/missingness diagrams for main text and supplementary material."""
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import matplotlib
@@ -12,122 +12,217 @@ from matplotlib.patches import FancyArrowPatch, FancyBboxPatch, Patch
 import numpy as np
 import torch
 
+from common.paths import Q2_OUTPUT_DIR
+from common.plotting import (
+    ACCENT, DANGER, DOUBLE_COLUMN, EDGE, INK, LIGHT, MODALITY_COLORS, MUTED,
+    OCHRE, apply_paper_style, panel_title, save_figure,
+)
 from question2.config import DATA
 from question2.data.dataset import FeatureStore
 from question2.data.missingness import hide_batch
 
 
-from common.paths import Q2_OUTPUT_DIR
 OUT = Q2_OUTPUT_DIR / "figures"
-BLUE, ORANGE, TEAL, PURPLE = "#356779", "#a77a47", "#4f827e", "#726c82"
+PAPER_OUT = Q2_OUTPUT_DIR / "paper_figures"
+TEXT = MODALITY_COLORS["text"]
+AUDIO = MODALITY_COLORS["audio"]
+VISION = MODALITY_COLORS["vision"]
+PURPLE = "#75638A"
 
 
-def box(ax, x, y, w, h, text, color, fontsize=9, dashed=False):
-    rect = FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.045,rounding_size=0.055",
-                          facecolor="#eef3f2" if dashed else "#fafbfa",
-                          edgecolor=color, linewidth=.9,
-                          linestyle="--" if dashed else "-")
+def box(ax, x, y, w, h, text, color, fontsize=8, dashed=False, fill="white"):
+    rect = FancyBboxPatch(
+        (x, y), w, h,
+        boxstyle="round,pad=0.035,rounding_size=0.045",
+        facecolor=fill, edgecolor=color, linewidth=.9,
+        linestyle="--" if dashed else "-",
+    )
     ax.add_patch(rect)
     ax.text(x+w/2, y+h/2, text, ha="center", va="center", fontsize=fontsize,
-            color="#253841", fontweight="medium")
+            color=INK, fontweight="medium")
+    return rect
 
 
-def arrow(ax, start, end, color="#595959", style="-|>", width=1.1):
-    ax.add_patch(FancyArrowPatch(start, end, arrowstyle=style, mutation_scale=10,
-                                 linewidth=width, color=color, shrinkA=2, shrinkB=2))
+def arrow(ax, start, end, color=EDGE, style="-|>", width=.9):
+    ax.add_patch(FancyArrowPatch(
+        start, end, arrowstyle=style, mutation_scale=9,
+        linewidth=width, color=color, shrinkA=2, shrinkB=2,
+    ))
 
 
 def save(fig, name):
-    OUT.mkdir(parents=True, exist_ok=True)
-    for suffix in ("png", "pdf"):
-        fig.savefig(OUT / f"{name}.{suffix}", dpi=300,
-                    bbox_inches="tight", facecolor="white")
-    plt.close(fig)
+    apply_paper_style(chinese=False)
+    save_figure(fig, OUT, name)
 
 
-def architecture():
-    fig, ax = plt.subplots(figsize=(9.4, 4.2))
-    ax.set_xlim(0, 12.2)
-    ax.set_ylim(0, 6.0)
-    ax.axis("off")
-    ax.text(.15, 5.76, "MRRF-Net: masked reconstruction and reliability fusion",
-            fontsize=10.5, fontweight="semibold", color="#26363d")
-    positions = ((4.57, BLUE, "Text", 768), (3.10, ORANGE, "Audio", 74),
-                 (1.63, TEAL, "Vision", 35))
-    for y, color, name, dim in positions:
-        box(ax, .20, y, 1.22, .75, f"{name}\n50 × {dim}", color)
-        arrow(ax, (1.47, y+.375), (2.05, 3.36), color=color)
-        box(ax, 3.55, y, 1.75, .75, f"MMSA MulT\n{name} stream", color, fontsize=8.4)
-        arrow(ax, (3.13, 3.36), (3.49, y+.375), color=color)
-        box(ax, 5.88, y, 1.60, .75, "Reconstruct\n& repair", color, fontsize=8.3,
-            dashed=True)
-        arrow(ax, (5.35, y+.375), (5.82, y+.375), color=color)
-        arrow(ax, (7.54, y+.375), (8.18, 3.36), color=color)
-    box(ax, 2.10, 2.75, 1.00, 1.22, "Mask +\navailability", PURPLE, fontsize=8.1)
-    box(ax, 8.23, 2.66, 1.55, 1.36, "Reliability\ngate +\nweighted sum", PURPLE, fontsize=9)
-    ax.text(9.02, 4.32, "Observed fraction\n+ features", ha="center",
-            va="center", fontsize=7.0, color="#555555", linespacing=1.1)
-    box(ax, 10.49, 3.86, 1.45, .76, "3-class\nsoftmax", BLUE, fontsize=8.7)
-    box(ax, 10.49, 2.20, 1.45, .76, "Strength\n[-3, 3]", TEAL, fontsize=8.7)
-    arrow(ax, (9.84, 3.35), (10.43, 4.24), color=PURPLE)
-    arrow(ax, (9.84, 3.35), (10.43, 2.58), color=PURPLE)
-    ax.text(6.68, .63, "Auxiliary loss on injected, originally observed positions only",
-            ha="center", fontsize=8, color="#555555")
-    ax.text(6.68, .30, "Training: class + strength + reconstruction + masked/clean consistency",
-            ha="center", fontsize=8, color="#555555")
-    ax.text(11.22, 1.21, "Negative / Neutral / Positive\nand coherent intensity",
-            ha="center", fontsize=7.5, color="#555555")
-    save(fig, "fig13_mrrf_architecture")
+def _selected_variant_note() -> str:
+    selected = Q2_OUTPUT_DIR / "analysis" / "selected_model.json"
+    if not selected.exists():
+        return "最终候选由预设验证规则选择"
+    data = json.loads(selected.read_text(encoding="utf-8"))
+    value = data.get("selected_variant", "")
+    if value == "mrrf_no_recon":
+        return "验证选择：no-reconstruction variant"
+    if value == "mrrf_full":
+        return "验证选择：full MRRF variant"
+    return f"验证选择：{value or 'candidate model'}"
 
 
-def mask_example():
+def _draw_architecture(ax, *, main_text=False):
+    """Draw architecture with reconstruction explicitly optional."""
+    ax.set_xlim(0, 12.4); ax.set_ylim(0, 6.0); ax.axis("off")
+    colors = (TEXT, AUDIO, VISION)
+    streams = ((4.55, "Text", 768), (3.10, "Audio", 74), (1.65, "Vision", 35))
+
+    box(ax, .20, 2.72, 1.25, 1.15, "Availability\n+ masks", PURPLE, fontsize=7.5,
+        fill="#F8F7FA")
+    for (y, name, dim), color in zip(streams, colors):
+        box(ax, 1.95, y, 1.40, .70, f"{name}\n50 × {dim}", color, fontsize=7.2)
+        arrow(ax, (1.48, 3.30), (1.90, y+.35), color=color)
+        box(ax, 3.90, y, 1.65, .70, f"MulT\n{name} stream", color, fontsize=7.1)
+        arrow(ax, (3.40, y+.35), (3.85, y+.35), color=color)
+        arrow(ax, (5.60, y+.35), (7.35, 3.30), color=color)
+
+    # Optional training-only auxiliary branch. It is intentionally not drawn
+    # in the main inference path so the framework remains compatible with the
+    # validation-selected no-reconstruction candidate.
+    box(ax, 5.88, .42, 2.05, .82,
+        "Optional auxiliary\nreconstruction heads", OCHRE, fontsize=7.0,
+        dashed=True, fill="#FCFAF5")
+    for y, _, _ in streams:
+        arrow(ax, (4.75, y), (6.55, 1.28), color=OCHRE, style="->", width=.65)
+    ax.text(6.90, .18, "training auxiliary; removable at candidate level",
+            ha="center", fontsize=5.9, color=MUTED)
+
+    box(ax, 7.42, 2.62, 1.72, 1.35,
+        "Reliability gate\n+ adaptive fusion", PURPLE, fontsize=7.5,
+        fill="#F8F7FA")
+    ax.text(8.28, 4.22, "features + observed fraction", ha="center",
+            fontsize=5.9, color=MUTED)
+    box(ax, 9.80, 3.78, 1.55, .70, "3-class polarity", TEXT, fontsize=7.1)
+    box(ax, 9.80, 2.10, 1.55, .70, "Strength [-3,3]", VISION, fontsize=7.1)
+    arrow(ax, (9.18, 3.30), (9.75, 4.13), color=PURPLE)
+    arrow(ax, (9.18, 3.30), (9.75, 2.45), color=PURPLE)
+
+    ax.text(11.55, 3.30, "joint\noutput", ha="center", va="center",
+            fontsize=6.2, color=MUTED)
+    ax.text(.20, 5.60,
+            "局部连续缺失 → 可用性显式建模 → 可靠性自适应融合 → 分类 + 回归",
+            fontsize=8.2 if main_text else 8.7, fontweight="semibold", color=INK)
+    ax.text(.20, 5.25,
+            "虚线重建支路是可选训练辅助模块；因此 full 与 no-reconstruction 共用同一主干框架。",
+            fontsize=6.3, color=MUTED)
+    ax.text(9.45, .62, _selected_variant_note(), fontsize=6.2, color=ACCENT,
+            fontweight="semibold")
+
+
+def _mask_arrays():
     store = FeatureStore(DATA)
     valid = store.splits["valid"]
-    choice = next(i for i in range(len(valid["id"]))
-                  if 18 <= valid["content"][i].sum() <= 40
-                  and 0 < (valid["content"][i] & ~valid["observed_vision"][i]).sum() < 5)
+    choice = next(
+        i for i in range(len(valid["id"]))
+        if 18 <= valid["content"][i].sum() <= 40
+        and 0 < (valid["content"][i] & ~valid["observed_vision"][i]).sum() < 5
+    )
     item = store.dataset("valid")[choice]
-    original = {key: value.unsqueeze(0) if isinstance(value, torch.Tensor) else [value]
-                for key, value in item.items()}
-    masked = hide_batch(original, np.random.default_rng(20260923),
-                        scenario="audio+vision", rate=.3, position="middle")
+    original = {
+        key: value.unsqueeze(0) if isinstance(value, torch.Tensor) else [value]
+        for key, value in item.items()
+    }
+    masked = hide_batch(
+        original, np.random.default_rng(20260923),
+        scenario="audio+vision", rate=.3, position="middle",
+    )
     content = original["content"][0].numpy()
     before, after = [], []
     for name in ("text", "audio", "vision"):
         observed = content if name == "text" else original[f"observed_{name}"][0].numpy()
         injected = masked[f"injected_{name}"][0].numpy()
         raw = np.zeros(50, dtype=np.int8)
-        raw[content] = 2
-        raw[observed] = 1
+        raw[content] = 2                    # content but original all-zero
+        raw[observed] = 1                  # truly observed
         changed = raw.copy()
-        changed[injected] = 3
-        before.append(raw)
-        after.append(changed)
-    cmap = ListedColormap(("#e9edf0", BLUE, "#d9a24c", "#b85c56"))
+        changed[injected] = 3              # synthetic contiguous missing
+        before.append(raw); after.append(changed)
+    return valid["id"][choice], int(content.sum()), np.stack(before), np.stack(after)
+
+
+def _draw_mask(ax, matrix, title, *, show_xlabel=False):
+    cmap = ListedColormap((LIGHT, "#DCEAE7", OCHRE, DANGER))
     norm = BoundaryNorm((-.5, .5, 1.5, 2.5, 3.5), cmap.N)
+    ax.imshow(matrix, cmap=cmap, norm=norm, interpolation="nearest", aspect="auto")
+    ax.set_yticks((0, 1, 2), ("Text", "Audio", "Vision"))
+    ax.set_xticks((0, 9, 19, 29, 39, 49), ("1", "10", "20", "30", "40", "50"))
+    ax.set_title(title, loc="left", fontsize=7.2, pad=3)
+    ax.tick_params(length=0, labelsize=6.2)
+    if show_xlabel:
+        ax.set_xlabel("Aligned sequence position", fontsize=6.5)
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+
+
+def architecture():
+    """Legacy standalone architecture, kept as supplementary output."""
+    apply_paper_style(chinese=False)
+    fig, ax = plt.subplots(figsize=(9.4, 4.2))
+    _draw_architecture(ax)
+    save_figure(fig, OUT, "fig13_mrrf_architecture")
+
+
+def mask_example():
+    """Legacy standalone traceable contiguous-mask example."""
+    sid, length, before, after = _mask_arrays()
+    apply_paper_style(chinese=False)
     fig, axes = plt.subplots(2, 1, figsize=(9.4, 3.25), sharex=True)
-    for ax, matrix, title in zip(axes, (before, after),
-                                 ("(a) Before synthetic masking", "(b) A+V 30% middle-interval masking")):
-        ax.imshow(np.stack(matrix), cmap=cmap, norm=norm,
-                  interpolation="nearest", aspect="auto")
-        ax.set_yticks((0, 1, 2), ("Text", "Audio", "Vision"))
-        ax.set_title(title, loc="left", fontsize=9)
-        ax.set_xticks((0, 9, 19, 29, 39, 49), (1, 10, 20, 30, 40, 50))
-    axes[1].set_xlabel("Aligned sequence position")
-    fig.suptitle(f"Traceable validation example: {valid['id'][choice]} | content length {int(content.sum())}",
-                 x=.12, ha="left", fontsize=10, fontweight="bold", parse_math=False)
-    legend = [Patch(facecolor=color, label=label) for color, label in
-              (("#e9edf0", "Special token / padding"), (BLUE, "Observed"),
-               ("#d9a24c", "Original all-zero"), ("#b85c56", "Injected missing"))]
+    _draw_mask(axes[0], before, "(a) Before synthetic masking")
+    _draw_mask(axes[1], after, "(b) A+V 30% middle-interval masking", show_xlabel=True)
+    fig.suptitle(f"Traceable validation example: {sid} | content length {length}",
+                 x=.12, ha="left", fontsize=9.5, fontweight="bold")
+    legend = [Patch(facecolor=color, label=label) for color, label in (
+        (LIGHT, "Special token / padding"), ("#DCEAE7", "Observed"),
+        (OCHRE, "Original all-zero"), (DANGER, "Injected missing"),
+    )]
     fig.legend(handles=legend, frameon=False, ncol=4, loc="lower center",
-               bbox_to_anchor=(.5, -.02), fontsize=7.5)
+               bbox_to_anchor=(.5, -.02), fontsize=7)
     fig.tight_layout(rect=(0, .11, 1, .91), h_pad=.65)
-    save(fig, "fig14_contiguous_mask_example")
+    save_figure(fig, OUT, "fig14_contiguous_mask_example")
+
+
+def paper_framework():
+    """Q2-1 main-text figure: missingness construction + compatible MRRF framework."""
+    sid, length, before, after = _mask_arrays()
+    apply_paper_style(chinese=True)
+    fig = plt.figure(figsize=(DOUBLE_COLUMN, 5.6), constrained_layout=True)
+    gs = fig.add_gridspec(2, 1, height_ratios=[1.58, 1.0])
+
+    ax = fig.add_subplot(gs[0])
+    _draw_architecture(ax, main_text=True)
+    panel_title(ax, "a", "MRRF 总体框架与可选重建支路", pad=2)
+
+    lower = gs[1].subgridspec(1, 2, wspace=.08)
+    ax1 = fig.add_subplot(lower[0]); ax2 = fig.add_subplot(lower[1])
+    _draw_mask(ax1, before, "(b) 注入缺失前")
+    _draw_mask(ax2, after, "(c) A+V 30% 中段连续缺失", show_xlabel=True)
+    ax1.set_xlabel("Aligned sequence position", fontsize=6.5)
+
+    legend = [Patch(facecolor=color, label=label) for color, label in (
+        (LIGHT, "Padding/special"), ("#DCEAE7", "Observed"),
+        (OCHRE, "Original all-zero"), (DANGER, "Injected missing"),
+    )]
+    fig.legend(handles=legend, frameon=False, ncol=4, loc="lower center",
+               bbox_to_anchor=(.5, -.025), fontsize=6.4)
+    fig.text(.02, .01,
+             f"示例 {sid}，有效正文长度 {length}；原生全零与人工连续遮挡分别记录，避免把数据固有缺失误当作实验注入缺失。",
+             fontsize=5.9, color=MUTED)
+    save_figure(fig, PAPER_OUT, "fig01_q2_framework")
+
+
+def main():
+    architecture()
+    mask_example()
+    paper_framework()
+    print(f"Wrote Q2 architecture/mask figures to {OUT} and {PAPER_OUT}", flush=True)
 
 
 if __name__ == "__main__":
-    plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 8,
-                         "pdf.fonttype": 42})
-    architecture()
-    mask_example()
-    print(f"Wrote model and mask diagrams to {OUT}")
+    main()
