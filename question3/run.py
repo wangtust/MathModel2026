@@ -53,6 +53,27 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', type=Path, default=Q3_OUTPUT_DIR)
     output = parser.parse_args(args).output
+
+    if stage == 'figures':
+        # Preserve the full legacy evidence package required by verification:
+        # 9 diagnostic figures + 20 case cards + combined supplement PDF.
+        legacy = __import__(table[stage], fromlist=['run'])
+        legacy.run(output)
+
+        # The root runner uses the canonical outputs/q3 location. Generate the
+        # compact 5-figure journal layer afterwards without changing verification
+        # expectations for the legacy package.
+        if output.resolve() == Q3_OUTPUT_DIR.resolve():
+            from question3.visualization.main_text import main as paper_main
+            paper_main()
+        else:
+            print(
+                f"Skipped compact paper figures for non-default --output={output}; "
+                "run `python question3/run.py paper-figures` for outputs/q3.",
+                flush=True,
+            )
+        return
+
     mod = __import__(table[stage], fromlist=['run', 'verify'])
     (mod.verify if stage == 'verify' else mod.run)(output)
 
