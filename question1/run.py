@@ -26,6 +26,46 @@ from question1.visualization.overview import create_overview_figures
 MAIN_FIGURE_MARKER = '## 正文核心可视化（期刊版）'
 
 
+def _write_paper_feature_summary(table: pd.DataFrame) -> None:
+    """Write the explicit 100-sample × 3-modality table required by the contest.
+
+    The processing summary is intentionally wide and audit-oriented.  This long
+    table provides the exact paper-facing fields requested by the statement:
+    sample id, modality, source duration, feature dimension and alignment
+    granularity, plus sequence length and valid fraction for traceability.
+    """
+    specs = (
+        ('Text', 768, None),
+        ('Audio', 25, 'word_audio_valid_fraction'),
+        ('Vision', 52, 'word_vision_valid_fraction'),
+    )
+    rows = []
+    for _, sample in table.iterrows():
+        word_count = int(sample.get('word_count', 0) or 0)
+        for modality, dim, fraction_col in specs:
+            if fraction_col is None:
+                valid_fraction = 1.0 if bool(sample.get('official_text_present', True)) else 0.0
+            else:
+                value = sample.get(fraction_col, 0.0)
+                valid_fraction = 0.0 if pd.isna(value) else float(value)
+            rows.append({
+                'sample_id': sample['sample_id'],
+                'modality': modality,
+                'source_duration_sec': float(sample.get('duration', 0.0)),
+                'feature_dim': dim,
+                'alignment_granularity': sample.get('alignment_granularity', 'word'),
+                'aligned_sequence_length': word_count,
+                'valid_fraction': valid_fraction,
+                'feature_file': sample.get('feature_file', ''),
+            })
+    paper = pd.DataFrame(rows)
+    expected = len(table) * 3
+    if len(paper) != expected:
+        raise RuntimeError(f'Q1 paper feature summary expected {expected} rows, found {len(paper)}')
+    paper.to_csv(config.OUT / 'tables/11_paper_feature_summary.csv',
+                 index=False, encoding='utf-8-sig')
+
+
 def _create_main_text_figures():
     """Build the consolidated Q1 journal figures from already-audited outputs."""
     summary = config.OUT / 'tables/02_sample_summary.csv'
@@ -34,6 +74,7 @@ def _create_main_text_figures():
     table = pd.read_csv(summary)
     if table.empty:
         return
+    _write_paper_feature_summary(table)
     create_overview_figures(table, config.OUT / 'figures')
 
     report = config.OUT / 'paper/q1_results.md'
@@ -46,6 +87,7 @@ def _create_main_text_figures():
                 '- `../figures/fig02_q1_quality_overview.pdf`：100 条样本的模态可用性、质量事件矩阵与 Audio–Vision 逐词覆盖三联总览。\n'
                 '- `../figures/fig03_q1_representative_alignment.pdf`：正文典型样本；原视频帧、波形、官方词区间与三类特征摘要共享同一时间轴。\n'
                 '- `../figures/fig04_q1_quality_control.pdf`：无目标脸、无真人语音、多人脸歧义、文本/原声不符四类复杂场景的源画面与时间状态。\n\n'
+                '- `../tables/11_paper_feature_summary.csv`：赛题要求的 100 条样本 × Text/Audio/Vision 长表，显式给出原始时长、特征维度、对齐粒度、序列长度和有效比例。\n\n'
                 '原 `alignment/fig01a–c` 的 768/25/52 维完整热图继续保留为审计/补充材料；跨语言图继续作为特殊异常补充证据。\n'
             )
             report.write_text(text, encoding='utf-8')
