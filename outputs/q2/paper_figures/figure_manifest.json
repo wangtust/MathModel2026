@@ -1,30 +1,16 @@
 {
+  "version": "v2_final_publication_layout",
   "main_text_figures": {
-    "fig01_q2_framework": "contiguous missingness construction + MRRF framework",
-    "fig02_q2_missing_type_rate": "missing modality type x duration/rate degradation",
-    "fig03_q2_position_rate_interaction": "missing position x rate interaction",
+    "fig01_q2_framework": "compact missingness construction + MRRF framework",
+    "fig02_q2_missing_type_rate": "shared-scale degradation heatmaps with sparse annotations",
+    "fig03_q2_position_rate_interaction": "complete 90-condition position x rate interaction",
     "fig04_q2_models_and_ablation": "three-seed architecture comparison + controlled cumulative ablation",
     "fig05_q2_error_attribution": "classification transition + regression error stratification",
-    "fig06_q2_attachment3": "Attachment 3 missingness + full unlabeled predictions"
+    "fig06_q2_attachment3": "single compact T/A/V missingness matrix + all unlabeled predictions"
   },
-  "supplementary_legacy_figures": [
-    "fig01_learning_curves",
-    "fig02_duration_f1",
-    "fig03_duration_mae",
-    "fig04_ablation",
-    "fig05_position_mae",
-    "fig06_strength_calibration",
-    "fig07_confusion",
-    "fig08_reliability_gate",
-    "fig11_three_seeds",
-    "fig12_attachment3_disagreement",
-    "fig16_all_baselines_missingness",
-    "fig18_dual_reconstruction"
-  ],
-  "notes": [
-    "No-reconstruction is treated as a tuned candidate model, not as a controlled ablation row.",
-    "Cumulative ablation remains the controlled component-addition experiment.",
-    "Position-rate figure uses the complete 10%-50%, 5x6x3=90-condition grid.",
-    "Attachment 3 is unlabeled and is never used for performance claims."
+  "layout_rules": [
+    "No explanatory footer is placed outside the figure canvas.",
+    "Heatmaps emphasize pattern; complete numeric values remain in CSV outputs.",
+    "Repeated state panels and color keys are merged whenever they encode the same information."
   ]
 }

@@ -53,14 +53,13 @@ Silero VAD 标记真人语音时间段；只有与官方词同形、WhisperX 对
 - `fig06_crosslingual_hebrew_translation.pdf`：跨语言原声与英语译文的片段级对应。
 - `fig06b_crosslingual_text_evidence.pdf`：跨语言源语转写与译文对照（补充图）。
 
-
 ## 正文核心可视化（期刊版）
 
-- `../figures/fig01_q1_framework.pdf`：三模态特征提取、词级时间锚定、聚合、mask 与审计输出的总体框架。
-- `../figures/fig02_q1_quality_overview.pdf`：100 条样本的模态可用性、质量事件矩阵与 Audio–Vision 逐词覆盖三联总览。
-- `../figures/fig03_q1_representative_alignment.pdf`：正文典型样本；原视频帧、波形、官方词区间与三类特征摘要共享同一时间轴。
-- `../figures/fig04_q1_quality_control.pdf`：无目标脸、无真人语音、多人脸歧义、文本/原声不符四类复杂场景的源画面与时间状态。
+- `../paper_figures/fig01_q1_framework.pdf`：三模态特征提取、词级时间锚定、聚合、mask 与审计输出的总体框架。
+- `../paper_figures/fig02_q1_quality_overview.pdf`：100 条样本的模态可用性、逐词覆盖与全量质量事件矩阵总览。
+- `../paper_figures/fig03_q1_representative_alignment.pdf`：正文典型样本；原视频帧、波形、官方词区间与三模态特征活动摘要共享同一时间轴。
+- `../paper_figures/fig04_q1_quality_control.pdf`：无目标脸、无真人语音、多人脸歧义、文本/原声不符四类复杂场景的源画面与时间状态。
 
 - `../tables/11_paper_feature_summary.csv`：赛题要求的 100 条样本 × Text/Audio/Vision 长表，显式给出原始时长、特征维度、对齐粒度、序列长度和有效比例。
 
-原 `alignment/fig01a–c` 的 768/25/52 维完整热图继续保留为审计/补充材料；跨语言图继续作为特殊异常补充证据。
+原 `figures/` 与 `alignment/` 下的完整维度热图、逐项诊断图继续保留为审计/补充材料；正文统一引用 `paper_figures/`。

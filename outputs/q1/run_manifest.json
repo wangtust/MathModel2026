@@ -5,23 +5,23 @@
   "n_audit_errors": 0,
   "repositories": {
     "MMSA-FET": {
-      "commit": "be0655b6c9c4feb008c6b20c90f27a73a4ee1969",
+      "commit": "5941d0c4e31de966e4f711fde9f79c3430582c7e",
       "local_patch": true
     },
     "TalkNet-ASD": {
-      "commit": "be0655b6c9c4feb008c6b20c90f27a73a4ee1969",
+      "commit": "5941d0c4e31de966e4f711fde9f79c3430582c7e",
       "local_patch": true
     },
     "silero-vad": {
-      "commit": "be0655b6c9c4feb008c6b20c90f27a73a4ee1969",
+      "commit": "5941d0c4e31de966e4f711fde9f79c3430582c7e",
       "local_patch": true
     },
     "whisperX": {
-      "commit": "be0655b6c9c4feb008c6b20c90f27a73a4ee1969",
+      "commit": "5941d0c4e31de966e4f711fde9f79c3430582c7e",
       "local_patch": true
     },
     "CMU-MultimodalSDK": {
-      "commit": "be0655b6c9c4feb008c6b20c90f27a73a4ee1969",
+      "commit": "5941d0c4e31de966e4f711fde9f79c3430582c7e",
       "local_patch": true
     }
   },

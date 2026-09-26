@@ -1,0 +1,14 @@
+{
+  "version": "v2_compact_journal_layout",
+  "main_text_figures": {
+    "fig01_q1_framework": "feature extraction + word-level alignment + auditable output",
+    "fig02_q1_quality_overview": "availability + word coverage + full-dataset quality-event matrix",
+    "fig03_q1_representative_alignment": "source frames + waveform + word timing + compact three-modality feature activity",
+    "fig04_q1_quality_control": "four complex-scene quality-control cases with source frames and timelines"
+  },
+  "layout_notes": [
+    "Long explanatory prose is intentionally kept out of figure canvases and belongs in the manuscript caption.",
+    "Full-dimensional feature heatmaps remain legacy/supplementary audit material.",
+    "All main-text figures use the shared 7.15-inch double-column width."
+  ]
+}
