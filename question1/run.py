@@ -23,6 +23,9 @@ from question1.alignment.crosslingual import upgrade_existing_outputs
 from question1.visualization.overview import create_overview_figures
 
 
+MAIN_FIGURE_MARKER = '## 正文核心可视化（期刊版）'
+
+
 def _create_main_text_figures():
     """Build the consolidated Q1 journal figures from already-audited outputs."""
     summary = config.OUT / 'tables/02_sample_summary.csv'
@@ -32,6 +35,20 @@ def _create_main_text_figures():
     if table.empty:
         return
     create_overview_figures(table, config.OUT / 'figures')
+
+    report = config.OUT / 'paper/q1_results.md'
+    if report.exists():
+        text = report.read_text(encoding='utf-8')
+        if MAIN_FIGURE_MARKER not in text:
+            text += (
+                '\n\n' + MAIN_FIGURE_MARKER + '\n\n'
+                '- `../figures/fig01_q1_framework.pdf`：三模态特征提取、词级时间锚定、聚合、mask 与审计输出的总体框架。\n'
+                '- `../figures/fig02_q1_quality_overview.pdf`：100 条样本的模态可用性、质量事件矩阵与 Audio–Vision 逐词覆盖三联总览。\n'
+                '- `../figures/fig03_q1_representative_alignment.pdf`：正文典型样本；原视频帧、波形、官方词区间与三类特征摘要共享同一时间轴。\n'
+                '- `../figures/fig04_q1_quality_control.pdf`：无目标脸、无真人语音、多人脸歧义、文本/原声不符四类复杂场景的源画面与时间状态。\n\n'
+                '原 `alignment/fig01a–c` 的 768/25/52 维完整热图继续保留为审计/补充材料；跨语言图继续作为特殊异常补充证据。\n'
+            )
+            report.write_text(text, encoding='utf-8')
 
 
 def main():
