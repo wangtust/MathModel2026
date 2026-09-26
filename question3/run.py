@@ -20,7 +20,9 @@ def _call_pipeline(modname, argv):
 
 
 def _paper_figures() -> None:
-    from question3.visualization.main_text import main as paper_main
+    # Publication figures intentionally use the tightened renderer.  The legacy
+    # main_text/report modules remain available as audit/supplementary material.
+    from question3.visualization.publication import main as paper_main
     from question3.visualization.supplement import run as supplement_run
 
     paper_main()
@@ -39,7 +41,7 @@ def main():
         'evidence': 'question3.evidence.mapper',
         'verify': 'question3.analysis.verification',
         'figures': 'question3.visualization.report',
-        'paper-figures': 'question3.visualization.main_text',
+        'paper-figures': 'question3.visualization.publication',
     }
     if stage not in table:
         raise SystemExit('Stages: ' + ', '.join(table))
@@ -63,12 +65,12 @@ def main():
 
     if stage == 'figures':
         # Preserve the full legacy evidence package required by verification:
-        # 9 diagnostic figures + 20 case cards + combined supplement PDF.
+        # diagnostic figures + case cards + combined supplement PDF.
         legacy = __import__(table[stage], fromlist=['run'])
         legacy.run(output)
 
         # The root runner uses the canonical outputs/q3 location. Generate the
-        # compact 5-figure journal layer afterwards without changing verification
+        # compact publication layer afterwards without changing verification
         # expectations for the legacy package.
         if output.resolve() == Q3_OUTPUT_DIR.resolve():
             _paper_figures()

@@ -4,7 +4,7 @@
 This script is intended for the final local rendering pass before paper writing:
 
 1. Rebuild Q1 reports, the explicit 100×3 modality summary table and the four
-   compact main-text figures from saved features.
+   compact main-text figures under outputs/q1/paper_figures.
 2. Recompute the Q2 position×rate validation grid with the validation-selected
    MRRF variant, then build the six compact Q2 main-text figures + supplement.
 3. Build the five compact Q3 main-text figures + supplement from saved Q3 tables.
@@ -82,7 +82,7 @@ def expected_outputs() -> list[Path]:
 
     outputs: list[Path] = []
     for name in q1_names:
-        outputs += [Q1 / "figures" / f"{name}.pdf", Q1 / "figures" / f"{name}.png"]
+        outputs += [Q1 / "paper_figures" / f"{name}.pdf", Q1 / "paper_figures" / f"{name}.png"]
     for name in q2_names:
         outputs += [Q2 / "paper_figures" / f"{name}.pdf", Q2 / "paper_figures" / f"{name}.png"]
     for name in q3_names:
@@ -90,6 +90,7 @@ def expected_outputs() -> list[Path]:
     outputs += [
         Q1 / "tables" / "10_journal_case_manifest.csv",
         Q1 / "tables" / "11_paper_feature_summary.csv",
+        Q1 / "paper_figures" / "figure_manifest.json",
         Q2 / "paper_figures" / "figure_manifest.json",
         Q2 / "paper_figures" / "fig05_error_attribution_samples.csv",
         Q2 / "paper_figures" / "supplementary" / "figure_manifest.json",
@@ -159,7 +160,7 @@ def main() -> None:
         "Compile check")
 
     run(["question1/run.py", "--reports-only"],
-        "Q1 | Rebuild reports and publication figures from saved features")
+        "Q1 | Rebuild reports and compact publication figures from saved features")
 
     model_dir = selected_q2_model_dir()
     run([

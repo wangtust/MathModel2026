@@ -44,10 +44,10 @@ def _ensure_selected_position_rate_grid():
     """Keep the main-text position×rate analysis on the final selected Q2 model.
 
     The full root pipeline creates this grid before validation-based model selection,
-    so historical outputs can legitimately be based on MRRF full.  Once selection
+    so historical outputs can legitimately be based on MRRF full. Once selection
     is fixed, paper figures should not silently mix that checkpoint with the final
-    no-reconstruction predictor.  Recompute only when the saved grid does not
-    already match the selected variant/seed and the complete 90-condition layout.
+    predictor. Recompute only when the saved grid does not already match the
+    selected variant/seed and the complete 90-condition layout.
     """
     from common.paths import Q2_OUTPUT_DIR
     model_dir, variant, seed = _selected_model_dir()
@@ -87,14 +87,12 @@ def _ensure_selected_position_rate_grid():
 
 
 def _paper_figures():
-    # The position×rate panel is the only compact Q2 figure that depends on a
-    # pre-selection experiment file.  Ensure it uses the validation-selected
-    # model before any publication-facing rendering.
+    # Ensure the 90-condition position×rate panel uses the validation-selected
+    # checkpoint, then render the publication-facing V2 set. Legacy figures stay
+    # untouched as audit/supplementary material.
     _ensure_selected_position_rate_grid()
-    from question2.visualization.architecture import paper_framework
-    from question2.visualization.main_text import main as paper_main
+    from question2.visualization.publication import main as paper_main
     from question2.visualization.supplement import main as supplement_main
-    paper_framework()
     paper_main()
     supplement_main()
 
@@ -122,13 +120,12 @@ def main():
         modules={
             'ablation':'question2.experiments.ablation',
             'robustness':'question2.experiments.robustness',
-            'missing_duration':
-            'question2.experiments.missing_duration',
+            'missing_duration':'question2.experiments.missing_duration',
             'repeats':'question2.experiments.repeats',
             'tuning':'question2.experiments.tuning',
             'baselines':'question2.experiments.baselines',
             'dual_reconstruction':'question2.experiments.dual_reconstruction'
-            }
+        }
         mod=__import__(modules[name],fromlist=['main']); _dispatch(mod.main,rest); return
     if cmd=='analyze':
         from question2.analysis.model_comparison import main as m; _dispatch(m,args); return
@@ -137,8 +134,8 @@ def main():
     if cmd=='visualize':
         from question2.visualization.report import main as m
         _dispatch(m,args)
-        # On completed runs, refresh the compact paper set too. During the first
-        # pre-selection visualization pass this is intentionally skipped.
+        # On completed runs, refresh the compact publication set too. During the
+        # first pre-selection visualization pass this is intentionally skipped.
         from common.paths import Q2_OUTPUT_DIR
         if (Q2_OUTPUT_DIR / 'analysis' / 'selected_model.json').exists():
             _paper_figures()
@@ -150,7 +147,7 @@ def main():
     if cmd=='submit':
         from question2.analysis.model_selection import main as m
         _dispatch(m,args)
-        # Selection is now fixed.  _paper_figures first reconciles the
+        # Selection is now fixed. _paper_figures first reconciles the
         # position×rate grid with that selected checkpoint, then renders all
         # publication-facing figures without retraining.
         _paper_figures()
