@@ -41,22 +41,32 @@ def _write_paper_feature_summary(table: pd.DataFrame) -> None:
     )
     rows = []
     for _, sample in table.iterrows():
-        word_count = int(sample.get('word_count', 0) or 0)
+        raw_word_count = sample.get('word_count', 0)
+        word_count = 0 if pd.isna(raw_word_count) else int(raw_word_count)
+        raw_duration = sample.get('duration', 0.0)
+        duration = 0.0 if pd.isna(raw_duration) else float(raw_duration)
+        granularity = sample.get('alignment_granularity', 'word')
+        granularity = 'word' if pd.isna(granularity) else str(granularity)
+        text_present = sample.get('official_text_present', True)
+        text_present = False if pd.isna(text_present) else bool(text_present)
+
         for modality, dim, fraction_col in specs:
             if fraction_col is None:
-                valid_fraction = 1.0 if bool(sample.get('official_text_present', True)) else 0.0
+                valid_fraction = 1.0 if text_present else 0.0
             else:
                 value = sample.get(fraction_col, 0.0)
                 valid_fraction = 0.0 if pd.isna(value) else float(value)
+            feature_file = sample.get('feature_file', '')
+            feature_file = '' if pd.isna(feature_file) else str(feature_file)
             rows.append({
                 'sample_id': sample['sample_id'],
                 'modality': modality,
-                'source_duration_sec': float(sample.get('duration', 0.0)),
+                'source_duration_sec': duration,
                 'feature_dim': dim,
-                'alignment_granularity': sample.get('alignment_granularity', 'word'),
+                'alignment_granularity': granularity,
                 'aligned_sequence_length': word_count,
                 'valid_fraction': valid_fraction,
-                'feature_file': sample.get('feature_file', ''),
+                'feature_file': feature_file,
             })
     paper = pd.DataFrame(rows)
     expected = len(table) * 3
