@@ -47,10 +47,20 @@ Silero VAD 标记真人语音时间段；只有与官方词同形、WhisperX 对
 
 - `fig01_modality_availability.pdf`：五种证据状态的样本数。
 - `fig02_sample_status_matrix.pdf`：100 条样本的质量事件热图。
+- `fig03_q1_representative_alignment.pdf`：词级语音与视觉有效覆盖率。
 - `fig03_word_level_coverage.pdf`：词级语音与视觉有效覆盖率。
-- `fig04_mismatch_alignment_-NFrJFQijFE_2.pdf`：官方文本与原声不符的合并案例图。
-- `fig05_visual_evidence.pdf`：标准 (a)–(d) 原视频画面案例。
+- `fig04_q1_quality_control.pdf`：官方文本与原声不符的合并案例图。
 - `fig06_crosslingual_hebrew_translation.pdf`：跨语言原声与英语译文的片段级对应。
 - `fig06b_crosslingual_text_evidence.pdf`：跨语言源语转写与译文对照（补充图）。
-- `fig07_quality_exception_timeline.pdf`：四种异常模态时间轴。
-- `fig_case_typical_-THoVjtIkeU_2.pdf`：典型语音—人脸—词时间轴。
+
+
+## 正文核心可视化（期刊版）
+
+- `../figures/fig01_q1_framework.pdf`：三模态特征提取、词级时间锚定、聚合、mask 与审计输出的总体框架。
+- `../figures/fig02_q1_quality_overview.pdf`：100 条样本的模态可用性、质量事件矩阵与 Audio–Vision 逐词覆盖三联总览。
+- `../figures/fig03_q1_representative_alignment.pdf`：正文典型样本；原视频帧、波形、官方词区间与三类特征摘要共享同一时间轴。
+- `../figures/fig04_q1_quality_control.pdf`：无目标脸、无真人语音、多人脸歧义、文本/原声不符四类复杂场景的源画面与时间状态。
+
+- `../tables/11_paper_feature_summary.csv`：赛题要求的 100 条样本 × Text/Audio/Vision 长表，显式给出原始时长、特征维度、对齐粒度、序列长度和有效比例。
+
+原 `alignment/fig01a–c` 的 768/25/52 维完整热图继续保留为审计/补充材料；跨语言图继续作为特殊异常补充证据。

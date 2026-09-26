@@ -1,0 +1,30 @@
+{
+  "main_text_figures": {
+    "fig01_q3_explainability_framework": "explanation generation, deletion validation, and source-audit framework",
+    "fig02_q3_fidelity": "validation top-window versus matched-random fidelity with non-text zoom",
+    "fig03_q3_modality_effects": "Attachment-4 signed deletion effects and perturbation-derived dominant modality",
+    "fig04_q3_representative_cases": "Samples 01, 19, 15: typical, vision-dominant, and clock-rejection cases",
+    "fig05_q3_localization_and_audit": "alignment audit, localization-state matrix, and Sample-19 source-time evidence"
+  },
+  "main_text_table": "table01_q3_frozen_model_performance",
+  "supplementary_legacy_figures": [
+    "fig01_performance",
+    "fig02_fidelity",
+    "fig03_modality_contributions",
+    "fig04_local_importance",
+    "fig05_alignment_quality",
+    "fig06_timed_evidence",
+    "fig07_model_sensitivity",
+    "fig08_validation_variant_fidelity",
+    "fig09_gate_response_rank",
+    "case_01 ... case_20",
+    "attachment4_explanation_cards.pdf"
+  ],
+  "interpretation_rules": [
+    "Integrated Gradients identifies local positions (Where), not cross-modality effect size.",
+    "Signed deletion response estimates perturbation-derived modality effect (How much).",
+    "Internal gate weights are retained only as a model diagnostic and are not treated as causal contribution percentages.",
+    "Source-time intervals are emitted only after alignment audit; failed audits retain token/text evidence without fabricated seconds.",
+    "Video frames verify temporal correspondence and are not object-level visual attribution."
+  ]
+}

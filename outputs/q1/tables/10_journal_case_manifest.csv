@@ -1,11 +1,6 @@
-figure,panel,sample_id,original_frame_pts_s,finding,original_frame_index_0based
-fig04_mismatch_alignment,(a)–(c),-NFrJFQijFE_2,3.36,text_audio_mismatch_candidate,
-fig05_visual_evidence,(a),-THoVjtIkeU_2,2.0,typical,60.0
-fig05_visual_evidence,(b),-NFrJFQijFE_2,3.36,no_face,84.0
-fig05_visual_evidence,(c),-UuX1xuaiiE_1,5.0,multiple_faces,150.0
-fig05_visual_evidence,(d),-mJ2ud6oKI8_2,3.4034,no_speech,102.0
-fig_case_typical,whole,-THoVjtIkeU_2,,direct_word_alignment,
-fig07_quality_exception_timeline,(a),-HwX2H8Z4hY_9,,no_face,
-fig07_quality_exception_timeline,(b),-mJ2ud6oKI8_2,,no_speech,
-fig07_quality_exception_timeline,(c),-UuX1xuaiiE_1,,multiple_faces,
-fig07_quality_exception_timeline,(d),-HwX2H8Z4hY_2,,intermittent_face,
+figure,panel,sample_id,finding,original_frame_pts_s,original_frame_index_0based
+fig03_q1_representative_alignment,(a)-(f),-THoVjtIkeU_2,direct_word_alignment,,
+fig04_q1_quality_control,(a),-HwX2H8Z4hY_9,no_face,4.0,120.0
+fig04_q1_quality_control,(b),-mJ2ud6oKI8_2,no_speech,3.4034,102.0
+fig04_q1_quality_control,(c),-UuX1xuaiiE_1,multiple_faces,5.0,150.0
+fig04_q1_quality_control,(d),-NFrJFQijFE_2,mismatch,3.36,84.0

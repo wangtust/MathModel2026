@@ -5,24 +5,24 @@
   "n_audit_errors": 0,
   "repositories": {
     "MMSA-FET": {
-      "commit": "",
-      "local_patch": false
+      "commit": "be0655b6c9c4feb008c6b20c90f27a73a4ee1969",
+      "local_patch": true
     },
     "TalkNet-ASD": {
-      "commit": "",
-      "local_patch": false
+      "commit": "be0655b6c9c4feb008c6b20c90f27a73a4ee1969",
+      "local_patch": true
     },
     "silero-vad": {
-      "commit": "",
-      "local_patch": false
+      "commit": "be0655b6c9c4feb008c6b20c90f27a73a4ee1969",
+      "local_patch": true
     },
     "whisperX": {
-      "commit": "",
-      "local_patch": false
+      "commit": "be0655b6c9c4feb008c6b20c90f27a73a4ee1969",
+      "local_patch": true
     },
     "CMU-MultimodalSDK": {
-      "commit": "",
-      "local_patch": false
+      "commit": "be0655b6c9c4feb008c6b20c90f27a73a4ee1969",
+      "local_patch": true
     }
   },
   "software_versions": {
@@ -86,7 +86,7 @@
     "multiple_faces": "-UuX1xuaiiE_1",
     "intermittent_face": "-HwX2H8Z4hY_2"
   },
-  "journal_case_panels": 10,
+  "journal_case_panels": 5,
   "alignment_case_ids": [
     "-UacrmKiTn4_4",
     "-s9qJ7ATP7w_6",
