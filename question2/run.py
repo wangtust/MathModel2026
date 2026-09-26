@@ -12,6 +12,12 @@ def _dispatch(module_main, argv):
     try: module_main()
     finally: sys.argv=old
 
+def _paper_figures():
+    from question2.visualization.architecture import paper_framework
+    from question2.visualization.main_text import main as paper_main
+    paper_framework()
+    paper_main()
+
 def main():
     if len(sys.argv)<2:
         raise SystemExit('Usage: python question2/run.py <train|predict|experiment|error-analysis|analyze|visualize|paper-figures|submit> ...')
@@ -48,16 +54,24 @@ def main():
     if cmd in {'error-analysis','error_analysis'}:
         from question2.analysis.error_analysis import main as m; _dispatch(m,args); return
     if cmd=='visualize':
-        from question2.visualization.report import main as m; _dispatch(m,args); return
+        from question2.visualization.report import main as m
+        _dispatch(m,args)
+        # On completed runs, refresh the compact paper set too. During the first
+        # pre-selection visualization pass this is intentionally skipped.
+        from common.paths import Q2_OUTPUT_DIR
+        if (Q2_OUTPUT_DIR / 'analysis' / 'selected_model.json').exists():
+            _paper_figures()
+        return
     if cmd in {'paper-figures','paper_figures'}:
         if args:
             raise SystemExit('paper-figures does not accept additional arguments')
-        from question2.visualization.architecture import paper_framework
-        from question2.visualization.main_text import main as paper_main
-        paper_framework()
-        paper_main()
-        return
+        _paper_figures(); return
     if cmd=='submit':
-        from question2.analysis.model_selection import main as m; _dispatch(m,args); return
+        from question2.analysis.model_selection import main as m
+        _dispatch(m,args)
+        # Selection is now fixed, so all main-text figures can safely label and
+        # visualize the validation-selected candidate without touching training.
+        _paper_figures()
+        return
     raise SystemExit(f'Unknown command: {cmd}')
 if __name__=='__main__': main()
