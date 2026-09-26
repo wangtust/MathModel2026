@@ -215,8 +215,14 @@ def train_q2(
         "--seed", str(seed),
         "--epochs", str(epochs),
         "--patience", str(patience),
-        "--skip-predict",
     ]
+
+    # Only the MRRF and MMSA-MulT trainers define --skip-predict.
+    # The standalone baseline trainer (concat_mlp / gru / mult_no_aug /
+    # tfr_feature) does not accept this flag.
+    if model in {"mrrf", "mult"}:
+        args.append("--skip-predict")
+
     if variant is not None:
         args += ["--variant", variant]
 
@@ -780,17 +786,28 @@ def run_q2(*, force: bool, force_figures: bool) -> None:
 Q3_OUT = ROOT / "outputs" / "q3"
 
 
+# NOTE:
+# verify is deliberately NOT included here.
+# question3.analysis.verification checks figures/case cards/supplement PDF,
+# so the correct dependency order is:
+#
+# pipeline -> ig-check -> evidence -> fidelity -> sensitivity -> alignment
+# -> figures -> verify
 Q3_STAGES = [
     (
         "pipeline",
         "预测 + Integrated Gradients + 初始解释",
         [
             Q3_OUT / "config.json",
+            Q3_OUT / "attachment4_metadata.json",
             Q3_OUT / "tables" / "model_performance.csv",
             Q3_OUT / "tables" / "validation_predictions_explained.csv",
             Q3_OUT / "tables" / "validation_evidence.csv",
+            Q3_OUT / "tables" / "validation_position_ig.csv",
+            Q3_OUT / "tables" / "validation_explanation_metrics.csv",
             Q3_OUT / "tables" / "attachment4_predictions.csv",
             Q3_OUT / "tables" / "attachment4_evidence_raw.csv",
+            Q3_OUT / "tables" / "attachment4_position_ig.csv",
         ],
     ),
     (
@@ -817,8 +834,11 @@ Q3_STAGES = [
         [
             Q3_OUT / "tables" / "full_validation_predictions_explained.csv",
             Q3_OUT / "tables" / "full_validation_evidence.csv",
+            Q3_OUT / "tables" / "full_validation_position_ig.csv",
             Q3_OUT / "tables" / "full_validation_explanation_metrics.csv",
             Q3_OUT / "tables" / "full_validation_ig_completeness.csv",
+            Q3_OUT / "tables" / "full_validation_ig_quadrature_check.csv",
+            Q3_OUT / "tables" / "validation_fidelity_model_paired.csv",
             Q3_OUT / "tables" / "validation_fidelity_model_summary.csv",
             Q3_OUT / "full_validation_comparison.json",
         ],
@@ -840,18 +860,22 @@ Q3_STAGES = [
             Q3_OUT / "tables" / "gate_response_rank_summary.csv",
         ],
     ),
-    (
-        "verify",
-        "全量覆盖、结果一致性与复现性检查",
-        [
-            Q3_OUT / "verification.json",
-        ],
-    ),
 ]
 
 
 def q3_figure_outputs() -> list[Path]:
-    names = [
+    """
+    Every artifact that must exist before Q3 verification is allowed to run.
+
+    verification.py requires:
+      - 9 main PDF figures
+      - a PNG companion for every PDF
+      - 20 case PDF figures
+      - a PNG companion for every case PDF
+      - q3_results.md and figure_captions.md
+      - 20-page attachment4_explanation_cards.pdf
+    """
+    main_names = [
         "fig01_performance",
         "fig02_fidelity",
         "fig03_modality_contributions",
@@ -862,21 +886,107 @@ def q3_figure_outputs() -> list[Path]:
         "fig08_validation_variant_fidelity",
         "fig09_gate_response_rank",
     ]
-    return [Q3_OUT / "figures" / f"{name}.pdf" for name in names] + [
+
+    outputs: list[Path] = []
+
+    for name in main_names:
+        outputs.extend([
+            Q3_OUT / "figures" / f"{name}.pdf",
+            Q3_OUT / "figures" / f"{name}.png",
+        ])
+
+    for i in range(1, 21):
+        sid = f"{i:02d}"
+        outputs.extend([
+            Q3_OUT / "figures" / f"case_{sid}.pdf",
+            Q3_OUT / "figures" / f"case_{sid}.png",
+        ])
+
+    outputs.extend([
         Q3_OUT / "paper" / "q3_results.md",
-    ]
+        Q3_OUT / "paper" / "figure_captions.md",
+        Q3_OUT / "paper" / "attachment4_explanation_cards.pdf",
+    ])
+
+    return outputs
+
+
+def q3_verification_complete() -> bool:
+    """
+    A verification.json file is only considered complete when it explicitly
+    reports passed=true and contains no issues.
+
+    This avoids incorrectly skipping verification because a previous failed
+    verification.json happens to exist.
+    """
+    import json
+
+    path = Q3_OUT / "verification.json"
+    if not path.is_file():
+        return False
+
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return False
+
+    return data.get("passed") is True and not data.get("issues", [])
+
+
+def run_q3_verification(*, force: bool) -> None:
+    import json
+
+    path = Q3_OUT / "verification.json"
+
+    if not force and q3_verification_complete():
+        print_skip(
+            "Q3 | verify | 全量覆盖、结果一致性与复现性检查",
+            [path],
+        )
+        return
+
+    run_cmd(
+        ["question3/run.py", "verify"],
+        title="Q3 | verify | 最终全量覆盖、结果一致性与复现性检查",
+    )
+
+    if not path.is_file():
+        raise RuntimeError(
+            "Q3 verify command finished but verification.json was not created"
+        )
+
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        raise RuntimeError(
+            f"Q3 verification.json cannot be parsed: {path}"
+        ) from exc
+
+    if data.get("passed") is not True or data.get("issues", []):
+        issues = data.get("issues", [])
+        detail = "\n".join(f"  - {x}" for x in issues) if issues else "  - passed != true"
+        raise RuntimeError(
+            "Q3 verification did not pass:\n" + detail
+        )
+
+    print("[PASS] Q3 verification.json: passed=true, issues=[]", flush=True)
 
 
 def run_q3(*, force: bool, force_figures: bool) -> None:
+    # Rebuilding figures must always be followed by verification, because
+    # verification checks all 29 PDFs, their PNG companions and the 20-page
+    # supplement.
     if force_figures and not force:
         run_stage(
-            title="Q3 FIGURES | 强制重建全部论文图与解释卡",
+            title="Q3 FIGURES | 强制重建全部论文图、20张解释卡与合订PDF",
             args=["question3/run.py", "figures"],
             outputs=q3_figure_outputs(),
             force=True,
         )
+        run_q3_verification(force=True)
         return
 
+    # 1) Numerical / explanation stages.
     for stage, description, outputs in Q3_STAGES:
         run_stage(
             title=f"Q3 | {stage} | {description}",
@@ -885,13 +995,16 @@ def run_q3(*, force: bool, force_figures: bool) -> None:
             force=force,
         )
 
+    # 2) Figures must exist BEFORE verification.
     run_stage(
-        title="Q3 | figures | 论文级图表与解释卡",
+        title="Q3 | figures | 9张主图 + 20张解释卡 + 20页合订PDF",
         args=["question3/run.py", "figures"],
         outputs=q3_figure_outputs(),
         force=force,
     )
 
+    # 3) Final hard verification is the last Q3 stage.
+    run_q3_verification(force=force)
 
 
 # ============================================================================

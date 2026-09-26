@@ -25,6 +25,13 @@
 | No reconstruction | Text+Audio 30% | 0.610 | 0.565 | 0.611 | 0.615 |
 | No reconstruction | Text+Vision 30% | 0.610 | 0.566 | 0.612 | 0.617 |
 | No reconstruction | Audio+Vision 30% | 0.640 | 0.610 | 0.585 | 0.651 |
+| No reliability | Clean | 0.630 | 0.585 | 0.616 | 0.605 |
+| No reliability | Text 30% | 0.610 | 0.564 | 0.622 | 0.594 |
+| No reliability | Audio 30% | 0.630 | 0.591 | 0.609 | 0.613 |
+| No reliability | Vision 30% | 0.635 | 0.599 | 0.599 | 0.623 |
+| No reliability | Text+Audio 30% | 0.618 | 0.584 | 0.613 | 0.603 |
+| No reliability | Text+Vision 30% | 0.617 | 0.584 | 0.604 | 0.608 |
+| No reliability | Audio+Vision 30% | 0.632 | 0.600 | 0.597 | 0.625 |
 | No consistency | Clean | 0.646 | 0.601 | 0.603 | 0.624 |
 | No consistency | Text 30% | 0.617 | 0.559 | 0.639 | 0.594 |
 | No consistency | Audio 30% | 0.646 | 0.603 | 0.603 | 0.627 |
@@ -43,10 +50,12 @@
 | MRRF-Net | audio+vision | 0.651 | 0.575 | 0.644 | 0.660 |
 | No reconstruction | clean | 0.649 | 0.586 | 0.632 | 0.667 |
 | No reconstruction | audio+vision | 0.659 | 0.597 | 0.622 | 0.677 |
+| No reliability | clean | 0.653 | 0.571 | 0.668 | 0.648 |
+| No reliability | audio+vision | 0.675 | 0.610 | 0.639 | 0.664 |
 | No consistency | clean | 0.644 | 0.549 | 0.654 | 0.654 |
 | No consistency | audio+vision | 0.644 | 0.559 | 0.647 | 0.660 |
 
-按预先设定的验证选择分数（three_seed_validation_mean），当前候选模型是 `no_recon`，其附件三预测文件为 `/root/MathModel_restructured/outputs/q2/runs/mrrf/no_recon/seed_2026/attachment3_predictions_mrrf.csv`；配置分数为 baseline=0.380, full=0.405, no_recon=0.410。
+按预先设定的验证选择分数（three_seed_validation_mean），当前候选模型是 `no_recon`，其附件三预测文件为 `/root/MathModel_restructured/outputs/q2/runs/mrrf/no_recon/seed_2026/attachment3_predictions_mrrf.csv`；配置分数为 baseline=0.389, full=0.405, no_recon=0.410。
 图 1–10 为种子 2026 的结果；三种子均值与标准差另见 `three_seed_results.md` 和图 11。细微差异不可写成显著优势。
 图 1–10 分别展示训练曲线、缺失时长、消融、缺失位置、强度预测、混淆矩阵、融合权重、附件三实际零值位置及无标签预测。强度 MAE/Pearson 使用与分类极性一致化的最终输出。
 附件三不含标签，不能计算其预测准确率；附件三预测图仅展示模型输出。

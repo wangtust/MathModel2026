@@ -4,10 +4,10 @@
 
 | 模型 | 数据 | 场景 | Macro-F1 均值±SD | MAE 均值±SD |
 |:--|:--|:--|--:|--:|
-| Baseline MulT | validation | clean | 0.576±0.011 | 0.613±0.012 |
-| Baseline MulT | validation | audio+vision | 0.588±0.006 | 0.600±0.005 |
-| Baseline MulT | heldout_test | clean | 0.570±0.008 | 0.658±0.006 |
-| Baseline MulT | heldout_test | audio+vision | 0.586±0.006 | 0.647±0.003 |
+| Baseline MulT | validation | clean | 0.584±0.013 | 0.608±0.013 |
+| Baseline MulT | validation | audio+vision | 0.596±0.007 | 0.596±0.009 |
+| Baseline MulT | heldout_test | clean | 0.574±0.013 | 0.654±0.013 |
+| Baseline MulT | heldout_test | audio+vision | 0.594±0.016 | 0.643±0.010 |
 | MRRF-Net | validation | clean | 0.599±0.008 | 0.593±0.005 |
 | MRRF-Net | validation | audio+vision | 0.605±0.004 | 0.589±0.010 |
 | MRRF-Net | heldout_test | clean | 0.588±0.029 | 0.643±0.013 |
@@ -26,6 +26,6 @@
 
 | 模型 | 三种子均值±SD |
 |:--|--:|
-| Baseline MulT | 0.380±0.010 |
+| Baseline MulT | 0.389±0.013 |
 | MRRF-Net | 0.405±0.008 |
 | No reconstruction | 0.410±0.008 |

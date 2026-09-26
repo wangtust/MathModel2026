@@ -42,6 +42,7 @@ def evaluate(
     estimated = []
 
     ids = []
+    confidence = []
 
 
     for batch in loader:
@@ -63,6 +64,17 @@ def evaluate(
         out = model(masked)
 
         logits, output = out[0], out[1]
+
+        # Per-sample classification confidence used by error analysis.
+        # This is the maximum softmax probability of the predicted class.
+        confidence.extend(
+            torch.softmax(logits, dim=-1)
+            .max(dim=-1)
+            .values
+            .cpu()
+            .numpy()
+            .tolist()
+        )
 
 
         labels.extend(
@@ -190,7 +202,11 @@ def evaluate(
 
 
             "raw_pred_strength":
-                estimated
+                estimated,
+
+
+            "confidence":
+                confidence
         }
     )
 
@@ -207,7 +223,8 @@ def public_metrics(result):
         "pred_class",
         "true_strength",
         "pred_strength",
-        "raw_pred_strength"
+        "raw_pred_strength",
+        "confidence"
     }
 
 

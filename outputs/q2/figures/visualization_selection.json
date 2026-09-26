@@ -1,7 +1,7 @@
 {
   "selected_variant": "no_recon",
   "validation_selection_scores": {
-    "baseline": 0.3798817584058651,
+    "baseline": 0.3893017011712625,
     "full": 0.4047105014674828,
     "no_recon": 0.40961030972346607
   },

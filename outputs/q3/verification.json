@@ -1,10 +1,6 @@
 {
-  "passed": false,
-  "issues": [
-    "not all attachment-4 samples have individual explanation cards",
-    "expected 29 PDF figures, got 0",
-    "20-page attachment-4 explanation supplement is missing"
-  ],
+  "passed": true,
+  "issues": [],
   "predictions": 20,
   "evidence_rows": 60,
   "word_map_rows": 484,
@@ -23,14 +19,14 @@
   "worst_case_ig_error_192_steps": 0.0060619078576564,
   "paired_fidelity_rows": 2148,
   "gate_rank_rows": 1496,
-  "individual_explanation_cards": 0,
+  "individual_explanation_cards": 20,
   "validation_explained_samples": 728,
   "fidelity_eligible_by_modality": {
     "text": 724,
     "audio": 723,
     "vision": 702
   },
-  "pdf_png_pairs": 0,
+  "pdf_png_pairs": 29,
   "package_versions": {
     "torch": "2.8.0",
     "numpy": "2.2.6",
