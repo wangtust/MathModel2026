@@ -19,6 +19,14 @@ def _call_pipeline(modname, argv):
         sys.argv = old
 
 
+def _paper_figures() -> None:
+    from question3.visualization.main_text import main as paper_main
+    from question3.visualization.supplement import run as supplement_run
+
+    paper_main()
+    supplement_run()
+
+
 def main():
     stage = sys.argv[1] if len(sys.argv) > 1 else 'pipeline'
     args = sys.argv[2:]
@@ -45,8 +53,7 @@ def main():
     if stage == 'paper-figures':
         if args:
             raise SystemExit('paper-figures takes no extra arguments; it uses outputs/q3')
-        mod = __import__(table[stage], fromlist=['main'])
-        mod.main()
+        _paper_figures()
         return
 
     from common.paths import Q3_OUTPUT_DIR
@@ -64,8 +71,7 @@ def main():
         # compact 5-figure journal layer afterwards without changing verification
         # expectations for the legacy package.
         if output.resolve() == Q3_OUTPUT_DIR.resolve():
-            from question3.visualization.main_text import main as paper_main
-            paper_main()
+            _paper_figures()
         else:
             print(
                 f"Skipped compact paper figures for non-default --output={output}; "
