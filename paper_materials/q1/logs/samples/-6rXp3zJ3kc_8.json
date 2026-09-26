@@ -1,0 +1,507 @@
+{
+  "sample_id": "-6rXp3zJ3kc_8",
+  "video_id": "-6rXp3zJ3kc",
+  "clip_id": "8",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-6rXp3zJ3kc/8.mp4",
+  "video_exists": true,
+  "official_text": "Many people are not until they get to be a older age and they realize that gosh they wasted a lot of time and money in placing bets on stock that's ultimately lost value.",
+  "label": -1.0,
+  "annotation": "Negative",
+  "duration": 16.58,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9705882352941176,
+  "word_audio_valid_fraction": 0.9705882352941176,
+  "word_vision_valid_fraction": 0.9705882352941176,
+  "sha256_video": "59b77a0f873b7fa95e7327b93d64bb5a4bdae84039321988ef70bba8e63ee1ae",
+  "word_count": 34,
+  "text_token_count": 40,
+  "audio_frames": 1269,
+  "vision_frames": 26,
+  "decoded_frames": 384,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.0,
+      3.07
+    ],
+    [
+      3.17,
+      7.774
+    ],
+    [
+      8.162,
+      12.382
+    ]
+  ],
+  "asr_text": "aware of many people are not until they get to be a older age and they realize that gosh, they've wasted a lot of time and money in placing bets on stock that's ultimately lost value.",
+  "asr_words": [
+    {
+      "word": "aware",
+      "start": 0.08,
+      "end": 0.321,
+      "score": 0.987
+    },
+    {
+      "word": "of",
+      "start": 0.381,
+      "end": 0.481,
+      "score": 0.665
+    },
+    {
+      "word": "many",
+      "start": 0.521,
+      "end": 0.721,
+      "score": 0.94
+    },
+    {
+      "word": "people",
+      "start": 0.781,
+      "end": 1.022,
+      "score": 0.878
+    },
+    {
+      "word": "are",
+      "start": 1.062,
+      "end": 1.162,
+      "score": 0.7
+    },
+    {
+      "word": "not",
+      "start": 1.242,
+      "end": 1.523,
+      "score": 0.793
+    },
+    {
+      "word": "until",
+      "start": 1.583,
+      "end": 1.843,
+      "score": 0.809
+    },
+    {
+      "word": "they",
+      "start": 1.863,
+      "end": 2.004,
+      "score": 0.901
+    },
+    {
+      "word": "get",
+      "start": 2.024,
+      "end": 2.184,
+      "score": 0.919
+    },
+    {
+      "word": "to",
+      "start": 2.264,
+      "end": 2.364,
+      "score": 0.936
+    },
+    {
+      "word": "be",
+      "start": 2.404,
+      "end": 2.605,
+      "score": 0.686
+    },
+    {
+      "word": "a",
+      "start": 2.665,
+      "end": 2.705,
+      "score": 0.497
+    },
+    {
+      "word": "older",
+      "start": 3.326,
+      "end": 3.606,
+      "score": 0.865
+    },
+    {
+      "word": "age",
+      "start": 3.767,
+      "end": 3.947,
+      "score": 0.93
+    },
+    {
+      "word": "and",
+      "start": 4.027,
+      "end": 4.107,
+      "score": 0.927
+    },
+    {
+      "word": "they",
+      "start": 4.127,
+      "end": 4.268,
+      "score": 0.936
+    },
+    {
+      "word": "realize",
+      "start": 4.328,
+      "end": 4.789,
+      "score": 0.834
+    },
+    {
+      "word": "that",
+      "start": 4.829,
+      "end": 4.969,
+      "score": 0.953
+    },
+    {
+      "word": "gosh,",
+      "start": 5.069,
+      "end": 5.61,
+      "score": 0.775
+    },
+    {
+      "word": "they've",
+      "start": 5.75,
+      "end": 5.971,
+      "score": 0.922
+    },
+    {
+      "word": "wasted",
+      "start": 6.011,
+      "end": 6.331,
+      "score": 0.789
+    },
+    {
+      "word": "a",
+      "start": 6.371,
+      "end": 6.411,
+      "score": 0.499
+    },
+    {
+      "word": "lot",
+      "start": 6.451,
+      "end": 6.592,
+      "score": 0.885
+    },
+    {
+      "word": "of",
+      "start": 6.632,
+      "end": 6.692,
+      "score": 0.75
+    },
+    {
+      "word": "time",
+      "start": 6.752,
+      "end": 7.093,
+      "score": 0.89
+    },
+    {
+      "word": "and",
+      "start": 7.153,
+      "end": 7.253,
+      "score": 0.744
+    },
+    {
+      "word": "money",
+      "start": 7.353,
+      "end": 7.593,
+      "score": 0.798
+    },
+    {
+      "word": "in",
+      "start": 8.615,
+      "end": 9.056,
+      "score": 0.897
+    },
+    {
+      "word": "placing",
+      "start": 9.317,
+      "end": 9.657,
+      "score": 0.883
+    },
+    {
+      "word": "bets",
+      "start": 9.717,
+      "end": 9.958,
+      "score": 0.776
+    },
+    {
+      "word": "on",
+      "start": 10.038,
+      "end": 10.118,
+      "score": 0.92
+    },
+    {
+      "word": "stock",
+      "start": 10.178,
+      "end": 10.499,
+      "score": 0.9
+    },
+    {
+      "word": "that's",
+      "start": 10.539,
+      "end": 10.759,
+      "score": 0.845
+    },
+    {
+      "word": "ultimately",
+      "start": 10.879,
+      "end": 11.4,
+      "score": 0.751
+    },
+    {
+      "word": "lost",
+      "start": 11.46,
+      "end": 11.761,
+      "score": 0.73
+    },
+    {
+      "word": "value.",
+      "start": 11.841,
+      "end": 12.222,
+      "score": 0.904
+    }
+  ],
+  "official_words": [
+    "Many",
+    "people",
+    "are",
+    "not",
+    "until",
+    "they",
+    "get",
+    "to",
+    "be",
+    "a",
+    "older",
+    "age",
+    "and",
+    "they",
+    "realize",
+    "that",
+    "gosh",
+    "they",
+    "wasted",
+    "a",
+    "lot",
+    "of",
+    "time",
+    "and",
+    "money",
+    "in",
+    "placing",
+    "bets",
+    "on",
+    "stock",
+    "that's",
+    "ultimately",
+    "lost",
+    "value."
+  ],
+  "match": {
+    "coverage": 0.9705882352941176,
+    "trusted": true,
+    "matched_words": 33,
+    "official_words": 34,
+    "observed_words": 36,
+    "matched_pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        14,
+        16
+      ],
+      [
+        15,
+        17
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        19,
+        21
+      ],
+      [
+        20,
+        22
+      ],
+      [
+        21,
+        23
+      ],
+      [
+        22,
+        24
+      ],
+      [
+        23,
+        25
+      ],
+      [
+        24,
+        26
+      ],
+      [
+        25,
+        27
+      ],
+      [
+        26,
+        28
+      ],
+      [
+        27,
+        29
+      ],
+      [
+        28,
+        30
+      ],
+      [
+        29,
+        31
+      ],
+      [
+        30,
+        32
+      ],
+      [
+        31,
+        33
+      ],
+      [
+        32,
+        34
+      ],
+      [
+        33,
+        35
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-6rXp3zJ3kc_8.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9990234375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

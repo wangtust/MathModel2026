@@ -1,0 +1,214 @@
+{
+  "sample_id": "-ri04Z7vwnc_5",
+  "video_id": "-ri04Z7vwnc",
+  "clip_id": "5",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-ri04Z7vwnc/5.mp4",
+  "video_exists": true,
+  "official_text": "\" So I think it's important to discuss finances",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "duration": 5.965,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": false,
+  "text_audio_status": "mismatch_candidate",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.125,
+  "word_audio_valid_fraction": 0.0,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "2a5e4319bf592a18c8eb5117f7c7ec30c6c79528f9eac9fe4fb85bf70f277736",
+  "word_count": 9,
+  "text_token_count": 13,
+  "audio_frames": 339,
+  "vision_frames": 7,
+  "decoded_frames": 83,
+  "source_fps": 23.976046466253432,
+  "speech_segments": [
+    [
+      0.002,
+      3.43975
+    ]
+  ],
+  "asr_text": "and a lot of people who are working you know money is very important.",
+  "asr_words": [
+    {
+      "word": "and",
+      "start": 0.243,
+      "end": 0.344,
+      "score": 0.956
+    },
+    {
+      "word": "a",
+      "start": 0.525,
+      "end": 0.585,
+      "score": 0.829
+    },
+    {
+      "word": "lot",
+      "start": 0.645,
+      "end": 0.746,
+      "score": 0.998
+    },
+    {
+      "word": "of",
+      "start": 0.766,
+      "end": 0.826,
+      "score": 0.749
+    },
+    {
+      "word": "people",
+      "start": 0.887,
+      "end": 1.088,
+      "score": 0.861
+    },
+    {
+      "word": "who",
+      "start": 1.108,
+      "end": 1.188,
+      "score": 0.95
+    },
+    {
+      "word": "are",
+      "start": 1.228,
+      "end": 1.329,
+      "score": 0.728
+    },
+    {
+      "word": "working",
+      "start": 1.369,
+      "end": 1.771,
+      "score": 0.874
+    },
+    {
+      "word": "you",
+      "start": 2.314,
+      "end": 2.374,
+      "score": 0.858
+    },
+    {
+      "word": "know",
+      "start": 2.395,
+      "end": 2.495,
+      "score": 0.877
+    },
+    {
+      "word": "money",
+      "start": 2.535,
+      "end": 2.736,
+      "score": 0.811
+    },
+    {
+      "word": "is",
+      "start": 2.817,
+      "end": 2.897,
+      "score": 0.755
+    },
+    {
+      "word": "very",
+      "start": 2.917,
+      "end": 3.098,
+      "score": 0.869
+    },
+    {
+      "word": "important.",
+      "start": 3.118,
+      "end": 3.44,
+      "score": 0.284
+    }
+  ],
+  "official_words": [
+    "\"",
+    "So",
+    "I",
+    "think",
+    "it's",
+    "important",
+    "to",
+    "discuss",
+    "finances"
+  ],
+  "match": {
+    "coverage": 0.125,
+    "trusted": false,
+    "matched_words": 1,
+    "official_words": 8,
+    "observed_words": 14,
+    "matched_pairs": [
+      [
+        5,
+        13
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-ri04Z7vwnc_5.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.93798828125,
+  "text_language": "en",
+  "alignment_granularity": "none"
+}

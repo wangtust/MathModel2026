@@ -1,0 +1,265 @@
+{
+  "sample_id": "-tPCytz4rww_16",
+  "video_id": "-tPCytz4rww",
+  "clip_id": "16",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-tPCytz4rww/16.mp4",
+  "video_exists": true,
+  "official_text": "So make sure to get a through or to do a through cleaning of the property.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 13.236,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.625,
+  "word_audio_valid_fraction": 0.625,
+  "word_vision_valid_fraction": 0.625,
+  "sha256_video": "8b3f82f9628792eebaf8c227becc2ebeba59bb8abb668bcca86e07fb1a992a93",
+  "word_count": 16,
+  "text_token_count": 19,
+  "audio_frames": 709,
+  "vision_frames": 15,
+  "decoded_frames": 216,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.002,
+      2.814
+    ],
+    [
+      2.946,
+      3.518
+    ],
+    [
+      3.81,
+      7.1391875
+    ]
+  ],
+  "asr_text": "So make sure to do a thorough cleaning of the property if you need",
+  "asr_words": [
+    {
+      "word": "So",
+      "start": 0.583,
+      "end": 0.824,
+      "score": 0.834
+    },
+    {
+      "word": "make",
+      "start": 0.964,
+      "end": 1.125,
+      "score": 0.995
+    },
+    {
+      "word": "sure",
+      "start": 1.185,
+      "end": 1.385,
+      "score": 0.712
+    },
+    {
+      "word": "to",
+      "start": 1.486,
+      "end": 1.746,
+      "score": 0.886
+    },
+    {
+      "word": "do",
+      "start": 1.766,
+      "end": 2.067,
+      "score": 0.226
+    },
+    {
+      "word": "a",
+      "start": 2.107,
+      "end": 2.127,
+      "score": 0.98
+    },
+    {
+      "word": "thorough",
+      "start": 2.187,
+      "end": 2.548,
+      "score": 0.792
+    },
+    {
+      "word": "cleaning",
+      "start": 5.194,
+      "end": 5.595,
+      "score": 0.939
+    },
+    {
+      "word": "of",
+      "start": 5.856,
+      "end": 5.956,
+      "score": 0.875
+    },
+    {
+      "word": "the",
+      "start": 6.036,
+      "end": 6.097,
+      "score": 0.974
+    },
+    {
+      "word": "property",
+      "start": 6.137,
+      "end": 6.558,
+      "score": 0.92
+    },
+    {
+      "word": "if",
+      "start": 6.858,
+      "end": 6.918,
+      "score": 0.924
+    },
+    {
+      "word": "you",
+      "start": 6.939,
+      "end": 7.019,
+      "score": 0.861
+    },
+    {
+      "word": "need",
+      "start": 7.039,
+      "end": 7.139,
+      "score": 0.625
+    }
+  ],
+  "official_words": [
+    "So",
+    "make",
+    "sure",
+    "to",
+    "get",
+    "a",
+    "through",
+    "or",
+    "to",
+    "do",
+    "a",
+    "through",
+    "cleaning",
+    "of",
+    "the",
+    "property."
+  ],
+  "match": {
+    "coverage": 0.625,
+    "trusted": true,
+    "matched_words": 10,
+    "official_words": 16,
+    "observed_words": 14,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        10,
+        5
+      ],
+      [
+        12,
+        7
+      ],
+      [
+        13,
+        8
+      ],
+      [
+        14,
+        9
+      ],
+      [
+        15,
+        10
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-tPCytz4rww_16.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9990234375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

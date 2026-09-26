@@ -1,0 +1,426 @@
+{
+  "sample_id": "-wny0OAz3g8_7",
+  "video_id": "-wny0OAz3g8",
+  "clip_id": "7",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-wny0OAz3g8/7.mp4",
+  "video_exists": true,
+  "official_text": "Omi and Winant argue that the concept of race came about as a tool to justify and maintain the economic and political power held by those of European descent",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 9.5,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.8620689655172413,
+  "word_audio_valid_fraction": 0.8620689655172413,
+  "word_vision_valid_fraction": 0.3103448275862069,
+  "sha256_video": "cbf9cac1048ce191aef781d0c4563eb97f9f3ddd52eb1f9551fa78d31d70e7cd",
+  "word_count": 29,
+  "text_token_count": 33,
+  "audio_frames": 787,
+  "vision_frames": 16,
+  "decoded_frames": 240,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.002,
+      7.9105
+    ]
+  ],
+  "asr_text": "forces. Omen when it argued that the concept of race came about as a tool to justify and maintain the economic and political power held by those of European descent.",
+  "asr_words": [
+    {
+      "word": "forces.",
+      "start": 0.082,
+      "end": 0.482,
+      "score": 0.872
+    },
+    {
+      "word": "Omen",
+      "start": 0.563,
+      "end": 0.803,
+      "score": 0.756
+    },
+    {
+      "word": "when",
+      "start": 0.823,
+      "end": 0.943,
+      "score": 0.659
+    },
+    {
+      "word": "it",
+      "start": 0.983,
+      "end": 1.083,
+      "score": 0.426
+    },
+    {
+      "word": "argued",
+      "start": 1.143,
+      "end": 1.343,
+      "score": 0.844
+    },
+    {
+      "word": "that",
+      "start": 1.363,
+      "end": 1.443,
+      "score": 1.0
+    },
+    {
+      "word": "the",
+      "start": 1.463,
+      "end": 1.544,
+      "score": 0.834
+    },
+    {
+      "word": "concept",
+      "start": 1.584,
+      "end": 1.924,
+      "score": 0.802
+    },
+    {
+      "word": "of",
+      "start": 1.944,
+      "end": 2.004,
+      "score": 0.747
+    },
+    {
+      "word": "race",
+      "start": 2.064,
+      "end": 2.284,
+      "score": 0.712
+    },
+    {
+      "word": "came",
+      "start": 2.324,
+      "end": 2.485,
+      "score": 0.797
+    },
+    {
+      "word": "about",
+      "start": 2.525,
+      "end": 2.685,
+      "score": 0.924
+    },
+    {
+      "word": "as",
+      "start": 2.745,
+      "end": 2.805,
+      "score": 0.804
+    },
+    {
+      "word": "a",
+      "start": 2.845,
+      "end": 2.865,
+      "score": 0.989
+    },
+    {
+      "word": "tool",
+      "start": 2.925,
+      "end": 3.165,
+      "score": 0.803
+    },
+    {
+      "word": "to",
+      "start": 3.205,
+      "end": 3.285,
+      "score": 0.919
+    },
+    {
+      "word": "justify",
+      "start": 3.325,
+      "end": 3.826,
+      "score": 0.835
+    },
+    {
+      "word": "and",
+      "start": 3.886,
+      "end": 3.966,
+      "score": 0.624
+    },
+    {
+      "word": "maintain",
+      "start": 4.006,
+      "end": 4.507,
+      "score": 0.701
+    },
+    {
+      "word": "the",
+      "start": 4.547,
+      "end": 4.627,
+      "score": 0.881
+    },
+    {
+      "word": "economic",
+      "start": 4.707,
+      "end": 5.107,
+      "score": 0.899
+    },
+    {
+      "word": "and",
+      "start": 5.147,
+      "end": 5.207,
+      "score": 0.996
+    },
+    {
+      "word": "political",
+      "start": 5.247,
+      "end": 5.628,
+      "score": 0.678
+    },
+    {
+      "word": "power",
+      "start": 5.668,
+      "end": 5.968,
+      "score": 0.809
+    },
+    {
+      "word": "held",
+      "start": 6.048,
+      "end": 6.248,
+      "score": 0.749
+    },
+    {
+      "word": "by",
+      "start": 6.268,
+      "end": 6.368,
+      "score": 0.592
+    },
+    {
+      "word": "those",
+      "start": 6.388,
+      "end": 6.569,
+      "score": 0.898
+    },
+    {
+      "word": "of",
+      "start": 6.609,
+      "end": 6.649,
+      "score": 1.0
+    },
+    {
+      "word": "European",
+      "start": 6.729,
+      "end": 7.089,
+      "score": 0.848
+    },
+    {
+      "word": "descent.",
+      "start": 7.129,
+      "end": 7.49,
+      "score": 0.896
+    }
+  ],
+  "official_words": [
+    "Omi",
+    "and",
+    "Winant",
+    "argue",
+    "that",
+    "the",
+    "concept",
+    "of",
+    "race",
+    "came",
+    "about",
+    "as",
+    "a",
+    "tool",
+    "to",
+    "justify",
+    "and",
+    "maintain",
+    "the",
+    "economic",
+    "and",
+    "political",
+    "power",
+    "held",
+    "by",
+    "those",
+    "of",
+    "European",
+    "descent"
+  ],
+  "match": {
+    "coverage": 0.8620689655172413,
+    "trusted": true,
+    "matched_words": 25,
+    "official_words": 29,
+    "observed_words": 30,
+    "matched_pairs": [
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        18,
+        19
+      ],
+      [
+        19,
+        20
+      ],
+      [
+        20,
+        21
+      ],
+      [
+        21,
+        22
+      ],
+      [
+        22,
+        23
+      ],
+      [
+        23,
+        24
+      ],
+      [
+        24,
+        25
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        26,
+        27
+      ],
+      [
+        27,
+        28
+      ],
+      [
+        28,
+        29
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-wny0OAz3g8_7.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.994140625,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

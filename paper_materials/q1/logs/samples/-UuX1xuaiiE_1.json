@@ -1,0 +1,418 @@
+{
+  "sample_id": "-UuX1xuaiiE_1",
+  "video_id": "-UuX1xuaiiE",
+  "clip_id": "1",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-UuX1xuaiiE/1.mp4",
+  "video_exists": true,
+  "official_text": "^And all of them are really being able to explore ^these different areas in depth ^in a way that really wasn't available ^before the center was here",
+  "label": 1.6666666269302368,
+  "annotation": "Positive",
+  "duration": 13.434,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": true,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "d5bbda38fcec15817d2b87bab5dcc559d6d425f7d28a82e6c32d13f14b48650c",
+  "word_count": 27,
+  "text_token_count": 35,
+  "audio_frames": 1022,
+  "vision_frames": 21,
+  "decoded_frames": 309,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.482,
+      3.87
+    ],
+    [
+      4.034,
+      10.2675
+    ]
+  ],
+  "asr_text": "and all of them are really being able to explore these different areas in depth in a way that really wasn't available before the center was here.",
+  "asr_words": [
+    {
+      "word": "and",
+      "start": 0.482,
+      "end": 0.582,
+      "score": 0.832
+    },
+    {
+      "word": "all",
+      "start": 0.662,
+      "end": 0.822,
+      "score": 0.724
+    },
+    {
+      "word": "of",
+      "start": 0.842,
+      "end": 0.902,
+      "score": 0.749
+    },
+    {
+      "word": "them",
+      "start": 0.942,
+      "end": 1.102,
+      "score": 0.905
+    },
+    {
+      "word": "are",
+      "start": 1.202,
+      "end": 1.303,
+      "score": 0.837
+    },
+    {
+      "word": "really",
+      "start": 1.383,
+      "end": 1.643,
+      "score": 0.81
+    },
+    {
+      "word": "being",
+      "start": 1.683,
+      "end": 1.903,
+      "score": 0.861
+    },
+    {
+      "word": "able",
+      "start": 2.563,
+      "end": 2.743,
+      "score": 0.783
+    },
+    {
+      "word": "to",
+      "start": 2.783,
+      "end": 2.883,
+      "score": 0.808
+    },
+    {
+      "word": "explore",
+      "start": 2.944,
+      "end": 3.584,
+      "score": 0.815
+    },
+    {
+      "word": "these",
+      "start": 3.604,
+      "end": 4.244,
+      "score": 0.743
+    },
+    {
+      "word": "different",
+      "start": 4.524,
+      "end": 4.825,
+      "score": 0.833
+    },
+    {
+      "word": "areas",
+      "start": 4.905,
+      "end": 5.205,
+      "score": 0.758
+    },
+    {
+      "word": "in",
+      "start": 5.225,
+      "end": 5.945,
+      "score": 0.832
+    },
+    {
+      "word": "depth",
+      "start": 6.065,
+      "end": 6.366,
+      "score": 0.824
+    },
+    {
+      "word": "in",
+      "start": 6.566,
+      "end": 6.646,
+      "score": 0.832
+    },
+    {
+      "word": "a",
+      "start": 6.666,
+      "end": 6.706,
+      "score": 0.49
+    },
+    {
+      "word": "way",
+      "start": 6.766,
+      "end": 6.946,
+      "score": 0.977
+    },
+    {
+      "word": "that",
+      "start": 7.026,
+      "end": 7.206,
+      "score": 0.712
+    },
+    {
+      "word": "really",
+      "start": 7.326,
+      "end": 7.526,
+      "score": 0.833
+    },
+    {
+      "word": "wasn't",
+      "start": 7.566,
+      "end": 7.827,
+      "score": 0.923
+    },
+    {
+      "word": "available",
+      "start": 7.847,
+      "end": 8.307,
+      "score": 0.766
+    },
+    {
+      "word": "before",
+      "start": 8.367,
+      "end": 8.687,
+      "score": 0.892
+    },
+    {
+      "word": "the",
+      "start": 8.727,
+      "end": 8.827,
+      "score": 0.789
+    },
+    {
+      "word": "center",
+      "start": 8.867,
+      "end": 9.187,
+      "score": 0.746
+    },
+    {
+      "word": "was",
+      "start": 9.247,
+      "end": 9.367,
+      "score": 0.866
+    },
+    {
+      "word": "here.",
+      "start": 9.447,
+      "end": 9.648,
+      "score": 0.912
+    }
+  ],
+  "official_words": [
+    "^And",
+    "all",
+    "of",
+    "them",
+    "are",
+    "really",
+    "being",
+    "able",
+    "to",
+    "explore",
+    "^these",
+    "different",
+    "areas",
+    "in",
+    "depth",
+    "^in",
+    "a",
+    "way",
+    "that",
+    "really",
+    "wasn't",
+    "available",
+    "^before",
+    "the",
+    "center",
+    "was",
+    "here"
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 27,
+    "official_words": 27,
+    "observed_words": 27,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        22,
+        22
+      ],
+      [
+        23,
+        23
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        25,
+        25
+      ],
+      [
+        26,
+        26
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-UuX1xuaiiE_1.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9814453125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

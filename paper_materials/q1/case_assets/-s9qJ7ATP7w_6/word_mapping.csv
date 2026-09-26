@@ -1,0 +1,6 @@
+sample_id,word_index_1based,official_word,asr_word,asr_alignment_score,start_s,end_s,audio_start_sample_0based,audio_end_sample_exclusive,original_video_first_frame_0based,original_video_last_frame_0based,original_video_first_pts_s,original_video_last_pts_s,audio_feature_first_row_0based,audio_feature_last_row_0based,visual_feature_first_row_0based,visual_feature_last_row_0based,text_feature_row_0based,audio_mask,face_mask
+-s9qJ7ATP7w_6,1,But,but,0.986000,0.557000,0.758000,8911,12129,17,22,0.566667,0.733333,55,74,1,2,0,1,1
+-s9qJ7ATP7w_6,2,I,I,0.929000,1.241000,1.302000,19856,20833,38,39,1.266667,1.300000,124,129,2,3,1,1,1
+-s9qJ7ATP7w_6,3,just,just,0.988000,1.342000,1.463000,21472,23409,41,43,1.366667,1.433333,134,145,3,3,2,1,1
+-s9qJ7ATP7w_6,4,kept,kept,0.992000,1.483000,1.623000,23728,25969,45,48,1.500000,1.600000,148,161,3,3,3,1,1
+-s9qJ7ATP7w_6,5,going,going.,0.986000,1.664000,1.865000,26624,29841,50,55,1.666667,1.833333,166,185,3,3,4,1,1

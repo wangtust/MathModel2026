@@ -1,0 +1,319 @@
+{
+  "sample_id": "-aNfi7CP8vM_7",
+  "video_id": "-aNfi7CP8vM",
+  "clip_id": "7",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-aNfi7CP8vM/7.mp4",
+  "video_exists": true,
+  "official_text": "Maybe they have no political party affiliation, they're not interested in politics, they could care less about politics.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 11.334,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "0b6389f45bb966113c65a11998c6e7facdd24c8c42acf2e8cf32e0f2139402e1",
+  "word_count": 18,
+  "text_token_count": 25,
+  "audio_frames": 849,
+  "vision_frames": 18,
+  "decoded_frames": 257,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.514,
+      4.158
+    ],
+    [
+      4.258,
+      8.094
+    ]
+  ],
+  "asr_text": "Maybe they have no political party affiliation. They're not interested in politics. They could care less about politics.",
+  "asr_words": [
+    {
+      "word": "Maybe",
+      "start": 0.554,
+      "end": 1.537,
+      "score": 0.741
+    },
+    {
+      "word": "they",
+      "start": 1.597,
+      "end": 1.737,
+      "score": 0.739
+    },
+    {
+      "word": "have",
+      "start": 1.777,
+      "end": 1.918,
+      "score": 0.796
+    },
+    {
+      "word": "no",
+      "start": 1.978,
+      "end": 2.138,
+      "score": 0.82
+    },
+    {
+      "word": "political",
+      "start": 2.178,
+      "end": 2.64,
+      "score": 0.798
+    },
+    {
+      "word": "party",
+      "start": 2.7,
+      "end": 3.021,
+      "score": 0.935
+    },
+    {
+      "word": "affiliation.",
+      "start": 3.061,
+      "end": 3.903,
+      "score": 0.78
+    },
+    {
+      "word": "They're",
+      "start": 4.284,
+      "end": 4.484,
+      "score": 0.723
+    },
+    {
+      "word": "not",
+      "start": 4.525,
+      "end": 4.665,
+      "score": 0.862
+    },
+    {
+      "word": "interested",
+      "start": 4.785,
+      "end": 5.206,
+      "score": 0.846
+    },
+    {
+      "word": "in",
+      "start": 5.246,
+      "end": 5.307,
+      "score": 0.75
+    },
+    {
+      "word": "politics.",
+      "start": 5.367,
+      "end": 5.968,
+      "score": 0.892
+    },
+    {
+      "word": "They",
+      "start": 6.029,
+      "end": 6.149,
+      "score": 0.988
+    },
+    {
+      "word": "could",
+      "start": 6.169,
+      "end": 6.329,
+      "score": 0.898
+    },
+    {
+      "word": "care",
+      "start": 6.349,
+      "end": 6.55,
+      "score": 0.834
+    },
+    {
+      "word": "less",
+      "start": 6.61,
+      "end": 6.871,
+      "score": 0.747
+    },
+    {
+      "word": "about",
+      "start": 6.931,
+      "end": 7.152,
+      "score": 0.909
+    },
+    {
+      "word": "politics.",
+      "start": 7.212,
+      "end": 7.893,
+      "score": 0.856
+    }
+  ],
+  "official_words": [
+    "Maybe",
+    "they",
+    "have",
+    "no",
+    "political",
+    "party",
+    "affiliation,",
+    "they're",
+    "not",
+    "interested",
+    "in",
+    "politics,",
+    "they",
+    "could",
+    "care",
+    "less",
+    "about",
+    "politics."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 18,
+    "official_words": 18,
+    "observed_words": 18,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-aNfi7CP8vM_7.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9970703125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

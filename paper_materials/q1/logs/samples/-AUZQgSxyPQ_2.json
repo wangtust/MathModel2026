@@ -1,0 +1,574 @@
+{
+  "sample_id": "-AUZQgSxyPQ_2",
+  "video_id": "-AUZQgSxyPQ",
+  "clip_id": "2",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-AUZQgSxyPQ/2.mp4",
+  "video_exists": true,
+  "official_text": "The perfect soul mate to the Clarisonic Spot Therapy Brush, this gentle, Ph balanced and hydrating exfoliant containing jojoba and acai fruit oils and bamboo and prickly bear extracts deliver intense healing, while smooth granules buff away dead, dry skin cells.",
+  "label": 0.6666666865348816,
+  "annotation": "Positive",
+  "duration": 27.3,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.8292682926829268,
+  "word_audio_valid_fraction": 0.8292682926829268,
+  "word_vision_valid_fraction": 0.8292682926829268,
+  "sha256_video": "e09034b30bb4f8fb9f9c2568afc20f2a764e327fe6ef4e13f21804eaac51bb7b",
+  "word_count": 41,
+  "text_token_count": 58,
+  "audio_frames": 2236,
+  "vision_frames": 45,
+  "decoded_frames": 674,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.482,
+      2.718
+    ],
+    [
+      3.042,
+      4.542
+    ],
+    [
+      4.93,
+      8.414
+    ],
+    [
+      8.77,
+      10.078
+    ],
+    [
+      10.242,
+      11.774
+    ],
+    [
+      12.354,
+      13.342
+    ],
+    [
+      13.474,
+      15.294
+    ],
+    [
+      15.682,
+      17.438
+    ],
+    [
+      17.794,
+      19.87
+    ],
+    [
+      20.098,
+      20.51
+    ],
+    [
+      20.706,
+      22.014
+    ]
+  ],
+  "asr_text": "The perfect soul-made to the clear-signing, spot therapy brush. This gentle pH-balanced and hydrating exfoliant contains jojoba and acai fruit oils, with bamboo and prickly bear extracts. These deliver intense healing, while smooth granules buff away dead dry skin cells.",
+  "asr_words": [
+    {
+      "word": "The",
+      "start": 0.502,
+      "end": 0.602,
+      "score": 0.888
+    },
+    {
+      "word": "perfect",
+      "start": 0.642,
+      "end": 0.982,
+      "score": 0.973
+    },
+    {
+      "word": "soul-made",
+      "start": 1.042,
+      "end": 1.543,
+      "score": 0.708
+    },
+    {
+      "word": "to",
+      "start": 1.603,
+      "end": 1.683,
+      "score": 0.996
+    },
+    {
+      "word": "the",
+      "start": 1.723,
+      "end": 1.803,
+      "score": 0.816
+    },
+    {
+      "word": "clear-signing,",
+      "start": 1.863,
+      "end": 2.563,
+      "score": 0.685
+    },
+    {
+      "word": "spot",
+      "start": 3.103,
+      "end": 3.444,
+      "score": 0.939
+    },
+    {
+      "word": "therapy",
+      "start": 3.564,
+      "end": 4.004,
+      "score": 0.731
+    },
+    {
+      "word": "brush.",
+      "start": 4.044,
+      "end": 4.404,
+      "score": 0.914
+    },
+    {
+      "word": "This",
+      "start": 4.944,
+      "end": 5.105,
+      "score": 0.853
+    },
+    {
+      "word": "gentle",
+      "start": 5.165,
+      "end": 5.705,
+      "score": 0.706
+    },
+    {
+      "word": "pH-balanced",
+      "start": 5.785,
+      "end": 6.625,
+      "score": 0.838
+    },
+    {
+      "word": "and",
+      "start": 6.766,
+      "end": 6.846,
+      "score": 0.509
+    },
+    {
+      "word": "hydrating",
+      "start": 6.906,
+      "end": 7.486,
+      "score": 0.951
+    },
+    {
+      "word": "exfoliant",
+      "start": 7.646,
+      "end": 8.286,
+      "score": 0.794
+    },
+    {
+      "word": "contains",
+      "start": 8.767,
+      "end": 9.207,
+      "score": 0.879
+    },
+    {
+      "word": "jojoba",
+      "start": 9.227,
+      "end": 9.967,
+      "score": 0.843
+    },
+    {
+      "word": "and",
+      "start": 10.307,
+      "end": 10.408,
+      "score": 0.692
+    },
+    {
+      "word": "acai",
+      "start": 10.468,
+      "end": 10.948,
+      "score": 0.812
+    },
+    {
+      "word": "fruit",
+      "start": 11.148,
+      "end": 11.388,
+      "score": 0.808
+    },
+    {
+      "word": "oils,",
+      "start": 11.488,
+      "end": 11.728,
+      "score": 0.881
+    },
+    {
+      "word": "with",
+      "start": 12.389,
+      "end": 12.609,
+      "score": 0.929
+    },
+    {
+      "word": "bamboo",
+      "start": 12.689,
+      "end": 13.269,
+      "score": 0.912
+    },
+    {
+      "word": "and",
+      "start": 13.569,
+      "end": 13.669,
+      "score": 0.718
+    },
+    {
+      "word": "prickly",
+      "start": 13.749,
+      "end": 14.11,
+      "score": 0.859
+    },
+    {
+      "word": "bear",
+      "start": 14.15,
+      "end": 14.47,
+      "score": 0.712
+    },
+    {
+      "word": "extracts.",
+      "start": 14.65,
+      "end": 15.15,
+      "score": 0.916
+    },
+    {
+      "word": "These",
+      "start": 15.69,
+      "end": 15.891,
+      "score": 0.87
+    },
+    {
+      "word": "deliver",
+      "start": 15.931,
+      "end": 16.391,
+      "score": 0.845
+    },
+    {
+      "word": "intense",
+      "start": 16.511,
+      "end": 16.911,
+      "score": 0.895
+    },
+    {
+      "word": "healing,",
+      "start": 16.971,
+      "end": 17.351,
+      "score": 0.806
+    },
+    {
+      "word": "while",
+      "start": 17.832,
+      "end": 18.052,
+      "score": 0.843
+    },
+    {
+      "word": "smooth",
+      "start": 18.132,
+      "end": 18.412,
+      "score": 0.923
+    },
+    {
+      "word": "granules",
+      "start": 18.472,
+      "end": 18.952,
+      "score": 0.645
+    },
+    {
+      "word": "buff",
+      "start": 19.072,
+      "end": 19.333,
+      "score": 0.889
+    },
+    {
+      "word": "away",
+      "start": 19.353,
+      "end": 19.713,
+      "score": 0.873
+    },
+    {
+      "word": "dead",
+      "start": 20.133,
+      "end": 20.393,
+      "score": 0.874
+    },
+    {
+      "word": "dry",
+      "start": 20.693,
+      "end": 21.134,
+      "score": 0.915
+    },
+    {
+      "word": "skin",
+      "start": 21.214,
+      "end": 21.494,
+      "score": 0.934
+    },
+    {
+      "word": "cells.",
+      "start": 21.534,
+      "end": 21.834,
+      "score": 0.647
+    }
+  ],
+  "official_words": [
+    "The",
+    "perfect",
+    "soul",
+    "mate",
+    "to",
+    "the",
+    "Clarisonic",
+    "Spot",
+    "Therapy",
+    "Brush,",
+    "this",
+    "gentle,",
+    "Ph",
+    "balanced",
+    "and",
+    "hydrating",
+    "exfoliant",
+    "containing",
+    "jojoba",
+    "and",
+    "acai",
+    "fruit",
+    "oils",
+    "and",
+    "bamboo",
+    "and",
+    "prickly",
+    "bear",
+    "extracts",
+    "deliver",
+    "intense",
+    "healing,",
+    "while",
+    "smooth",
+    "granules",
+    "buff",
+    "away",
+    "dead,",
+    "dry",
+    "skin",
+    "cells."
+  ],
+  "match": {
+    "coverage": 0.8292682926829268,
+    "trusted": true,
+    "matched_words": 34,
+    "official_words": 41,
+    "observed_words": 40,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        14,
+        12
+      ],
+      [
+        15,
+        13
+      ],
+      [
+        16,
+        14
+      ],
+      [
+        18,
+        16
+      ],
+      [
+        19,
+        17
+      ],
+      [
+        20,
+        18
+      ],
+      [
+        21,
+        19
+      ],
+      [
+        22,
+        20
+      ],
+      [
+        24,
+        22
+      ],
+      [
+        25,
+        23
+      ],
+      [
+        26,
+        24
+      ],
+      [
+        27,
+        25
+      ],
+      [
+        28,
+        26
+      ],
+      [
+        29,
+        28
+      ],
+      [
+        30,
+        29
+      ],
+      [
+        31,
+        30
+      ],
+      [
+        32,
+        31
+      ],
+      [
+        33,
+        32
+      ],
+      [
+        34,
+        33
+      ],
+      [
+        35,
+        34
+      ],
+      [
+        36,
+        35
+      ],
+      [
+        37,
+        36
+      ],
+      [
+        38,
+        37
+      ],
+      [
+        39,
+        38
+      ],
+      [
+        40,
+        39
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-AUZQgSxyPQ_2.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99755859375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

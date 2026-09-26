@@ -1,0 +1,348 @@
+{
+  "sample_id": "-vxjVxOeScU_4",
+  "video_id": "-vxjVxOeScU",
+  "clip_id": "4",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-vxjVxOeScU/4.mp4",
+  "video_exists": true,
+  "official_text": "You're going to talk about their life, their marriage and usually how amazing it is that they've stayed together this long.",
+  "label": 1.0,
+  "annotation": "Positive",
+  "duration": 11.734,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9523809523809523,
+  "word_audio_valid_fraction": 0.9523809523809523,
+  "word_vision_valid_fraction": 0.9523809523809523,
+  "sha256_video": "00282df9a314394f19d616d561bd1916d1d30dca4c814dfb43630ca164f4c719",
+  "word_count": 21,
+  "text_token_count": 29,
+  "audio_frames": 899,
+  "vision_frames": 19,
+  "decoded_frames": 272,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.002,
+      4.126
+    ],
+    [
+      4.322,
+      9.0370625
+    ]
+  ],
+  "asr_text": "You're going to talk about their life, their marriage, and usually how amazing it is that they've stayed together this long.",
+  "asr_words": [
+    {
+      "word": "You're",
+      "start": 0.002,
+      "end": 0.122,
+      "score": 0.041
+    },
+    {
+      "word": "going",
+      "start": 0.142,
+      "end": 0.703,
+      "score": 0.418
+    },
+    {
+      "word": "to",
+      "start": 0.723,
+      "end": 0.803,
+      "score": 0.57
+    },
+    {
+      "word": "talk",
+      "start": 0.843,
+      "end": 1.104,
+      "score": 0.956
+    },
+    {
+      "word": "about",
+      "start": 1.184,
+      "end": 1.605,
+      "score": 0.786
+    },
+    {
+      "word": "their",
+      "start": 1.865,
+      "end": 2.105,
+      "score": 0.814
+    },
+    {
+      "word": "life,",
+      "start": 2.206,
+      "end": 2.626,
+      "score": 0.982
+    },
+    {
+      "word": "their",
+      "start": 2.947,
+      "end": 3.187,
+      "score": 0.682
+    },
+    {
+      "word": "marriage,",
+      "start": 3.247,
+      "end": 3.808,
+      "score": 0.844
+    },
+    {
+      "word": "and",
+      "start": 4.75,
+      "end": 4.85,
+      "score": 0.674
+    },
+    {
+      "word": "usually",
+      "start": 5.01,
+      "end": 5.531,
+      "score": 0.8
+    },
+    {
+      "word": "how",
+      "start": 5.611,
+      "end": 5.832,
+      "score": 0.93
+    },
+    {
+      "word": "amazing",
+      "start": 5.912,
+      "end": 6.433,
+      "score": 0.843
+    },
+    {
+      "word": "it",
+      "start": 6.493,
+      "end": 6.553,
+      "score": 0.75
+    },
+    {
+      "word": "is",
+      "start": 6.653,
+      "end": 6.753,
+      "score": 0.818
+    },
+    {
+      "word": "that",
+      "start": 6.833,
+      "end": 6.954,
+      "score": 0.712
+    },
+    {
+      "word": "they've",
+      "start": 6.974,
+      "end": 7.194,
+      "score": 0.86
+    },
+    {
+      "word": "stayed",
+      "start": 7.214,
+      "end": 7.494,
+      "score": 0.797
+    },
+    {
+      "word": "together",
+      "start": 7.535,
+      "end": 7.935,
+      "score": 0.919
+    },
+    {
+      "word": "this",
+      "start": 7.975,
+      "end": 8.156,
+      "score": 0.856
+    },
+    {
+      "word": "long.",
+      "start": 8.236,
+      "end": 8.536,
+      "score": 0.943
+    }
+  ],
+  "official_words": [
+    "You're",
+    "going",
+    "to",
+    "talk",
+    "about",
+    "their",
+    "life,",
+    "their",
+    "marriage",
+    "and",
+    "usually",
+    "how",
+    "amazing",
+    "it",
+    "is",
+    "that",
+    "they've",
+    "stayed",
+    "together",
+    "this",
+    "long."
+  ],
+  "match": {
+    "coverage": 0.9523809523809523,
+    "trusted": true,
+    "matched_words": 20,
+    "official_words": 21,
+    "observed_words": 21,
+    "matched_pairs": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-vxjVxOeScU_4.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99365234375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

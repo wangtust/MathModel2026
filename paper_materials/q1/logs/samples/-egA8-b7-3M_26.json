@@ -1,0 +1,286 @@
+{
+  "sample_id": "-egA8-b7-3M_26",
+  "video_id": "-egA8-b7-3M",
+  "clip_id": "26",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/26.mp4",
+  "video_exists": true,
+  "official_text": "We're updating it all the time and looking forward to your comments on our videos.",
+  "label": 1.6666666269302368,
+  "annotation": "Positive",
+  "duration": 11.5,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "11f78aed680ea9c5862a15e04ff6c1f8776c46d29c98b68d28773ff39d959685",
+  "word_count": 15,
+  "text_token_count": 21,
+  "audio_frames": 588,
+  "vision_frames": 12,
+  "decoded_frames": 179,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.482,
+      2.238
+    ],
+    [
+      2.434,
+      5.47
+    ]
+  ],
+  "asr_text": "We're updating it all the time and looking forward to your comments on our videos.",
+  "asr_words": [
+    {
+      "word": "We're",
+      "start": 0.522,
+      "end": 0.702,
+      "score": 0.686
+    },
+    {
+      "word": "updating",
+      "start": 0.782,
+      "end": 1.183,
+      "score": 0.964
+    },
+    {
+      "word": "it",
+      "start": 1.243,
+      "end": 1.303,
+      "score": 0.73
+    },
+    {
+      "word": "all",
+      "start": 1.424,
+      "end": 1.564,
+      "score": 0.784
+    },
+    {
+      "word": "the",
+      "start": 1.604,
+      "end": 1.704,
+      "score": 0.86
+    },
+    {
+      "word": "time",
+      "start": 1.744,
+      "end": 2.004,
+      "score": 0.877
+    },
+    {
+      "word": "and",
+      "start": 2.485,
+      "end": 2.585,
+      "score": 0.759
+    },
+    {
+      "word": "looking",
+      "start": 2.625,
+      "end": 2.926,
+      "score": 0.877
+    },
+    {
+      "word": "forward",
+      "start": 3.006,
+      "end": 3.327,
+      "score": 0.89
+    },
+    {
+      "word": "to",
+      "start": 3.387,
+      "end": 3.487,
+      "score": 0.776
+    },
+    {
+      "word": "your",
+      "start": 3.527,
+      "end": 3.727,
+      "score": 0.857
+    },
+    {
+      "word": "comments",
+      "start": 3.767,
+      "end": 4.288,
+      "score": 0.941
+    },
+    {
+      "word": "on",
+      "start": 4.468,
+      "end": 4.549,
+      "score": 0.885
+    },
+    {
+      "word": "our",
+      "start": 4.609,
+      "end": 4.709,
+      "score": 0.445
+    },
+    {
+      "word": "videos.",
+      "start": 4.729,
+      "end": 5.21,
+      "score": 0.918
+    }
+  ],
+  "official_words": [
+    "We're",
+    "updating",
+    "it",
+    "all",
+    "the",
+    "time",
+    "and",
+    "looking",
+    "forward",
+    "to",
+    "your",
+    "comments",
+    "on",
+    "our",
+    "videos."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 15,
+    "official_words": 15,
+    "observed_words": 15,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-egA8-b7-3M_26.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.974609375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

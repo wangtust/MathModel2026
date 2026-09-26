@@ -1,0 +1,249 @@
+{
+  "sample_id": "-egA8-b7-3M_6",
+  "video_id": "-egA8-b7-3M",
+  "clip_id": "6",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/6.mp4",
+  "video_exists": true,
+  "official_text": "First exhibiting is a wonderful opportunity to network with other legal vendors.",
+  "label": 0.6666666865348816,
+  "annotation": "Positive",
+  "duration": 8.035,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "2e88a00d5e55863aa956b4b0949fc0e4f2975ccfd83b3194957f6fca86ecfce0",
+  "word_count": 12,
+  "text_token_count": 15,
+  "audio_frames": 614,
+  "vision_frames": 13,
+  "decoded_frames": 187,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.546,
+      5.694
+    ]
+  ],
+  "asr_text": "First, exhibiting is a wonderful opportunity to network with other legal vendors.",
+  "asr_words": [
+    {
+      "word": "First,",
+      "start": 0.546,
+      "end": 0.846,
+      "score": 0.804
+    },
+    {
+      "word": "exhibiting",
+      "start": 1.047,
+      "end": 1.568,
+      "score": 0.877
+    },
+    {
+      "word": "is",
+      "start": 1.648,
+      "end": 1.748,
+      "score": 0.468
+    },
+    {
+      "word": "a",
+      "start": 1.788,
+      "end": 1.828,
+      "score": 0.499
+    },
+    {
+      "word": "wonderful",
+      "start": 1.948,
+      "end": 2.449,
+      "score": 0.871
+    },
+    {
+      "word": "opportunity",
+      "start": 2.549,
+      "end": 3.21,
+      "score": 0.883
+    },
+    {
+      "word": "to",
+      "start": 3.27,
+      "end": 3.41,
+      "score": 0.826
+    },
+    {
+      "word": "network",
+      "start": 3.491,
+      "end": 3.911,
+      "score": 0.938
+    },
+    {
+      "word": "with",
+      "start": 3.951,
+      "end": 4.112,
+      "score": 0.831
+    },
+    {
+      "word": "other",
+      "start": 4.272,
+      "end": 4.472,
+      "score": 0.894
+    },
+    {
+      "word": "legal",
+      "start": 4.592,
+      "end": 4.913,
+      "score": 0.839
+    },
+    {
+      "word": "vendors.",
+      "start": 4.973,
+      "end": 5.394,
+      "score": 0.734
+    }
+  ],
+  "official_words": [
+    "First",
+    "exhibiting",
+    "is",
+    "a",
+    "wonderful",
+    "opportunity",
+    "to",
+    "network",
+    "with",
+    "other",
+    "legal",
+    "vendors."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 12,
+    "official_words": 12,
+    "observed_words": 12,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-egA8-b7-3M_6.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.97900390625,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

@@ -1,0 +1,33 @@
+{
+  "action": "train",
+  "variant": "full",
+  "output": "/root/MathModel_restructured/outputs/q2/runs/mrrf/optuna_trial_0",
+  "seed": 2026,
+  "epochs": 30,
+  "patience": 5,
+  "batch_size": 16,
+  "hidden_dim": 48,
+  "lr": 0.0001,
+  "regression_weight": 0.5,
+  "reconstruction_weight": 0.2,
+  "consistency_weight": 0.2,
+  "train_clean_prob": 0.15,
+  "class_weight_power": 0.0,
+  "train_gap_layout": "shared",
+  "mask_padding": false,
+  "mask_unavailable": false,
+  "selection_metric": "official",
+  "skip_test": false,
+  "skip_predict": true,
+  "training_scenario_weights": {
+    "clean": 0.15,
+    "audio": 0.2,
+    "vision": 0.2,
+    "audio+vision": 0.2,
+    "text": 0.1,
+    "text+audio": 0.075,
+    "text+vision": 0.075
+  },
+  "classification_weights": null,
+  "data_path": "/root/data/附件2-数据集特征文件/aligned_50.pkl"
+}

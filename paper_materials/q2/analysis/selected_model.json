@@ -1,0 +1,29 @@
+{
+  "selected_variant": "mrrf_no_recon",
+  "validation_selection_scores": {
+    "concat_mlp": 0.3867738260347895,
+    "gru": 0.38431770647773456,
+    "mult_no_aug": 0.39197404824023857,
+    "mmsa_baseline": 0.3893017011712625,
+    "tfr_feature": 0.393913852758136,
+    "mrrf_full": 0.4047105014674828,
+    "mrrf_no_recon": 0.40961030972346607
+  },
+  "candidate_configurations": [
+    "concat_mlp",
+    "gru",
+    "mult_no_aug",
+    "mmsa_baseline",
+    "tfr_feature",
+    "mrrf_full",
+    "mrrf_no_recon"
+  ],
+  "selection_basis": "three_seed_validation_mean_across_complete_candidates",
+  "selection_rule": "Mean across seeds 2026, 2027, 2028 of the average of clean and audio+vision 30% validation (macro_f1 - mae/3)",
+  "prediction_checkpoint_seed": 2026,
+  "prediction_checkpoint_seed_rule": "Fixed reporting seed 2026; epoch selected by validation, never by held-out test or unlabeled attachment 3",
+  "candidate_root": "/root/MathModel_restructured/outputs/q2/experiments/robustness",
+  "prediction_file": "/root/MathModel_restructured/outputs/q2/runs/mrrf/no_recon/seed_2026/attachment3_predictions_mrrf.csv",
+  "submission_file": "/root/MathModel_restructured/outputs/q2/analysis/attachment3_submission.csv",
+  "attachment3_has_labels": false
+}

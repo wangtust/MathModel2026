@@ -1,0 +1,315 @@
+{
+  "sample_id": "-3nNcZdcdvU_5",
+  "video_id": "-3nNcZdcdvU",
+  "clip_id": "5",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-3nNcZdcdvU/5.mp4",
+  "video_exists": true,
+  "official_text": "Noncompliance can result in legal liability to you and to the school district in which you are employed.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 10.937,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9444444444444444,
+  "word_audio_valid_fraction": 0.9444444444444444,
+  "word_vision_valid_fraction": 0.9444444444444444,
+  "sha256_video": "7ea53ad502b77be7d2ee4494dc23a9478c897792203cf887d546e83d584c1728",
+  "word_count": 18,
+  "text_token_count": 24,
+  "audio_frames": 774,
+  "vision_frames": 16,
+  "decoded_frames": 236,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.482,
+      4.734
+    ],
+    [
+      4.898,
+      7.358
+    ]
+  ],
+  "asr_text": "Noncompliance can resolve in legal liability to you and to the school district in which you are employed.",
+  "asr_words": [
+    {
+      "word": "Noncompliance",
+      "start": 0.582,
+      "end": 1.585,
+      "score": 0.928
+    },
+    {
+      "word": "can",
+      "start": 1.685,
+      "end": 1.925,
+      "score": 0.766
+    },
+    {
+      "word": "resolve",
+      "start": 1.985,
+      "end": 2.567,
+      "score": 0.916
+    },
+    {
+      "word": "in",
+      "start": 2.687,
+      "end": 2.747,
+      "score": 0.996
+    },
+    {
+      "word": "legal",
+      "start": 2.848,
+      "end": 3.108,
+      "score": 0.991
+    },
+    {
+      "word": "liability",
+      "start": 3.148,
+      "end": 3.85,
+      "score": 0.937
+    },
+    {
+      "word": "to",
+      "start": 3.99,
+      "end": 4.191,
+      "score": 0.911
+    },
+    {
+      "word": "you",
+      "start": 4.291,
+      "end": 4.551,
+      "score": 0.787
+    },
+    {
+      "word": "and",
+      "start": 5.033,
+      "end": 5.193,
+      "score": 0.854
+    },
+    {
+      "word": "to",
+      "start": 5.253,
+      "end": 5.393,
+      "score": 0.876
+    },
+    {
+      "word": "the",
+      "start": 5.413,
+      "end": 5.514,
+      "score": 0.884
+    },
+    {
+      "word": "school",
+      "start": 5.554,
+      "end": 5.794,
+      "score": 0.747
+    },
+    {
+      "word": "district",
+      "start": 5.834,
+      "end": 6.175,
+      "score": 0.729
+    },
+    {
+      "word": "in",
+      "start": 6.195,
+      "end": 6.255,
+      "score": 0.756
+    },
+    {
+      "word": "which",
+      "start": 6.296,
+      "end": 6.456,
+      "score": 0.835
+    },
+    {
+      "word": "you",
+      "start": 6.496,
+      "end": 6.616,
+      "score": 0.934
+    },
+    {
+      "word": "are",
+      "start": 6.656,
+      "end": 6.777,
+      "score": 0.659
+    },
+    {
+      "word": "employed.",
+      "start": 6.837,
+      "end": 7.258,
+      "score": 0.983
+    }
+  ],
+  "official_words": [
+    "Noncompliance",
+    "can",
+    "result",
+    "in",
+    "legal",
+    "liability",
+    "to",
+    "you",
+    "and",
+    "to",
+    "the",
+    "school",
+    "district",
+    "in",
+    "which",
+    "you",
+    "are",
+    "employed."
+  ],
+  "match": {
+    "coverage": 0.9444444444444444,
+    "trusted": true,
+    "matched_words": 17,
+    "official_words": 18,
+    "observed_words": 18,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-3nNcZdcdvU_5.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9970703125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

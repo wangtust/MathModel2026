@@ -1,0 +1,297 @@
+{
+  "sample_id": "-egA8-b7-3M_17",
+  "video_id": "-egA8-b7-3M",
+  "clip_id": "17",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/17.mp4",
+  "video_exists": true,
+  "official_text": "As you have more experience, you have more times exhibiting, you get to know more people.",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "duration": 14.0,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "f967e81e0edd51c3700671721afb3fbecbbc32652f27d2db40ea444e8d80c68f",
+  "word_count": 16,
+  "text_token_count": 21,
+  "audio_frames": 705,
+  "vision_frames": 15,
+  "decoded_frames": 215,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.514,
+      2.366
+    ],
+    [
+      3.202,
+      6.718
+    ]
+  ],
+  "asr_text": "As you have more experience, you have more times exhibiting, you get to know more people.",
+  "asr_words": [
+    {
+      "word": "As",
+      "start": 0.614,
+      "end": 0.715,
+      "score": 0.834
+    },
+    {
+      "word": "you",
+      "start": 0.775,
+      "end": 0.916,
+      "score": 0.917
+    },
+    {
+      "word": "have",
+      "start": 0.956,
+      "end": 1.116,
+      "score": 0.678
+    },
+    {
+      "word": "more",
+      "start": 1.197,
+      "end": 1.377,
+      "score": 0.671
+    },
+    {
+      "word": "experience,",
+      "start": 1.438,
+      "end": 2.12,
+      "score": 0.933
+    },
+    {
+      "word": "you",
+      "start": 3.224,
+      "end": 3.365,
+      "score": 0.924
+    },
+    {
+      "word": "have",
+      "start": 3.405,
+      "end": 3.546,
+      "score": 0.874
+    },
+    {
+      "word": "more",
+      "start": 3.606,
+      "end": 3.787,
+      "score": 0.938
+    },
+    {
+      "word": "times",
+      "start": 3.867,
+      "end": 4.228,
+      "score": 0.753
+    },
+    {
+      "word": "exhibiting,",
+      "start": 4.329,
+      "end": 4.911,
+      "score": 0.872
+    },
+    {
+      "word": "you",
+      "start": 5.272,
+      "end": 5.393,
+      "score": 0.894
+    },
+    {
+      "word": "get",
+      "start": 5.413,
+      "end": 5.574,
+      "score": 0.891
+    },
+    {
+      "word": "to",
+      "start": 5.614,
+      "end": 5.674,
+      "score": 0.81
+    },
+    {
+      "word": "know",
+      "start": 5.734,
+      "end": 5.915,
+      "score": 0.647
+    },
+    {
+      "word": "more",
+      "start": 5.955,
+      "end": 6.136,
+      "score": 0.693
+    },
+    {
+      "word": "people.",
+      "start": 6.196,
+      "end": 6.517,
+      "score": 0.854
+    }
+  ],
+  "official_words": [
+    "As",
+    "you",
+    "have",
+    "more",
+    "experience,",
+    "you",
+    "have",
+    "more",
+    "times",
+    "exhibiting,",
+    "you",
+    "get",
+    "to",
+    "know",
+    "more",
+    "people."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 16,
+    "official_words": 16,
+    "observed_words": 16,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-egA8-b7-3M_17.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.994140625,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

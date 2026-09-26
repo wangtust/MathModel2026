@@ -1,0 +1,11 @@
+sample_id,word_index_1based,official_word,asr_word,asr_alignment_score,start_s,end_s,audio_start_sample_0based,audio_end_sample_exclusive,original_video_first_frame_0based,original_video_last_frame_0based,original_video_first_pts_s,original_video_last_pts_s,audio_feature_first_row_0based,audio_feature_last_row_0based,visual_feature_first_row_0based,visual_feature_last_row_0based,text_feature_row_0based,audio_mask,face_mask
+-THoVjtIkeU_2,1,I,I,0.948000,0.042000,0.102000,671,1632,2,3,0.066667,0.100000,4,9,0,0,0,1,1
+-THoVjtIkeU_2,2,think,think,0.788000,0.163000,0.464000,2608,7424,5,13,0.166667,0.433333,16,45,0,1,1,1,1
+-THoVjtIkeU_2,3,social,social,0.847000,1.208000,1.469000,19327,23504,37,44,1.233333,1.466667,120,145,2,3,2,1,1
+-THoVjtIkeU_2,4,justice,justice,0.884000,1.509000,1.811000,24143,28976,46,54,1.533333,1.800000,150,180,3,4,3,1,1
+-THoVjtIkeU_2,5,is,is,0.968000,1.871000,1.932000,29936,30913,57,57,1.900000,1.900000,187,192,4,4,4,1,1
+-THoVjtIkeU_2,6,extremely,extremely,0.916000,1.992000,2.374000,31871,37985,60,71,2.000000,2.366667,199,236,4,5,5,1,1
+-THoVjtIkeU_2,7,important,important,0.835000,2.434000,2.816000,38944,45056,74,84,2.466667,2.800000,243,280,5,6,6,1,1
+-THoVjtIkeU_2,8,for,for,0.856000,2.876000,3.037000,46015,48592,87,91,2.900000,3.033333,287,302,6,6,7,1,1
+-THoVjtIkeU_2,9,young,young,0.774000,3.097000,3.298000,49551,52769,93,98,3.100000,3.266667,309,328,6,7,8,1,1
+-THoVjtIkeU_2,10,people.,people.,0.879000,3.338000,3.640000,53408,58241,101,109,3.366667,3.633333,333,362,7,7,9,1,1

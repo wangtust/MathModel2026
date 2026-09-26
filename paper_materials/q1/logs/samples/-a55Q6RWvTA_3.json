@@ -1,0 +1,832 @@
+{
+  "sample_id": "-a55Q6RWvTA_3",
+  "video_id": "-a55Q6RWvTA",
+  "clip_id": "3",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-a55Q6RWvTA/3.mp4",
+  "video_exists": true,
+  "official_text": "And if you clip coupons, if you don't go out for dinner and movies and things of that nature and try to take up things in life that, well, they always say, \"the best things in life are free\". Reading a book, going for a nice walk, and, of course, combining exercise and various things of that nature where you're not spending money per se.",
+  "label": 0.6666666865348816,
+  "annotation": "Positive",
+  "duration": 22.617,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.016129032258064516,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9692307692307692,
+  "word_audio_valid_fraction": 0.9692307692307692,
+  "word_vision_valid_fraction": 0.9692307692307692,
+  "sha256_video": "15d029fc15f50b268b98f1e8abc65e45582e638c13a018d7aa74a18373275946",
+  "word_count": 65,
+  "text_token_count": 84,
+  "audio_frames": 2204,
+  "vision_frames": 45,
+  "decoded_frames": 664,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.482,
+      12.126
+    ],
+    [
+      12.354,
+      13.566
+    ],
+    [
+      13.73,
+      21.726
+    ]
+  ],
+  "asr_text": "And if you clip coupons, if you don't go out for dinner and movies and things of that nature, and try to take up things in life that, well, they always say the best things in life are free. Reading a book, going for a nice walk, and of course combining exercise and various things of that nature, where you're not spending money per se.",
+  "asr_words": [
+    {
+      "word": "And",
+      "start": 0.762,
+      "end": 0.902,
+      "score": 0.592
+    },
+    {
+      "word": "if",
+      "start": 0.922,
+      "end": 0.963,
+      "score": 0.0
+    },
+    {
+      "word": "you",
+      "start": 1.163,
+      "end": 1.363,
+      "score": 0.641
+    },
+    {
+      "word": "clip",
+      "start": 1.443,
+      "end": 1.723,
+      "score": 0.799
+    },
+    {
+      "word": "coupons,",
+      "start": 1.763,
+      "end": 2.584,
+      "score": 0.875
+    },
+    {
+      "word": "if",
+      "start": 2.705,
+      "end": 2.765,
+      "score": 0.999
+    },
+    {
+      "word": "you",
+      "start": 2.805,
+      "end": 2.965,
+      "score": 0.964
+    },
+    {
+      "word": "don't",
+      "start": 3.045,
+      "end": 3.285,
+      "score": 0.763
+    },
+    {
+      "word": "go",
+      "start": 3.345,
+      "end": 3.465,
+      "score": 0.996
+    },
+    {
+      "word": "out",
+      "start": 3.565,
+      "end": 3.686,
+      "score": 0.995
+    },
+    {
+      "word": "for",
+      "start": 3.746,
+      "end": 3.886,
+      "score": 0.858
+    },
+    {
+      "word": "dinner",
+      "start": 3.946,
+      "end": 4.366,
+      "score": 0.823
+    },
+    {
+      "word": "and",
+      "start": 4.467,
+      "end": 4.567,
+      "score": 0.84
+    },
+    {
+      "word": "movies",
+      "start": 4.667,
+      "end": 5.187,
+      "score": 0.803
+    },
+    {
+      "word": "and",
+      "start": 5.247,
+      "end": 5.347,
+      "score": 0.688
+    },
+    {
+      "word": "things",
+      "start": 5.388,
+      "end": 5.568,
+      "score": 0.889
+    },
+    {
+      "word": "of",
+      "start": 5.608,
+      "end": 5.648,
+      "score": 0.431
+    },
+    {
+      "word": "that",
+      "start": 5.668,
+      "end": 5.848,
+      "score": 0.813
+    },
+    {
+      "word": "nature,",
+      "start": 5.908,
+      "end": 6.369,
+      "score": 0.716
+    },
+    {
+      "word": "and",
+      "start": 6.949,
+      "end": 7.069,
+      "score": 0.838
+    },
+    {
+      "word": "try",
+      "start": 7.17,
+      "end": 7.35,
+      "score": 0.943
+    },
+    {
+      "word": "to",
+      "start": 7.39,
+      "end": 7.45,
+      "score": 0.758
+    },
+    {
+      "word": "take",
+      "start": 7.49,
+      "end": 7.69,
+      "score": 0.794
+    },
+    {
+      "word": "up",
+      "start": 7.75,
+      "end": 7.85,
+      "score": 0.736
+    },
+    {
+      "word": "things",
+      "start": 7.97,
+      "end": 8.291,
+      "score": 0.849
+    },
+    {
+      "word": "in",
+      "start": 8.371,
+      "end": 8.451,
+      "score": 0.832
+    },
+    {
+      "word": "life",
+      "start": 8.551,
+      "end": 8.811,
+      "score": 0.847
+    },
+    {
+      "word": "that,",
+      "start": 8.851,
+      "end": 9.032,
+      "score": 0.794
+    },
+    {
+      "word": "well,",
+      "start": 9.092,
+      "end": 9.372,
+      "score": 0.938
+    },
+    {
+      "word": "they",
+      "start": 9.472,
+      "end": 9.632,
+      "score": 0.702
+    },
+    {
+      "word": "always",
+      "start": 9.652,
+      "end": 9.913,
+      "score": 0.839
+    },
+    {
+      "word": "say",
+      "start": 9.973,
+      "end": 10.193,
+      "score": 0.808
+    },
+    {
+      "word": "the",
+      "start": 10.233,
+      "end": 10.313,
+      "score": 0.939
+    },
+    {
+      "word": "best",
+      "start": 10.353,
+      "end": 10.553,
+      "score": 0.862
+    },
+    {
+      "word": "things",
+      "start": 10.593,
+      "end": 10.814,
+      "score": 0.71
+    },
+    {
+      "word": "in",
+      "start": 10.854,
+      "end": 10.934,
+      "score": 0.702
+    },
+    {
+      "word": "life",
+      "start": 10.974,
+      "end": 11.174,
+      "score": 0.96
+    },
+    {
+      "word": "are",
+      "start": 11.254,
+      "end": 11.374,
+      "score": 0.753
+    },
+    {
+      "word": "free.",
+      "start": 11.454,
+      "end": 11.795,
+      "score": 0.754
+    },
+    {
+      "word": "Reading",
+      "start": 12.436,
+      "end": 12.736,
+      "score": 0.824
+    },
+    {
+      "word": "a",
+      "start": 12.796,
+      "end": 12.856,
+      "score": 0.406
+    },
+    {
+      "word": "book,",
+      "start": 12.916,
+      "end": 14.218,
+      "score": 0.903
+    },
+    {
+      "word": "going",
+      "start": 14.398,
+      "end": 14.638,
+      "score": 0.798
+    },
+    {
+      "word": "for",
+      "start": 14.658,
+      "end": 14.778,
+      "score": 0.703
+    },
+    {
+      "word": "a",
+      "start": 14.818,
+      "end": 14.838,
+      "score": 0.95
+    },
+    {
+      "word": "nice",
+      "start": 14.858,
+      "end": 15.119,
+      "score": 0.774
+    },
+    {
+      "word": "walk,",
+      "start": 15.199,
+      "end": 15.519,
+      "score": 0.815
+    },
+    {
+      "word": "and",
+      "start": 15.559,
+      "end": 15.619,
+      "score": 0.851
+    },
+    {
+      "word": "of",
+      "start": 15.639,
+      "end": 15.679,
+      "score": 0.807
+    },
+    {
+      "word": "course",
+      "start": 15.739,
+      "end": 15.939,
+      "score": 0.834
+    },
+    {
+      "word": "combining",
+      "start": 15.98,
+      "end": 16.54,
+      "score": 0.865
+    },
+    {
+      "word": "exercise",
+      "start": 16.66,
+      "end": 17.201,
+      "score": 0.924
+    },
+    {
+      "word": "and",
+      "start": 17.261,
+      "end": 17.341,
+      "score": 0.863
+    },
+    {
+      "word": "various",
+      "start": 17.361,
+      "end": 17.661,
+      "score": 0.763
+    },
+    {
+      "word": "things",
+      "start": 17.681,
+      "end": 17.862,
+      "score": 0.832
+    },
+    {
+      "word": "of",
+      "start": 17.942,
+      "end": 17.982,
+      "score": 0.03
+    },
+    {
+      "word": "that",
+      "start": 18.002,
+      "end": 18.142,
+      "score": 0.523
+    },
+    {
+      "word": "nature,",
+      "start": 18.202,
+      "end": 18.602,
+      "score": 0.757
+    },
+    {
+      "word": "where",
+      "start": 18.963,
+      "end": 19.083,
+      "score": 0.748
+    },
+    {
+      "word": "you're",
+      "start": 19.103,
+      "end": 19.263,
+      "score": 0.86
+    },
+    {
+      "word": "not",
+      "start": 19.303,
+      "end": 19.443,
+      "score": 0.962
+    },
+    {
+      "word": "spending",
+      "start": 19.584,
+      "end": 20.084,
+      "score": 0.833
+    },
+    {
+      "word": "money",
+      "start": 20.304,
+      "end": 20.625,
+      "score": 0.681
+    },
+    {
+      "word": "per",
+      "start": 20.865,
+      "end": 21.165,
+      "score": 0.837
+    },
+    {
+      "word": "se.",
+      "start": 21.245,
+      "end": 21.506,
+      "score": 0.685
+    }
+  ],
+  "official_words": [
+    "And",
+    "if",
+    "you",
+    "clip",
+    "coupons,",
+    "if",
+    "you",
+    "don't",
+    "go",
+    "out",
+    "for",
+    "dinner",
+    "and",
+    "movies",
+    "and",
+    "things",
+    "of",
+    "that",
+    "nature",
+    "and",
+    "try",
+    "to",
+    "take",
+    "up",
+    "things",
+    "in",
+    "life",
+    "that,",
+    "well,",
+    "they",
+    "always",
+    "say,",
+    "\"the",
+    "best",
+    "things",
+    "in",
+    "life",
+    "are",
+    "free\".",
+    "Reading",
+    "a",
+    "book,",
+    "going",
+    "for",
+    "a",
+    "nice",
+    "walk,",
+    "and,",
+    "of",
+    "course,",
+    "combining",
+    "exercise",
+    "and",
+    "various",
+    "things",
+    "of",
+    "that",
+    "nature",
+    "where",
+    "you're",
+    "not",
+    "spending",
+    "money",
+    "per",
+    "se."
+  ],
+  "match": {
+    "coverage": 0.9692307692307692,
+    "trusted": true,
+    "matched_words": 63,
+    "official_words": 65,
+    "observed_words": 65,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        22,
+        22
+      ],
+      [
+        23,
+        23
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        25,
+        25
+      ],
+      [
+        26,
+        26
+      ],
+      [
+        27,
+        27
+      ],
+      [
+        28,
+        28
+      ],
+      [
+        29,
+        29
+      ],
+      [
+        30,
+        30
+      ],
+      [
+        31,
+        31
+      ],
+      [
+        32,
+        32
+      ],
+      [
+        33,
+        33
+      ],
+      [
+        34,
+        34
+      ],
+      [
+        35,
+        35
+      ],
+      [
+        36,
+        36
+      ],
+      [
+        37,
+        37
+      ],
+      [
+        38,
+        38
+      ],
+      [
+        39,
+        39
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        41,
+        41
+      ],
+      [
+        42,
+        42
+      ],
+      [
+        43,
+        43
+      ],
+      [
+        44,
+        44
+      ],
+      [
+        45,
+        45
+      ],
+      [
+        46,
+        46
+      ],
+      [
+        47,
+        47
+      ],
+      [
+        48,
+        48
+      ],
+      [
+        49,
+        49
+      ],
+      [
+        50,
+        50
+      ],
+      [
+        51,
+        51
+      ],
+      [
+        52,
+        52
+      ],
+      [
+        53,
+        53
+      ],
+      [
+        54,
+        54
+      ],
+      [
+        56,
+        56
+      ],
+      [
+        57,
+        57
+      ],
+      [
+        58,
+        58
+      ],
+      [
+        59,
+        59
+      ],
+      [
+        60,
+        60
+      ],
+      [
+        61,
+        61
+      ],
+      [
+        62,
+        62
+      ],
+      [
+        63,
+        63
+      ],
+      [
+        64,
+        64
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-a55Q6RWvTA_3.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9990234375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

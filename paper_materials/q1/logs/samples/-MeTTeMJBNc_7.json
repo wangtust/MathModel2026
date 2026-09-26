@@ -1,0 +1,458 @@
+{
+  "sample_id": "-MeTTeMJBNc_7",
+  "video_id": "-MeTTeMJBNc",
+  "clip_id": "7",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-MeTTeMJBNc/7.mp4",
+  "video_exists": true,
+  "official_text": "Maybe you could find a picture of the couple from their wedding or sometime in their life, or maybe even a current picture and have it put in a beautiful frame.",
+  "label": 1.3333333730697632,
+  "annotation": "Positive",
+  "duration": 17.367,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "40716dc7402fd6398038eded58ce939ec76be6afbeea346b968bf4c427088f3a",
+  "word_count": 31,
+  "text_token_count": 35,
+  "audio_frames": 1037,
+  "vision_frames": 21,
+  "decoded_frames": 314,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.162,
+      10.142
+    ]
+  ],
+  "asr_text": "Maybe you could find a picture of the couple from their wedding or sometime in their life or maybe even a current picture and have it put in a beautiful frame.",
+  "asr_words": [
+    {
+      "word": "Maybe",
+      "start": 0.543,
+      "end": 0.763,
+      "score": 0.879
+    },
+    {
+      "word": "you",
+      "start": 0.803,
+      "end": 0.944,
+      "score": 0.723
+    },
+    {
+      "word": "could",
+      "start": 0.964,
+      "end": 1.164,
+      "score": 0.805
+    },
+    {
+      "word": "find",
+      "start": 1.565,
+      "end": 1.905,
+      "score": 0.792
+    },
+    {
+      "word": "a",
+      "start": 1.946,
+      "end": 1.986,
+      "score": 0.501
+    },
+    {
+      "word": "picture",
+      "start": 2.046,
+      "end": 2.427,
+      "score": 0.766
+    },
+    {
+      "word": "of",
+      "start": 2.467,
+      "end": 2.547,
+      "score": 0.772
+    },
+    {
+      "word": "the",
+      "start": 2.587,
+      "end": 2.667,
+      "score": 0.886
+    },
+    {
+      "word": "couple",
+      "start": 2.707,
+      "end": 3.088,
+      "score": 0.904
+    },
+    {
+      "word": "from",
+      "start": 3.168,
+      "end": 3.429,
+      "score": 0.746
+    },
+    {
+      "word": "their",
+      "start": 3.729,
+      "end": 3.91,
+      "score": 0.817
+    },
+    {
+      "word": "wedding",
+      "start": 3.95,
+      "end": 4.451,
+      "score": 0.907
+    },
+    {
+      "word": "or",
+      "start": 4.651,
+      "end": 4.771,
+      "score": 0.696
+    },
+    {
+      "word": "sometime",
+      "start": 4.912,
+      "end": 5.352,
+      "score": 0.856
+    },
+    {
+      "word": "in",
+      "start": 5.392,
+      "end": 5.453,
+      "score": 0.758
+    },
+    {
+      "word": "their",
+      "start": 5.493,
+      "end": 5.673,
+      "score": 0.828
+    },
+    {
+      "word": "life",
+      "start": 5.733,
+      "end": 6.074,
+      "score": 0.886
+    },
+    {
+      "word": "or",
+      "start": 6.174,
+      "end": 6.234,
+      "score": 0.986
+    },
+    {
+      "word": "maybe",
+      "start": 6.274,
+      "end": 6.515,
+      "score": 0.897
+    },
+    {
+      "word": "even",
+      "start": 6.595,
+      "end": 6.775,
+      "score": 0.829
+    },
+    {
+      "word": "a",
+      "start": 6.815,
+      "end": 6.835,
+      "score": 0.994
+    },
+    {
+      "word": "current",
+      "start": 6.936,
+      "end": 7.316,
+      "score": 0.717
+    },
+    {
+      "word": "picture",
+      "start": 7.376,
+      "end": 7.817,
+      "score": 0.782
+    },
+    {
+      "word": "and",
+      "start": 8.198,
+      "end": 8.298,
+      "score": 0.878
+    },
+    {
+      "word": "have",
+      "start": 8.338,
+      "end": 8.459,
+      "score": 0.803
+    },
+    {
+      "word": "it",
+      "start": 8.499,
+      "end": 8.559,
+      "score": 0.11
+    },
+    {
+      "word": "put",
+      "start": 8.599,
+      "end": 8.759,
+      "score": 0.879
+    },
+    {
+      "word": "in",
+      "start": 8.799,
+      "end": 8.859,
+      "score": 0.747
+    },
+    {
+      "word": "a",
+      "start": 8.879,
+      "end": 8.92,
+      "score": 0.496
+    },
+    {
+      "word": "beautiful",
+      "start": 8.94,
+      "end": 9.34,
+      "score": 0.906
+    },
+    {
+      "word": "frame.",
+      "start": 9.421,
+      "end": 9.801,
+      "score": 0.948
+    }
+  ],
+  "official_words": [
+    "Maybe",
+    "you",
+    "could",
+    "find",
+    "a",
+    "picture",
+    "of",
+    "the",
+    "couple",
+    "from",
+    "their",
+    "wedding",
+    "or",
+    "sometime",
+    "in",
+    "their",
+    "life,",
+    "or",
+    "maybe",
+    "even",
+    "a",
+    "current",
+    "picture",
+    "and",
+    "have",
+    "it",
+    "put",
+    "in",
+    "a",
+    "beautiful",
+    "frame."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 31,
+    "official_words": 31,
+    "observed_words": 31,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        14,
+        14
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        16,
+        16
+      ],
+      [
+        17,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        21
+      ],
+      [
+        22,
+        22
+      ],
+      [
+        23,
+        23
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        25,
+        25
+      ],
+      [
+        26,
+        26
+      ],
+      [
+        27,
+        27
+      ],
+      [
+        28,
+        28
+      ],
+      [
+        29,
+        29
+      ],
+      [
+        30,
+        30
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-MeTTeMJBNc_7.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99755859375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

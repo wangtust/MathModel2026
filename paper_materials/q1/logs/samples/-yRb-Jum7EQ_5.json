@@ -1,0 +1,322 @@
+{
+  "sample_id": "-yRb-Jum7EQ_5",
+  "video_id": "-yRb-Jum7EQ",
+  "clip_id": "5",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-yRb-Jum7EQ/5.mp4",
+  "video_exists": true,
+  "official_text": "Yesterday Eliav Gelman lost his life in another terrorist attack, not by the students of terrorism, but by those who teach terrorism, a Palestinian teacher.",
+  "label": -0.6666666865348816,
+  "annotation": "Negative",
+  "duration": 13.634,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": false,
+  "text_audio_status": "crosslingual_translation_candidate",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": null,
+  "asr_timing_coverage": null,
+  "matched_word_fraction": 0.04,
+  "word_audio_valid_fraction": 0.0,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "6d6145293cf84d1fc8324dfa8d39465e2d7fc07affb67ff68deeabf6e3c410d9",
+  "word_count": 25,
+  "text_token_count": 33,
+  "audio_frames": 1300,
+  "vision_frames": 27,
+  "decoded_frames": 394,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.066,
+      1.886
+    ],
+    [
+      2.722,
+      6.974
+    ],
+    [
+      7.394,
+      11.838
+    ],
+    [
+      12.45,
+      13.0445625
+    ]
+  ],
+  "asr_text": "אתמול אליאב גודמן זיכרונו לברכה איבדת חייו במעלך של התקפה נוספת, והפעם לא של תלמידי הטרור, אלא של מכנחי הטרור, של מורי פלסטין.",
+  "asr_words": [],
+  "official_words": [
+    "Yesterday",
+    "Eliav",
+    "Gelman",
+    "lost",
+    "his",
+    "life",
+    "in",
+    "another",
+    "terrorist",
+    "attack,",
+    "not",
+    "by",
+    "the",
+    "students",
+    "of",
+    "terrorism,",
+    "but",
+    "by",
+    "those",
+    "who",
+    "teach",
+    "terrorism,",
+    "a",
+    "Palestinian",
+    "teacher."
+  ],
+  "match": {
+    "coverage": 0.04,
+    "trusted": false,
+    "matched_words": 1,
+    "official_words": 25,
+    "observed_words": 21,
+    "matched_pairs": [
+      [
+        14,
+        4
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-yRb-Jum7EQ_5.npz",
+  "failures": {},
+  "english_only_asr_text": "We have a lot of good news. We have a lot of good news. We have a lot of good news.",
+  "english_only_asr_words": [
+    {
+      "word": "We",
+      "start": 0.126,
+      "end": 0.246,
+      "score": 0.61
+    },
+    {
+      "word": "have",
+      "start": 0.286,
+      "end": 0.547,
+      "score": 0.566
+    },
+    {
+      "word": "a",
+      "start": 0.667,
+      "end": 0.687,
+      "score": 0.09
+    },
+    {
+      "word": "lot",
+      "start": 0.727,
+      "end": 0.807,
+      "score": 0.498
+    },
+    {
+      "word": "of",
+      "start": 0.827,
+      "end": 0.987,
+      "score": 0.682
+    },
+    {
+      "word": "good",
+      "start": 1.007,
+      "end": 1.188,
+      "score": 0.921
+    },
+    {
+      "word": "news.",
+      "start": 1.228,
+      "end": 1.468,
+      "score": 0.332
+    },
+    {
+      "word": "We",
+      "start": 1.488,
+      "end": 1.608,
+      "score": 0.714
+    },
+    {
+      "word": "have",
+      "start": 1.628,
+      "end": 1.708,
+      "score": 0.008
+    },
+    {
+      "word": "a",
+      "start": 1.728,
+      "end": 1.748,
+      "score": 0.004
+    },
+    {
+      "word": "lot",
+      "start": 2.71,
+      "end": 2.79,
+      "score": 0.182
+    },
+    {
+      "word": "of",
+      "start": 2.83,
+      "end": 2.87,
+      "score": 0.016
+    },
+    {
+      "word": "good",
+      "start": 2.91,
+      "end": 3.171,
+      "score": 0.499
+    },
+    {
+      "word": "news.",
+      "start": 3.191,
+      "end": 3.291,
+      "score": 0.151
+    },
+    {
+      "word": "We",
+      "start": 3.311,
+      "end": 3.411,
+      "score": 0.568
+    },
+    {
+      "word": "have",
+      "start": 3.451,
+      "end": 3.872,
+      "score": 0.777
+    },
+    {
+      "word": "a",
+      "start": 3.892,
+      "end": 3.912,
+      "score": 0.0
+    },
+    {
+      "word": "lot",
+      "start": 3.932,
+      "end": 4.252,
+      "score": 0.675
+    },
+    {
+      "word": "of",
+      "start": 4.392,
+      "end": 4.573,
+      "score": 0.662
+    },
+    {
+      "word": "good",
+      "start": 4.833,
+      "end": 5.073,
+      "score": 0.378
+    },
+    {
+      "word": "news.",
+      "start": 5.133,
+      "end": 5.354,
+      "score": 0.54
+    }
+  ],
+  "english_only_asr_unreliable": true,
+  "english_only_asr_repetition_ratio": 0.6111111111111112,
+  "english_only_asr_timing_coverage": 1.0,
+  "speech_language": "he",
+  "speech_language_confidence": 0.97216796875,
+  "text_language": "en",
+  "alignment_granularity": "clip_and_source_segments",
+  "source_asr_segments": [
+    {
+      "start": 0.0,
+      "end": 12.0,
+      "text": "אתמול אליאב גודמן זיכרונו לברכה איבדת חייו במעלך של התקפה נוספת, והפעם לא של תלמידי הטרור, אלא של מכנחי הטרור, של מורי פלסטין.",
+      "avg_logprob": -0.22453703998047628,
+      "no_speech_prob": 0.380859375
+    }
+  ],
+  "machine_translation_segments": [
+    {
+      "start": 0.0,
+      "end": 12.0,
+      "text": "As for El Yav Gudman, a member of the U.S., he had to go to a separate meeting, and this time he didn't go to a terrorist organization, but to a terrorist organization called Moray Palestine.",
+      "avg_logprob": -0.9487499856948852,
+      "no_speech_prob": 0.380859375,
+      "shared_content_stems": [
+        "terrorist"
+      ],
+      "shared_content_count": 1,
+      "candidate_support": true
+    }
+  ],
+  "machine_translation_en": "As for El Yav Gudman, a member of the U.S., he had to go to a separate meeting, and this time he didn't go to a terrorist organization, but to a terrorist organization called Moray Palestine.",
+  "crosslingual_semantic_status": "lexical_anchor_candidate",
+  "crosslingual_selected_segments": 1,
+  "crosslingual_support_start": 0.0,
+  "crosslingual_support_end": 12.0,
+  "crosslingual_audio_valid": true,
+  "crosslingual_vision_valid": true,
+  "crosslingual_model": "small",
+  "crosslingual_method_version": 1,
+  "source_sha256_at_crosslingual_run": "6d6145293cf84d1fc8324dfa8d39465e2d7fc07affb67ff68deeabf6e3c410d9"
+}

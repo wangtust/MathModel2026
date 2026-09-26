@@ -1,0 +1,270 @@
+{
+  "sample_id": "-s9qJ7ATP7w_8",
+  "video_id": "-s9qJ7ATP7w",
+  "clip_id": "8",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/8.mp4",
+  "video_exists": true,
+  "official_text": "\" And I said, \"Oh, make a profit, and all these other things",
+  "label": 1.3333333730697632,
+  "annotation": "Positive",
+  "duration": 6.6,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9166666666666666,
+  "word_audio_valid_fraction": 0.8461538461538461,
+  "word_vision_valid_fraction": 0.8461538461538461,
+  "sha256_video": "1de4d91bd9d9fb508a3779658747da88460db0bdb1beefe7ea5b2c77edfd2239",
+  "word_count": 13,
+  "text_token_count": 19,
+  "audio_frames": 314,
+  "vision_frames": 7,
+  "decoded_frames": 97,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.0,
+      3.18425
+    ]
+  ],
+  "asr_text": "And I said, oh, make a profit and all these other things. And he said, no.",
+  "asr_words": [
+    {
+      "word": "And",
+      "start": 0.02,
+      "end": 0.081,
+      "score": 0.03
+    },
+    {
+      "word": "I",
+      "start": 0.181,
+      "end": 0.322,
+      "score": 0.322
+    },
+    {
+      "word": "said,",
+      "start": 0.423,
+      "end": 0.927,
+      "score": 0.459
+    },
+    {
+      "word": "oh,",
+      "start": 0.987,
+      "end": 1.169,
+      "score": 0.583
+    },
+    {
+      "word": "make",
+      "start": 1.189,
+      "end": 1.31,
+      "score": 0.941
+    },
+    {
+      "word": "a",
+      "start": 1.35,
+      "end": 1.39,
+      "score": 0.63
+    },
+    {
+      "word": "profit",
+      "start": 1.431,
+      "end": 1.894,
+      "score": 0.818
+    },
+    {
+      "word": "and",
+      "start": 1.914,
+      "end": 1.975,
+      "score": 0.977
+    },
+    {
+      "word": "all",
+      "start": 1.995,
+      "end": 2.076,
+      "score": 0.937
+    },
+    {
+      "word": "these",
+      "start": 2.096,
+      "end": 2.217,
+      "score": 0.903
+    },
+    {
+      "word": "other",
+      "start": 2.257,
+      "end": 2.438,
+      "score": 0.792
+    },
+    {
+      "word": "things.",
+      "start": 2.479,
+      "end": 2.68,
+      "score": 0.956
+    },
+    {
+      "word": "And",
+      "start": 2.741,
+      "end": 2.841,
+      "score": 0.469
+    },
+    {
+      "word": "he",
+      "start": 2.902,
+      "end": 2.962,
+      "score": 0.265
+    },
+    {
+      "word": "said,",
+      "start": 2.982,
+      "end": 3.083,
+      "score": 0.066
+    },
+    {
+      "word": "no.",
+      "start": 3.103,
+      "end": 3.164,
+      "score": 0.348
+    }
+  ],
+  "official_words": [
+    "\"",
+    "And",
+    "I",
+    "said,",
+    "\"Oh,",
+    "make",
+    "a",
+    "profit,",
+    "and",
+    "all",
+    "these",
+    "other",
+    "things"
+  ],
+  "match": {
+    "coverage": 0.9166666666666666,
+    "trusted": true,
+    "matched_words": 11,
+    "official_words": 12,
+    "observed_words": 16,
+    "matched_pairs": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        11
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-s9qJ7ATP7w_8.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9912109375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

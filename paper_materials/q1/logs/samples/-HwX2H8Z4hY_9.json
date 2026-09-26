@@ -1,0 +1,355 @@
+{
+  "sample_id": "-HwX2H8Z4hY_9",
+  "video_id": "-HwX2H8Z4hY",
+  "clip_id": "9",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-HwX2H8Z4hY/9.mp4",
+  "video_exists": true,
+  "official_text": "It is a word which the administrator uses when he turns around anything which he doesn't like that the teacher is doing",
+  "label": -0.3333333432674408,
+  "annotation": "Negative",
+  "duration": 11.434,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": false,
+  "face_feature_valid": false,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9545454545454546,
+  "word_audio_valid_fraction": 0.9545454545454546,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "90c18e627f27a12c14e21ba24c79edf3008762b4ac26874b490ad3f888381702",
+  "word_count": 22,
+  "text_token_count": 26,
+  "audio_frames": 759,
+  "vision_frames": 16,
+  "decoded_frames": 232,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.482,
+      7.6363125
+    ]
+  ],
+  "asr_text": "It is a word with which the administrator uses when he turns around anything, which he doesn't like the teacher is doing.",
+  "asr_words": [
+    {
+      "word": "It",
+      "start": 0.562,
+      "end": 0.642,
+      "score": 0.816
+    },
+    {
+      "word": "is",
+      "start": 0.682,
+      "end": 0.803,
+      "score": 0.702
+    },
+    {
+      "word": "a",
+      "start": 0.843,
+      "end": 0.863,
+      "score": 0.915
+    },
+    {
+      "word": "word",
+      "start": 0.903,
+      "end": 1.404,
+      "score": 0.737
+    },
+    {
+      "word": "with",
+      "start": 1.444,
+      "end": 1.765,
+      "score": 0.654
+    },
+    {
+      "word": "which",
+      "start": 3.027,
+      "end": 3.187,
+      "score": 0.914
+    },
+    {
+      "word": "the",
+      "start": 3.207,
+      "end": 3.308,
+      "score": 0.873
+    },
+    {
+      "word": "administrator",
+      "start": 3.348,
+      "end": 3.949,
+      "score": 0.896
+    },
+    {
+      "word": "uses",
+      "start": 4.029,
+      "end": 4.269,
+      "score": 0.731
+    },
+    {
+      "word": "when",
+      "start": 4.309,
+      "end": 4.43,
+      "score": 0.88
+    },
+    {
+      "word": "he",
+      "start": 4.47,
+      "end": 4.53,
+      "score": 0.916
+    },
+    {
+      "word": "turns",
+      "start": 4.57,
+      "end": 4.831,
+      "score": 0.835
+    },
+    {
+      "word": "around",
+      "start": 4.851,
+      "end": 5.131,
+      "score": 0.75
+    },
+    {
+      "word": "anything,",
+      "start": 5.191,
+      "end": 5.512,
+      "score": 0.953
+    },
+    {
+      "word": "which",
+      "start": 5.532,
+      "end": 5.652,
+      "score": 0.89
+    },
+    {
+      "word": "he",
+      "start": 5.672,
+      "end": 5.772,
+      "score": 0.405
+    },
+    {
+      "word": "doesn't",
+      "start": 5.792,
+      "end": 6.033,
+      "score": 0.529
+    },
+    {
+      "word": "like",
+      "start": 6.053,
+      "end": 6.253,
+      "score": 0.908
+    },
+    {
+      "word": "the",
+      "start": 6.293,
+      "end": 6.414,
+      "score": 0.181
+    },
+    {
+      "word": "teacher",
+      "start": 6.474,
+      "end": 6.794,
+      "score": 0.714
+    },
+    {
+      "word": "is",
+      "start": 6.834,
+      "end": 6.875,
+      "score": 0.247
+    },
+    {
+      "word": "doing.",
+      "start": 6.895,
+      "end": 7.155,
+      "score": 0.777
+    }
+  ],
+  "official_words": [
+    "It",
+    "is",
+    "a",
+    "word",
+    "which",
+    "the",
+    "administrator",
+    "uses",
+    "when",
+    "he",
+    "turns",
+    "around",
+    "anything",
+    "which",
+    "he",
+    "doesn't",
+    "like",
+    "that",
+    "the",
+    "teacher",
+    "is",
+    "doing"
+  ],
+  "match": {
+    "coverage": 0.9545454545454546,
+    "trusted": true,
+    "matched_words": 21,
+    "official_words": 22,
+    "observed_words": 22,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        16
+      ],
+      [
+        16,
+        17
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        21,
+        21
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-HwX2H8Z4hY_9.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.962890625,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

@@ -1,0 +1,242 @@
+{
+  "sample_id": "-egA8-b7-3M_13",
+  "video_id": "-egA8-b7-3M",
+  "clip_id": "13",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/13.mp4",
+  "video_exists": true,
+  "official_text": "What are you doing that's different?\" They always want an answer.",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "duration": 6.967,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "cbd627c225ebca37521ae238cb9ec254cad236822f4f37ebfbb039e6c56aea4c",
+  "word_count": 11,
+  "text_token_count": 18,
+  "audio_frames": 398,
+  "vision_frames": 9,
+  "decoded_frames": 123,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.514,
+      1.918
+    ],
+    [
+      2.306,
+      3.742
+    ]
+  ],
+  "asr_text": "What are you doing that's different? They always want an answer.",
+  "asr_words": [
+    {
+      "word": "What",
+      "start": 0.534,
+      "end": 0.654,
+      "score": 0.943
+    },
+    {
+      "word": "are",
+      "start": 0.674,
+      "end": 0.755,
+      "score": 0.967
+    },
+    {
+      "word": "you",
+      "start": 0.775,
+      "end": 0.875,
+      "score": 0.846
+    },
+    {
+      "word": "doing",
+      "start": 0.895,
+      "end": 1.136,
+      "score": 0.836
+    },
+    {
+      "word": "that's",
+      "start": 1.176,
+      "end": 1.376,
+      "score": 0.702
+    },
+    {
+      "word": "different?",
+      "start": 1.416,
+      "end": 1.797,
+      "score": 0.948
+    },
+    {
+      "word": "They",
+      "start": 2.339,
+      "end": 2.479,
+      "score": 0.98
+    },
+    {
+      "word": "always",
+      "start": 2.519,
+      "end": 2.76,
+      "score": 0.897
+    },
+    {
+      "word": "want",
+      "start": 2.8,
+      "end": 3.02,
+      "score": 0.97
+    },
+    {
+      "word": "an",
+      "start": 3.06,
+      "end": 3.12,
+      "score": 0.742
+    },
+    {
+      "word": "answer.",
+      "start": 3.201,
+      "end": 3.481,
+      "score": 0.873
+    }
+  ],
+  "official_words": [
+    "What",
+    "are",
+    "you",
+    "doing",
+    "that's",
+    "different?\"",
+    "They",
+    "always",
+    "want",
+    "an",
+    "answer."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 11,
+    "official_words": 11,
+    "observed_words": 11,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-egA8-b7-3M_13.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9873046875,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

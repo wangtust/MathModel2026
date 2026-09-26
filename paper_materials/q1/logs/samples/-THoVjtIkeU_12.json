@@ -1,0 +1,544 @@
+{
+  "sample_id": "-THoVjtIkeU_12",
+  "video_id": "-THoVjtIkeU",
+  "clip_id": "12",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-THoVjtIkeU/12.mp4",
+  "video_exists": true,
+  "official_text": "What ever we turn our attention to is what grows and so if we believe that anything is possible, if we believe that social justice can be achieved and if we believe in youth, they will believe in themselves.",
+  "label": 2.0,
+  "annotation": "Positive",
+  "duration": 18.8,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.02857142857142857,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9487179487179487,
+  "word_audio_valid_fraction": 0.9487179487179487,
+  "word_vision_valid_fraction": 0.9487179487179487,
+  "sha256_video": "e2f148f4f2e74724dc13b3ce870a0ce6a06740cfc224f5a9b3d0a870b196e7d4",
+  "word_count": 39,
+  "text_token_count": 44,
+  "audio_frames": 1476,
+  "vision_frames": 30,
+  "decoded_frames": 445,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.546,
+      1.118
+    ],
+    [
+      1.57,
+      8.382
+    ],
+    [
+      8.482,
+      12.606
+    ],
+    [
+      12.866,
+      14.334
+    ]
+  ],
+  "asr_text": "whatever we turn our attention to is what grows. And so if we believe that anything is possible, if we believe that social justice can be achieved, and if we believe in youth, they will believe in themselves.",
+  "asr_words": [
+    {
+      "word": "whatever",
+      "start": 1.647,
+      "end": 1.967,
+      "score": 0.859
+    },
+    {
+      "word": "we",
+      "start": 2.007,
+      "end": 2.107,
+      "score": 0.907
+    },
+    {
+      "word": "turn",
+      "start": 2.147,
+      "end": 2.327,
+      "score": 0.754
+    },
+    {
+      "word": "our",
+      "start": 2.367,
+      "end": 2.447,
+      "score": 0.951
+    },
+    {
+      "word": "attention",
+      "start": 2.467,
+      "end": 2.867,
+      "score": 0.886
+    },
+    {
+      "word": "to",
+      "start": 2.927,
+      "end": 3.148,
+      "score": 0.81
+    },
+    {
+      "word": "is",
+      "start": 3.248,
+      "end": 3.308,
+      "score": 0.759
+    },
+    {
+      "word": "what",
+      "start": 3.348,
+      "end": 3.488,
+      "score": 0.81
+    },
+    {
+      "word": "grows.",
+      "start": 3.528,
+      "end": 3.888,
+      "score": 0.868
+    },
+    {
+      "word": "And",
+      "start": 4.368,
+      "end": 4.468,
+      "score": 0.794
+    },
+    {
+      "word": "so",
+      "start": 4.528,
+      "end": 4.688,
+      "score": 0.764
+    },
+    {
+      "word": "if",
+      "start": 4.728,
+      "end": 4.808,
+      "score": 0.901
+    },
+    {
+      "word": "we",
+      "start": 4.869,
+      "end": 5.009,
+      "score": 0.865
+    },
+    {
+      "word": "believe",
+      "start": 5.069,
+      "end": 5.569,
+      "score": 0.734
+    },
+    {
+      "word": "that",
+      "start": 5.649,
+      "end": 5.769,
+      "score": 0.893
+    },
+    {
+      "word": "anything",
+      "start": 5.849,
+      "end": 6.129,
+      "score": 0.873
+    },
+    {
+      "word": "is",
+      "start": 6.169,
+      "end": 6.249,
+      "score": 0.592
+    },
+    {
+      "word": "possible,",
+      "start": 6.289,
+      "end": 6.73,
+      "score": 0.932
+    },
+    {
+      "word": "if",
+      "start": 6.77,
+      "end": 6.83,
+      "score": 0.989
+    },
+    {
+      "word": "we",
+      "start": 6.91,
+      "end": 7.13,
+      "score": 0.898
+    },
+    {
+      "word": "believe",
+      "start": 7.57,
+      "end": 8.13,
+      "score": 0.7
+    },
+    {
+      "word": "that",
+      "start": 8.551,
+      "end": 8.851,
+      "score": 0.872
+    },
+    {
+      "word": "social",
+      "start": 9.471,
+      "end": 9.751,
+      "score": 0.804
+    },
+    {
+      "word": "justice",
+      "start": 9.791,
+      "end": 10.152,
+      "score": 0.864
+    },
+    {
+      "word": "can",
+      "start": 10.172,
+      "end": 10.392,
+      "score": 0.749
+    },
+    {
+      "word": "be",
+      "start": 10.412,
+      "end": 10.532,
+      "score": 0.663
+    },
+    {
+      "word": "achieved,",
+      "start": 10.572,
+      "end": 10.972,
+      "score": 0.932
+    },
+    {
+      "word": "and",
+      "start": 10.992,
+      "end": 11.072,
+      "score": 0.85
+    },
+    {
+      "word": "if",
+      "start": 11.092,
+      "end": 11.152,
+      "score": 0.952
+    },
+    {
+      "word": "we",
+      "start": 11.192,
+      "end": 11.292,
+      "score": 0.852
+    },
+    {
+      "word": "believe",
+      "start": 11.332,
+      "end": 11.833,
+      "score": 0.793
+    },
+    {
+      "word": "in",
+      "start": 11.953,
+      "end": 12.053,
+      "score": 0.819
+    },
+    {
+      "word": "youth,",
+      "start": 12.113,
+      "end": 12.393,
+      "score": 0.841
+    },
+    {
+      "word": "they",
+      "start": 13.113,
+      "end": 13.213,
+      "score": 0.879
+    },
+    {
+      "word": "will",
+      "start": 13.233,
+      "end": 13.353,
+      "score": 0.881
+    },
+    {
+      "word": "believe",
+      "start": 13.393,
+      "end": 13.594,
+      "score": 0.856
+    },
+    {
+      "word": "in",
+      "start": 13.614,
+      "end": 13.654,
+      "score": 0.997
+    },
+    {
+      "word": "themselves.",
+      "start": 13.694,
+      "end": 14.134,
+      "score": 0.934
+    }
+  ],
+  "official_words": [
+    "What",
+    "ever",
+    "we",
+    "turn",
+    "our",
+    "attention",
+    "to",
+    "is",
+    "what",
+    "grows",
+    "and",
+    "so",
+    "if",
+    "we",
+    "believe",
+    "that",
+    "anything",
+    "is",
+    "possible,",
+    "if",
+    "we",
+    "believe",
+    "that",
+    "social",
+    "justice",
+    "can",
+    "be",
+    "achieved",
+    "and",
+    "if",
+    "we",
+    "believe",
+    "in",
+    "youth,",
+    "they",
+    "will",
+    "believe",
+    "in",
+    "themselves."
+  ],
+  "match": {
+    "coverage": 0.9487179487179487,
+    "trusted": true,
+    "matched_words": 37,
+    "official_words": 39,
+    "observed_words": 38,
+    "matched_pairs": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        9,
+        8
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        11,
+        10
+      ],
+      [
+        12,
+        11
+      ],
+      [
+        13,
+        12
+      ],
+      [
+        14,
+        13
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        16,
+        15
+      ],
+      [
+        17,
+        16
+      ],
+      [
+        18,
+        17
+      ],
+      [
+        19,
+        18
+      ],
+      [
+        20,
+        19
+      ],
+      [
+        21,
+        20
+      ],
+      [
+        22,
+        21
+      ],
+      [
+        23,
+        22
+      ],
+      [
+        24,
+        23
+      ],
+      [
+        25,
+        24
+      ],
+      [
+        26,
+        25
+      ],
+      [
+        27,
+        26
+      ],
+      [
+        28,
+        27
+      ],
+      [
+        29,
+        28
+      ],
+      [
+        30,
+        29
+      ],
+      [
+        31,
+        30
+      ],
+      [
+        32,
+        31
+      ],
+      [
+        33,
+        32
+      ],
+      [
+        34,
+        33
+      ],
+      [
+        35,
+        34
+      ],
+      [
+        36,
+        35
+      ],
+      [
+        37,
+        36
+      ],
+      [
+        38,
+        37
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-THoVjtIkeU_12.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.990234375,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

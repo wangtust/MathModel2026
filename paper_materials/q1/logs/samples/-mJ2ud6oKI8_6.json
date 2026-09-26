@@ -1,0 +1,162 @@
+{
+  "sample_id": "-mJ2ud6oKI8_6",
+  "video_id": "-mJ2ud6oKI8",
+  "clip_id": "6",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-mJ2ud6oKI8/6.mp4",
+  "video_exists": true,
+  "official_text": "They are all very safe",
+  "label": 0.3333333432674408,
+  "annotation": "Positive",
+  "duration": 2.648,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": false,
+  "text_audio_status": "mismatch_candidate",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.2,
+  "word_audio_valid_fraction": 0.0,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "134a3a4ebbc423760133b0da0e90cfe84d75ea85df3968000afd84153c5d828d",
+  "word_count": 5,
+  "text_token_count": 7,
+  "audio_frames": 218,
+  "vision_frames": 5,
+  "decoded_frames": 67,
+  "source_fps": 29.97002997002997,
+  "speech_segments": [
+    [
+      0.002,
+      2.228125
+    ]
+  ],
+  "asr_text": "that we all want to approach.",
+  "asr_words": [
+    {
+      "word": "that",
+      "start": 0.002,
+      "end": 0.182,
+      "score": 0.83
+    },
+    {
+      "word": "we",
+      "start": 0.303,
+      "end": 0.423,
+      "score": 0.997
+    },
+    {
+      "word": "all",
+      "start": 0.564,
+      "end": 0.724,
+      "score": 0.635
+    },
+    {
+      "word": "want",
+      "start": 0.784,
+      "end": 0.945,
+      "score": 0.895
+    },
+    {
+      "word": "to",
+      "start": 0.965,
+      "end": 1.005,
+      "score": 0.119
+    },
+    {
+      "word": "approach.",
+      "start": 1.065,
+      "end": 1.466,
+      "score": 0.903
+    }
+  ],
+  "official_words": [
+    "They",
+    "are",
+    "all",
+    "very",
+    "safe"
+  ],
+  "match": {
+    "coverage": 0.2,
+    "trusted": false,
+    "matched_words": 1,
+    "official_words": 5,
+    "observed_words": 6,
+    "matched_pairs": [
+      [
+        2,
+        2
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-mJ2ud6oKI8_6.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.99072265625,
+  "text_language": "en",
+  "alignment_granularity": "none"
+}

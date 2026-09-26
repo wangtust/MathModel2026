@@ -1,0 +1,238 @@
+{
+  "sample_id": "-egA8-b7-3M_16",
+  "video_id": "-egA8-b7-3M",
+  "clip_id": "16",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-egA8-b7-3M/16.mp4",
+  "video_exists": true,
+  "official_text": "Third, another big benefit of exhibiting is connecting with existing clients.",
+  "label": 0.6666666865348816,
+  "annotation": "Positive",
+  "duration": 7.129,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "4c015f85e3bd901ecedde8c0c2ca4a756d9a77dfe4177625c481581f2037ff9c",
+  "word_count": 11,
+  "text_token_count": 15,
+  "audio_frames": 544,
+  "vision_frames": 12,
+  "decoded_frames": 166,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.514,
+      5.022
+    ]
+  ],
+  "asr_text": "Third, another big benefit of exhibiting is connecting with existing clients.",
+  "asr_words": [
+    {
+      "word": "Third,",
+      "start": 0.514,
+      "end": 0.815,
+      "score": 0.787
+    },
+    {
+      "word": "another",
+      "start": 0.955,
+      "end": 1.295,
+      "score": 0.865
+    },
+    {
+      "word": "big",
+      "start": 1.335,
+      "end": 1.516,
+      "score": 0.889
+    },
+    {
+      "word": "benefit",
+      "start": 1.556,
+      "end": 1.997,
+      "score": 0.876
+    },
+    {
+      "word": "of",
+      "start": 2.037,
+      "end": 2.097,
+      "score": 0.75
+    },
+    {
+      "word": "exhibiting",
+      "start": 2.177,
+      "end": 2.718,
+      "score": 0.767
+    },
+    {
+      "word": "is",
+      "start": 2.818,
+      "end": 2.918,
+      "score": 0.701
+    },
+    {
+      "word": "connecting",
+      "start": 2.998,
+      "end": 3.499,
+      "score": 0.91
+    },
+    {
+      "word": "with",
+      "start": 3.559,
+      "end": 3.72,
+      "score": 0.739
+    },
+    {
+      "word": "existing",
+      "start": 3.8,
+      "end": 4.321,
+      "score": 0.902
+    },
+    {
+      "word": "clients.",
+      "start": 4.361,
+      "end": 4.782,
+      "score": 0.958
+    }
+  ],
+  "official_words": [
+    "Third,",
+    "another",
+    "big",
+    "benefit",
+    "of",
+    "exhibiting",
+    "is",
+    "connecting",
+    "with",
+    "existing",
+    "clients."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 11,
+    "official_words": 11,
+    "observed_words": 11,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-egA8-b7-3M_16.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.98828125,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

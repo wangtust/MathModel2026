@@ -1,0 +1,214 @@
+{
+  "sample_id": "-mJ2ud6oKI8_8",
+  "video_id": "-mJ2ud6oKI8",
+  "clip_id": "8",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-mJ2ud6oKI8/8.mp4",
+  "video_exists": true,
+  "official_text": "Sometimes we have to stretch that joint that is already irritated",
+  "label": -0.3333333432674408,
+  "annotation": "Negative",
+  "duration": 8.662,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": false,
+  "text_audio_status": "mismatch_candidate",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.18181818181818182,
+  "word_audio_valid_fraction": 0.0,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "6af6614c9838417a48c4817f4dd5bf1e6669eb5f78f983e9a68adc113fcdc7cc",
+  "word_count": 11,
+  "text_token_count": 13,
+  "audio_frames": 413,
+  "vision_frames": 9,
+  "decoded_frames": 125,
+  "source_fps": 29.97002997002997,
+  "speech_segments": [
+    [
+      0.77,
+      4.171375
+    ]
+  ],
+  "asr_text": "We want to evaluate them, give them a full thorough evaluation to find.",
+  "asr_words": [
+    {
+      "word": "We",
+      "start": 0.81,
+      "end": 0.911,
+      "score": 0.842
+    },
+    {
+      "word": "want",
+      "start": 0.931,
+      "end": 1.052,
+      "score": 0.846
+    },
+    {
+      "word": "to",
+      "start": 1.072,
+      "end": 1.152,
+      "score": 0.478
+    },
+    {
+      "word": "evaluate",
+      "start": 1.172,
+      "end": 1.635,
+      "score": 0.765
+    },
+    {
+      "word": "them,",
+      "start": 1.655,
+      "end": 1.897,
+      "score": 0.759
+    },
+    {
+      "word": "give",
+      "start": 2.199,
+      "end": 2.279,
+      "score": 0.511
+    },
+    {
+      "word": "them",
+      "start": 2.299,
+      "end": 2.42,
+      "score": 0.298
+    },
+    {
+      "word": "a",
+      "start": 2.44,
+      "end": 2.481,
+      "score": 0.43
+    },
+    {
+      "word": "full",
+      "start": 2.561,
+      "end": 2.843,
+      "score": 0.889
+    },
+    {
+      "word": "thorough",
+      "start": 2.923,
+      "end": 3.205,
+      "score": 0.794
+    },
+    {
+      "word": "evaluation",
+      "start": 3.245,
+      "end": 3.869,
+      "score": 0.887
+    },
+    {
+      "word": "to",
+      "start": 3.909,
+      "end": 3.99,
+      "score": 0.885
+    },
+    {
+      "word": "find.",
+      "start": 4.03,
+      "end": 4.151,
+      "score": 0.221
+    }
+  ],
+  "official_words": [
+    "Sometimes",
+    "we",
+    "have",
+    "to",
+    "stretch",
+    "that",
+    "joint",
+    "that",
+    "is",
+    "already",
+    "irritated"
+  ],
+  "match": {
+    "coverage": 0.18181818181818182,
+    "trusted": false,
+    "matched_words": 2,
+    "official_words": 11,
+    "observed_words": 13,
+    "matched_pairs": [
+      [
+        1,
+        0
+      ],
+      [
+        3,
+        2
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-mJ2ud6oKI8_8.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.95654296875,
+  "text_language": "en",
+  "alignment_granularity": "none"
+}

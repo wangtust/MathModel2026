@@ -1,0 +1,245 @@
+{
+  "sample_id": "-571d8cVauQ_0",
+  "video_id": "-571d8cVauQ",
+  "clip_id": "0",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-571d8cVauQ/0.mp4",
+  "video_exists": true,
+  "official_text": "This is Rhett Reiger, White Caspian Studios on behalf of Expert Village.",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 5.167,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.9166666666666666,
+  "word_audio_valid_fraction": 0.9166666666666666,
+  "word_vision_valid_fraction": 0.9166666666666666,
+  "sha256_video": "defc62e1530d9b0cd27f2acfe042b71dd84d7e8c85f1df261f04912091976088",
+  "word_count": 12,
+  "text_token_count": 18,
+  "audio_frames": 495,
+  "vision_frames": 11,
+  "decoded_frames": 152,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      1.09,
+      4.734
+    ]
+  ],
+  "asr_text": "This is Rhett Riger, White Caspian Studios, on behalf of Expert Village.",
+  "asr_words": [
+    {
+      "word": "This",
+      "start": 1.09,
+      "end": 1.191,
+      "score": 0.153
+    },
+    {
+      "word": "is",
+      "start": 1.251,
+      "end": 1.311,
+      "score": 0.287
+    },
+    {
+      "word": "Rhett",
+      "start": 1.352,
+      "end": 1.533,
+      "score": 0.686
+    },
+    {
+      "word": "Riger,",
+      "start": 1.573,
+      "end": 1.915,
+      "score": 0.945
+    },
+    {
+      "word": "White",
+      "start": 1.956,
+      "end": 2.137,
+      "score": 0.955
+    },
+    {
+      "word": "Caspian",
+      "start": 2.177,
+      "end": 2.6,
+      "score": 0.752
+    },
+    {
+      "word": "Studios,",
+      "start": 2.64,
+      "end": 3.103,
+      "score": 0.908
+    },
+    {
+      "word": "on",
+      "start": 3.164,
+      "end": 3.244,
+      "score": 0.834
+    },
+    {
+      "word": "behalf",
+      "start": 3.284,
+      "end": 3.586,
+      "score": 0.855
+    },
+    {
+      "word": "of",
+      "start": 3.627,
+      "end": 3.687,
+      "score": 0.74
+    },
+    {
+      "word": "Expert",
+      "start": 3.768,
+      "end": 4.09,
+      "score": 0.948
+    },
+    {
+      "word": "Village.",
+      "start": 4.13,
+      "end": 4.452,
+      "score": 0.924
+    }
+  ],
+  "official_words": [
+    "This",
+    "is",
+    "Rhett",
+    "Reiger,",
+    "White",
+    "Caspian",
+    "Studios",
+    "on",
+    "behalf",
+    "of",
+    "Expert",
+    "Village."
+  ],
+  "match": {
+    "coverage": 0.9166666666666666,
+    "trusted": true,
+    "matched_words": 11,
+    "official_words": 12,
+    "observed_words": 12,
+    "matched_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        11
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-571d8cVauQ_0.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.98681640625,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

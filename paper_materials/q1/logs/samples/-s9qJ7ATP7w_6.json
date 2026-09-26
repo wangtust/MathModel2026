@@ -1,0 +1,184 @@
+{
+  "sample_id": "-s9qJ7ATP7w_6",
+  "video_id": "-s9qJ7ATP7w",
+  "clip_id": "6",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/6.mp4",
+  "video_exists": true,
+  "official_text": "But I just kept going",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 6.6,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "40b684fd1b4559f0f82e72f9b47f4ce7c5e15059fe8d0d8ab112637cd3386451",
+  "word_count": 5,
+  "text_token_count": 7,
+  "audio_frames": 227,
+  "vision_frames": 5,
+  "decoded_frames": 71,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.034,
+      2.046
+    ]
+  ],
+  "asr_text": "for me, but I just kept going.",
+  "asr_words": [
+    {
+      "word": "for",
+      "start": 0.034,
+      "end": 0.195,
+      "score": 0.748
+    },
+    {
+      "word": "me,",
+      "start": 0.255,
+      "end": 0.416,
+      "score": 0.897
+    },
+    {
+      "word": "but",
+      "start": 0.557,
+      "end": 0.758,
+      "score": 0.986
+    },
+    {
+      "word": "I",
+      "start": 1.241,
+      "end": 1.302,
+      "score": 0.929
+    },
+    {
+      "word": "just",
+      "start": 1.342,
+      "end": 1.463,
+      "score": 0.988
+    },
+    {
+      "word": "kept",
+      "start": 1.483,
+      "end": 1.623,
+      "score": 0.992
+    },
+    {
+      "word": "going.",
+      "start": 1.664,
+      "end": 1.865,
+      "score": 0.986
+    }
+  ],
+  "official_words": [
+    "But",
+    "I",
+    "just",
+    "kept",
+    "going"
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 5,
+    "official_words": 5,
+    "observed_words": 7,
+    "matched_pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-s9qJ7ATP7w_6.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.95654296875,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}

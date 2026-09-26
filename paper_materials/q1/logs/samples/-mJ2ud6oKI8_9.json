@@ -1,0 +1,281 @@
+{
+  "sample_id": "-mJ2ud6oKI8_9",
+  "video_id": "-mJ2ud6oKI8",
+  "clip_id": "9",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-mJ2ud6oKI8/9.mp4",
+  "video_exists": true,
+  "official_text": "It's safe and the person will feel better later on, but it's sort of like flossing your teeth for the first time",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 10.01,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": false,
+  "text_audio_status": "mismatch_candidate",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 0.09090909090909091,
+  "word_audio_valid_fraction": 0.0,
+  "word_vision_valid_fraction": 0.0,
+  "sha256_video": "df3442f3ed8f894b507923e87e426ae9636790a4a502d00c350a215270cc3e47",
+  "word_count": 22,
+  "text_token_count": 31,
+  "audio_frames": 686,
+  "vision_frames": 14,
+  "decoded_frames": 208,
+  "source_fps": 29.97002997002997,
+  "speech_segments": [
+    [
+      0.066,
+      4.766
+    ],
+    [
+      4.866,
+      5.598
+    ],
+    [
+      5.826,
+      6.90875
+    ]
+  ],
+  "asr_text": "to find out because you might have hip arthritis but then you could also have other you know dysfunctions around your",
+  "asr_words": [
+    {
+      "word": "to",
+      "start": 0.166,
+      "end": 0.447,
+      "score": 0.492
+    },
+    {
+      "word": "find",
+      "start": 0.487,
+      "end": 0.728,
+      "score": 0.803
+    },
+    {
+      "word": "out",
+      "start": 0.829,
+      "end": 0.949,
+      "score": 0.786
+    },
+    {
+      "word": "because",
+      "start": 1.069,
+      "end": 1.31,
+      "score": 0.917
+    },
+    {
+      "word": "you",
+      "start": 1.35,
+      "end": 1.431,
+      "score": 0.99
+    },
+    {
+      "word": "might",
+      "start": 1.471,
+      "end": 1.631,
+      "score": 0.908
+    },
+    {
+      "word": "have",
+      "start": 1.651,
+      "end": 1.812,
+      "score": 0.717
+    },
+    {
+      "word": "hip",
+      "start": 1.852,
+      "end": 1.992,
+      "score": 0.807
+    },
+    {
+      "word": "arthritis",
+      "start": 2.053,
+      "end": 2.795,
+      "score": 0.811
+    },
+    {
+      "word": "but",
+      "start": 2.936,
+      "end": 3.036,
+      "score": 0.988
+    },
+    {
+      "word": "then",
+      "start": 3.056,
+      "end": 3.176,
+      "score": 0.463
+    },
+    {
+      "word": "you",
+      "start": 3.197,
+      "end": 3.277,
+      "score": 0.957
+    },
+    {
+      "word": "could",
+      "start": 3.297,
+      "end": 3.437,
+      "score": 0.868
+    },
+    {
+      "word": "also",
+      "start": 3.457,
+      "end": 3.658,
+      "score": 0.914
+    },
+    {
+      "word": "have",
+      "start": 3.718,
+      "end": 3.879,
+      "score": 0.708
+    },
+    {
+      "word": "other",
+      "start": 4.079,
+      "end": 4.34,
+      "score": 0.794
+    },
+    {
+      "word": "you",
+      "start": 5.865,
+      "end": 5.946,
+      "score": 0.837
+    },
+    {
+      "word": "know",
+      "start": 5.966,
+      "end": 6.066,
+      "score": 0.956
+    },
+    {
+      "word": "dysfunctions",
+      "start": 6.106,
+      "end": 6.588,
+      "score": 0.912
+    },
+    {
+      "word": "around",
+      "start": 6.628,
+      "end": 6.789,
+      "score": 0.541
+    },
+    {
+      "word": "your",
+      "start": 6.809,
+      "end": 6.909,
+      "score": 0.714
+    }
+  ],
+  "official_words": [
+    "It's",
+    "safe",
+    "and",
+    "the",
+    "person",
+    "will",
+    "feel",
+    "better",
+    "later",
+    "on,",
+    "but",
+    "it's",
+    "sort",
+    "of",
+    "like",
+    "flossing",
+    "your",
+    "teeth",
+    "for",
+    "the",
+    "first",
+    "time"
+  ],
+  "match": {
+    "coverage": 0.09090909090909091,
+    "trusted": false,
+    "matched_words": 2,
+    "official_words": 22,
+    "observed_words": 21,
+    "matched_pairs": [
+      [
+        10,
+        9
+      ],
+      [
+        16,
+        20
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-mJ2ud6oKI8_9.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.994140625,
+  "text_language": "en",
+  "alignment_granularity": "none"
+}

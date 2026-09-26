@@ -1,0 +1,35 @@
+{
+  "compared_samples": 20,
+  "class_agreement_count": 19,
+  "mean_absolute_strength_difference": 0.2115228751504421,
+  "full_validation_clean": {
+    "accuracy": 0.6456043956043956,
+    "macro_f1": 0.6040368523251246,
+    "mae": 0.5941059973196015,
+    "pearson": 0.6253009601116075,
+    "samples": 728,
+    "raw_mae": 0.6098611408941816,
+    "raw_pearson": 0.6244060653559097,
+    "adjusted_predictions": 133,
+    "scenario": "clean",
+    "missing_rate": 0.0,
+    "missing_duration": 0.0,
+    "position": "random",
+    "gap_layout": "shared"
+  },
+  "full_test_clean": {
+    "accuracy": 0.6451169188445667,
+    "macro_f1": 0.5631789193783053,
+    "mae": 0.6528224994642698,
+    "pearson": 0.6496882775235552,
+    "samples": 727,
+    "raw_mae": 0.6565957829103827,
+    "raw_pearson": 0.6521262645455769,
+    "adjusted_predictions": 105,
+    "scenario": "clean",
+    "missing_rate": 0.0,
+    "missing_duration": 0.0,
+    "position": "random",
+    "gap_layout": "shared"
+  }
+}

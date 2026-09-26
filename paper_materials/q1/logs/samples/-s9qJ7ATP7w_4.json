@@ -1,0 +1,240 @@
+{
+  "sample_id": "-s9qJ7ATP7w_4",
+  "video_id": "-s9qJ7ATP7w",
+  "clip_id": "4",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-s9qJ7ATP7w/4.mp4",
+  "video_exists": true,
+  "official_text": "I have lost at everything you can imagine, seriously",
+  "label": 0.0,
+  "annotation": "Neutral",
+  "duration": 6.2,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": true,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 0.4444444444444444,
+  "sha256_video": "76e0672ffce5857a789b41fb10606402f7da58c33579b1032a8282f86fb35bc9",
+  "word_count": 9,
+  "text_token_count": 12,
+  "audio_frames": 420,
+  "vision_frames": 9,
+  "decoded_frames": 129,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.034,
+      4.246875
+    ]
+  ],
+  "asr_text": "Keep going I have lost at everything you can imagine seriously we have",
+  "asr_words": [
+    {
+      "word": "Keep",
+      "start": 0.034,
+      "end": 0.194,
+      "score": 0.688
+    },
+    {
+      "word": "going",
+      "start": 0.215,
+      "end": 0.455,
+      "score": 0.496
+    },
+    {
+      "word": "I",
+      "start": 0.636,
+      "end": 0.696,
+      "score": 0.818
+    },
+    {
+      "word": "have",
+      "start": 0.716,
+      "end": 0.857,
+      "score": 0.796
+    },
+    {
+      "word": "lost",
+      "start": 0.897,
+      "end": 1.198,
+      "score": 0.806
+    },
+    {
+      "word": "at",
+      "start": 1.318,
+      "end": 1.378,
+      "score": 0.966
+    },
+    {
+      "word": "everything",
+      "start": 1.699,
+      "end": 2.1,
+      "score": 0.922
+    },
+    {
+      "word": "you",
+      "start": 2.14,
+      "end": 2.261,
+      "score": 0.835
+    },
+    {
+      "word": "can",
+      "start": 2.301,
+      "end": 2.421,
+      "score": 0.889
+    },
+    {
+      "word": "imagine",
+      "start": 2.482,
+      "end": 2.863,
+      "score": 0.859
+    },
+    {
+      "word": "seriously",
+      "start": 3.003,
+      "end": 3.424,
+      "score": 0.628
+    },
+    {
+      "word": "we",
+      "start": 3.565,
+      "end": 3.725,
+      "score": 0.968
+    },
+    {
+      "word": "have",
+      "start": 3.766,
+      "end": 3.986,
+      "score": 0.877
+    }
+  ],
+  "official_words": [
+    "I",
+    "have",
+    "lost",
+    "at",
+    "everything",
+    "you",
+    "can",
+    "imagine,",
+    "seriously"
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 9,
+    "official_words": 9,
+    "observed_words": 13,
+    "matched_pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        10
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/q1/features/-s9qJ7ATP7w_4.npz",
+  "failures": {},
+  "speech_language": "en",
+  "speech_language_confidence": 0.9873046875,
+  "text_language": "en",
+  "alignment_granularity": "word"
+}
