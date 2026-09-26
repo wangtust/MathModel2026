@@ -63,6 +63,20 @@ def _cell(value: float, digits: int = 2) -> str:
     return f"{0:.{digits}f}" if abs(value) < threshold else f"{value:+.{digits}f}"
 
 
+def _one_row(df: pd.DataFrame, *, context: str, **filters) -> pd.Series:
+    """Select exactly one experimental row; fail loudly on incomplete/duplicated grids."""
+    mask = np.ones(len(df), dtype=bool)
+    for key, value in filters.items():
+        if isinstance(value, float):
+            mask &= np.isclose(df[key].astype(float).to_numpy(), value)
+        else:
+            mask &= df[key].astype(str).to_numpy() == str(value)
+    rows = df.loc[mask]
+    if len(rows) != 1:
+        raise RuntimeError(f"{context}: expected exactly one row for {filters}, found {len(rows)}")
+    return rows.iloc[0]
+
+
 def robustness_figure() -> None:
     """Q2-2: degradation heatmaps instead of twelve small duration curves."""
     path = _require(Q2_OUTPUT_DIR / "figures" / "validation_comparison_grid.csv")
@@ -77,15 +91,15 @@ def robustness_figure() -> None:
     matrices: dict[tuple[str, str], np.ndarray] = {}
     for label in labels:
         subset = df[(df.model == label) & (df.position == "random")]
-        clean = subset[subset.scenario == "clean"].iloc[0]
+        clean = _one_row(subset, context="robustness clean", scenario="clean", missing_rate=0.0)
         for metric in ("macro_f1", "mae"):
             matrix = np.empty((len(SCENARIOS), len(rates)), float)
             for i, scenario in enumerate(SCENARIOS):
                 for j, rate in enumerate(rates):
-                    row = subset[
-                        (subset.scenario == scenario) &
-                        np.isclose(subset.missing_rate.astype(float), rate)
-                    ].iloc[0]
+                    row = _one_row(
+                        subset, context="robustness missing grid",
+                        scenario=scenario, missing_rate=rate,
+                    )
                     matrix[i, j] = float(row[metric]) - float(clean[metric])
             matrices[(label, metric)] = matrix
 
@@ -137,17 +151,18 @@ def position_rate_figure() -> None:
     expected = [.1, .2, .3, .4, .5]
     if len(rates) != 5 or not np.allclose(rates, expected):
         raise RuntimeError(f"Expected position-rate levels {expected}, found {rates}")
+    if len(df) != 5 * len(SCENARIOS) * 3:
+        raise RuntimeError(f"Expected 90 position-rate rows, found {len(df)}")
 
     matrices = []
     for rate in rates:
         matrix = np.empty((len(SCENARIOS), 3), float)
         for i, scenario in enumerate(SCENARIOS):
             for j, position in enumerate(("beginning", "middle", "end")):
-                row = df[
-                    (df.scenario == scenario) &
-                    np.isclose(df.missing_rate.astype(float), rate) &
-                    (df.position == position)
-                ].iloc[0]
+                row = _one_row(
+                    df, context="position-rate grid",
+                    scenario=scenario, missing_rate=rate, position=position,
+                )
                 matrix[i, j] = float(row.delta_mae)
         matrices.append(matrix)
 
@@ -207,6 +222,8 @@ def baseline_ablation_figure() -> None:
     ].copy()
     test["order"] = test.model.map({name: i for i, name in enumerate(models)})
     test = test.sort_values("order")
+    if test.model.tolist() != models:
+        raise RuntimeError(f"Incomplete seven-model summary: {test.model.tolist()}")
 
     stages = [
         "Plain fusion", "+ Missing augmentation", "+ Reconstruction",
@@ -244,7 +261,10 @@ def baseline_ablation_figure() -> None:
             ("audio+vision", .10, MODALITY_COLORS["audio"], "s"),
         ):
             values = [
-                float(val[(val.stage == stage) & (val.scenario == scenario)][metric].iloc[0])
+                float(_one_row(
+                    val, context="controlled ablation",
+                    stage=stage, scenario=scenario,
+                )[metric])
                 for stage in stages
             ]
             ax.scatter(values, y2 + offset, s=27, marker=marker, color=color,
@@ -288,6 +308,8 @@ def error_attribution_figure() -> None:
     clean = evaluate(model, loader, device, "clean")
     masked = evaluate(model, loader, device, "audio+vision", rate=.3)
 
+    if clean["ids"] != masked["ids"]:
+        raise RuntimeError("Error-attribution comparison requires identical validation sample order")
     true_cls = np.asarray(clean["true_class"], int)
     clean_cls = np.asarray(clean["pred_class"], int)
     masked_cls = np.asarray(masked["pred_class"], int)
@@ -311,6 +333,19 @@ def error_attribution_figure() -> None:
         np.mean(np.abs(true_strength[groups == g] - masked_pred[groups == g]))
         for g in group_order
     ])
+
+    audit = pd.DataFrame({
+        "sample_id": clean["ids"],
+        "true_class": true_cls,
+        "clean_pred_class": clean_cls,
+        "masked_pred_class": masked_cls,
+        "true_strength": true_strength,
+        "clean_pred_strength": clean_pred,
+        "masked_pred_strength": masked_pred,
+        "strength_group": groups,
+    })
+    OUT.mkdir(parents=True, exist_ok=True)
+    audit.to_csv(OUT / "fig05_error_attribution_samples.csv", index=False, encoding="utf-8-sig")
 
     apply_paper_style(chinese=True)
     fig, axes = plt.subplots(1, 2, figsize=(DOUBLE_COLUMN, 3.15), constrained_layout=True)
@@ -348,6 +383,24 @@ def error_attribution_figure() -> None:
     save_figure(fig, OUT, "fig05_q2_error_attribution")
 
 
+def _attachment3_payload(path: Path) -> dict:
+    """Read the official Attachment-3 pickle layout used by the established Q2 pipeline."""
+    with path.open("rb") as handle:
+        raw = pickle.load(handle)
+    if isinstance(raw, dict) and "test" in raw:
+        data = raw["test"]
+    elif isinstance(raw, dict) and "text_bert" in raw:
+        data = raw
+    elif isinstance(raw, dict) and len(raw) == 1:
+        data = next(iter(raw.values()))
+    else:
+        raise ValueError(f"Unexpected Attachment-3 structure: {path}")
+    required = {"text_bert", "audio", "vision"}
+    if not isinstance(data, dict) or not required.issubset(data):
+        raise ValueError(f"Attachment-3 sample lacks {sorted(required)}: {path}")
+    return data
+
+
 def attachment3_figure() -> None:
     """Q2-6: real missingness map plus all 30 unlabeled predictions."""
     variant, seed, selected_label = _selection()
@@ -358,27 +411,46 @@ def attachment3_figure() -> None:
     if len(paths) != 30:
         raise RuntimeError(f"Expected 30 Attachment-3 samples, found {len(paths)}")
     patterns = {name: [] for name in ("text", "audio", "vision")}
+    missing_rows = []
     for path in paths:
-        with path.open("rb") as handle:
-            sample = pickle.load(handle)
-        if isinstance(sample, dict) and "text" in sample:
-            data = sample
-        elif isinstance(sample, dict) and len(sample) == 1:
-            data = next(iter(sample.values()))
-        else:
-            raise ValueError(f"Unexpected Attachment-3 structure: {path}")
-        content = content_positions(np.asarray(data["text"]))
-        for name in ("text", "audio", "vision"):
+        data = _attachment3_payload(path)
+        # This mirrors the already validated report.py loader: text_bert defines
+        # aligned content positions; Attachment 3 injects zero-filled gaps into
+        # audio/vision while text content itself remains available.
+        content = np.asarray(content_positions(data["text_bert"])[0], dtype=bool)
+        observed = {"text": content.copy()}
+        for name in ("audio", "vision"):
             arr = np.asarray(data[name])
-            observed = np.any(np.abs(arr) > 1e-12, axis=-1)
-            state = np.zeros(50, np.int8)
-            state[content] = 1
-            state[content & ~observed] = 2
-            patterns[name].append(state)
+            if arr.ndim == 3 and arr.shape[0] == 1:
+                arr = arr[0]
+            if arr.ndim != 2 or arr.shape[0] != len(content):
+                raise ValueError(f"Unexpected {name} shape {arr.shape} in {path}")
+            observed[name] = content & np.any(np.abs(arr) > 1e-12, axis=-1)
 
+        row = {"sample_id": path.stem, "content_length": int(content.sum())}
+        for name in ("text", "audio", "vision"):
+            state = np.zeros(len(content), np.int8)
+            state[content] = 1
+            state[content & ~observed[name]] = 2
+            patterns[name].append(state)
+            missing = int((content & ~observed[name]).sum())
+            row[f"{name}_missing_count"] = missing
+            row[f"{name}_missing_fraction"] = missing / max(int(content.sum()), 1)
+        missing_rows.append(row)
+
+    missing_df = pd.DataFrame(missing_rows)
+    missing_df.to_csv(OUT / "fig06_attachment3_missingness.csv", index=False, encoding="utf-8-sig")
+
+    required_pred = {"sample_id", "sentiment_strength", "prob_negative", "prob_neutral", "prob_positive"}
+    if not required_pred.issubset(pred.columns):
+        raise ValueError(f"Prediction file lacks columns: {sorted(required_pred - set(pred.columns))}")
+    if len(pred) != 30 or pred.sample_id.astype(str).duplicated().any():
+        raise RuntimeError("Attachment-3 prediction file must contain 30 unique sample IDs")
     pred = pred.sort_values("sample_id").reset_index(drop=True)
     strength = pred.sentiment_strength.to_numpy(float)
     probs = pred[["prob_negative", "prob_neutral", "prob_positive"]].to_numpy(float)
+    if not np.allclose(probs.sum(axis=1), 1.0, atol=5e-3):
+        raise RuntimeError("Attachment-3 class probabilities do not sum to one")
 
     apply_paper_style(chinese=True)
     fig = plt.figure(figsize=(DOUBLE_COLUMN, 7.0), constrained_layout=True)
@@ -424,10 +496,15 @@ def attachment3_figure() -> None:
     panel_title(ax, "e", "三分类概率")
     ax.legend(ncol=3, loc="upper center", bbox_to_anchor=(.5, -.22), frameon=False)
 
+    audio_any = int((missing_df.audio_missing_count > 0).sum())
+    vision_any = int((missing_df.vision_missing_count > 0).sum())
+    audio_mean = float(missing_df.audio_missing_fraction.mean())
+    vision_mean = float(missing_df.vision_missing_fraction.mean())
     fig.text(
         .5, -.015,
-        f"灰=padding/special，浅绿=observed，红=正文位置中的零填充缺失。预测由验证规则选出的 {selected_label} 生成；附件3无标签，因此这里只展示推理结果，不作性能评价。",
-        ha="center", fontsize=6.0, color=MUTED,
+        f"灰=padding/special，浅绿=observed，红=正文内零填充缺失；Audio {audio_any}/30、Vision {vision_any}/30 存在局部缺失，平均缺失率分别为 {audio_mean:.1%}/{vision_mean:.1%}。"
+        f"预测由验证规则选出的 {selected_label} 生成；附件3无标签，不作性能评价。",
+        ha="center", fontsize=5.9, color=MUTED,
     )
     save_figure(fig, OUT, "fig06_q2_attachment3")
 
@@ -452,6 +529,7 @@ def write_manifest() -> None:
         "notes": [
             "No-reconstruction is treated as a tuned candidate model, not as a controlled ablation row.",
             "Cumulative ablation remains the controlled component-addition experiment.",
+            "Position-rate figure uses the complete 10%-50%, 5x6x3=90-condition grid.",
             "Attachment 3 is unlabeled and is never used for performance claims.",
         ],
     }
