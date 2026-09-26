@@ -15,10 +15,14 @@ def _call_pipeline(modname, argv):
 
 def main():
     stage=sys.argv[1] if len(sys.argv)>1 else 'pipeline'; args=sys.argv[2:]
-    table={'pipeline':'question3.pipeline','ig-check':'question3.evaluation.ig_check','fidelity':'question3.evaluation.fidelity','sensitivity':'question3.evaluation.sensitivity','alignment':'question3.evaluation.alignment_quality','evidence':'question3.evidence.mapper','verify':'question3.analysis.verification','figures':'question3.visualization.report'}
+    table={'pipeline':'question3.pipeline','ig-check':'question3.evaluation.ig_check','fidelity':'question3.evaluation.fidelity','sensitivity':'question3.evaluation.sensitivity','alignment':'question3.evaluation.alignment_quality','evidence':'question3.evidence.mapper','verify':'question3.analysis.verification','figures':'question3.visualization.report','paper-figures':'question3.visualization.paper','paper_figures':'question3.visualization.paper'}
     if stage not in table: raise SystemExit('Stages: '+', '.join(table))
     if stage == 'pipeline':
         _call_pipeline(table[stage],args)
+        return
+    if stage in {'paper-figures','paper_figures'}:
+        from question3.visualization.paper import generate_all
+        generate_all()
         return
     from common.paths import Q3_OUTPUT_DIR
     parser=argparse.ArgumentParser()
