@@ -3,7 +3,8 @@
 
 This script is intended for the final local rendering pass before paper writing:
 
-1. Rebuild Q1 reports and the four compact main-text figures from saved features.
+1. Rebuild Q1 reports, the explicit 100×3 modality summary table and the four
+   compact main-text figures from saved features.
 2. Recompute the Q2 position×rate validation grid with the validation-selected
    MRRF variant, then build the six compact Q2 main-text figures + supplement.
 3. Build the five compact Q3 main-text figures + supplement from saved Q3 tables.
@@ -88,6 +89,7 @@ def expected_outputs() -> list[Path]:
         outputs += [Q3 / "paper_figures" / f"{name}.pdf", Q3 / "paper_figures" / f"{name}.png"]
     outputs += [
         Q1 / "tables" / "10_journal_case_manifest.csv",
+        Q1 / "tables" / "11_paper_feature_summary.csv",
         Q2 / "paper_figures" / "figure_manifest.json",
         Q2 / "paper_figures" / "fig05_error_attribution_samples.csv",
         Q2 / "paper_figures" / "supplementary" / "figure_manifest.json",
@@ -106,10 +108,28 @@ def audit() -> None:
             + "\n".join(f"  - {p.relative_to(ROOT)}" for p in missing)
         )
 
-    # Q2 position×rate must now be generated with the same variant selected for
-    # final predictions; otherwise the paper would mix two model definitions.
+    # Q1 competition table must contain exactly 100 samples × 3 modalities and
+    # the fields explicitly requested in the statement.
     import csv
 
+    q1_table = Q1 / "tables" / "11_paper_feature_summary.csv"
+    with q1_table.open("r", encoding="utf-8-sig", newline="") as f:
+        q1_rows = list(csv.DictReader(f))
+    q1_required = {
+        "sample_id", "modality", "source_duration_sec", "feature_dim",
+        "alignment_granularity", "aligned_sequence_length", "valid_fraction",
+    }
+    if len(q1_rows) != 300:
+        raise RuntimeError(f"Q1 paper feature summary should contain 300 rows, found {len(q1_rows)}")
+    if not q1_rows or not q1_required.issubset(q1_rows[0]):
+        raise RuntimeError("Q1 paper feature summary is missing competition-required columns")
+    if len({row["sample_id"] for row in q1_rows}) != 100:
+        raise RuntimeError("Q1 paper feature summary does not cover exactly 100 unique samples")
+    if {row["modality"] for row in q1_rows} != {"Text", "Audio", "Vision"}:
+        raise RuntimeError("Q1 paper feature summary must contain Text/Audio/Vision for every sample")
+
+    # Q2 position×rate must use the same variant selected for final predictions;
+    # otherwise the paper would mix two model definitions.
     grid = Q2 / "experiments" / "robustness" / "position_rate_grid.csv"
     selected = json.loads((Q2 / "analysis" / "selected_model.json").read_text(encoding="utf-8"))
     selected_variant = {
@@ -128,13 +148,13 @@ def audit() -> None:
         )
 
     print("\nPAPER FIGURE AUDIT | PASS", flush=True)
-    print("✓ Q1: 4 main-text figures", flush=True)
+    print("✓ Q1: 4 main-text figures + 100×3 competition summary table", flush=True)
     print("✓ Q2: 6 main-text figures + supplement; position×rate uses selected model", flush=True)
     print("✓ Q3: 5 main-text figures + supplement + performance table", flush=True)
 
 
 def main() -> None:
-    # Fast syntax/import guard for the modules edited during the visualization pass.
+    # Fast syntax guard for all modules touched during the visualization pass.
     run(["-m", "compileall", "-q", "common", "question1", "question2", "question3"],
         "Compile check")
 
