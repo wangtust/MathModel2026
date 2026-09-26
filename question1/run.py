@@ -12,6 +12,7 @@ if __name__ == '__main__' and os.environ.get('Q1_CUDA_PATH_READY') != '1':
     env=os.environ.copy(); env['LD_LIBRARY_PATH']=':'.join(libs+[env.get('LD_LIBRARY_PATH','')]); env['Q1_CUDA_PATH_READY']='1'
     nltk = ROOT / 'assets' / 'nltk_data'
     if nltk.exists(): env['NLTK_DATA']=str(nltk)
+    env['Q1_CUDA_PATH_READY']='1'
     os.execvpe(sys.executable,[sys.executable,__file__,*sys.argv[1:]],env)
 
 import pandas as pd
@@ -53,8 +54,11 @@ def _create_main_text_figures():
 
 def main():
     p=argparse.ArgumentParser(description='Question 1 multimodal feature/alignment pipeline')
-    p.add_argument('--ids',default=''); p.add_argument('--no-resume',action='store_true'); p.add_argument('--reports-only',action='store_true'); p.add_argument('--crosslingual-only',action='store_true')
+    p.add_argument('--ids',default=''); p.add_argument('--no-resume',action='store_true'); p.add_argument('--reports-only',action='store_true'); p.add_argument('--crosslingual-only',action='store_true'); p.add_argument('--paper-figures',action='store_true')
     a=p.parse_args()
+    if a.paper_figures:
+        from question1.visualization.paper import generate_all
+        generate_all(); return
     if a.reports_only and a.crosslingual_only: p.error('mutually exclusive')
     if not a.reports_only and not a.crosslingual_only: run(set(filter(None,a.ids.split(','))),resume=not a.no_resume)
     if a.crosslingual_only or (not a.reports_only and not a.ids): upgrade_existing_outputs()
