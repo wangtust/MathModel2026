@@ -1,0 +1,9 @@
+{
+  "device": "cuda",
+  "train_samples": 3395,
+  "valid_samples": 728,
+  "test_samples": 727,
+  "attachment3_samples": 30,
+  "independent_models_checked": 4,
+  "mrrf_variants_checked": 8
+}

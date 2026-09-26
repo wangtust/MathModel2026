@@ -1,0 +1,24 @@
+2026-09-26 10:36:55 - FET-Single [INFO] - 
+2026-09-26 10:36:55 - FET-Single [INFO] - ========================== MMSA-FET Started ==========================
+2026-09-26 10:36:55 - FET-Single [INFO] - Temporary directory: /root/MathModel_restructured/outputs/_smoke/q1/tmp/fet
+2026-09-26 10:36:55 - FET-Single [INFO] - Log file: '/root/MathModel_restructured/outputs/_smoke/q1/logs/fet/MMSA-FET.log'
+2026-09-26 10:36:55 - FET-Single [INFO] - Config: {'audio': {'tool': 'opensmile', 'sample_rate': 16000, 'args': {'feature_set': 'eGeMAPSv02', 'feature_level': 'LowLevelDescriptors', 'start': None, 'end': None}}, 'text': {'model': 'bert', 'device': 'cpu', 'pretrained': 'bert-base-uncased', 'args': {}}}
+2026-09-26 10:36:58 - FET-Single [INFO] - Initializing openSMILE audio feature extractor...
+2026-09-26 10:36:58 - FET-Single [INFO] - Initializing BERT text feature extractor...
+2026-09-26 10:37:03 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-3g5yACwYnA/13.mp4'.
+2026-09-26 10:39:18 - FET-Single [INFO] - 
+2026-09-26 10:39:18 - FET-Single [INFO] - ========================== MMSA-FET Started ==========================
+2026-09-26 10:39:18 - FET-Single [INFO] - Temporary directory: /root/MathModel_restructured/outputs/_smoke/q1/tmp/fet
+2026-09-26 10:39:18 - FET-Single [INFO] - Log file: '/root/MathModel_restructured/outputs/_smoke/q1/logs/fet/MMSA-FET.log'
+2026-09-26 10:39:18 - FET-Single [INFO] - Config: {'audio': {'tool': 'opensmile', 'sample_rate': 16000, 'args': {'feature_set': 'eGeMAPSv02', 'feature_level': 'LowLevelDescriptors', 'start': None, 'end': None}}, 'text': {'model': 'bert', 'device': 'cpu', 'pretrained': 'bert-base-uncased', 'args': {}}}
+2026-09-26 10:39:20 - FET-Single [INFO] - Initializing openSMILE audio feature extractor...
+2026-09-26 10:39:20 - FET-Single [INFO] - Initializing BERT text feature extractor...
+2026-09-26 10:39:24 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-3g5yACwYnA/13.mp4'.
+2026-09-26 10:41:02 - FET-Single [INFO] - 
+2026-09-26 10:41:02 - FET-Single [INFO] - ========================== MMSA-FET Started ==========================
+2026-09-26 10:41:02 - FET-Single [INFO] - Temporary directory: /root/MathModel_restructured/outputs/_smoke/q1/tmp/fet
+2026-09-26 10:41:02 - FET-Single [INFO] - Log file: '/root/MathModel_restructured/outputs/_smoke/q1/logs/fet/MMSA-FET.log'
+2026-09-26 10:41:02 - FET-Single [INFO] - Config: {'audio': {'tool': 'opensmile', 'sample_rate': 16000, 'args': {'feature_set': 'eGeMAPSv02', 'feature_level': 'LowLevelDescriptors', 'start': None, 'end': None}}, 'text': {'model': 'bert', 'device': 'cpu', 'pretrained': 'bert-base-uncased', 'args': {}}}
+2026-09-26 10:41:04 - FET-Single [INFO] - Initializing openSMILE audio feature extractor...
+2026-09-26 10:41:04 - FET-Single [INFO] - Initializing BERT text feature extractor...
+2026-09-26 10:41:08 - FET-Single [INFO] - Extracting features from '/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-3g5yACwYnA/13.mp4'.

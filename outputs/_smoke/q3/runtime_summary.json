@@ -1,0 +1,10 @@
+{
+  "device": "cuda",
+  "checkpoint_variant": "no_recon",
+  "checkpoint_seed": 2026,
+  "sample_id": "01",
+  "prediction_class": 1,
+  "dominant_modality": "text",
+  "evidence_rows": 3,
+  "position_rows": 66
+}

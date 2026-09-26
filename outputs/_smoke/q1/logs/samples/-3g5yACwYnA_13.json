@@ -1,0 +1,300 @@
+{
+  "sample_id": "-3g5yACwYnA_13",
+  "video_id": "-3g5yACwYnA",
+  "clip_id": "13",
+  "video_path": "/root/data/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条/-3g5yACwYnA/13.mp4",
+  "video_exists": true,
+  "official_text": "They've been able to find solutions or at least bring some answers to the table.",
+  "label": 0.6666666865348816,
+  "annotation": "Positive",
+  "duration": 8.767,
+  "has_audio_stream": true,
+  "has_video_stream": true,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "media_decoded": true,
+  "audio_stream_present": true,
+  "speech_present": true,
+  "face_present": true,
+  "face_feature_valid": true,
+  "target_face_uncertain": false,
+  "official_text_present": true,
+  "text_audio_match": true,
+  "text_audio_status": "matched",
+  "asr_unreliable": false,
+  "asr_repetition_ratio": 0.0,
+  "asr_timing_coverage": 1.0,
+  "matched_word_fraction": 1.0,
+  "word_audio_valid_fraction": 1.0,
+  "word_vision_valid_fraction": 1.0,
+  "sha256_video": "aeb47627f59dce3d0a85a44ef35e4a3bc18211498e98c8c11cf60269646df24f",
+  "word_count": 15,
+  "text_token_count": 20,
+  "audio_frames": 535,
+  "vision_frames": 11,
+  "decoded_frames": 163,
+  "source_fps": 30.0,
+  "speech_segments": [
+    [
+      0.002,
+      0.83
+    ],
+    [
+      1.09,
+      5.054
+    ]
+  ],
+  "asr_text": "that we do. They've been able to find solutions or at least bring some answers to the table.",
+  "asr_words": [
+    {
+      "word": "that",
+      "start": 0.102,
+      "end": 0.263,
+      "score": 0.872
+    },
+    {
+      "word": "we",
+      "start": 0.303,
+      "end": 0.423,
+      "score": 0.94
+    },
+    {
+      "word": "do.",
+      "start": 0.443,
+      "end": 0.623,
+      "score": 0.949
+    },
+    {
+      "word": "They've",
+      "start": 1.445,
+      "end": 1.606,
+      "score": 0.967
+    },
+    {
+      "word": "been",
+      "start": 1.626,
+      "end": 1.746,
+      "score": 0.874
+    },
+    {
+      "word": "able",
+      "start": 1.766,
+      "end": 1.927,
+      "score": 0.799
+    },
+    {
+      "word": "to",
+      "start": 1.967,
+      "end": 2.067,
+      "score": 0.836
+    },
+    {
+      "word": "find",
+      "start": 2.167,
+      "end": 2.408,
+      "score": 0.871
+    },
+    {
+      "word": "solutions",
+      "start": 2.428,
+      "end": 2.949,
+      "score": 0.91
+    },
+    {
+      "word": "or",
+      "start": 3.029,
+      "end": 3.129,
+      "score": 0.721
+    },
+    {
+      "word": "at",
+      "start": 3.17,
+      "end": 3.25,
+      "score": 0.662
+    },
+    {
+      "word": "least",
+      "start": 3.27,
+      "end": 3.39,
+      "score": 0.199
+    },
+    {
+      "word": "bring",
+      "start": 3.47,
+      "end": 3.771,
+      "score": 0.663
+    },
+    {
+      "word": "some",
+      "start": 3.811,
+      "end": 3.991,
+      "score": 0.811
+    },
+    {
+      "word": "answers",
+      "start": 4.052,
+      "end": 4.352,
+      "score": 0.771
+    },
+    {
+      "word": "to",
+      "start": 4.372,
+      "end": 4.473,
+      "score": 0.779
+    },
+    {
+      "word": "the",
+      "start": 4.493,
+      "end": 4.573,
+      "score": 0.805
+    },
+    {
+      "word": "table.",
+      "start": 4.613,
+      "end": 4.874,
+      "score": 0.956
+    }
+  ],
+  "official_words": [
+    "They've",
+    "been",
+    "able",
+    "to",
+    "find",
+    "solutions",
+    "or",
+    "at",
+    "least",
+    "bring",
+    "some",
+    "answers",
+    "to",
+    "the",
+    "table."
+  ],
+  "match": {
+    "coverage": 1.0,
+    "trusted": true,
+    "matched_words": 15,
+    "official_words": 15,
+    "observed_words": 18,
+    "matched_pairs": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        16
+      ],
+      [
+        14,
+        17
+      ]
+    ]
+  },
+  "face_blendshape_names": [
+    "_neutral",
+    "browDownLeft",
+    "browDownRight",
+    "browInnerUp",
+    "browOuterUpLeft",
+    "browOuterUpRight",
+    "cheekPuff",
+    "cheekSquintLeft",
+    "cheekSquintRight",
+    "eyeBlinkLeft",
+    "eyeBlinkRight",
+    "eyeLookDownLeft",
+    "eyeLookDownRight",
+    "eyeLookInLeft",
+    "eyeLookInRight",
+    "eyeLookOutLeft",
+    "eyeLookOutRight",
+    "eyeLookUpLeft",
+    "eyeLookUpRight",
+    "eyeSquintLeft",
+    "eyeSquintRight",
+    "eyeWideLeft",
+    "eyeWideRight",
+    "jawForward",
+    "jawLeft",
+    "jawOpen",
+    "jawRight",
+    "mouthClose",
+    "mouthDimpleLeft",
+    "mouthDimpleRight",
+    "mouthFrownLeft",
+    "mouthFrownRight",
+    "mouthFunnel",
+    "mouthLeft",
+    "mouthLowerDownLeft",
+    "mouthLowerDownRight",
+    "mouthPressLeft",
+    "mouthPressRight",
+    "mouthPucker",
+    "mouthRight",
+    "mouthRollLower",
+    "mouthRollUpper",
+    "mouthShrugLower",
+    "mouthShrugUpper",
+    "mouthSmileLeft",
+    "mouthSmileRight",
+    "mouthStretchLeft",
+    "mouthStretchRight",
+    "mouthUpperUpLeft",
+    "mouthUpperUpRight",
+    "noseSneerLeft",
+    "noseSneerRight"
+  ],
+  "feature_file": "/root/MathModel_restructured/outputs/_smoke/q1/features/-3g5yACwYnA_13.npz",
+  "failures": {}
+}
