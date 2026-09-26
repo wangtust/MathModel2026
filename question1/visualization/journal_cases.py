@@ -25,8 +25,44 @@ AUDIO = MODALITY_COLORS["audio"]
 VISION = MODALITY_COLORS["vision"]
 
 
+def _resolve_video_path(meta: dict) -> Path:
+    """Rebase an old absolute server path onto the current MM_DATA_ROOT layout."""
+    recorded = Path(str(meta.get("video_path", ""))).expanduser()
+    if recorded.is_file():
+        return recorded
+
+    sid = str(meta.get("sample_id", ""))
+    video_id = str(meta.get("video_id", ""))
+    clip_id = str(meta.get("clip_id", ""))
+    if (not video_id or not clip_id) and "_" in sid:
+        guessed_video, guessed_clip = sid.rsplit("_", 1)
+        video_id = video_id or guessed_video
+        clip_id = clip_id or guessed_clip
+
+    candidates = []
+    if recorded.name and recorded.parent.name:
+        candidates.append(config.DATA / recorded.parent.name / recorded.name)
+    if video_id and clip_id:
+        candidates.append(config.DATA / video_id / f"{clip_id}.mp4")
+
+    for candidate in candidates:
+        if candidate.is_file():
+            return candidate.resolve()
+
+    tried = "\n".join(f"  - {p}" for p in [recorded, *candidates])
+    raise FileNotFoundError(
+        "Cannot locate the original Q1 video for a paper figure. "
+        "Set MM_DATA_ROOT to the machine-local data directory if necessary.\n"
+        f"Tried:\n{tried}"
+    )
+
+
 def _open_case(sid):
     meta = json.loads((config.OUT / "logs/samples" / f"{sid}.json").read_text())
+    # Historical outputs may contain /root/data/... from a server run.  Paper
+    # rendering should still work after the repository is pulled to another
+    # machine whose data root is ../data or MM_DATA_ROOT.
+    meta["video_path"] = str(_resolve_video_path(meta))
     with np.load(config.OUT / "features" / f"{sid}.npz") as archive:
         z = {key: archive[key] for key in archive.files}
     return meta, z
