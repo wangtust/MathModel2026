@@ -30,6 +30,11 @@ VISION = MODALITY_COLORS["vision"]
 PURPLE = "#75638A"
 
 
+def _display_id(value) -> str:
+    """Human-readable MOSEI ID; the source separator `$_$` is not math notation."""
+    return str(value).replace("$_$", "_").replace("$", "")
+
+
 def box(ax, x, y, w, h, text, color, fontsize=8, dashed=False, fill="white"):
     rect = FancyBboxPatch(
         (x, y), w, h,
@@ -83,9 +88,6 @@ def _draw_architecture(ax, *, main_text=False):
         arrow(ax, (3.40, y+.35), (3.85, y+.35), color=color)
         arrow(ax, (5.60, y+.35), (7.35, 3.30), color=color)
 
-    # Optional training-only auxiliary branch. It is intentionally not drawn
-    # in the main inference path so the framework remains compatible with the
-    # validation-selected no-reconstruction candidate.
     box(ax, 5.88, .42, 2.05, .82,
         "Optional auxiliary\nreconstruction heads", OCHRE, fontsize=7.0,
         dashed=True, fill="#FCFAF5")
@@ -139,10 +141,10 @@ def _mask_arrays():
         observed = content if name == "text" else original[f"observed_{name}"][0].numpy()
         injected = masked[f"injected_{name}"][0].numpy()
         raw = np.zeros(50, dtype=np.int8)
-        raw[content] = 2                    # content but original all-zero
-        raw[observed] = 1                  # truly observed
+        raw[content] = 2
+        raw[observed] = 1
         changed = raw.copy()
-        changed[injected] = 3              # synthetic contiguous missing
+        changed[injected] = 3
         before.append(raw); after.append(changed)
     return valid["id"][choice], int(content.sum()), np.stack(before), np.stack(after)
 
@@ -176,7 +178,7 @@ def mask_example():
     fig, axes = plt.subplots(2, 1, figsize=(9.4, 3.25), sharex=True)
     _draw_mask(axes[0], before, "(a) Before synthetic masking")
     _draw_mask(axes[1], after, "(b) A+V 30% middle-interval masking", show_xlabel=True)
-    fig.suptitle(f"Traceable validation example: {sid} | content length {length}",
+    fig.suptitle(f"Traceable validation example: {_display_id(sid)} | content length {length}",
                  x=.12, ha="left", fontsize=9.5, fontweight="bold")
     legend = [Patch(facecolor=color, label=label) for color, label in (
         (LIGHT, "Special token / padding"), ("#DCEAE7", "Observed"),
@@ -212,7 +214,7 @@ def paper_framework():
     fig.legend(handles=legend, frameon=False, ncol=4, loc="lower center",
                bbox_to_anchor=(.5, -.025), fontsize=6.4)
     fig.text(.02, .01,
-             f"示例 {sid}，有效正文长度 {length}；原生全零与人工连续遮挡分别记录，避免把数据固有缺失误当作实验注入缺失。",
+             f"示例 {_display_id(sid)}，有效正文长度 {length}；原生全零与人工连续遮挡分别记录，避免把数据固有缺失误当作实验注入缺失。",
              fontsize=5.9, color=MUTED)
     save_figure(fig, PAPER_OUT, "fig01_q2_framework")
 
