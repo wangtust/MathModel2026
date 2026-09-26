@@ -15,8 +15,10 @@ def _dispatch(module_main, argv):
 def _paper_figures():
     from question2.visualization.architecture import paper_framework
     from question2.visualization.main_text import main as paper_main
+    from question2.visualization.supplement import main as supplement_main
     paper_framework()
     paper_main()
+    supplement_main()
 
 def main():
     if len(sys.argv)<2:
