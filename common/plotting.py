@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from pathlib import Path
 from typing import Iterable
 
@@ -28,14 +29,42 @@ SINGLE_COLUMN = 3.35
 DOUBLE_COLUMN = 7.15
 
 
+def _pick_font(*, chinese: bool) -> str:
+    """Pick one actually installed font instead of asking Matplotlib to try missing families."""
+    from matplotlib import font_manager
+
+    available = {font.name for font in font_manager.fontManager.ttflist}
+    requested = os.environ.get("MM_PLOT_FONT", "").strip()
+    if requested and requested in available:
+        return requested
+
+    candidates = (
+        "Microsoft YaHei",
+        "Microsoft YaHei UI",
+        "Noto Sans CJK SC",
+        "Source Han Sans SC",
+        "Source Han Sans CN",
+        "WenQuanYi Micro Hei",
+        "WenQuanYi Zen Hei",
+        "SimHei",
+        "PingFang SC",
+        "Arial Unicode MS",
+        "DejaVu Sans",
+    ) if chinese else ("DejaVu Sans", "Arial", "Liberation Sans")
+
+    for name in candidates:
+        if name in available:
+            return name
+    return "DejaVu Sans"
+
+
 def apply_paper_style(*, chinese: bool = True, base_font_size: float = 8.0) -> None:
     """Apply one publication-oriented Matplotlib style across all questions."""
     import matplotlib.pyplot as plt
 
-    fonts = (["Microsoft YaHei", "Noto Sans CJK SC", "SimHei", "DejaVu Sans"]
-             if chinese else ["DejaVu Sans"])
-    plt.rcParams.update({
-        "font.family": fonts,
+    font = _pick_font(chinese=chinese)
+    params = {
+        "font.family": font,
         "font.size": base_font_size,
         "axes.titlesize": base_font_size + 1,
         "axes.labelsize": base_font_size,
@@ -47,6 +76,7 @@ def apply_paper_style(*, chinese: bool = True, base_font_size: float = 8.0) -> N
         "axes.linewidth": .65,
         "axes.edgecolor": EDGE,
         "axes.labelcolor": INK,
+        "axes.unicode_minus": False,
         "xtick.color": INK,
         "ytick.color": INK,
         "text.color": INK,
@@ -59,7 +89,14 @@ def apply_paper_style(*, chinese: bool = True, base_font_size: float = 8.0) -> N
         "ps.fonttype": 42,
         "svg.fonttype": "none",
         "legend.frameon": False,
-    })
+    }
+    # MOSEI sample IDs use a literal `$_$` separator.  Matplotlib otherwise
+    # interprets the text between dollar signs as math and crashes on `_`.
+    # The paper figures use Unicode symbols (Δ, ±, etc.) rather than $...$ math,
+    # so disabling automatic math parsing is both safe and more robust.
+    if "text.parse_math" in plt.rcParams:
+        params["text.parse_math"] = False
+    plt.rcParams.update(params)
 
 
 def save_figure(fig, folder: Path | str, name: str, *,
